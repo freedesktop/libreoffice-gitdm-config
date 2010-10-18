@@ -1,0 +1,29 @@
+#!/bin/sh
+
+if [ "$#" != 1 ]; then
+    echo "`basename $0` /path/to/clone"
+    exit 1
+fi
+
+which gitdm 2>&1 >/dev/null
+if [ "$?" != "0" ]; then
+    echo "gitdm isn't in the PATH, please fix it before rerunning"
+    exit 1
+fi
+
+exec_dir=`pwd`
+cd $1
+
+rm $exec_dir/all.log
+touch $exec_dir/all.log
+for repo in `ls`; do
+    if [ -d $repo ]; then
+        echo Stats on $repo
+        cd $repo
+        git log -p -M LIBREOFFICE_CREATE.. >> $exec_dir/all.log
+        cd ..
+    fi
+done
+
+cd $exec_dir
+cat all.log | gitdm -u -x git-data.csv -o git-reports.txt
