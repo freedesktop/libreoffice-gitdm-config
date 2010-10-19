@@ -1,0 +1,34 @@
+#!/bin/sh
+
+if [ -e all.log ]; then
+    rm all.log
+fi
+touch all.log
+
+if [ -e all-final.log ]; then
+    rm all-final.log
+fi
+touch all-final.log
+
+for repo in `ls`; do
+    if [ -d $repo ]; then
+        cd $repo
+        git rev-list --timestamp LIBREOFFICE_CREATE.. | sed -e "s:\$: $repo:" >>../all.log
+        cd ..
+    fi
+done
+
+sort +0 -1 all.log > all.log.new
+mv all.log.new all.log
+
+while read entry ; do
+    commitid=`echo $entry | cut -d ' ' -f 2`
+    repo=`echo $entry | cut -d ' ' -f 3`
+    cd $repo
+    git show $@ $commitid >>../all-final.log
+    cd ..
+done < all.log
+
+cat all-final.log
+rm all.log
+rm all-final.log
