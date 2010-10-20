@@ -32,5 +32,5 @@ while read entry ; do
 done < all.log
 
 cat all-final.log
-#rm all.log
+rm all.log
 rm all-final.log
