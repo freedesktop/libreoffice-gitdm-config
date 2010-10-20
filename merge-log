@@ -1,14 +1,13 @@
 #!/bin/sh
 
-if [ -e all.log ]; then
-    rm all.log
-fi
-touch all.log
-
 if [ -e all-final.log ]; then
     rm all-final.log
 fi
 touch all-final.log
+
+cd ..
+git rev-list --timestamp LIBREOFFICE_CREATE.. | sed -e "s:\$: ..:" >>$OLDPWD/all.log
+cd $OLDPWD
 
 for repo in `ls`; do
     if [ -d $repo ]; then
@@ -24,9 +23,11 @@ mv all.log.new all.log
 while read entry ; do
     commitid=`echo $entry | cut -d ' ' -f 2`
     repo=`echo $entry | cut -d ' ' -f 3`
-    cd $repo
-    git show $@ $commitid >>../all-final.log
-    cd ..
+    if [ "$commitid" != "f07fbb7f983625881c1adb97768f1d9eaf250b22" ]; then
+        cd $repo
+        git show $@ $commitid | sed -e 's/Andre Fischer<andre.f.fischer <Andre Fischer<andre.f.fischer@oracle.com>/Andre Fischer <andre.f.fischer@oracle.com>/' >>$OLDPWD/all-final.log
+        cd $OLDPWD
+    fi
 done < all.log
 
 cat all-final.log
