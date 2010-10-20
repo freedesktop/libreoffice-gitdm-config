@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -e all-final.log ]; then
+if test -e all-final.log; then
     rm all-final.log
 fi
 touch all-final.log
@@ -10,7 +10,7 @@ git rev-list --timestamp LIBREOFFICE_CREATE.. | sed -e "s:\$: ..:" >>$OLDPWD/all
 cd $OLDPWD
 
 for repo in `ls`; do
-    if [ -d $repo ]; then
+    if test -d $repo; then
         cd $repo
         git rev-list --timestamp LIBREOFFICE_CREATE.. | sed -e "s:\$: $repo:" >>../all.log
         cd ..
@@ -21,15 +21,16 @@ sort +0 -1 all.log > all.log.new
 mv all.log.new all.log
 
 while read entry ; do
+    timestamp=`echo $entry | cut -d ' ' -f 1`
     commitid=`echo $entry | cut -d ' ' -f 2`
     repo=`echo $entry | cut -d ' ' -f 3`
-    if [ "$commitid" != "f07fbb7f983625881c1adb97768f1d9eaf250b22" ]; then
+    if test "$timestamp" != "0" && test "$commitid" != "f07fbb7f983625881c1adb97768f1d9eaf250b22"; then
         cd $repo
-        git show $@ $commitid | sed -e 's/Andre Fischer<andre.f.fischer <Andre Fischer<andre.f.fischer@oracle.com>/Andre Fischer <andre.f.fischer@oracle.com>/' >>$OLDPWD/all-final.log
+        git show $@ $commitid >>$OLDPWD/all-final.log
         cd $OLDPWD
     fi
 done < all.log
 
 cat all-final.log
-rm all.log
+#rm all.log
 rm all-final.log
