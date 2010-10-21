@@ -19,7 +19,6 @@ cd $1
 if test -e $exec_dir/all-lo.log; then
     rm $exec_dir/all-lo.log
 fi
-touch $exec_dir/all.log
 
 $scripts_dir/merge-log >$exec_dir/all-lo.log
 
