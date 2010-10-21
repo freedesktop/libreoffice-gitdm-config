@@ -23,9 +23,4 @@ fi
 $scripts_dir/merge-log >$exec_dir/all-lo.log
 
 cd $exec_dir
-cat all-lo.log | gitdm -u -D >/dev/null
-cat all-lo.log | gitdm -u -x git-data.csv -o git-reports.txt
-
-#Convert the date statistics to some useful CSV
-cat datelc | sed -e 's/\ \+/,/g' >datelc.csv
-rm datelc
+cat all-lo.log | gitdm -u -D -x git-data.csv -o git-reports.txt

@@ -1,0 +1,41 @@
+From 669c5206e9a435b01dbaaad3db4e124d829ecece Mon Sep 17 00:00:00 2001
+From: =?utf-8?q?C=C3=A9dric=20Bosdonnat?= <cedricbosdo@openoffice.org>
+Date: Thu, 21 Oct 2010 10:21:38 +0200
+Subject: [PATCH] Making the datelc an actual csv for easier data handling
+
+---
+ gitdm |    9 +++++----
+ 1 files changed, 5 insertions(+), 4 deletions(-)
+
+diff --git a/gitdm b/gitdm
+index 022a73a..3063b3e 100755
+--- a/gitdm
++++ b/gitdm
+@@ -123,10 +123,11 @@ def PrintDateStats():
+     dates = DateMap.keys ()
+     dates.sort ()
+     total = 0
+-    datef = open ('datelc', 'w')
++    datef = open ('datelc.csv', 'w')
++    datef.write('Date\tChanged\tTotal Changed\n')
+     for date in dates:
+         total += DateMap[date]
+-        datef.write ('%d/%02d/%02d %6d %7d\n' % (date.year, date.month, date.day,
++        datef.write ('%d/%02d/%02d\t%d\t%d\n' % (date.year, date.month, date.day,
+                                     DateMap[date], total))
+ 
+ 
+@@ -349,8 +350,8 @@ while (1):
+     if ((p.added + p.removed) > 0 or not FileFilter) and not p.merge:
+         TotalAdded += p.added
+         TotalRemoved += p.removed
+-        TotalChanged += max (p.added, p.removed)
+-        AddDateLines (p.date, max (p.added, p.removed))
++        TotalChanged += p.added + p.removed
++        AddDateLines (p.date, p.added + p.removed)
+         empl = p.author.emailemployer (p.email, p.date)
+         empl.AddCSet (p)
+         if AkpmOverLt:
+-- 
+1.6.0.2
+
