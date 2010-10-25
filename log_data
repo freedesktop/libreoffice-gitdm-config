@@ -20,7 +20,7 @@ if test -e $exec_dir/all-lo.log; then
     rm $exec_dir/all-lo.log
 fi
 
-$scripts_dir/merge-log >$exec_dir/all-lo.log
+$scripts_dir/merge-log -p LIBREOFFICE_CREATE.. >$exec_dir/all-lo.log
 
 cd $exec_dir
 cat all-lo.log | gitdm -u -D -x git-data.csv -o git-reports.txt
