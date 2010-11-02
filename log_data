@@ -1,4 +1,4 @@
-#!/bin/sh
+#/bin/sh
 
 if test "$#" != 1; then
     echo "`basename $0` /path/to/clone"
@@ -24,3 +24,13 @@ $scripts_dir/merge-log -p LIBREOFFICE_CREATE.. >$exec_dir/all-lo.log
 
 cd $exec_dir
 cat all-lo.log | gitdm -u -D -x git-data.csv -o git-reports.txt
+cat all-lo.log | gitdm -r '.*\.(sdf|po)' -u -D -x git-l10n-data.csv -o git-l10n-reports.txt
+
+# Get the list of New contributors
+cat git-data.csv | grep "(Unknown)" | cut -f1 | tr -d '"' | sort | uniq >all-people.txt
+
+# Get the list of new l10n people
+cat git-l10n-data.csv | grep "(Unknown)" | cut -f1 | tr -d '"' | sort | uniq >l10n-people.txt
+
+# Get the list of new hackers
+diff -u l10n-people.txt people.txt | grep '^+' | sed '1d;s/^+//' >hackers.txt
