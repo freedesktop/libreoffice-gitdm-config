@@ -1,5 +1,4 @@
 #!/bin/sh
-
 # Parse the whole argument list to separate formatting arguments from query arguments
 
 show_args=
@@ -26,6 +25,16 @@ while test $1; do
             ;;
         --reverse)
             reverse="--reverse"
+            ;;
+        --since=*|\
+        --after=*)
+            since=`echo $1 | sed -e 's/^[^=]\+=\(.*\)$/\1/'`
+            since=`date +%s -d $since`
+            ;;
+        --until=*|\
+        --before=*)
+            until=`echo $1 | sed -e 's/^[^=]\+=\(.*\)$/\1/'`
+            until=`date +%s -d $until`
             ;;
         -*)
             show_args="$show_args $1"
@@ -58,12 +67,22 @@ touch all-final.log
 
 while read entry ; do
     timestamp=`echo $entry | cut -d ' ' -f 1`
-    commitid=`echo $entry | cut -d ' ' -f 2`
-    repo=`echo $entry | cut -d ' ' -f 3`
-    if test "$timestamp" != "0" && test "$commitid" != "f07fbb7f983625881c1adb97768f1d9eaf250b22"; then
-        cd $repo
-        git --no-pager log -1 $show_args $commitid >>$OLDPWD/all-final.log
-        cd $OLDPWD
+    action="ok"
+    if test "z$since" != "z" && test $((since>timestamp)) == 1; then
+        action="skip"
+    fi
+    if test "z$until" != "z" && test $((until<timestamp)) == 1; then
+        action="skip"
+    fi
+
+    if test "$action" == "ok"; then
+        commitid=`echo $entry | cut -d ' ' -f 2`
+        repo=`echo $entry | cut -d ' ' -f 3`
+        if test "$timestamp" != "0" && test "$commitid" != "f07fbb7f983625881c1adb97768f1d9eaf250b22"; then
+            cd $repo
+            git --no-pager log -1 $show_args $commitid >>$OLDPWD/all-final.log
+            cd $OLDPWD
+        fi
     fi
 done < all.log
 

@@ -1,36 +1,70 @@
-#/bin/sh
+#!/bin/sh
 
-if test "$#" != 1; then
-    echo "`basename $0` /path/to/clone"
-    exit 1
-fi
+exec_dir=`pwd`
+scripts_dir=$exec_dir/`dirname $0`
 
+weekno=`date +%W`
+outdir="$scripts_dir/week-$weekno"
+
+# Extract the command-line args
+clonedir=
+reuse_log=
+while test $1; do
+    case "$1" in
+        --reuse-log)
+            reuse_log="yes"
+            ;;
+        *)
+            clonedir=$1
+            ;;
+    esac
+    shift
+done
+
+# Some sanity checks
 which gitdm 2>&1 >/dev/null
 if test "$?" != "0"; then
     echo "gitdm isn't in the PATH, please fix it before rerunning"
     exit 1
 fi
 
-exec_dir=`pwd`
-scripts_dir=$exec_dir/`dirname $0`
-cd $1
-
-
-if test -e $exec_dir/all-lo.log; then
-    rm $exec_dir/all-lo.log
+if test "z$outdir" == "z" && test "z$reuse_log" != "zyes"; then
+    echo "`basename $0` [--reuse-log] [/path/to/clone]"
+    echo "  The path to the clone folder isn't needed when --reuse-log is used"
+    exit 1
+elif test "z$reuse_log" == "zyes" && test ! -a $outdir/all-lo.log; then
+    echo "Missing logs to reuse in $outdir/all-lo.log"
+    exit 1
 fi
 
-$scripts_dir/merge-log -p LIBREOFFICE_CREATE.. >$exec_dir/all-lo.log
 
+# Extract the log
+mkdir -p $outdir
+
+if test "z$reuse_log" != "zyes"; then
+    cd $clonedir
+    if test -e $outdir/all-lo.log; then
+        rm $outdir/all-lo.log
+    fi
+
+    $scripts_dir/merge-log -p LIBREOFFICE_CREATE.. >$outdir/all-lo.log
+fi
+
+
+# Analyze the log
 cd $exec_dir
-cat all-lo.log | gitdm -u -D -x git-data.csv -o git-reports.txt
-cat all-lo.log | gitdm -r '.*\.(sdf|po)' -u -D -x git-l10n-data.csv -o git-l10n-reports.txt
+cat $outdir/all-lo.log | gitdm -u -x $outdir/git-data.csv -o $outdir/git-reports.txt
+cat $outdir/all-lo.log | gitdm -r '.*\.(sdf|po)' -u -x $outdir/git-l10n-data.csv -o $outdir/git-l10n-reports.txt
+
+for f in `ls $outdir/*.csv`; do
+    sed -i 's/(Unknown)/New Contributors/' $f
+done
 
 # Get the list of New contributors
-cat git-data.csv | grep "(Unknown)" | cut -f1 | tr -d '"' | sort | uniq >all-people.txt
+cat $outdir/git-data.csv | grep "New Contributors" | cut -f1 | tr -d '"' | sort | uniq >$outdir/all-people.txt
 
 # Get the list of new l10n people
-cat git-l10n-data.csv | grep "(Unknown)" | cut -f1 | tr -d '"' | sort | uniq >l10n-people.txt
+cat $outdir/git-l10n-data.csv | grep "New Contributors" | cut -f1 | tr -d '"' | sort | uniq >$outdir/l10n-people.txt
 
 # Get the list of new hackers
-diff -u l10n-people.txt people.txt | grep '^+' | sed '1d;s/^+//' >hackers.txt
+diff -u $outdir/l10n-people.txt $outdir/all-people.txt | grep '^+' | sed '1d;s/^+//' >$outdir/hackers.txt
