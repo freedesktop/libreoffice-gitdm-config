@@ -46,9 +46,13 @@ while test $1; do
     shift
 done
 
-# Get a date sorted list of the all the commits
+# Get a date sorted list of all the commits
 cd ..
 git rev-list --timestamp $revlist_args | sed -e "s:\$: ..:" >>$OLDPWD/all.log
+cd $OLDPWD
+
+cd ../..
+git rev-list --timestamp $revlist_args | sed -e "s:\$: ../..:" >>$OLDPWD/all.log
 cd $OLDPWD
 
 for repo in `ls`; do

@@ -32,9 +32,11 @@ if test "z$outdir" == "z" && test "z$reuse_log" != "zyes"; then
     echo "`basename $0` [--reuse-log] [/path/to/clone]"
     echo "  The path to the clone folder isn't needed when --reuse-log is used"
     exit 1
-elif test "z$reuse_log" == "zyes" && test ! -a $outdir/all-lo.log; then
-    echo "Missing logs to reuse in $outdir/all-lo.log"
-    exit 1
+elif test "z$reuse_log" == "zyes"; then
+    if [ ! -e $outdir/all-lo.log ]; then
+        echo "Missing logs to reuse in $outdir/all-lo.log"
+        exit 1
+    fi
 fi
 
 
