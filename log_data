@@ -55,8 +55,8 @@ fi
 
 # Analyze the log
 cd $exec_dir
-cat $outdir/all-lo.log | gitdm -u -x $outdir/git-data.csv -o $outdir/git-reports.txt
-cat $outdir/all-lo.log | gitdm -r '.*\.(sdf|po)' -u -x $outdir/git-l10n-data.csv -o $outdir/git-l10n-reports.txt
+cat $outdir/all-lo.log | gitdm -u -x $outdir/git-data.csv -A week -o $outdir/git-reports.txt
+cat $outdir/all-lo.log | gitdm -r '.*\.(sdf|po)' -u -x $outdir/git-l10n-data.csv -A week -o $outdir/git-l10n-reports.txt
 
 for f in `ls $outdir/*.csv`; do
     sed -i 's/(Unknown)/New Contributors/' $f

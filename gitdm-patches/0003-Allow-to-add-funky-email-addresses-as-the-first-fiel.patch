@@ -1,7 +1,7 @@
-From 7c17adce87436606c98715204363f139ea7c88dd Mon Sep 17 00:00:00 2001
+From 2fd12d0232f30cb0b128bcae90eecabc8031284f Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?C=C3=A9dric=20Bosdonnat?= <cedricbosdo@openoffice.org>
 Date: Thu, 27 Jan 2011 17:01:02 +0100
-Subject: [PATCH] Allow to add funky email addresses as the first field of an alias
+Subject: [PATCH 3/3] Allow to add funky email addresses as the first field of an alias
 
 ---
  ConfigFile.py |    8 ++++----
