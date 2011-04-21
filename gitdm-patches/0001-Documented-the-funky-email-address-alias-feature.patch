@@ -1,0 +1,37 @@
+From e5d394f1ede1c71bd396033e70330c9ce80367f2 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?C=C3=A9dric=20Bosdonnat?= <cedricbosdo@openoffice.org>
+Date: Tue, 19 Apr 2011 10:45:25 +0200
+Subject: [PATCH 1/4] Documented the funky email address alias feature
+
+logs containing weird email addresses like this can be handled in the
+aliases file to remap them to a correct address.
+   "joe.hacker@acme.org <Joe Hacker>
+
+Added some documentation in the README file for this
+---
+ README |    9 +++++++++
+ 1 files changed, 9 insertions(+), 0 deletions(-)
+
+diff --git a/README b/README
+index 9a3b03f..26cf81f 100644
+--- a/README
++++ b/README
+@@ -85,6 +85,15 @@ EmailAliases file
+ 	Any patches originating from alias@address will be treated as if
+ 	they had come from canonical@address.
+ 
++    It may happen that some people set their git user data in the
++    following form: "joe.hacker@acme.org <Joe Hacker>". The 
++    "Joe Hacker" is then considered as the email... but gitdm says
++    it is a "Funky" email. An alias line in the following form can
++    be used to alias these commits aliased to the correct email
++    address:
++
++        "Joe Hacker" joe.hacker@acme.org
++
+ 
+ EmailMap file
+ 
+-- 
+1.7.3.4
+

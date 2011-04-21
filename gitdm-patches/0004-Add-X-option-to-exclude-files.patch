@@ -1,0 +1,121 @@
+From 1536deb1bfe46ec5d7f147562b93f9ddf6d3d455 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?C=C3=A9dric=20Bosdonnat?= <cedric.bosdonnat.ooo@free.fr>
+Date: Wed, 20 Apr 2011 11:50:02 +0200
+Subject: [PATCH 4/4] Add -X option to exclude files
+
+This option does the opposite of the -r option. It happens to be useful
+when there are less patterns to exclude than patterns to include.
+---
+ README |    2 ++
+ gitdm  |   33 ++++++++++++++++++++++++++++++---
+ 2 files changed, 32 insertions(+), 3 deletions(-)
+
+diff --git a/README b/README
+index a4457a3..390e4d8 100644
+--- a/README
++++ b/README
+@@ -60,6 +60,8 @@ be:
+ 
+     -x file  Export raw statistics as CSV.
+ 
++    -X pattern Exclude matching files
++
+     -w  Aggregate the data by weeks instead of months in the
+         CSV file when -x is used.
+ 
+diff --git a/gitdm b/gitdm
+index f9b43b1..bd5d587 100755
+--- a/gitdm
++++ b/gitdm
+@@ -38,6 +38,7 @@ CFName = 'gitdm.config'
+ DirName = ''
+ Aggregate = 'month'
+ HackersCSV = None
++ExcludeFilter = None
+ 
+ #
+ # Options:
+@@ -55,6 +56,7 @@ HackersCSV = None
+ # -s		Ignore author SOB lines
+ # -u		Map unknown employers to '(Unknown)'
+ # -x file.csv   Export raw statistics as CSV
++# -X pattern    Exclude matching files
+ # -w        Aggregrate the raw statistics by weeks instead of months
+ # -z		Dump out the hacker database at completion
+ 
+@@ -62,8 +64,9 @@ def ParseOpts ():
+     global MapUnknown, DevReports
+     global DateStats, AuthorSOBs, FileFilter, AkpmOverLt, DumpDB
+     global CFName, CSVFile, DirName, Aggregate, HackersCSV
++    global ExcludeFilter
+ 
+-    opts, rest = getopt.getopt (sys.argv[1:], 'a:b:dc:Dh:H:l:o:r:suwx:z')
++    opts, rest = getopt.getopt (sys.argv[1:], 'a:b:dc:Dh:H:l:o:r:suwx:X:z')
+     for opt in opts:
+         if opt[0] == '-a':
+             AkpmOverLt = 1
+@@ -93,6 +96,8 @@ def ParseOpts ():
+         elif opt[0] == '-x':
+             CSVFile = open (opt[1], 'w')
+             print "open output file " + opt[1] + "\n"
++        elif opt[0] == '-X':
++            ExcludeFilter = re.compile (opt[1])
+         elif opt [0] == '-w':
+             Aggregate = 'week'
+         elif opt[0] == '-z':
+@@ -178,6 +183,7 @@ def grabpatch():
+     p = patch(m.group (1))
+     NextLine = sys.stdin.readline ()
+     ignore = (FileFilter is not None)
++    exclude = False
+     while NextLine:
+         Line = NextLine
+         #
+@@ -253,14 +259,19 @@ def grabpatch():
+                 p.date = Today
+             continue
+         #
++        # First apply the ignore filter
++        #
++        if ExcludeFilter:
++            exclude = ApplyExcludeFilter (Line, exclude)
++        #
+         # If we have a file filter, check for file lines.
+         #
+-        if FileFilter:
++        if not exclude and FileFilter:
+             ignore = ApplyFileFilter (Line, ignore)
+         #
+         # OK, maybe it's part of the diff itself.
+         #
+-        if not ignore:
++        if not ignore and not exclude:
+             if Padd.match (Line):
+                 p.added += 1
+                 continue
+@@ -299,6 +310,22 @@ def ApplyFileFilter (line, ignore):
+             return 0
+     return ignore
+ 
++def ApplyExcludeFilter (line, exclude):
++    if ExcludeFilter is not None:
++        m = Pfilea.match (line)
++        file = None
++        if m:
++            file = m.group (1)
++        m = Pfileb.match (line)
++        if m:
++            file = m.group (1)
++
++        if file is None:
++            return exclude
++        if ExcludeFilter.search (file):
++            return True
++    return False
++
+ #
+ # If this patch is signed off by both Andrew Morton and Linus Torvalds,
+ # remove the (redundant) Linus signoff.
+-- 
+1.7.3.4
+

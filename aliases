@@ -15,13 +15,14 @@ kaplanlior@gmail.com kaplan@debian.org
 pereriksson@openoffice.org per@erinet.se
 jpower27@cox.net jpowers27@cox.net
 andi@linux-87ht.site maand@gmx.de
-Philipp.Lohmann@Sun.COM pl@openoffice.org
-Philipp.Lohmann@Oracle.COM pl@openoffice.org
+philipp.lohmann@sun.com pl@openoffice.org
+philipp.lohmann@oracle.com pl@openoffice.org
 dirfin@broffice.org olivier.hallot@documentfoundation.org
-mt@openoffice.org malte.timmermann@sun.com
+malte.timmermann@sun.com mt@openoffice.org
+malte.timmermann@oracle.com mt@openoffice.org
 mmeeks@openoffice.org michael.meeks@novell.com
-Ocke.Janssen@sun.com oj@openoffice.org
-Ocke.Janssen@oracle.com oj@openoffice.org
+ocke.janssen@sun.com oj@openoffice.org
+ocke.janssen@oracle.com oj@openoffice.org
 Kohei@lenovo-quad.(none) kyoshida@novell.com
 kyoshida@kohei-lenovo.(none) kyoshida@novell.com
 kohei@openoffice.org kyoshida@novell.com
@@ -32,7 +33,7 @@ christian.lippka@sun.com cl@openoffice.org
 rene@openoffice.org rene@debian.org 
 rene@rene-engelhard.de rene@debian.org
 rene@frodo.lan rene@debian.org
-Thomas.Lange@Sun.COM tl@openoffice.org 
+thomas.lange@sun.com tl@openoffice.org 
 rodo@rychlik.lounovice rodo@novell.com
 rodo@obluda.lounovice rodo@novell.com
 pmladek@novell.com pmladek@suse.cz
@@ -83,7 +84,8 @@ Marc.Neumann@sun.com Marc.Neumann@oracle.com
 aidan@openoffice.org abutler@openoffice.org
 csaba.borbola@openoffice.org csaba@openoffice.org
 kai.ahrens@sun.com ka@openoffice.org
-b_michaelsen@openoffice.org bjoern.michaelsen@sun.com
+b_michaelsen@openoffice.org bjoern.michaelsen@canonical.com
+bjoern.michaelsen@sun.com bjoern.michaelsen@canonical.com
 kmachalkova@ben.suse.cz kmachalkova@suse.cz
 freuter@linux-cfjm.site freuter@novell.com
 patrick.luby@openoffice.org pluby@openoffice.org
@@ -116,3 +118,9 @@ br@blankpage.ch bero@arklinux.ch
 kayo.hamid@gekkolinux.com.br revol.code@yahoo.com
 "christina rossmanith" chrrossmanith@web.de
 "bjoern michaelsen" bjoern.michaelsen@canonical.com
+"xisco@xisco-pc.(none)" anistenis@gmail.com
+ingrid.halama@oracle.com iha@openoffice.org
+jens-heiner.rechtien@oracle.com hr@openoffice.org
+thomas.benisch@oracle.com tbe@openoffice.org
+vmiklos@openoffice.org vmiklos@frugalware.org
+jani@ubuntu.com jani.monoses@canonical.com

@@ -1,15 +1,35 @@
-From 9c6170d8d62112dd600025b98d9cd87faedf9f86 Mon Sep 17 00:00:00 2001
+From 4216f28d60040f18548a46b0a1ca638a40add285 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?C=C3=A9dric=20Bosdonnat?= <cedricbosdo@openoffice.org>
-Date: Mon, 14 Feb 2011 11:28:24 +0100
-Subject: [PATCH 2/3] Made the CSV file aggregating data by weeks or months
+Date: Tue, 19 Apr 2011 10:50:19 +0200
+Subject: [PATCH 2/4] Made the CSV file aggregating data by weeks or months
 
+When using -w option together with the -x file option, the data exported
+in the CSV file are aggregated by weeks instead of months (the default).
+This is useful to extract meaningful stats on short periods.
 ---
+ README |    5 +++++
  csv.py |    4 +++-
- gitdm  |   11 ++++++++---
- 2 files changed, 11 insertions(+), 4 deletions(-)
+ gitdm  |   10 +++++++---
+ 3 files changed, 15 insertions(+), 4 deletions(-)
 
+diff --git a/README b/README
+index 26cf81f..a5bdf63 100644
+--- a/README
++++ b/README
+@@ -55,6 +55,11 @@ be:
+ 	-u 	Group all unknown developers under the "(Unknown)"
+  	        employer. 
+ 
++    -x file  Export raw statistics as CSV.
++
++    -w  Aggregate the data by weeks instead of months in the
++        CSV file when -x is used.
++
+ 	-z 	Dump out the hacker database to "database.dump".
+ 
+ A typical command line used to generate the "who write 2.6.x" LWN articles
 diff --git a/csv.py b/csv.py
-index 34ea10a..e97e620 100644
+index 34ea10a..cec1f06 100644
 --- a/csv.py
 +++ b/csv.py
 @@ -15,8 +15,10 @@ class CSVStat:
@@ -20,12 +40,12 @@ index 34ea10a..e97e620 100644
 +def AccumulatePatch (p, Aggregate):
      date = "%.2d-%.2d-01"%(p.date.year, p.date.month)
 +    if (Aggregate == 'week'):
-+        date = "%.2d-%.2d"%(p.date.year, p.date.isocalendar()[1])
++        date = "%.2d-%.2d"%(p.date.isocalendar()[0], p.date.isocalendar()[1])
      authdatekey = "%s-%s"%(p.author.name, date)
      if authdatekey not in PeriodCommitHash:
          empl = p.author.emailemployer (p.email, p.date)
 diff --git a/gitdm b/gitdm
-index 47d1966..6dd6e7e 100755
+index 47d1966..70f8138 100755
 --- a/gitdm
 +++ b/gitdm
 @@ -36,6 +36,7 @@ AkpmOverLt = 0
@@ -36,12 +56,11 @@ index 47d1966..6dd6e7e 100755
  
  #
  # Options:
-@@ -52,14 +53,16 @@ DirName = ''
+@@ -52,14 +53,15 @@ DirName = ''
  # -s		Ignore author SOB lines
  # -u		Map unknown employers to '(Unknown)'
  # -x file.csv   Export raw statistics as CSV
-+# -A level  Aggregrate the raw statistics according to level (week or month).
-+#           The default value is "month"
++# -w        Aggregrate the raw statistics by weeks instead of months
  # -z		Dump out the hacker database at completion
  
  def ParseOpts ():
@@ -51,20 +70,20 @@ index 47d1966..6dd6e7e 100755
 +    global CFName, CSVFile, DirName, Aggregate
  
 -    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:l:o:r:sux:z')
-+    opts, rest = getopt.getopt (sys.argv[1:], 'aA:b:dc:Dh:l:o:r:sux:z')
++    opts, rest = getopt.getopt (sys.argv[1:], 'a:b:dc:Dh:l:o:r:suwx:z')
      for opt in opts:
          if opt[0] == '-a':
              AkpmOverLt = 1
-@@ -87,6 +90,8 @@ def ParseOpts ():
+@@ -87,6 +89,8 @@ def ParseOpts ():
          elif opt[0] == '-x':
              CSVFile = open (opt[1], 'w')
              print "open output file " + opt[1] + "\n"
-+        elif opt [0] == '-A':
-+            Aggregate = opt[1]
++        elif opt [0] == '-w':
++            Aggregate = 'week'
          elif opt[0] == '-z':
              DumpDB = 1
          
-@@ -370,7 +375,7 @@ while (1):
+@@ -370,7 +374,7 @@ while (1):
          for hacker in p.reports:
              hacker.addreport (p)
      CSCount += 1
@@ -74,5 +93,5 @@ index 47d1966..6dd6e7e 100755
  
  if DumpDB:
 -- 
-1.7.2.2
+1.7.3.4
 
