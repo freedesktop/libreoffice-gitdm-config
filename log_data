@@ -9,10 +9,14 @@ outdir="$scripts_dir/week-$weekno"
 # Extract the command-line args
 clonedir=
 reuse_log=
+weekly=
 while test $1; do
     case "$1" in
         --reuse-log)
             reuse_log="yes"
+            ;;
+        --weekly)
+            weekly="-w"
             ;;
         *)
             clonedir=$1
@@ -56,8 +60,8 @@ fi
 # Analyze the log
 cd $exec_dir
 echo "cat $outdir/all-lo.log | gitdm -u -X '\.(sdf|po)$' -z"
-cat $outdir/all-lo.log | gitdm -u -X '\.(sdf|po)$' -x $outdir/git-hackers-data.csv -o $outdir/git-hackers-reports.txt -H $outdir/hackers.csv
-cat $outdir/all-lo.log | gitdm -r '.*\.(sdf|po)' -u -x $outdir/git-l10n-data.csv -w -o $outdir/git-l10n-reports.txt -H $outdir/l10n-people.csv
+cat $outdir/all-lo.log | gitdm -u -X '\.(sdf|po)$' -x $outdir/git-hackers-data.csv $weekly -o $outdir/git-hackers-reports.txt -H $outdir/hackers.csv
+cat $outdir/all-lo.log | gitdm -r '.*\.(sdf|po)' -u -x $outdir/git-l10n-data.csv $weekly -o $outdir/git-l10n-reports.txt -H $outdir/l10n-people.csv
 
 for f in `ls $outdir/*.csv`; do
     sed -i 's/(Unknown)/New Contributors/' $f

@@ -1,20 +1,20 @@
-From 306ac67be96fa1f00d88006ab4234b92eb0c0677 Mon Sep 17 00:00:00 2001
+From 6d538e7837dce89ba6a70996fd583272c8ad5290 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?C=C3=A9dric=20Bosdonnat?= <cedric.bosdonnat.ooo@free.fr>
 Date: Wed, 20 Apr 2011 11:42:46 +0200
-Subject: [PATCH 3/4] Export hackers individual raw data as CSV
+Subject: [PATCH 1/2] Export hackers individual raw data as CSV
 
 The data exported for each hacker are the date of the first commit,
 the date of the last commit, the commits count. These help distinguish
 regular core hackers from one-shot contributors.
 ---
  README      |    3 +++
- csv.py      |   10 ++++++++++
- database.py |    6 ++++++
+ csv.py      |   12 ++++++++++++
+ database.py |    8 +++++++-
  gitdm       |   12 ++++++++++--
- 4 files changed, 29 insertions(+), 2 deletions(-)
+ 4 files changed, 32 insertions(+), 3 deletions(-)
 
 diff --git a/README b/README
-index a5bdf63..a4457a3 100644
+index 7226541..7d92b1a 100644
 --- a/README
 +++ b/README
 @@ -42,6 +42,9 @@ be:
@@ -28,10 +28,10 @@ index a5bdf63..a4457a3 100644
  
  	-o file	Write text output to the given file (default is stdout).
 diff --git a/csv.py b/csv.py
-index cec1f06..9a49d96 100644
+index cec1f06..13c3204 100644
 --- a/csv.py
 +++ b/csv.py
-@@ -38,3 +38,13 @@ def OutputCSV (file):
+@@ -38,3 +38,15 @@ def OutputCSV (file):
          author_name = stat.name.replace ("\"", ".").replace ("\\", ".")
          file.write ("\"%s\"\t\"%s\"\t%s\t%d\t%d\n"%(author_name, empl_name, stat.date, \
                                                      stat.added, stat.removed))
@@ -39,14 +39,16 @@ index cec1f06..9a49d96 100644
 +def OutputHackersCSV (file, hlist):
 +    if file is None:
 +        return
-+    file.write ("Name,Activity Start,Activity End,Commits Number\n")
++    file.write ("Name,Last affiliation,Activity Start,Activity End,Commits\n")
 +    for hacker in hlist:
 +        if len(hacker.patches) > 0:
-+            file.write ("\"%s\",%s,%s,%d\n"%(hacker.name, hacker.activity_start, \
-+                                         hacker.activity_end, len(hacker.patches)))
++            file.write ("\"%s\",%s,%s,%s,%d\n"%(hacker.name, \
++                        hacker.emailemployer (None, hacker.activity_end).name, \
++                        hacker.activity_start, hacker.activity_end, \
++                        len(hacker.patches)))
 +
 diff --git a/database.py b/database.py
-index f15cc7a..419781a 100644
+index b5d9382..1c9691a 100644
 --- a/database.py
 +++ b/database.py
 @@ -25,6 +25,8 @@ class Hacker:
@@ -58,6 +60,15 @@ index f15cc7a..419781a 100644
  
      def addemail (self, email, elist):
          self.email.append (email)
+@@ -33,7 +35,7 @@ class Hacker:
+ 
+     def emailemployer (self, email, date):
+         for i in range (0, len (self.email)):
+-            if self.email[i] == email:
++            if (email is None) or (self.email[i] == email):
+                 for edate, empl in self.employer[i]:
+                     if edate > date:
+                         return empl
 @@ -44,6 +46,10 @@ class Hacker:
          self.added += patch.added
          self.removed += patch.removed
@@ -70,7 +81,7 @@ index f15cc7a..419781a 100644
      #
      # There's got to be a better way.
 diff --git a/gitdm b/gitdm
-index 70f8138..f9b43b1 100755
+index 8133c22..b93cf4a 100755
 --- a/gitdm
 +++ b/gitdm
 @@ -37,6 +37,7 @@ DumpDB = 0
@@ -96,8 +107,8 @@ index 70f8138..f9b43b1 100755
 -    global CFName, CSVFile, DirName, Aggregate
 +    global CFName, CSVFile, DirName, Aggregate, HackersCSV
  
--    opts, rest = getopt.getopt (sys.argv[1:], 'a:b:dc:Dh:l:o:r:suwx:z')
-+    opts, rest = getopt.getopt (sys.argv[1:], 'a:b:dc:Dh:H:l:o:r:suwx:z')
+-    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:l:o:r:suwx:z')
++    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:H:l:o:r:suwx:z')
      for opt in opts:
          if opt[0] == '-a':
              AkpmOverLt = 1
@@ -110,7 +121,7 @@ index 70f8138..f9b43b1 100755
          elif opt[0] == '-l':
              reports.SetMaxList (int (opt[1]))
          elif opt[0] == '-o':
-@@ -401,6 +405,10 @@ if TotalChanged == 0:
+@@ -403,6 +407,10 @@ if TotalChanged == 0:
  if DateStats:
      PrintDateStats ()
  

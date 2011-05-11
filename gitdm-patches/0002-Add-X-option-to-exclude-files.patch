@@ -1,7 +1,7 @@
-From 1536deb1bfe46ec5d7f147562b93f9ddf6d3d455 Mon Sep 17 00:00:00 2001
+From 9519f102756af1515868f913a51d426837317499 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?C=C3=A9dric=20Bosdonnat?= <cedric.bosdonnat.ooo@free.fr>
 Date: Wed, 20 Apr 2011 11:50:02 +0200
-Subject: [PATCH 4/4] Add -X option to exclude files
+Subject: [PATCH 2/2] Add -X option to exclude files
 
 This option does the opposite of the -r option. It happens to be useful
 when there are less patterns to exclude than patterns to include.
@@ -11,7 +11,7 @@ when there are less patterns to exclude than patterns to include.
  2 files changed, 32 insertions(+), 3 deletions(-)
 
 diff --git a/README b/README
-index a4457a3..390e4d8 100644
+index 7d92b1a..3394443 100644
 --- a/README
 +++ b/README
 @@ -60,6 +60,8 @@ be:
@@ -24,7 +24,7 @@ index a4457a3..390e4d8 100644
          CSV file when -x is used.
  
 diff --git a/gitdm b/gitdm
-index f9b43b1..bd5d587 100755
+index b93cf4a..b84c210 100755
 --- a/gitdm
 +++ b/gitdm
 @@ -38,6 +38,7 @@ CFName = 'gitdm.config'
@@ -49,8 +49,8 @@ index f9b43b1..bd5d587 100755
      global CFName, CSVFile, DirName, Aggregate, HackersCSV
 +    global ExcludeFilter
  
--    opts, rest = getopt.getopt (sys.argv[1:], 'a:b:dc:Dh:H:l:o:r:suwx:z')
-+    opts, rest = getopt.getopt (sys.argv[1:], 'a:b:dc:Dh:H:l:o:r:suwx:X:z')
+-    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:H:l:o:r:suwx:z')
++    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:H:l:o:r:suwx:X:z')
      for opt in opts:
          if opt[0] == '-a':
              AkpmOverLt = 1
