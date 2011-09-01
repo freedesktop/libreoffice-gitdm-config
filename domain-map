@@ -2,7 +2,7 @@ novell.com  SUSE
 suse.cz     SUSE
 sun.com     Oracle
 oracle.com  Oracle
-redhat.com  Redhat
+redhat.com  RedHat
 canonical.com   Canonical
 ubuntu.com      Canonical
 lanedo.com      Lanedo
@@ -15,7 +15,7 @@ thb@openoffice.org  Oracle  <2008-02-28
 thb@openoffice.org  SUSE
 
 cmc@openoffice.org  Oracle  <2004-03-01
-cmc@openoffice.org  Redhat
+cmc@openoffice.org  RedHat
 
 cedricbosdo@openoffice.org (Unknown) <2008-12-01
 cedricbosdo@openoffice.org SUSE
@@ -33,3 +33,6 @@ kstribley@openoffice.org SIL
 mitch@gimp.org Lanedo
 
 olivier.hallot@documentfoundation.org ALTA
+
+sb@openoffice.org Oracle < 2011-09-01
+sb@openoffice.org RedHat
