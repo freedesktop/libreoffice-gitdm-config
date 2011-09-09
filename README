@@ -1,0 +1,35 @@
+This is the configuration we use to extract changesets and run gitdm on them.
+
+* Tweaking your affiliation
+
+	This mostly happens in domain_map; there should be no need to
+touch the 'oracle' and 'go-oo' files, which tag legacy account
+affiliation.
+
+* Running analyse_stats
+
+To run this, you will also need a patched gitdm; something like this:
+
+cd ..
+git clone git://git.lwn.net/gitdm.git
+cd gitdm
+for p in ../gitdm-config/gitdm-patches/*; do
+	patch -p1 < $p
+done
+
+Then - simply run:
+
+./analyse_commits /path/to/libreoffice/core/checkout
+
+	This will lead you through checking out some extra (old) clone
+repositories eg. 'build', and to pull the (unusual) notes to have the
+legacy tags we need.
+
+	Having got that right - you shoudl end up with a
+stats-$year-$week directory containing the required data.
+
+	Best of luck interpreting it.
+
+Authors:
+	Cedric Bosdonnat
+	Michael Meeks
