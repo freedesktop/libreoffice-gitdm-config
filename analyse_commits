@@ -2,7 +2,7 @@
 
 use strict;
 
-my $app_path = $0;
+my $app_path;
 my $cwd;
 my $git_dir;
 my ($weekly, $reuse_log, $show_note_tags);
@@ -28,10 +28,11 @@ sub usage()
 sub infer_optional_variables()
 {
     if (!defined $config_dir) {
-	$config_dir = $0;
-	$config_dir =~ s/\/[^\/]*$//;
+	$config_dir = $app_path;
 	print "config:\t$config_dir\n";
     }
+
+    $config_dir =~ m/^\// || die "need absolute config path '$config_dir'";
 
     if (!defined $gitdm_path) {
 	chomp ($gitdm_path = `which gitdm 2>/dev/null`);
@@ -233,6 +234,11 @@ if (! defined $git_dir) {
 }
 
 chomp ($cwd = `pwd`);
+$app_path = $0;
+$app_path =~ s/\/[^\/]*$//;
+$app_path = "$cwd/$app_path" if ($app_path =~ /^[^\/]/);
+print "app path $app_path\n";
+
 infer_optional_variables();
 
 if ($show_note_tags) {
