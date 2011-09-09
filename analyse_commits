@@ -5,7 +5,7 @@ use strict;
 my $app_path = $0;
 my $cwd;
 my $git_dir;
-my ($weekly, $reuse_log);
+my ($weekly, $reuse_log, $show_note_tags);
 my ($config_dir, $gitdm_path, $output_dir);
 
 sub usage()
@@ -13,6 +13,7 @@ sub usage()
     print "build-stats [options...] <path to 'core' git checkout>\n";
     print "generates stats on a libreoffice checkout using gitdm, with auto-detection\n";
     print "of repository type and completeness if you pass a single directory path\n";
+    print "  -n, --show-tags         show legacy (note) tags extracted from notes and exit\n";
     print "  -c, --config-dir <dir>  (optional) path to the config for gitdm and this script\n";
     print "  -r, --reuse-log <log>   re-use an existing intermediate commit log file\n";
     print "  -g, --gitdm-path <path> path to the gitdm binary to use\n";
@@ -76,7 +77,7 @@ sub sanity_check_git_dir($)
     -d "$core/clone" || die "expected directory $core/clone for sub-repositories";
 
     my $error = 0;
-    my @required = ( 'dictionaries', 'binfilter', 'build' );
+    my @required = ( 'binfilter', 'build' );
     for my $expect (@required) {
 	my $dir = "$core/clone/$expect";
 	if (!is_git_repo ($dir)) {
@@ -87,28 +88,6 @@ sub sanity_check_git_dir($)
 	print "  found: $dir\n";
     }
     $error && die "please checkout missing git repositories before continuing";
-}
-
-sub read_rev_list($$)
-{
-    my ($git_dir, $query) = @_;
-    my $outputh;
-    my @revs;
-
-    print "\tquery: $query, against $git_dir\n";
-
-    chdir ($git_dir);
-    open ($outputh, "git rev-list --timestamp $query |") || die "can't open git rev-list";
-    while (<$outputh>) {
-	my %commit;
-	/^(\d+)\s+(.*)$/ || die "invalid git rev-list output: $_ on repo $git_dir with query $query\n";
-	$commit{'t'} = $1;
-	$commit{'hash'} = $2;
-	$commit{'repo'} = $git_dir;
-	push @revs, \%commit;
-    }
-    close ($outputh);
-    return @revs;
 }
 
 # our legacy tags are stored as notes ...
@@ -143,12 +122,39 @@ sub read_legacy_tags($)
 	print "    (cd $git_dir ; git fetch origin refs/notes/*:refs/notes/* )\n\n";
 	exit 1;
     }
-# print the tags out ...
-#    for my $tag (sort keys (%tags)) {
-#	print "\t$tag\t".$tags{$tag}."\n";
-#    }
     return \%tags;
 }
+
+# build a list of hashes for all the revisions
+
+my %check_queries;
+sub read_rev_list($$$)
+{
+    my ($git_dir, $descr, $query) = @_;
+    my $outputh;
+    my @revs;
+
+    print "\tquery: $descr ($query), against $git_dir\n";
+
+    chdir ($git_dir);
+    open ($outputh, "git rev-list --timestamp $query |") || die "can't open git rev-list";
+    while (<$outputh>) {
+	my %commit;
+	/^(\d+)\s+(.*)$/ || die "invalid git rev-list output: $_ on repo $git_dir with query $query\n";
+	my ($t, $hash) = ($1, $2);
+	$commit{'t'} = $t;
+	$commit{'hash'} = $hash;
+	$commit{'repo'} = $git_dir;
+	push @revs, \%commit;
+	if (defined $check_queries{$hash}) {
+	    die "Duplicate hash $hash between query $query and " . $check_queries{$hash} . "\n";
+	}
+	$check_queries{$hash} = $query;
+    }
+    close ($outputh);
+    return @revs;
+}
+
 
 # Extraction and merging of git logs ...
 sub merge_logs ($$)
@@ -160,25 +166,28 @@ sub merge_logs ($$)
     # since the 'onegit' migration, all repos were merged into
     # one big repo, so we need to diff up to the merge point
     my @old_repo_names = ( 'artwork', 'base', 'bootstrap',
-			  'extensions', 'extras', 'filters',
-			  'libs-extern', 'libs-extern-sys',
-			  'postprocess', 'sdk', 'testing',
-			  'writer' );
-    my @missing_create = ( 'calc', 'components', 'impress',
-			   'libs-core', 'libs-gui', 'ure' );
+			   'calc', 'components', 'extensions',
+			   'extras', 'filters', 'impress',
+			   'libs-core', 'libs-extern',
+			   'libs-extern-sys', 'libs-gui',
+			   'postprocess', 'sdk', 'testing',
+			   'writer', 'ure' );
 
     # all above:
     my $tags = read_legacy_tags($git_dir);
 
     print "reading revisions\n";
     for my $repo (@old_repo_names) {
-#	push @revisions, \
-#	     read_rev_list ($git_dir, "$repo_LIBREOFFICE_CREATE..$repo_PRE_MELD_REPOS");
+	my $start = $tags->{$repo. "_LIBREOFFICE_CREATE"};
+	my $meld  = $tags->{$repo. "_PRE_MELD_REPOS"};
+	push @revisions, read_rev_list ($git_dir, "old $repo", "$start..$meld");
     }
     # recent work on core ...
-    push @revisions, read_rev_list ($git_dir, "MELD_LIBREOFFICE_REPOS..");
+    push @revisions, read_rev_list ($git_dir, "core", "MELD_LIBREOFFICE_REPOS..");
     # build ...
-    push @revisions, read_rev_list ("$git_dir/clone/build", "LIBREOFFICE_CREATE..");
+    push @revisions, read_rev_list ("$git_dir/clone/build", "build", "LIBREOFFICE_CREATE..");
+    # binfilter
+    push @revisions, read_rev_list ("$git_dir/clone/binfilter", "binfilter", "binfilter_LIBREOFFICE_CREATE..");
     # ignore dictionaries and help: ~no code there
 
     my $revcount = @revisions;
@@ -191,7 +200,6 @@ sub merge_logs ($$)
     for my $rev (@revisions) {
 	$count++;
 	print "\t" . int($count/$revcount * 100) . "%\n" if ($count % $percent_divs == 0);
-# dump it all in $output_dir/all-log
 	chdir ($rev->{'repo'});
 	system ("git --no-pager log -1 -p " . $rev->{'hash'} . " >> $log") && die "failed to extract git hash: " . $rev->{'hash'} . "\n";
     }
@@ -204,8 +212,8 @@ while (my $arg = shift @ARGV) {
 	$weekly = 1;
     } elsif ($arg =~ /--reuse-log/ || $arg eq "-r") {
 	$reuse_log = shift @ARGV;
-    } elsif ($arg =~ /--reuse-log/ || $arg eq "-r") {
-	$reuse_log = shift @ARGV;
+    } elsif ($arg =~ /--show-tags/ || $arg eq "-n") {
+	$show_note_tags = 1;
     } elsif ($arg =~ /--config-dir/ || $arg eq '-c') {
 	$config_dir = shift @ARGV;
     } elsif ($arg =~ /--gitdm-path/ || $arg eq '-d') {
@@ -226,6 +234,15 @@ if (! defined $git_dir) {
 
 chomp ($cwd = `pwd`);
 infer_optional_variables();
+
+if ($show_note_tags) {
+    my $tags = read_legacy_tags ($git_dir);
+    for my $tag (sort keys (%{$tags})) {
+	print "\t$tag\t".$tags->{$tag}."\n";
+    }
+    exit (0);
+}
+
 sanity_check_git_dir ($git_dir);
 
 system ("git --version") && die "Can't find git executable in path: $!";
@@ -242,23 +259,31 @@ if (!$reuse_log) {
 } else {
     $log = $reuse_log;
 }
+unlink ("$output_dir/hackers.csv");
+unlink ("$output_dir/hackers.csv.bak");
+unlink ("$output_dir/git-hackers-data.csv");
+unlink ("$output_dir/git-hackers-reports.txt");
+unlink ("$output_dir/git-hackers-data.csv.bak");
 
 -f $log || die "Failed to generate commit log: $log\n";
 
 # Analyze the commit logs
-my $cmd = "cat $log | $gitdm_path -u -X '\.(sdf|po|dic)\$' " .
-                      "-x $output_dir/git-hackers-data.csv " .
-                      "-o $output_dir/git-hackers-reports.txt " .
-		      "-H $output_dir/hackers.csv";
-$cmd .= '-w' if ($weekly);
 print "analyse output using gitdm\n";
-system ($cmd);
-
-for my $f (`ls $output_dir/*.csv`) {
-    print "sed csv output '$f'\n";
-    system ("sed -i 's/(Unknown)/New Contributors/' $f") && die "failed to sed: $!";
+my $gitdmfh;
+my $cmd = "cat $log | $gitdm_path -u -X '\.(sdf|po|dic)\$'" .
+                                " -b $config_dir" .
+	                        " -x $output_dir/git-hackers-data.csv" .
+                                " -o $output_dir/git-hackers-reports.txt" .
+                                " -H $output_dir/hackers.csv";
+open ($gitdmfh, "$cmd |") || die "Can't spawn $cmd: $!";
+while (<$gitdmfh>) {
+    print $_; # log output
 }
+close ($gitdmfh) || die "$cmd: command failed";
 
-
-# Read those tags out of the 'notes' ... and add more notes :-)
+for my $f ("$output_dir/git-hackers-data.csv", "$output_dir/hackers.csv") {
+    print "final sed csv output '$f'\n";
+    system ("sed -i.bak 's/(Unknown)/New Contributors/' $f") && die "failed to sed: $!";
+}
+print "done.\n";
 
