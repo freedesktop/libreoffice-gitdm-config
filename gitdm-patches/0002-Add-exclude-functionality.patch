@@ -1,0 +1,155 @@
+From 39a692eaa885629a9a8ed7b7f7e38989591958d4 Mon Sep 17 00:00:00 2001
+From: Michael Meeks <michael.meeks@novell.com>
+Date: Wed, 14 Sep 2011 01:12:00 +0200
+Subject: [PATCH 2/2] Add exclude functionality
+
+---
+ README |    2 ++
+ gitdm  |   37 ++++++++++++++++++++++---------------
+ 2 files changed, 24 insertions(+), 15 deletions(-)
+
+diff --git a/README b/README
+index e60285d..44bd4b5 100644
+--- a/README
++++ b/README
+@@ -73,6 +73,8 @@ be:
+ 
+     -x file  Export raw statistics as CSV.
+ 
++    -X pat   Exclude matching files (the opposite of -r)
++
+     -w  Aggregate the data by weeks instead of months in the
+         CSV file when -x is used.
+ 
+diff --git a/gitdm b/gitdm
+index 774b059..62a5a57 100755
+--- a/gitdm
++++ b/gitdm
+@@ -1,4 +1,4 @@
+-#!/usr/bin/pypy
++#!/usr/bin/python
+ #-*- coding:utf-8 -*-
+ #
+ 
+@@ -34,6 +34,7 @@ DevReports = 1
+ DateStats = 0
+ AuthorSOBs = 1
+ FileFilter = None
++ExcludeFilter = None
+ CSVFile = None
+ CSVPrefix = None
+ HackersCSV = None
+@@ -63,16 +64,17 @@ ReportByFileType = 0
+ # -s		Ignore author SOB lines
+ # -u		Map unknown employers to '(Unknown)'
+ # -x file.csv   Export raw statistics as CSV
++# -X pattern    Exclude matching files
+ # -w        Aggregrate the raw statistics by weeks instead of months
+ # -z		Dump out the hacker database at completion
+ 
+ def ParseOpts ():
+     global MapUnknown, DevReports
+     global DateStats, AuthorSOBs, FileFilter, AkpmOverLt, DumpDB
+-    global CFName, CSVFile, CSVPrefix, HackersCSV, DirName,
+-    global Aggregate, Numstat, ReportByFileType
++    global CFName, CSVFile, CSVPrefix, HackersCSV, DirName
++    global Aggregate, Numstat, ReportByFileType, ExcludeFilter
+ 
+-    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:H:l:no:p:r:stuwx:z')
++    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:H:l:no:p:r:stuwx:X:z')
+     for opt in opts:
+         if opt[0] == '-a':
+             AkpmOverLt = 1
+@@ -108,6 +110,8 @@ def ParseOpts ():
+         elif opt[0] == '-x':
+             CSVFile = open (opt[1], 'w')
+             print "open output file " + opt[1] + "\n"
++        elif opt[0] == '-X':
++            ExcludeFilter = re.compile (opt[1])
+         elif opt [0] == '-w':
+             Aggregate = 'week'
+         elif opt[0] == '-z':
+@@ -223,7 +227,7 @@ def grabpatch(logpatch):
+         return None
+ 
+     p = patch(m.group (1))
+-    ignore = (FileFilter is not None)
++    ignore = False;
+     for Line in logpatch[1:]:
+         #
+         # Maybe it's an author line?
+@@ -274,6 +278,7 @@ def grabpatch(logpatch):
+             p.author.reportcredit (patch)
+             p.author.testcredit (patch)
+             continue
++
+         #
+         # If this one is a merge, make note of the fact.
+         #
+@@ -294,10 +299,12 @@ def grabpatch(logpatch):
+             continue
+         if not Numstat:
+             #
+-            # If we have a file filter, check for file lines.
++            # If we have file filters, check for file lines.
+             #
+             if FileFilter:
+-                ignore = ApplyFileFilter (Line, ignore)
++                ignore = ApplyFilter (Line, ignore, FileFilter, False)
++            if ExcludeFilter:
++                ignore = ApplyFilter (Line, ignore, ExcludeFilter, True)
+             #
+             # OK, maybe it's part of the diff itself.
+             #
+@@ -327,7 +334,7 @@ def GripeAboutAuthorName (name):
+     GripedAuthorNames.append (name)
+     print '%s is an author name, probably not what you want' % (name)
+ 
+-def ApplyFileFilter (line, ignore):
++def ApplyFilter (line, ignore, filter, exclude):
+     #
+     # If this is the first file line (--- a/), set ignore one way
+     # or the other.
+@@ -335,17 +342,17 @@ def ApplyFileFilter (line, ignore):
+     m = patterns['filea'].match (line)
+     if m:
+         file = m.group (1)
+-        if FileFilter.search (file):
+-            return 0
+-        return 1
++        if filter.search (file):
++            return exclude
++        return not exclude
+     #
+     # For the second line, we can turn ignore off, but not on
+     #
+     m = patterns['fileb'].match (line)
+     if m:
+         file = m.group (1)
+-        if FileFilter.search (file):
+-            return 0
++        if filter.search (file):
++            return exclude
+     return ignore
+ 
+ def is_svntag(logpatch):
+@@ -422,14 +429,14 @@ for logpatch in patches:
+ #    if p.added > 100000 or p.removed > 100000:
+ #        print 'Skipping massive add', p.commit
+ #        continue
+-    if FileFilter and p.added == 0 and p.removed == 0:
++    if (FileFilter or ExcludeFilter) and p.added == 0 and p.removed == 0:
+         continue
+ 
+     #
+     # Record some global information - but only if this patch had
+     # stuff which wasn't ignored.
+     #
+-    if ((p.added + p.removed) > 0 or not FileFilter) and not p.merge:
++    if ((p.added + p.removed) > 0 or (not FileFilter and not ExcludeFilter) ) and not p.merge:
+         TotalAdded += p.added
+         TotalRemoved += p.removed
+         TotalChanged += max (p.added, p.removed)
+-- 
+1.7.3.4
+

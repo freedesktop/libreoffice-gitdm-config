@@ -276,6 +276,7 @@ unlink ("$output_dir/git-hackers-data.csv.bak");
 # Analyze the commit logs
 print "analyse output using gitdm\n";
 my $gitdmfh;
+chdir ($config_dir);
 my $cmd = "cat $log | $gitdm_path -u -X '\.(sdf|po|dic)\$'" .
                                 " -b $config_dir" .
 	                        " -x $output_dir/git-hackers-data.csv" .
