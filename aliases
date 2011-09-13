@@ -29,8 +29,10 @@ ocke.janssen@oracle.com oj@openoffice.org
 Kohei@lenovo-quad.(none) kyoshida@novell.com
 kyoshida@kohei-lenovo.(none) kyoshida@novell.com
 kohei@openoffice.org kyoshida@novell.com
+kohei.yoshida@suse.com kyoshida@novell.com
 npower@openoffice.org noel.power@novell.com
 npower@linux-h0uc.site noel.power@novell.com
+nopower@novell.com noel.power@novell.com
 christian.lippka@oracle.com cl@openoffice.org
 christian.lippka@sun.com cl@openoffice.org
 rene@openoffice.org rene@debian.org
@@ -61,6 +63,7 @@ tml@hemulen.(none) tlillqvist@novell.com
 tml@iki.fi tlillqvist@novell.com
 tml@novell.com tlillqvist@novell.com
 tml@openoffice.org tlillqvist@novell.com
+tlillqvist@suse.com tlillqvist@novell.com
 jsk@openoffice.org jsk@openoffice.org
 Joerg.Skottke@Sun.COM jsk@openoffice.org
 skotti@buster skotti@buster.gleitmeier.de
@@ -98,11 +101,13 @@ ebachard@gnome.org ericb@openoffice.org
 eric.bachard@free.fr ericb@openoffice.org
 devel@thanlwinsoft.org kstribley@openoffice.org
 cedricbosdo@openoffice.org cbosdonnat@novell.com
+cedric.bosdonnat.ooo@free.fr cbosdonnat@novell.com
 janneke@gnu.org jnieuwenhuizen@novell.com
 bero@arklinux.org bero@arklinux.ch
 jmarmion@openoffice.org john.marmion@openoffice.org
 kamihir@freemail.hu kami911@gmail.com
 muthusuba@gmail.com sumuthu@novell.com
+sumuthu@suse.com sumuthu@novell.com
 timar@gnome.hu timar@fsf.hu
 foskey@optushome.com.au waratah@openoffice.org
 shtylman@namlyths.(none) shtylman@gmail.com
@@ -133,5 +138,4 @@ jani@ubuntu.com jani.monoses@canonical.com
 christian@twotoasts.de christian.dywan@lanedo.com
 mitch@gimp.org michael.natterer@lanedo.com
 lionel.mamane@gestman.lu lionel@mamane.lu
-sb@openoffice.org stephan.bergmann.secondary@googlemail.com
-
+stephan.bergmann.secondary@googlemail.com sb@openoffice.org
