@@ -179,8 +179,11 @@ sub merge_logs ($$)
 
     print "reading revisions\n";
     for my $repo (@old_repo_names) {
+	# you will need a recent set of 'notes'
 	my $start = $tags->{$repo. "_LIBREOFFICE_CREATE"};
+	die ("Missing note: $repo" . "_LIBREOFFICE_CREATE") if (!defined $start);
 	my $meld  = $tags->{$repo. "_PRE_MELD_REPOS"};
+	die ("Missing note: $repo" . "_PRE_MELD_REPOS") if (!defined $meld);
 	push @revisions, read_rev_list ($git_dir, "old $repo", "$start..$meld");
     }
     # recent work on core ...
