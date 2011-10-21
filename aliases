@@ -1,3 +1,5 @@
+# Syntax: <other-name> <std. alias>
+
 tchvatal@suse.cz tchvatal@novell.com
 tomas.chvatal@gmail.com tchvatal@novell.com
 scarabeus@gentoo.org tchvatal@novell.com
@@ -11,6 +13,7 @@ Fischer<andre.f.fischer@oracle.com af@openoffice.org
 frank.schoenheit@oracle.com fs@openoffice.org
 frank.schoenheit@sun.com fs@openoffice.org
 libreoffice@mcmurrays.org smcmurray@mcmurrays.org
+tbehrens@suse.com tbehrens@novell.com
 thb@thorstens-computer.local tbehrens@novell.com
 thb@openoffice.org tbehrens@novell.com
 ronkko@iki.fi niko.ronkko@wippies.fi
@@ -24,6 +27,7 @@ dirfin@broffice.org olivier.hallot@documentfoundation.org
 malte.timmermann@sun.com mt@openoffice.org
 malte.timmermann@oracle.com mt@openoffice.org
 mmeeks@openoffice.org michael.meeks@novell.com
+michael.meeks@suse.com michael.meeks@novell.com
 ocke.janssen@sun.com oj@openoffice.org
 ocke.janssen@oracle.com oj@openoffice.org
 Kohei@lenovo-quad.(none) kyoshida@novell.com
@@ -53,10 +57,11 @@ daniel.rentz@oracle.com dr@openoffice.org
 martin@gallwey.com mtg@openoffice.org
 Armin.Le.Grand@Sun.COM armin.le.grand@oracle.com
 armin.theissen@openoffice.org armin@openoffice.org
+erack@erack.de er@openoffice.org
 erack@openoffice.org er@openoffice.org
 eike.rathke@oracle.com er@openoffice.org
 erAck@sun.com er@openoffice.org
-ooo@erack.de erack@erack.de
+ooo@erack.de er@openoffice.org
 fstrba@strbalenovo.localdomain fridrich.strba@bluewin.ch
 fstrba@strbadell.localdomain fridrich.strba@bluewin.ch
 fridrich_strba@openoffice.org fridrich.strba@bluewin.ch
@@ -110,6 +115,8 @@ kamihir@freemail.hu kami911@gmail.com
 muthusuba@gmail.com sumuthu@novell.com
 sumuthu@suse.com sumuthu@novell.com
 timar@gnome.hu timar@fsf.hu
+atimar@suse.com timar@fsf.hu
+atimar@novell.com timar@fsf.hu
 foskey@optushome.com.au waratah@openoffice.org
 shtylman@namlyths.(none) shtylman@gmail.com
 ms93807@x4240-so5 ms93807@x4240-so3
@@ -140,3 +147,6 @@ christian@twotoasts.de christian.dywan@lanedo.com
 mitch@gimp.org michael.natterer@lanedo.com
 lionel.mamane@gestman.lu lionel@mamane.lu
 stephan.bergmann.secondary@googlemail.com sb@openoffice.org
+sbergman@googlemail.com sb@openoffice.org
+mstahl@redhat.com mst@openoffice.org
+felix@linux-6chh.site fezhang@suse.com

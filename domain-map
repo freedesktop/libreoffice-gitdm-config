@@ -1,5 +1,6 @@
 novell.com  SUSE
 suse.cz     SUSE
+suse.com    SUSE
 sun.com     Oracle
 oracle.com  Oracle
 redhat.com  RedHat
@@ -11,6 +12,8 @@ bobiciel.com    Bobiciel
 sil.org         SIL
 tcs.com		Tata Consultancy Services
 muenchen.de	Munich
+
+# These addresses are pre-normalised by aliases first ...
 
 thb@openoffice.org  Oracle  <2008-02-28
 thb@openoffice.org  SUSE
@@ -44,5 +47,6 @@ er@openoffice.org Oracle <2011-08-01
 er@openoffice.org (Unknown) <2011-10-17
 er@openoffice.org RedHat
 
-erack@erack.de (Unknown) <2011-10-17
-erack@erack.de RedHat
+mst@openoffice.org Oracle <2011-10-01
+mst@openoffice.org RedHat
+
