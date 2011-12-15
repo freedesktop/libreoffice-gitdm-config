@@ -135,7 +135,7 @@ index 41634e6..774b059 100755
  
  
  def LookupStoreHacker (name, email):
-@@ -480,7 +483,10 @@ if TotalChanged == 0:
+@@ -480,6 +483,10 @@ if TotalChanged == 0:
  if DateStats:
      PrintDateStats ()
  
