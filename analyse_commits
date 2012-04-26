@@ -5,8 +5,12 @@ use strict;
 my $app_path;
 my $cwd;
 my $git_dir;
-my ($weekly, $reuse_log, $show_note_tags);
+my $reuse_log = 0;
+my $dump_numstat = 0;
+my $show_note_tags = 0;
 my ($config_dir, $gitdm_path, $output_dir);
+
+my $dump_numstat_cmd = "git --no-pager log --numstat --pretty='%H,%ae,%ai,%ce,%f'";
 
 sub usage()
 {
@@ -158,9 +162,11 @@ sub read_rev_list($$$)
 
 
 # Extraction and merging of git logs ...
-sub merge_logs ($$)
+sub merge_logs ($$@)
 {
-    my ($log, $git_dir) = @_;
+    my $log = shift;
+    my $git_dir = shift;
+    my $just_core_numstat = shift;
 
     my @revisions;
 
@@ -184,10 +190,20 @@ sub merge_logs ($$)
 	die ("Missing note: $repo" . "_LIBREOFFICE_CREATE") if (!defined $start);
 	my $meld  = $tags->{$repo. "_PRE_MELD_REPOS"};
 	die ("Missing note: $repo" . "_PRE_MELD_REPOS") if (!defined $meld);
-	push @revisions, read_rev_list ($git_dir, "old $repo", "$start..$meld");
+	if (defined ($just_core_numstat)) {
+	    system("cd $git_dir ; $dump_numstat_cmd $start..$meld");
+	} else {
+	    push @revisions, read_rev_list ($git_dir, "old $repo", "$start..$meld");
+	}
     }
     # recent work on core ...
-    push @revisions, read_rev_list ($git_dir, "core", "MELD_LIBREOFFICE_REPOS..");
+    if (defined ($just_core_numstat)) {
+	system("cd $git_dir ; $dump_numstat_cmd MELD_LIBREOFFICE_REPOS..");
+	exit (0);
+    } else {
+	push @revisions, read_rev_list ($git_dir, "core", "MELD_LIBREOFFICE_REPOS..");
+    }
+
     # build ...
     push @revisions, read_rev_list ("$git_dir/clone/build", "build", "LIBREOFFICE_CREATE..");
     # binfilter
@@ -212,9 +228,7 @@ sub merge_logs ($$)
 # main - starts ...
 
 while (my $arg = shift @ARGV) {
-    if ($arg =~ /--weekly/ || $arg eq "-w") {
-	$weekly = 1;
-    } elsif ($arg =~ /--reuse-log/ || $arg eq "-r") {
+    if ($arg =~ /--reuse-log/ || $arg eq "-r") {
 	$reuse_log = shift @ARGV;
     } elsif ($arg =~ /--show-tags/ || $arg eq "-n") {
 	$show_note_tags = 1;
@@ -224,6 +238,8 @@ while (my $arg = shift @ARGV) {
 	$gitdm_path = shift @ARGV;
     } elsif ($arg =~ /--output-dir/ || $arg eq '-o') {
 	$output_dir = shift @ARGV;
+    } elsif ($arg =~ /--dump-numstat/ || $arg eq 'd') {
+	$dump_numstat = 1;
     } elsif (!defined ($git_dir)) {
 	$git_dir = $arg;
     } else {
@@ -234,6 +250,11 @@ while (my $arg = shift @ARGV) {
 if (! defined $git_dir) {
     print "\nError: a git directory is required\n\n";
     usage();
+}
+
+if ($dump_numstat) {
+    merge_logs ("/dev/stdout", $git_dir, 'core numstat');
+    exit;
 }
 
 chomp ($cwd = `pwd`);
