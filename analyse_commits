@@ -8,6 +8,7 @@ my $git_dir;
 my $reuse_log = 0;
 my $dump_numstat = 0;
 my $show_note_tags = 0;
+my $apache_svn_git_repo = 0;
 my ($config_dir, $gitdm_path, $output_dir);
 
 my $dump_numstat_cmd = "git --no-pager log --numstat --pretty='%H,%ae,%ai,%ce,%f'";
@@ -168,6 +169,13 @@ sub merge_logs ($$@)
     my $git_dir = shift;
     my $just_core_numstat = shift;
 
+    # quick & easy for apache git-svn integration
+    if ($apache_svn_git_repo) {
+	chdir ($git_dir);
+	system ("git --no-pager log -u > $log") && die "failed to generate apache git log";
+	return;
+    }
+
     my @revisions;
 
     # since the 'onegit' migration, all repos were merged into
@@ -273,7 +281,12 @@ if ($show_note_tags) {
     exit (0);
 }
 
-sanity_check_git_dir ($git_dir);
+if (-f "$git_dir/rat-excludes") { # it is Apache
+    $apache_svn_git_repo = 1;
+    $output_dir = $output_dir . "-apache";
+} else {
+    sanity_check_git_dir ($git_dir);
+}
 
 system ("git --version") && die "Can't find git executable in path: $!";
 

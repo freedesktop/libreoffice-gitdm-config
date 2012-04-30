@@ -24,6 +24,7 @@ andi@linux-87ht.site maand@gmx.de
 philipp.lohmann@sun.com pl@openoffice.org
 philipp.lohmann@oracle.com pl@openoffice.org
 dirfin@broffice.org olivier.hallot@documentfoundation.org
+olivier.hallot@alta.org.br olivier.hallot@documentfoundation.org
 malte.timmermann@sun.com mt@openoffice.org
 malte.timmermann@oracle.com mt@openoffice.org
 mmeeks@openoffice.org michael.meeks@novell.com
@@ -34,6 +35,7 @@ Kohei@lenovo-quad.(none) kyoshida@novell.com
 kyoshida@kohei-lenovo.(none) kyoshida@novell.com
 kohei@openoffice.org kyoshida@novell.com
 kohei.yoshida@suse.com kyoshida@novell.com
+kohei.yoshida@gmail.com kyoshida@novell.com
 npower@openoffice.org noel.power@novell.com
 npower@linux-h0uc.site noel.power@novell.com
 nopower@novell.com noel.power@novell.com
@@ -158,3 +160,29 @@ andor.ertsey@muenchen.de eymux2009@googlemail.com
 bubli@bubli.org kmachalkova@suse.cz
 yifan@bang.bang yfjiang@suse.com
 yfjiang@novell.com yfjiang@suse.com
+thuswa@gmail.com albert.thuswaldner@gmail.com
+
+# Aliases to cope with git svn data from Apache
+imacat     imacat@mail.imacat.idv.tw
+maho       chat95@mac.com
+rbircher   r.bircher@gmx.ch
+robweir    robert_weir@us.ibm.com
+rcweir     robert_weir@us.ibm.com
+zhangjf    zhangjf@cn.ibm.com
+leiw       leiw@cn.ibm.com
+pescetti   pescetti@apache.org
+jza	   jza@oooes.org
+ericb2	   ericb@openoffice.org
+paveljanik pavel@janik.cz
+orw	   orwittmann@googlemail.com
+mbauer	   mba@openoffice.org
+ydario	   mc6530@mclink.it
+af	   af@a-w-f.de
+alg	   Armin.Le.Grand@me.com
+erack	   er@openoffice.org
+arielch	   ariel.constenla.haile@gmail.com
+jsc	   jogischmidt@googlemail.com
+mst	   mst@openoffice.org
+hdu	   duerr@de.ibm.com
+pfg	   giffunip@yahoo.com
+arist      andrew.rist@oracle.com

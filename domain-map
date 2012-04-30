@@ -15,6 +15,9 @@ muenchen.de	Munich
 nouenoff.nl	Nou & Off
 linagora.com	Linagora
 collabora.co.uk Collabora
+de.ibm.com	IBM
+cn.ibm.com	IBM
+us.ibm.com	IBM
 
 # These addresses are pre-normalised by aliases first ...
 
@@ -61,3 +64,12 @@ vmiklos@frugalware.org SUSE
 
 kmachalkova@suse.cz SUSE <2011-08-01
 kmachalkova@suse.cz (Unknown)
+
+mba@openoffice.org Oracle < 2011-12-01
+mba@openoffice.org (Unknown)
+
+# Misc. Apache IBM guys
+af@a-w-f.de IBM
+Armin.Le.Grand@me.com IBM
+jogischmidt@googlemail.com IBM
+orwittmann@googlemail.com IBM
