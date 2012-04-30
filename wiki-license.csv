@@ -1,3 +1,13 @@
+#
+# Warning - please take -great- care when editing this file.
+#
+#  it is necessary to verify that not only is the person listed
+# in the wiki, but that their license statement is complete and
+# covers both MPL and LGPLv3+ as well as past and future
+# contributions. These are appended to this list in tranches to
+# add verifiability, using the wiki history feature.
+#
+
 # Snapshot from the wiki: 2012-02-24 ...
 
 Albert Thuswaldner,{{nospam|albert.thuswaldner|gmail|com}},all,wiki to ml
@@ -173,7 +183,7 @@ Marc-André Laverdière,marc-andre@atc.tcs.com,all,alias-of-above
 Miklos Vjana,vmiklos@frugalware.org,all,check-me
 
 #
-# ------- below here is coded as regexps in the code -------
+# Corporate address suffixes by affiliation
 #
 Canonical,@canonical.com,all,wiki to ml
 CodeWeavers,@codeweavers.com,all,wiki to ml
