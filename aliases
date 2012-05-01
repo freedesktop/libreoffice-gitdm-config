@@ -47,6 +47,7 @@ rene@frodo.lan rene@debian.org
 thomas.lange@sun.com tl@openoffice.org
 rodo@rychlik.lounovice rodo@novell.com
 rodo@obluda.lounovice rodo@novell.com
+pavel@build.kancl.blue-point.cz pavel@janik.cz
 pmladek@novell.com pmladek@suse.cz
 pmladek@openoffice.org pmladek@suse.cz
 pmladek@plop.suse.cz pmladek@suse.cz
@@ -81,6 +82,7 @@ robert.sedak@sk.htnet.hr robert.sedak@sk.t-com.hr
 wg@openoffice.org Wolfram.Garten@oracle.com
 volker.ahrendt@sun.com volker.ahrendt@oracle.com
 va@openoffice.org volker.ahrendt@oracle.com
+w.donkers@linux-testpc.dci-electronics w.donkers@dci-electronics.nl
 mhu@openoffice.org matthias.huetsch@oracle.com
 matthias.huetsch@sun.com matthias.huetsch@oracle.com
 haggai@openoffice.org halls@debian.org
@@ -125,6 +127,7 @@ foskey@optushome.com.au waratah@openoffice.org
 shtylman@namlyths.(none) shtylman@gmail.com
 ms93807@x4240-so5 ms93807@x4240-so3
 babak.mahbod@openoffice.org bmahbod@openoffice.org
+"bjoern michaelsen" bjoern.michaelsen@canonical.com
 mmaher@openoffice.org martin.maher@openoffice.org
 wg111939@sr1-eham02-02 wg111939@sr1-eham02-03
 anthony@youngman.org.uk antlists@youngman.org.uk
@@ -163,6 +166,18 @@ bubli@bubli.org kmachalkova@suse.cz
 yifan@bang.bang yfjiang@suse.com
 yfjiang@novell.com yfjiang@suse.com
 thuswa@gmail.com albert.thuswaldner@gmail.com
+matteo.casalin@poste.it matteo.casalin@gmx.com
+tabe-wfainkbuzdxhpplsxpa2lq@public.gmane.org tantai@osdev.co.th
+g.poussel@wanadoo.fr gpoussel@gmail.com
+michel.loiseleur@free.fr mloiseleur@linagora.com
+tibbylickle@googlemail.com tibbylickle@gmail.com
+robert.nagy@gmail.com robert@openbsd.org
+heinzlesspam@googlemail.com heinzlesspam@gmail.com
+nemeth@openoffice.org nemeth@numbertext.org
+andy.m.holder@googlemail.com andy.m.holder@gmail.com
+christoph@dogmatux.com christoph.noack@documentfoundation.org
+aurimas@gmail.com aurimas@members.fsf.org
+rjw57@cam.ac.uk rjw57@cantab.net
 
 # Aliases to cope with git svn data from Apache
 imacat@13f79535-47bb-0310-9956-ffa450edef68     imacat@mail.imacat.idv.tw

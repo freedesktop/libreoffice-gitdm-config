@@ -13,7 +13,7 @@
 Albert Thuswaldner,{{nospam|albert.thuswaldner|gmail|com}},all,wiki to ml
 Alexander Bergmann,{{nospam|myaddons|gmx|de}},all,wiki to ml
 Anurag Jain,{{nospam|anuragjainfzd|gmail|com}},all,wiki to ml
-Arnaud Versini,{{nospam|arnaud.versin|gmail|com}},all,wiki to ml
+Arnaud Versini,{{nospam|arnaud.versini|gmail|com}},all,wiki to ml
 Stefan Knorr,{{nospam|heinzlesspam|gmail|com}},all,wiki to ml
 August Sodora,{{nospam|augsod|gmail|com}},all,wiki to ml
 Barış Akkurt,{{nospam|dbarisakkurt|gmail|com}},all,wiki to ml
@@ -89,8 +89,9 @@ Thomas Hlavaty,{{nospam|tom|logand|com}},all,wiki to ml
 Tomcsik Bence Tibor,{{nospam|tomcsikbence|gmail|com}},all,wiki to ml
 Tzvetelina Tzeneva,{{nospam|tzvetelina|gmail|com}},all,wiki to ml (GSOC code etc.)
 Miklos Vajna,{{nospam|vmiklos|suse|cz}},all,wiki to ml
+Miklos Vajna,vmiklos@frugalware.org,all,wiki to ml (alias)
 Wolfgang Pechlaner,{{nospam|libo|pechlaner|at}},all,wiki to ml
-Winfried Donkers,{{nospam|W.Donkers|dci-electronics|nl}},all,wiki to ml
+Winfried Donkers,{{nospam|w.donkers|dci-electronics|nl}},all,wiki to ml
 Lucas Baudin,{{nospam|xapantu|gmail|com}},all,wiki to ml
 James C,{{nospam|james.from.wellington|gmail|com}},all,wiki to ml
 Cheng-Chia Tseng,{{nospam|pswo10680|gmail|com}},all,wiki to ml
@@ -176,11 +177,11 @@ Laure Garcí­a Linde,{{nospam|lauregl|gmail|com}},all,wiki to ml
 Marc-André Laverdière,{{nospam|marcandre.laverdiere|gmail|com}},all,wiki to ml
 Marc-André Laverdière,marc-andre@atc.tcs.com,all,alias-of-above
 
+# bits to check ... as updating
 
-# !Thomas Arnhold,{{nospam|thomas|arnhold|org}}!missing!
-
-# important aliases
-Miklos Vjana,vmiklos@frugalware.org,all,check-me
+Rene Engelhard,rene@debian.org,all,wiki to ml
+Andras Timar,timar@fsf.hu,all,wiki to ml
+Thomas Arnhold,{{nospam|thomas|arnhold|org}},all,wiki to ml
 
 #
 # Corporate address suffixes by affiliation
@@ -188,12 +189,14 @@ Miklos Vjana,vmiklos@frugalware.org,all,check-me
 Canonical,@canonical.com,all,wiki to ml
 CodeWeavers,@codeweavers.com,all,wiki to ml
 Collabora,@collabora.com,all,wiki to ml
+Collabora,@collabora.co.uk,all,wiki to ml
 Credativ,@credativ.com,all,wiki to ml
 Linagora,@linagora.com,all,wiki to ml
 Lanedo,@lanedo.com,all,wiki to ml
 Mandriva,@mandriva.com,all,wiki to ml
 Mandriva,@mandrake.com,all,wiki to ml
-Mandriva,@connectiva.com,all,wiki to ml
+Mandriva,@conectiva.com,all,wiki to ml
+Mandriva,@conectiva.com.br,all,wiki to ml
 RedHat,@redhat.com,all,wiki to ml
 SUSE,@suse.com,all,wiki to ml
 SUSE,@suse.cz,all,wiki to ml
