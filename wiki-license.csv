@@ -1,11 +1,14 @@
 #
 # Warning - please take -great- care when editing this file.
 #
-#  it is necessary to verify that not only is the person listed
+#   it is necessary to verify that not only is the person listed
 # in the wiki, but that their license statement is complete and
 # covers both MPL and LGPLv3+ as well as past and future
 # contributions. These are appended to this list in tranches to
 # add verifiability, using the wiki history feature.
+#
+#   Please do not touch or create items refererring to the
+# private legal list.
 #
 
 # Snapshot from the wiki: 2012-02-24 ...
@@ -23,7 +26,6 @@ Luc Castermans,{{nospam|luc.castermans|gmail|com}},all,wiki to ml
 Catalin Iacob,{{nospam|iacobcatalin|gmail|com}},all,wiki to ml
 Hugo Beauzée-Luyssen,{{nospam|beauze.h|gmail|com}},all,wiki to ml
 Christian Lohmaier,{{nospam|lohmaier+LibreOffice|googlemail|com}},all,wiki to ml
-Christoph Lutz,{{nospam|chrlutz|googlemail|com}},one,only mailmerge patch ?
 Cor Nouws,oolst@nouenoff.nl,all,wiki to ml
 Cosimo Cecchi,{{nospam|cosimoc|gnome|org}},all,wiki to ml
 Daniel Di Marco,{{nospam|d.dimarco|gmx|de}},all,wiki to ml
@@ -177,7 +179,27 @@ Laure Garcí­a Linde,{{nospam|lauregl|gmail|com}},all,wiki to ml
 Marc-André Laverdière,{{nospam|marcandre.laverdiere|gmail|com}},all,wiki to ml
 Marc-André Laverdière,marc-andre@atc.tcs.com,all,alias-of-above
 
-# legal list review, from start until 2011-09-01
+# to 2012-05-02
+
+Andras Timar,timar@fsf.hu,all,wiki to ml
+Andreu Correa Casablanca,{{nospam|castarco|gmail|com}},all,wiki to ml
+Andreas Mantke,maand@gmx.de,all,wiki to ml
+Dave Steele,{{nospam|dsteele|gmail|com}},all,wiki to ml
+Juan Pablo Martínez Cortés,{{nospam|jpmart|unizar|es}},all,wiki to ml
+Kálmán Kéménczy,{{nospam|kkemenczy|gmail|com}},all,wiki to ml
+Laure Garcí­a Linde,{{nospam|lauregl|gmail|com}},all,wiki to ml
+Martin Kepplinger,{{nospam|martinkepplinger|eml|cc}},all,wiki to ml
+Michaël Lefèvre,{{nospam|lefevre00|yahoo|fr}},all,wiki to ml - unusual
+Rafael Dominguez,venccsralph@gmail.com,all,wiki to ml
+Péter Rabi,{{nospam|prabi|caesar|elte|hu}},all,wiki to ml
+Rene Engelhard,rene@debian.org,all,wiki to ml
+Takeshi Nakamoto,{{nospam|bluedwarf|bpost|plala|or|jp}},all,wiki to ml
+Thomas Arnhold,{{nospam|thomas|arnhold|org}},all,wiki to ml
+Wei Ming Khoo,weimzz@gmail.com,all,wiki to ml
+
+
+# --------------------------------------------------------------------------------------
+# legal list review to 2012-05-02
 # unless otherwise noted mail has subject: "License: <name>"
 
 Kenneth Venken,kenneth.venken@gmail.com,all,legal list
@@ -187,13 +209,17 @@ Jenei Gábor,jengab@elte.hu,all,legal list
 Németh László,nemeth@numbertext.org,all,legal list: License to my patches
 Eike Rathke,{{nospam|ooo|erack|de}},all,legal list
 Dmitry. A. Ashkadov,dmitry.ashkadov@gmail.com,all,legal list
+Andor Ertsey,andor.ertsey@muenchen.de,all,legal list: Lizenz fur Patches der LHM
+Baptiste Daroussin,bapt@FreeBSD.org,all,legal list
+Laurent Alonso,alonso.laurent@gmail.com,all?,legal list
+Karl Koehler,koehlerkarl@comcast.net,all,legal list
+Xuacu Saturio,xuacusk8@gmail.com,all,legal list
+Sérgio Marques,smarquespt@gmail.com,all,legal list
+Roman Eisele,post@roman-eisele.de,all,legal list
+Michael Bauer,fios@akerbeltz.org,all,legal list
+Serg Bormant,bormant@gmail.com,all,legal list
+Xavi Escriche Galindo,xescriche@hotmail.com,all,legal list
 
-
-# bits to check ... as updating
-
-Rene Engelhard,rene@debian.org,all,wiki to ml
-Andras Timar,timar@fsf.hu,all,wiki to ml
-Thomas Arnhold,{{nospam|thomas|arnhold|org}},all,wiki to ml
 
 #
 # Corporate address suffixes by affiliation
