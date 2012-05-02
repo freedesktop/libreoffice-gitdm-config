@@ -109,6 +109,7 @@ Wei Ming Khoo,{{nospam|weimzz|gmail|com}},all,wiki to ml
 Sophie Guatier,gautier.sophie@gmail.com,all,wiki to ml
 Roman Shtylman,shtylman@gmail.com,all,wiki to ml
 Bernhard Rosenkraenzer,bernhard.rosenkranzer@linaro.org,all,wiki to ml
+Bernhard Rosenkraenzer,bero@arklinux.ch,all,wiki to ml
 Kálmán „KAMI” Szalai,kami911@gmail.com,all,wiki to ml
 Cameron Paul,cpaul37@gmail.com,all,wiki to ml
 Fernando Governatore,{{nospam|affqlixo|gmail|com}},all,wiki to ml
@@ -140,7 +141,6 @@ Arkadiusz Miśkiewicz,arekm@maven.pl,all,wiki to ml
 
 # to 2012-03-19
 
-Josh Heidenreich,josh.sickmate@gmail.com,all,wiki to ml
 Jonathan Adams,{{nospam|jadams|gmail|com}},all,wiki to ml
 Robert Nagy,{{nospam|robert|openbsd|org}},all,wiki to ml
 Chris Halls,{{nospam|halls|debian|org}},all,wiki to ml
@@ -176,6 +176,18 @@ Joseph Powers,{{nospam|jpowers27|cox|net}},all,wiki to ml
 Laure Garcí­a Linde,{{nospam|lauregl|gmail|com}},all,wiki to ml
 Marc-André Laverdière,{{nospam|marcandre.laverdiere|gmail|com}},all,wiki to ml
 Marc-André Laverdière,marc-andre@atc.tcs.com,all,alias-of-above
+
+# legal list review, from start until 2011-09-01
+# unless otherwise noted mail has subject: "License: <name>"
+
+Kenneth Venken,kenneth.venken@gmail.com,all,legal list
+Andreas Sliwka,andreas.sliwka@gmail.com,all,legal list
+Dona Hertel,cocofan@mailbolt.com,all,legal list
+Jenei Gábor,jengab@elte.hu,all,legal list
+Németh László,nemeth@numbertext.org,all,legal list: License to my patches
+Eike Rathke,{{nospam|ooo|erack|de}},all,legal list
+Dmitry. A. Ashkadov,dmitry.ashkadov@gmail.com,all,legal list
+
 
 # bits to check ... as updating
 

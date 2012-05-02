@@ -10,6 +10,7 @@ beppec56@openoffice.org giuseppe.castagno@acca-esse.eu
 beppe@dsklnx.host.local giuseppe.castagno@acca-esse.eu
 lohmaier+LibreOffice@googlemail.com cloph@openoffice.org
 Fischer<andre.f.fischer@oracle.com af@openoffice.org
+andre.f.fischer@oracle.com af@openoffice.org
 frank.schoenheit@oracle.com fs@openoffice.org
 frank.schoenheit@sun.com fs@openoffice.org
 libreoffice@mcmurrays.org smcmurray@mcmurrays.org
@@ -45,6 +46,7 @@ rene@openoffice.org rene@debian.org
 rene@rene-engelhard.de rene@debian.org
 rene@frodo.lan rene@debian.org
 thomas.lange@sun.com tl@openoffice.org
+thomas.lange@oracle.com tl@openoffice.org
 rodo@rychlik.lounovice rodo@novell.com
 rodo@obluda.lounovice rodo@novell.com
 pavel@build.kancl.blue-point.cz pavel@janik.cz
@@ -58,7 +60,7 @@ fa@openoffice.org dcbw@redhat.com
 daniel.rentz@sun.com dr@openoffice.org
 daniel.rentz@oracle.com dr@openoffice.org
 martin@gallwey.com mtg@openoffice.org
-Armin.Le.Grand@Sun.COM armin.le.grand@oracle.com
+armin.le.grand@Sun.com armin.le.grand@oracle.com
 armin.theissen@openoffice.org armin@openoffice.org
 erack@erack.de er@openoffice.org
 erack@openoffice.org er@openoffice.org
@@ -83,8 +85,8 @@ wg@openoffice.org Wolfram.Garten@oracle.com
 volker.ahrendt@sun.com volker.ahrendt@oracle.com
 va@openoffice.org volker.ahrendt@oracle.com
 w.donkers@linux-testpc.dci-electronics w.donkers@dci-electronics.nl
-mhu@openoffice.org matthias.huetsch@oracle.com
-matthias.huetsch@sun.com matthias.huetsch@oracle.com
+matthias.huetsch@oracle.com mhu@openoffice.org
+matthias.huetsch@sun.com mhu@openoffice.org
 haggai@openoffice.org halls@debian.org
 mb93783@v20z-so6 mb93783@macpro-dev
 mb93783@v60x-so15.Germany.Sun.COM mb93783@macpro-dev
@@ -135,6 +137,7 @@ serval2412@yahoo.fr serval@ilapharm.com
 drouizig@grouizig.org drouizig@drouizig.org
 rk.katana.steel@gmail rk.katana.steel@gmail.com
 norbert@sqdata.com nthiebaud@gmail.com
+n_th@linux-uefb.site nthiebaud@gmail.com
 robert.roth@in.com robert.roth.off@gmail.com
 nigel.hawkins@inmail24.com n.hawkins@gmx.com
 br@blankpage.ch bero@arklinux.ch
@@ -158,6 +161,7 @@ stephan.bergmann.secondary@googlemail.com sb@openoffice.org
 sbergman@googlemail.com sb@openoffice.org
 sbergman@redhat.com sb@openoffice.org
 mstahl@redhat.com mst@openoffice.org
+michael.x.stahl@oracle.com mst@openoffice.org
 felix@linux-6chh.site fezhang@suse.com
 listes.godard@laposte.net oooconv@free.fr
 lgodard.libre@laposte.net oooconv@free.fr
@@ -178,6 +182,16 @@ andy.m.holder@googlemail.com andy.m.holder@gmail.com
 christoph@dogmatux.com christoph.noack@documentfoundation.org
 aurimas@gmail.com aurimas@members.fsf.org
 rjw57@cam.ac.uk rjw57@cantab.net
+gang65@openoffice.org gang65@poczta.onet.pl
+"philipp weissenbacher" p.weissenbacher@gmail.com
+kai.ahrens@oracle.com ka@openoffice.org
+herbert.duerr@oracle.com hdu@openoffice.org
+oliver.craemer@oracle.com oc@openoffice.org
+jsilvasa@uoc.edu silva.and.co@gmail.com
+gravious@jollyrotten.org gently@jollyrotten.org
+"armijn@brandine.(none)" armijn@loohuis-consulting.nl
+dozsa@linux-dugf.site dozsabalint@gmail.com
+mcmurchy1917-libreoffice@yahoo.co.uk alexkempshall@btinternet.com
 
 # Aliases to cope with git svn data from Apache
 imacat@13f79535-47bb-0310-9956-ffa450edef68     imacat@mail.imacat.idv.tw
