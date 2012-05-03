@@ -3,7 +3,8 @@
 #
 rafaestevez@yahoo.es,00fb6c9d1c0ad01b29fb617dbe74e6ae1ddf04ce,http://lists.freedesktop.org/archives/libreoffice/2012-April/030640.html
 armijn@loohuis-consulting.nl,2337a032723a52d87c9e0acc847ba9b61e982bb9,legal list,Armijn Hemel
-gerloff@fsfeurope.org,e133940670eb1b113b445bbc1dd74547a8acd648,legal list,Kurt Gerloff
+gerloff@fsfeurope.org,e133940670eb1b113b445bbc1dd74547a8acd648,legal list,Karsten Gerloff
+gerloff@fsfeurope.org,f6ae27e3f17a1cce5040d8e1a93992879a421fcf,legal list,Karsten Gerloff
 marscel@googlemail.com,ec290dfbf2fc8ff41751f3d7b961500ba62a01a3,legal list,Marcel HB
 cbxbiker61@gmail.com,8ce982432a9a73ec628c8c6cff73f152bee1b57a,legal list,Kelly Anderson
 cbxbiker61@gmail.com,f7afe79010ef13a3ae288e5b09122f1e5db64879,legal list,Kelly Anderson
@@ -11,3 +12,33 @@ jaigner@setnine.com,0bb79fa1f1260fc342f80267559a69f61c3d3658,legal list,Jeff Aig
 alexkempshall@btinternet.com,ddafafe5f91e565be418e20eb7e447f8b1849f94,legal list, Alex Kempshall
 chrlutz@googlemail.com,e024f616934bb78fba8c8101264806d507068d7e,legal list,Christoph Lutz
 udo@ringlord.com,0c558610bdc5b9abc8e81b45e545983cc3a79670,legal list,Udo Schuermann
+
+
+#
+# content moved to another repository => no content
+#
+delacko@linux.hr,716c0abd079a9e04c347fbd2be4825518813c46e,dictionaries
+olivier.noreply@gmail.com,14d3b8226d1e98855d44971656ae327aa25948fe,dictionaries
+penzes_david@yahoo.com,51b319868bfb3eeafc53ecfe3a689ccd5f22bbad,dictionaries
+
+#
+# non-product content
+#
+j.steinhilber@rta.de,0982257e5902a29c3faf90c0fa3dba809a2462e5,test document,Juergen Steinhilber
+
+#
+# Humanity icon-theme work
+#
+shnatsel@gmail.com,e05ccb1672505c16825833ea628e2e82c6b544c0,humanity theme
+shnatsel@gmail.com,1457d1dc2dcb71e868e8624f8afc8398b3045430,humanity theme
+shnatsel@gmail.com,2e703749d25929b7ec7eec20c0542b3d664dfb91,humanity theme
+shnatsel@gmail.com,901f924beb2d9c56545edd1d646a5acc0528c0a0,humanity theme
+shnatsel@gmail.com,bcac727b262dc4860b181700c425f6c1cd378493,humanity theme
+shnatsel@gmail.com,d538cd7e65924e9aeab9039efca3061049b25814,humanity theme
+
+#
+# Obsolete / irrelevant patches
+#
+ericb@ooo4kids.org,3990d8d6f4198e0c5a7d03e80c687355495d19d3,subsequently removed assembler,Eric Bachard
+guillaume.fillol@lello.fr,391920118c2b627e35b6bf6cbb35ae355e7bffe9,easy hack pre-empted by Christina,Guillaume Fillol
+

@@ -71,11 +71,13 @@ ooo@erack.de er@openoffice.org
 fstrba@strbalenovo.localdomain fridrich.strba@bluewin.ch
 fstrba@strbadell.localdomain fridrich.strba@bluewin.ch
 fridrich_strba@openoffice.org fridrich.strba@bluewin.ch
+fridrich.strba@bluwin.ch fridrich.strba@bluewin.ch
 tml@hemulen.(none) tlillqvist@novell.com
 tml@iki.fi tlillqvist@novell.com
 tml@novell.com tlillqvist@novell.com
 tml@openoffice.org tlillqvist@novell.com
 tlillqvist@suse.com tlillqvist@novell.com
+jody@gnome.org jody@novell.com
 jsk@openoffice.org jsk@openoffice.org
 Joerg.Skottke@Sun.COM jsk@openoffice.org
 skotti@buster skotti@buster.gleitmeier.de
@@ -120,6 +122,8 @@ janneke@gnu.org jnieuwenhuizen@novell.com
 bero@arklinux.org bero@arklinux.ch
 jmarmion@openoffice.org john.marmion@openoffice.org
 kamihir@freemail.hu kami911@gmail.com
+"kami@darth.(none)" kami911@gmail.com
+"libo64@libo64.(none)" kami911@gmail.com
 muthusuba@gmail.com sumuthu@novell.com
 sumuthu@suse.com sumuthu@novell.com
 timar@gnome.hu timar@fsf.hu
@@ -183,6 +187,7 @@ christoph@dogmatux.com christoph.noack@documentfoundation.org
 aurimas@gmail.com aurimas@members.fsf.org
 rjw57@cam.ac.uk rjw57@cantab.net
 gang65@openoffice.org gang65@poczta.onet.pl
+gang65@o2.pl gang65@poczta.onet.pl
 "philipp weissenbacher" p.weissenbacher@gmail.com
 kai.ahrens@oracle.com ka@openoffice.org
 herbert.duerr@oracle.com hdu@openoffice.org
@@ -192,6 +197,18 @@ gravious@jollyrotten.org gently@jollyrotten.org
 "armijn@brandine.(none)" armijn@loohuis-consulting.nl
 dozsa@linux-dugf.site dozsabalint@gmail.com
 mcmurchy1917-libreoffice@yahoo.co.uk alexkempshall@btinternet.com
+allmann-rahn@ubuntu.ubuntu-domain f.allmann-rahn@gmx.de
+gerloff@fsfeurope.org gerloff@fsfe.org
+david.ostrovsky@gmx.de d.ostrovsky@gmx.de
+osc@dci-electronics.nl w.donkers@dci-electronics.nl
+"xisco@xisco-pc.(none)" anistenis@gmail.com
+robert.sedak@sk.t-com.hr robert.sedak@roby.hr
+"fou@leila.(none)" brutus@free.fr
+tinderbox@fae.suse.cz l.lunak@suse.cz
+"niklas@niklas-VirtualBox.(none)" sleeping.pillow@gmail.com
+"santi@tartessos.(none)" smvarela@gmail.com
+emanuele.fia@laptop emanuele.fia@gmail.com
+"name29@name29-laptop.(none)" emanuele.fia@gmail.com
 
 # Aliases to cope with git svn data from Apache
 imacat@13f79535-47bb-0310-9956-ffa450edef68     imacat@mail.imacat.idv.tw
