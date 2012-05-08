@@ -104,7 +104,7 @@ sub read_legacy_tags($)
     my %tags;
     my $outputh;
     chdir ($git_dir);
-    print "read legacy tags from notes\n";
+    print STDERR "read legacy tags from notes\n";
 
     open ($outputh, "git notes list |") || die "can't read git notes";
     while (<$outputh>) {
@@ -192,7 +192,7 @@ sub merge_logs ($$@)
     # all above:
     my $tags = read_legacy_tags($git_dir);
 
-    print "reading revisions\n";
+    print STDERR "reading revisions\n";
     for my $repo (@old_repo_names) {
 	# you will need a recent set of 'notes'
 	my $start = $tags->{$repo. "_LIBREOFFICE_CREATE"};

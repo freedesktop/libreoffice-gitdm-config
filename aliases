@@ -152,8 +152,6 @@ Thorsten.Bosbach@Oracle.Com tbo@OpenOffice.org
 "christina rossmanith" chrrossmanith@web.de
 chr.rossmanith@gmx.de chrrossmanith@web.de
 ChrRossmanith@gmx.de chrrossmanith@web.de
-"bjoern michaelsen" bjoern.michaelsen@canonical.com
-"xisco@xisco-pc.(none)" anistenis@gmail.com
 ingrid.halama@oracle.com iha@openoffice.org
 jens-heiner.rechtien@oracle.com hr@openoffice.org
 thomas.benisch@oracle.com tbe@openoffice.org
@@ -202,7 +200,6 @@ allmann-rahn@ubuntu.ubuntu-domain f.allmann-rahn@gmx.de
 gerloff@fsfeurope.org gerloff@fsfe.org
 david.ostrovsky@gmx.de d.ostrovsky@gmx.de
 osc@dci-electronics.nl w.donkers@dci-electronics.nl
-"xisco@xisco-pc.(none)" anistenis@gmail.com
 robert.sedak@sk.t-com.hr robert.sedak@roby.hr
 "fou@leila.(none)" brutus@free.fr
 tinderbox@fae.suse.cz l.lunak@suse.cz
@@ -213,6 +210,8 @@ emanuele.fia@laptop emanuele.fia@gmail.com
 exine@jun.pl bubstakker@gmail.com
 mmetz@adrian-brother.net mmetz@adrian-broher.net
 tim.retout@smoothwall.net tim@retout.co.uk
+"xisco@xisco-pc.(none)" anistenis@gmail.com
+sebastien-libreoffice@orniz.org sebastien@orniz.org
 
 # Aliases to cope with git svn data from Apache
 imacat@13f79535-47bb-0310-9956-ffa450edef68     imacat@mail.imacat.idv.tw

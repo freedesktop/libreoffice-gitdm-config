@@ -44,8 +44,9 @@ ericb@ooo4kids.org,3990d8d6f4198e0c5a7d03e80c687355495d19d3,subsequently removed
 guillaume.fillol@lello.fr,391920118c2b627e35b6bf6cbb35ae355e7bffe9,easy hack pre-empted by Christina,Guillaume Fillol
 
 #
-# Trivial / scripted changes
+# Script generated and/or trivial changes
 #
+# executable permissions change:
 saito@4linux.com.br,e8d177f301b20e4732e1be6e0e2c1e121bed92f6,scripted permissions change,Francisco Saito
 saito@4linux.com.br,0b509dbe1b4fb6ad097a9dafd877fdfb5db95d58,scripted permissions change,Francisco Saito
 saito@4linux.com.br,76f3fa15316c86739461d6620f62f469d9f04966,scripted permissions change,Francisco Saito
@@ -86,3 +87,7 @@ saito@4linux.com.br,3efa3777aadb10559e4a4c1dab6e3339c633b9b6,scripted permission
 saito@4linux.com.br,a09675b4c542ebc860468361eee04dc3f166f309,scripted permissions change,Francisco Saito
 saito@4linux.com.br,be5ff06d05bed3ae73781a46128c6c9e6e865a96,scripted permissions change,Francisco Saito
 saito@4linux.com.br,4772a7559a5fef1271d724c4b435b0cace297eac,scripted permissions change,Francisco Saito
+
+# icon re-packing to shrink space usage
+ace_dent@hotmail.com,bc1523325510bdf6fdfc996d578008f8052206b6,icon shrinking,Andrew C. E. Dent
+ace_dent@hotmail.com,d3c8db1aeb2e2a597a0ee15b8d8d835e3e4bdbd9,icon shrinking,Andrew C. E. Dent
