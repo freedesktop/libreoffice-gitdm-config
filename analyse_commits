@@ -11,6 +11,7 @@ my $show_note_tags = 0;
 my $apache_svn_git_repo = 0;
 my ($config_dir, $gitdm_path, $output_dir);
 
+
 my $dump_numstat_cmd = "git --no-pager log --numstat --pretty='%H,%ae,%ai,%ce,%f'";
 
 sub usage()
@@ -117,7 +118,7 @@ sub read_legacy_tags($)
 		$tags{$1} = $gith;
 #		print "\t'$1' -> '$gith'\n";
 	    } else {
-		print "Warning: unusual note: '$line' hash $gith\n"
+		print STDERR "Warning: unusual note: '$line' hash $gith\n"
 	    }
 	}
     }
