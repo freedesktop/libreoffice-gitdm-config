@@ -26,6 +26,9 @@ penzes_david@yahoo.com,51b319868bfb3eeafc53ecfe3a689ccd5f22bbad,dictionaries
 #
 j.steinhilber@rta.de,0982257e5902a29c3faf90c0fa3dba809a2462e5,test document,Juergen Steinhilber
 wrlach@gmail.com,11e64940a140a73b75b00109c494ed987748d5c4,raptor configure,Will Lachance
+bernhardout@lsmod.de,45afb6635894a812701624ea092a9a812f048671,smoketest download python, Bernhard M. Wiedemann
+mshinke@users.sourceforge.jp,fbe60c962259ae0449acd65e74fd790530045e93,scp2 one-liner,Masataka Shinke
+
 
 #
 # Humanity icon-theme work
@@ -36,6 +39,7 @@ shnatsel@gmail.com,2e703749d25929b7ec7eec20c0542b3d664dfb91,humanity theme
 shnatsel@gmail.com,901f924beb2d9c56545edd1d646a5acc0528c0a0,humanity theme
 shnatsel@gmail.com,bcac727b262dc4860b181700c425f6c1cd378493,humanity theme
 shnatsel@gmail.com,d538cd7e65924e9aeab9039efca3061049b25814,humanity theme
+shnatsel@gmail.com,f811108fd182d103049b817f6e562b19f2755aa1,humanity theme
 
 #
 # Obsolete / irrelevant patches
@@ -88,6 +92,20 @@ saito@4linux.com.br,a09675b4c542ebc860468361eee04dc3f166f309,scripted permission
 saito@4linux.com.br,be5ff06d05bed3ae73781a46128c6c9e6e865a96,scripted permissions change,Francisco Saito
 saito@4linux.com.br,4772a7559a5fef1271d724c4b435b0cace297eac,scripted permissions change,Francisco Saito
 
+# remove __FAR_DATA
+callahan@xmission.com,b8f02010fe30cffe4dbc12cc9ecf4c52b9285b56,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
+callahan@xmission.com,b76b4d9b64f09dd4941c48b245eaffcf6bfd056d,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
+callahan@xmission.com,8a661baf4962f42a9475c3c699d91390e89dee42,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
+callahan@xmission.com,36169a32c8e267518e571242622cad27676269ee,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
+callahan@xmission.com,645e8e0cfbb3d7239077f353b499cd04575f5d37,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
+callahan@xmission.com,eaaedfba761123d5e0bb801d3f5575e3989f86df,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
+callahan@xmission.com,7065f10c7275b0dc925d43e4a8520518d037ad13,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
+callahan@xmission.com,040cd5d18f20655656073fc7dbb44d3410023946,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
+
+
 # icon re-packing to shrink space usage
 ace_dent@hotmail.com,bc1523325510bdf6fdfc996d578008f8052206b6,icon shrinking,Andrew C. E. Dent
 ace_dent@hotmail.com,d3c8db1aeb2e2a597a0ee15b8d8d835e3e4bdbd9,icon shrinking,Andrew C. E. Dent
+
+# need to add - one commit from:
+# Gordon Lack,gordon.lack@dsl.pipex.com,
