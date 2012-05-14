@@ -1,6 +1,15 @@
 #
 # Author, git hash, mailing list link / comment
 #
+
+# Clearly labelled MPL/LGPLv3+ in the commit message
+pktoss@gmail.com,0a4732acbf7149d45e076a74bea0b49ee74e2f59,cf. commit msg
+pktoss@gmail.com,8731903f5f693d323d399f05c57aac138021c440,cf. commit msg
+pktoss@gmail.com,3f3b9cecfb6e04a1ef382f7c4c5a074fb9b4c8fb,cf. commit msg
+pktoss@gmail.com,181f55a5c36b7134f39da52fdbb89ed3a1d6a560,cf. commit msg
+
+
+# Mailing list permission links
 rafaestevez@yahoo.es,00fb6c9d1c0ad01b29fb617dbe74e6ae1ddf04ce,http://lists.freedesktop.org/archives/libreoffice/2012-April/030640.html
 armijn@loohuis-consulting.nl,2337a032723a52d87c9e0acc847ba9b61e982bb9,legal list,Armijn Hemel
 gerloff@fsfeurope.org,e133940670eb1b113b445bbc1dd74547a8acd648,legal list,Karsten Gerloff
@@ -13,6 +22,15 @@ alexkempshall@btinternet.com,ddafafe5f91e565be418e20eb7e447f8b1849f94,legal list
 chrlutz@googlemail.com,e024f616934bb78fba8c8101264806d507068d7e,legal list,Christoph Lutz
 udo@ringlord.com,0c558610bdc5b9abc8e81b45e545983cc3a79670,legal list,Udo Schuermann
 monica@probeta.net,d31aae4c9eea4f4aecea2a051518536b47aa8ab6,http://lists.freedesktop.org/archives/libreoffice/2012-April/030576.html
+cl@lippka.com,58336f0066737161af99f5daad2cad8df2250941,http://lists.freedesktop.org/archives/libreoffice/2011-May/011491.html,Christian Lippka
+cl@lippka.com,6522f7374fe19fbcdf27c01b7ae07779b6c0514f,http://lists.freedesktop.org/archives/libreoffice/2011-May/011491.html,Christian Lippka
+cl@lippka.com,c82ccc5f4e05c1b2ce3416dc50ef2488fafe91d5,http://lists.freedesktop.org/archives/libreoffice/2011-May/011491.html,Christian Lippka
+cl@lippka.com,ec9bad14595529456ed72568651c598451aa29db,http://lists.freedesktop.org/archives/libreoffice/2011-May/011491.html,Christian Lippka
+ovcica@gmail.com,30008dfb2b5f29252687f975072ccf85e7d3590f,http://lists.freedesktop.org/archives/libreoffice/2011-December/022926.html,Maja Djordjevic
+ovcica@gmail.com,ebd0c7e25f21785071e922fd7df2be902447afbe,http://lists.freedesktop.org/archives/libreoffice/2011-December/022926.html,Maja Djordjevic
+ovcica@gmail.com,cf62b9beb6a1b169edf2813326dcdaae41a62e56,http://lists.freedesktop.org/archives/libreoffice/2011-December/022926.html,Maja Djordjevic
+ovcica@gmail.com,73487513e6ccc84c6f43a581c5f0055e7e29af1c,http://lists.freedesktop.org/archives/libreoffice/2011-December/022926.html,Maja Djordjevic
+
 
 #
 # content moved to another repository => no content
@@ -102,10 +120,12 @@ callahan@xmission.com,eaaedfba761123d5e0bb801d3f5575e3989f86df,far data,http://l
 callahan@xmission.com,7065f10c7275b0dc925d43e4a8520518d037ad13,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
 callahan@xmission.com,040cd5d18f20655656073fc7dbb44d3410023946,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
 
-
 # icon re-packing to shrink space usage
 ace_dent@hotmail.com,bc1523325510bdf6fdfc996d578008f8052206b6,icon shrinking,Andrew C. E. Dent
 ace_dent@hotmail.com,d3c8db1aeb2e2a597a0ee15b8d8d835e3e4bdbd9,icon shrinking,Andrew C. E. Dent
 
+
+
 # need to add - one commit from:
 # Gordon Lack,gordon.lack@dsl.pipex.com,
+
