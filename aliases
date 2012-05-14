@@ -9,8 +9,9 @@ julio.hoffiman@gmail.com julio.hoffimann@gmail.com
 beppec56@openoffice.org giuseppe.castagno@acca-esse.eu
 beppe@dsklnx.host.local giuseppe.castagno@acca-esse.eu
 lohmaier+LibreOffice@googlemail.com cloph@openoffice.org
-Fischer<andre.f.fischer@oracle.com af@openoffice.org
-andre.f.fischer@oracle.com af@openoffice.org
+Fischer<andre.f.fischer@oracle.com af@a-w-f.de
+andre.f.fischer@oracle.com af@a-w-f.de
+af@openoffice.org af@a-w-f.de
 frank.schoenheit@oracle.com fs@openoffice.org
 frank.schoenheit@sun.com fs@openoffice.org
 libreoffice@mcmurrays.org smcmurray@mcmurrays.org
@@ -60,7 +61,8 @@ fa@openoffice.org dcbw@redhat.com
 daniel.rentz@sun.com dr@openoffice.org
 daniel.rentz@oracle.com dr@openoffice.org
 martin@gallwey.com mtg@openoffice.org
-armin.le.grand@Sun.com armin.le.grand@oracle.com
+armin.le.grand@Sun.com armin.le.grand@me.com
+armin.le.grand@oracle.com armin.le.grand@me.com
 armin.theissen@openoffice.org armin@openoffice.org
 erack@erack.de er@openoffice.org
 erack@openoffice.org er@openoffice.org
@@ -97,8 +99,9 @@ mb93783@v60x-so16.Germany.Sun.COM mb93783@macpro-dev
 mb93783@V60X-SO17.germany.sun.com mb93783@macpro-dev
 mb93783@X42-SO17.germany.sun.com mb93783@macpro-dev
 mb93783@so-dumbo mb93783@macpro-dev
-hdu@openoffice.org herbert.duerr@oracle.com
-duerr@sun.com herbert.duerr@oracle.com
+duerr@sun.com duerr@de.ibm.com
+hdu@openoffice.org duerr@de.ibm.com
+herbert.duerr@oracle.com duerr@de.ibm.com
 sg@openoffice.org Steffen.Grund@sun.com
 msc@openoffice.org Marc.Neumann@oracle.com
 Marc.Neumann@sun.com Marc.Neumann@oracle.com
@@ -178,6 +181,7 @@ thuswa@gmail.com albert.thuswaldner@gmail.com
 matteo.casalin@poste.it matteo.casalin@gmx.com
 tabe-wfainkbuzdxhpplsxpa2lq@public.gmane.org tantai@osdev.co.th
 g.poussel@wanadoo.fr gpoussel@gmail.com
+guillaume@lello.fr gpoussel@gmail.com
 michel.loiseleur@free.fr mloiseleur@linagora.com
 tibbylickle@googlemail.com tibbylickle@gmail.com
 robert.nagy@gmail.com robert@openbsd.org
@@ -191,7 +195,6 @@ gang65@openoffice.org gang65@poczta.onet.pl
 gang65@o2.pl gang65@poczta.onet.pl
 "philipp weissenbacher" p.weissenbacher@gmail.com
 kai.ahrens@oracle.com ka@openoffice.org
-herbert.duerr@oracle.com hdu@openoffice.org
 oliver.craemer@oracle.com oc@openoffice.org
 jsilvasa@uoc.edu silva.and.co@gmail.com
 gravious@jollyrotten.org gently@jollyrotten.org
@@ -216,7 +219,7 @@ tim.retout@smoothwall.net tim@retout.co.uk
 sebastien-libreoffice@orniz.org sebastien@orniz.org
 christoph.herzog@uni-bamberg.de rhogez@googlemail.com
 cniehaus@kde.org cniehaus@gmx.de
-at.higginsonAtgmail.com at.higginson@gmail.com
+"at.higginsonAtgmail.com" at.higginson@gmail.com
 davidh@sharpblue.org david.hobley@sharpblue.org
 artur.dorda+libo@gmail.com artur.dorda@gmail.com
 nifgraup@gmail.com nifgraup@google.com
@@ -224,8 +227,10 @@ t12nslookup@gmail.com jadams@gmail.com
 jbf.faure@orange.fr jbf.faure@sud-ouest.org
 libreoffice@troy.rollo.name troy@troy.rollo.name
 rob@ertai.nl programming@ertai.nl
-gpoussel@gmail.com guillaume@lello.fr
 alonso@loria.fr laurent.alonso@inria.fr
+julien@julienPC serval2412@yahoo.fr
+jsc@openoffice.org jogischmidt@googlemail.com
+od@openoffice.org orwittmann@googlemail.com
 
 # Aliases to cope with git svn data from Apache
 imacat@13f79535-47bb-0310-9956-ffa450edef68     imacat@mail.imacat.idv.tw
