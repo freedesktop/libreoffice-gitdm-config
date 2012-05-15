@@ -1,0 +1,24 @@
+#
+# Commits available in a CWSes that have not been merged into DEV300_m106
+#
+# Author, git hash, mailing list link / comment
+#
+
+# Philipp Lohmann
+pl@openoffice.org,b7e00ffeaace7a35b5e69fb23b97d2d486221c90,cws ooo34gsl01,Oracle
+pl@openoffice.org,74dd991997e0ce52ab31aec63b0bb05c587e228c,cws ooo34gsl01,Oracle
+pl@openoffice.org,ecca617a15ef8ca7dda99ab6057aa3189072f215,cws ooo340fixes,Oracle
+pl@openoffice.org,f18fc2ef12d8004ce28b4412f5ceca77d68605c6,cws ooo34gsl10,Oracle
+pl@openoffice.org,2e9c605e95d9f3e3a0fc5bf2e4eecb514a984d6e,from https://issues.apache.org/ooo/show_bug.cgi?id=116120 (https://issues.apache.org/ooo/attachment.cgi?id=75346), Oracle
+pl@openoffice.org,407dbac9fb04d78d782c555d1236f10b45f5c501,cws ooo34gsl01,Oracle
+pl@openoffice.org,042c3732d80b8061c2728caa6057207ec8fa1683,cws ooo340fixes,Oracle
+pl@openoffice.org,68200a816bb0623407e3fa59cece04bcdcde1c3e,cws ooo34gsl01,Oracle
+pl@openoffice.org,54c611fa455fd5e9e8fc711c158085924f47d590,cws ooo340fixes,Oracle
+pl@openoffice.org,62bb785b6664e4e77d4b8a01ca87ba1c4812ad0c,cws ooo34gsl01,Oracle
+pl@openoffice.org,f26865fdd3356875bafe23be226843b9a991741a,cws ooo340fixes,Oracle
+pl@openoffice.org,50c94449a942884a1bed6a85d4107342f321b9c0,cws ooo34gsl01,Oracle
+pl@openoffice.org,db08243efa05284860905c22d223cc7eb3935dc9,cws ooo34gsl01,Oracle
+pl@openoffice.org,2eccffac60ee10c3507bda71b214f0393bac648f,cws ooo34gsl01,Oracle
+pl@openoffice.org,10cd2060e705cace2ed34ce866bb3ec801fe7e3c,cws ooo34gslstop1,Oracle
+pl@openoffice.org,45bf496656a7c4cd69ee055a72cf9d8c37e7e806,cws ooo34gsl01,Oracle
+

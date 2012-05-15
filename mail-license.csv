@@ -143,6 +143,15 @@ paolo@z2z.it,b59fdcf055388f1944259abf0834a10902706ceb,nlp solver translation,Pao
 #
 arnotixe@gmail.com,333648cc5d86ea1dcf6d85fa87a84838a0e6bb8d,hunspell back-port,Arno Teigseth
 
+# Changes that have been cherry-picked first, but later came via the
+# DEV300_m106 merge too
+pl@openoffice.org,f6bf75f7f5abc80b70fde265ca4428dc3e341061,available in DEV300_m106 as 385a437e89cac039b7efed0e9c682883a8287de1,Oracle
+pl@openoffice.org,da4b631586405f189864db20305607550674dec5,available in DEV300_m106 as 94b88eed3b4869a2271faa747b6e11aacc7fffef,Oracle
+pl@openoffice.org,13b0fc7375271ed58f563306ef57f81808ac9289,available in DEV300_m106 as c75311f9e4216ddad84b88cbda9f9188fba17ce1,Oracle
+pl@openoffice.org,9ce6b73eb4f97b6731ff1ecf8fa704f0d93daa9f,available in DEV300_m106 as d77c03b022105acf37594a9545c9c867c4c1503e,Oracle
+pl@openoffice.org,63b6b6d852d934ac3e83bb8490a57f2d516ca57d,available in DEV300_m106 as 485d404dc2d12f86acd9c69f19e9075bd375e861,Oracle
+
+
 
 # need to add - one commit from:
 # Gordon Lack,gordon.lack@dsl.pipex.com,
