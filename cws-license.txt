@@ -85,6 +85,9 @@ ihi@openoffice.org,6e5685efb15b893d1e2dfb941f1baf80085a6e78,hg:5d377dd89e6b,Orac
 ihi@openoffice.org,cfb66648ab4e02624af33ad74b082eae8ced3796,hg:38188af12de4,Oracle
 ihi@openoffice.org,95e0b6adbffe4edcbc0de255c4c9e41d52ab81b4,hg:6b24005a31b8,Oracle
 
+# Joachim Lingner
+jl@openoffice.org,a6ff118c4fdb3af7702c463d995df38742da3464,from https://issues.apache.org/ooo/show_bug.cgi?id=117010 (https://issues.apache.org/ooo/attachment.cgi?id=77111),Oracle
+
 # Mathias Bauer
 mba@openoffice.org,e83bed81017410c2b8d01670538afa9939403f6c,cws gnumake4,Oracle
 mba@openoffice.org,e7c5808817bd8c85ee28deec2b7faa3fadaf94ab,cws gnumake4,Oracle
@@ -146,6 +149,9 @@ mba@openoffice.org,4cea38b21d32569234b6e01a2a9bd4b856b6ca7d,cws gnumake4,Oracle
 mba@openoffice.org,c13010c2612afdaad58fbbf89286dcf0f02f75e5,cws gnumake4,Oracle
 mba@openoffice.org,2a6fc707c1d6a0c6e172c0150bb16eaa3aab4fb1,cws gnumake4,Oracle
 
+# Mikhail Voytenko
+mav@openoffice.org,b4b6986101768eccec8c0efbe833b3e909aa7213,cws mav58,Oracle
+
 # Ocke Janssen
 oj@openoffice.org,f44ed1142d24c2e0adeff039c626f2074c3dab87,cws impress210,Oracle
 oj@openoffice.org,6a91b70e1f5646f194044d14d9a1eaa8edb422d2,cws gnumake4,Oracle
@@ -185,3 +191,5 @@ pl@openoffice.org,2eccffac60ee10c3507bda71b214f0393bac648f,cws ooo34gsl01,Oracle
 pl@openoffice.org,10cd2060e705cace2ed34ce866bb3ec801fe7e3c,cws ooo34gslstop1,Oracle
 pl@openoffice.org,45bf496656a7c4cd69ee055a72cf9d8c37e7e806,cws ooo34gsl01,Oracle
 
+# Sven Jacobi
+sj@openoffice.org,dc7d25dd994b18b12214ce796ecbc6d9e4fcf310,hg:95f3a25e5fc5af0502ef95fbba4dad3207051351,Oracle
