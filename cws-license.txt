@@ -164,12 +164,15 @@ oj@openoffice.org,909bf6e983d62ae2674c67067ee3e81b74bb8b53,cws impress210,Oracle
 oj@openoffice.org,373c9aaad6fc4701ed3ea85baf4055f130048952,cws gnumake4,Oracle
 oj@openoffice.org,d938ccbad9c0f36034cfc86c621de4d562e2b036,cws gnumake4,Oracle
 
+# Oliver Specht
+os@openoffice.org,2d96b310b4894dd06eb541474a5dc05346a28efd,from https://issues.apache.org/ooo/show_bug.cgi?id=116420 (https://issues.apache.org/ooo/attachment.cgi?id=75659),Oracle
+
 # Philipp Lohmann
 pl@openoffice.org,b7e00ffeaace7a35b5e69fb23b97d2d486221c90,cws ooo34gsl01,Oracle
 pl@openoffice.org,74dd991997e0ce52ab31aec63b0bb05c587e228c,cws ooo34gsl01,Oracle
 pl@openoffice.org,ecca617a15ef8ca7dda99ab6057aa3189072f215,cws ooo340fixes,Oracle
 pl@openoffice.org,f18fc2ef12d8004ce28b4412f5ceca77d68605c6,cws ooo34gsl10,Oracle
-pl@openoffice.org,2e9c605e95d9f3e3a0fc5bf2e4eecb514a984d6e,from https://issues.apache.org/ooo/show_bug.cgi?id=116120 (https://issues.apache.org/ooo/attachment.cgi?id=75346), Oracle
+pl@openoffice.org,2e9c605e95d9f3e3a0fc5bf2e4eecb514a984d6e,from https://issues.apache.org/ooo/show_bug.cgi?id=116120 (https://issues.apache.org/ooo/attachment.cgi?id=75346),Oracle
 pl@openoffice.org,407dbac9fb04d78d782c555d1236f10b45f5c501,cws ooo34gsl01,Oracle
 pl@openoffice.org,042c3732d80b8061c2728caa6057207ec8fa1683,cws ooo340fixes,Oracle
 pl@openoffice.org,68200a816bb0623407e3fa59cece04bcdcde1c3e,cws ooo34gsl01,Oracle
