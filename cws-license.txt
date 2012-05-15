@@ -79,6 +79,12 @@ hbrinkm@openoffice.org,1fa81ff260fab9650408934d6dc128dc4c121181,hg:9467e7f6cd60,
 hbrinkm@openoffice.org,34ae936b8993a43f482967e5ba68f021f969a026,hg:b208d29d0b58,Oracle
 hbrinkm@openoffice.org,faccbe64c45c509b75bf6ea72c2b741a95b12846,cws writerfilter10 [hg:8fa034389cd1],Oracle
 
+# Ivo Hinkelmann
+ihi@openoffice.org,44aee83382484178ca9574c2c048269f7d3ba3b0,hg:5851574127d1,Oracle
+ihi@openoffice.org,6e5685efb15b893d1e2dfb941f1baf80085a6e78,hg:5d377dd89e6b,Oracle
+ihi@openoffice.org,cfb66648ab4e02624af33ad74b082eae8ced3796,hg:38188af12de4,Oracle
+ihi@openoffice.org,95e0b6adbffe4edcbc0de255c4c9e41d52ab81b4,hg:6b24005a31b8,Oracle
+
 # Mathias Bauer
 mba@openoffice.org,e83bed81017410c2b8d01670538afa9939403f6c,cws gnumake4,Oracle
 mba@openoffice.org,e7c5808817bd8c85ee28deec2b7faa3fadaf94ab,cws gnumake4,Oracle
