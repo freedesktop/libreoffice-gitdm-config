@@ -4,6 +4,18 @@
 # Author, git hash, mailing list link / comment
 #
 
+# Christian Lippka
+cl@openoffice.org,b7540a2bfe424ff761f6bfd1e7264349c83e3f59,cws impress210,Oracle
+cl@openoffice.org,37fe168502f4c21b2f1d4bb0491cbb658ae6afcb,cws impress210,Oracle
+cl@openoffice.org,cbaadd31d3ff53f18a7b8d2b0af947328dc81d91,cws impress210,Oracle
+cl@openoffice.org,f0a1b95f99bed6d184e3020b5c7e30bc6c1597f6,cws impress210,Oracle
+cl@openoffice.org,a92266c0e5d1eebac39352eace2f7f164132c21d,cws impress210,Oracle
+cl@openoffice.org,b97726f4b66aa85db8cb2ab27b8413066930cf4f,cws impress210,Oracle
+cl@openoffice.org,e57053c435c4ccd8375904b22e6e0a40f149b346,cws impress210,Oracle
+cl@openoffice.org,78fff8ca491b70af21705ae169ab48f68b8a5e37,cws impressdefaults1,Oracle
+cl@openoffice.org,a43400917e635a1b394b1eb4b53c8e709032e52d,cws impress210,Oracle
+cl@openoffice.org,15aeab6cbd0b50b1d78646f03588237b8473285c,cws impress210,Oracle
+
 # Hans-Joachim Lankenau
 hjs@openoffice.org,958082720c1bbf67e76ebf2d06d47904ecde0e37,cws ause130,Oracle
 hjs@openoffice.org,4d427bd5c8fe9b3488bd3da49e4158c3021deab0,cws ause130,Oracle

@@ -152,6 +152,14 @@ arnotixe@gmail.com,333648cc5d86ea1dcf6d85fa87a84838a0e6bb8d,hunspell back-port,A
 
 # Changes that have been cherry-picked first, but later came via the
 # DEV300_m106 merge too
+# cl
+cl@openoffice.org,b853aa1b54cc3290ee7cb13014ff8d481f312f47,available in DEV300_m106 as f47680bc0f25ce214637ae7e0b0ce4d4df110ec3,Oracle
+cl@openoffice.org,5ba86b4ab27fe4d3b07c2535576eec655558d2d3,available in DEV300_m106 as b38b0ea063ffc6ddf1127e4ae58d41f546d6c54c,Oracle
+cl@openoffice.org,977fa1655cbe7cbb36b45a3eb26bc99a8c4e0d8c,available in DEV300_m106 as 6578b49d760748bc46c67df3972f9e575c6cfcca,Oracle
+cl@openoffice.org,33ccd99de501dfe9be979a5fac850b844c0e9aa2,available in DEV300_m106 as 6c1e2b4e493be845449d5366c28d3c27504329ed,Oracle
+cl@openoffice.org,bd21f2d99411a3145fe2ed570d58815164a9a3ff,available in DEV300_m106 as 865e85032740d9f7c5480f83d7617d74742948a7,Oracle
+cl@openoffice.org,2a8043bab8bcade9b4366598cf25219f9307527f,available in DEV300_m106 as c826fd1aa7e83a58dc4cb2e647e6db8affa50a81,Oracle
+# pl
 pl@openoffice.org,f6bf75f7f5abc80b70fde265ca4428dc3e341061,available in DEV300_m106 as 385a437e89cac039b7efed0e9c682883a8287de1,Oracle
 pl@openoffice.org,da4b631586405f189864db20305607550674dec5,available in DEV300_m106 as 94b88eed3b4869a2271faa747b6e11aacc7fffef,Oracle
 pl@openoffice.org,13b0fc7375271ed58f563306ef57f81808ac9289,available in DEV300_m106 as c75311f9e4216ddad84b88cbda9f9188fba17ce1,Oracle
