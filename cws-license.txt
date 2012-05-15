@@ -16,6 +16,12 @@ cl@openoffice.org,78fff8ca491b70af21705ae169ab48f68b8a5e37,cws impressdefaults1,
 cl@openoffice.org,a43400917e635a1b394b1eb4b53c8e709032e52d,cws impress210,Oracle
 cl@openoffice.org,15aeab6cbd0b50b1d78646f03588237b8473285c,cws impress210,Oracle
 
+# Daniel Rentz
+dr@openoffice.org,b3bc39d418b4be7f9e0abc080c5024ecfdcc5345,hg:d0beb4a8aa40,Oracle
+dr@openoffice.org,493b594915946bab2807bb1f51e6118640e35fdc,hg:d0beb4a8aa40,Oracle
+dr@openoffice.org,4ec8d1d36ac1cf4512e95e8eee7031aaa796546e,hg:d0beb4a8aa40,Oracle
+dr@openoffice.org,84e6def25926784eb471e81b7ca5bba09c0f8a2e,calc33stopper2: #i115313# revert calculation of scaling factor for drawing layer to behaviour of OOo 3.2
+
 # Hans-Joachim Lankenau
 hjs@openoffice.org,958082720c1bbf67e76ebf2d06d47904ecde0e37,cws ause130,Oracle
 hjs@openoffice.org,4d427bd5c8fe9b3488bd3da49e4158c3021deab0,cws ause130,Oracle
