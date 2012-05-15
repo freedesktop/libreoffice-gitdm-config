@@ -4,6 +4,30 @@
 # Author, git hash, mailing list link / comment
 #
 
+# Hans-Joachim Lankenau
+hjs@openoffice.org,958082720c1bbf67e76ebf2d06d47904ecde0e37,cws ause130,Oracle
+hjs@openoffice.org,4d427bd5c8fe9b3488bd3da49e4158c3021deab0,cws ause130,Oracle
+hjs@openoffice.org,246efa0d481c4b3bb55c1f53d954557cc027c008,cws ause130,Oracle
+hjs@openoffice.org,5db7696114b4a91f5f3c2a1484f3deba6b780b2e,cws ause130,Oracle
+hjs@openoffice.org,f348c7fd936735e4029ca31b26b223ea039efd5c,cws ause130,Oracle
+hjs@openoffice.org,0e6ab013f7def9891c2e982bec76458a64953c20,cws ause130,Oracle
+hjs@openoffice.org,bdf02789cba76da03dc4bb8e55e8ef5d3075e235,cws ause130,Oracle
+hjs@openoffice.org,a67b57868ff7db15a24346259ef0ffc235979008,cws ause130,Oracle
+hjs@openoffice.org,3bf16bf9e6c2e2c1e43169d4c3e3f0192ad84956,cws ause130,Oracle
+hjs@openoffice.org,a701035d7bcb5fb4b03e38fb7dc400956ffe7830,cws ause130,Oracle
+hjs@openoffice.org,3e218e57345301d42dd196471760ee76bf7878e9,cws ause130,Oracle
+hjs@openoffice.org,2a0a10364139ae9a6ee13fef2783e30656ea1e47,cws ause130,Oracle
+hjs@openoffice.org,185a80eb7191151ea0a2d619272a1c78e2d4a9c1,cws ause130,Oracle
+hjs@openoffice.org,4313f43185e447903b2a61fa14bf38ea99b6ab77,cws ause130,Oracle
+hjs@openoffice.org,0c43db760b4b4f43805557d1e2d5e88707bf260a,cws ause130,Oracle
+hjs@openoffice.org,435c4d491f5ee00f986e48145cee50e30f84f701,cws ause130,Oracle
+hjs@openoffice.org,6813470ad0f8ed4a87ed296d8d35e6857f10bf15,cws ause130,Oracle
+hjs@openoffice.org,29caef70bc0a6ea60938125d4e59c2b39a0e7a74,cws ause130,Oracle
+hjs@openoffice.org,b044c72c69d1e9ab64101f549ccc158c8cf6c82e,cws ause130,Oracle
+hjs@openoffice.org,df614b6c643f4b1ff2cedf1a93dee8dd1b20c34d,cws ause130,Oracle
+hjs@openoffice.org,4fb5b90d3e3151faf457117af2f2eceeaa7f6b00,cws ause130,Oracle
+hjs@openoffice.org,36d2562f1b3fe39f11d556d0739d65c0e74bb393,cws ause130,Oracle
+
 # Philipp Lohmann
 pl@openoffice.org,b7e00ffeaace7a35b5e69fb23b97d2d486221c90,cws ooo34gsl01,Oracle
 pl@openoffice.org,74dd991997e0ce52ab31aec63b0bb05c587e228c,cws ooo34gsl01,Oracle
