@@ -12,8 +12,8 @@ martius@martiusweb.net,5e301969bf1c8818b5c737757363c31584823485,cf. commit msg.
 # Mailing list permission links
 rafaestevez@yahoo.es,00fb6c9d1c0ad01b29fb617dbe74e6ae1ddf04ce,http://lists.freedesktop.org/archives/libreoffice/2012-April/030640.html
 armijn@loohuis-consulting.nl,e505ea1c2a585ab324a03927c1efa499f877edeb,legal list,Armijn Hemel
-gerloff@fsfeurope.org,e133940670eb1b113b445bbc1dd74547a8acd648,legal list,Karsten Gerloff
-gerloff@fsfeurope.org,f6ae27e3f17a1cce5040d8e1a93992879a421fcf,legal list,Karsten Gerloff
+gerloff@fsfe.org,e133940670eb1b113b445bbc1dd74547a8acd648,legal list,Karsten Gerloff
+gerloff@fsfe.org,f6ae27e3f17a1cce5040d8e1a93992879a421fcf,legal list,Karsten Gerloff
 marscel@googlemail.com,ec290dfbf2fc8ff41751f3d7b961500ba62a01a3,legal list,Marcel HB
 cbxbiker61@gmail.com,8ce982432a9a73ec628c8c6cff73f152bee1b57a,legal list,Kelly Anderson
 cbxbiker61@gmail.com,f7afe79010ef13a3ae288e5b09122f1e5db64879,legal list,Kelly Anderson
@@ -36,6 +36,9 @@ ssorgatem@gmail.com,5e04331fc0a6434c61d3d18843cb4f80a44e5989,http://lists.freede
 j_catala@yahoo.com,81647009acd50ba057ccdae8e8fe09f8a4335e28,http://lists.freedesktop.org/archives/libreoffice/2012-April/030821.html,Javier Catala
 andrey.turkin@gmail.com,041cfeb31a0cf186529ecbe6da382ef2b42f4838,http://lists.freedesktop.org/archives/libreoffice/2011-February/007375.html,Andrey Turkin
 christophe.strobbe@esat.kuleuven.be,2eb2e571abdbfe143ba738a0dec0a4b73de7827c,http://lists.freedesktop.org/archives/libreoffice/2011-August/016261.html,Christophe Strobbe
+cjbackhouse@gmail.com,1dd9b3d931becca92c3087fc26dde004e271bb9a,http://lists.freedesktop.org/archives/libreoffice/2010-December/004065.html,Christopher Backhouse
+cassio.neri@gmail.com,cd04a8d20314a86a42146208fea353c1a6d1135b,http://lists.freedesktop.org/archives/libreoffice/2011-May/011266.html,Cassio Neri
+cuvierster@gmail.com,09a8466b824b0a2017cdffe87555634054888d1b,http://lists.freedesktop.org/archives/libreoffice/2011-January/006155.html,Andy Hearn
 
 
 #
@@ -52,6 +55,7 @@ j.steinhilber@rta.de,0982257e5902a29c3faf90c0fa3dba809a2462e5,test document,Juer
 wrlach@gmail.com,11e64940a140a73b75b00109c494ed987748d5c4,raptor configure,Will Lachance
 bernhardout@lsmod.de,45afb6635894a812701624ea092a9a812f048671,smoketest download python, Bernhard M. Wiedemann
 mshinke@users.sourceforge.jp,fbe60c962259ae0449acd65e74fd790530045e93,scp2 one-liner,Masataka Shinke
+cote.maxime1@gmail.com,3f897ecb3db649ef37d3381b90df51aef8ccde13,git hook improvement,Maxime Côté
 
 #
 # Humanity icon-theme work
@@ -125,7 +129,10 @@ callahan@xmission.com,eaaedfba761123d5e0bb801d3f5575e3989f86df,far data,http://l
 callahan@xmission.com,7065f10c7275b0dc925d43e4a8520518d037ad13,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
 callahan@xmission.com,040cd5d18f20655656073fc7dbb44d3410023946,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
 
-jspears@umd.edu,6a8f6c4b1324e28c598a065683103ac2ef8ea3fc,remove trailing double ';;'s
+jspears@umd.edu,6a8f6c4b1324e28c598a065683103ac2ef8ea3fc,remove trailing double ';;'s,Jesse
+nestalk@gmail.com,f4114329580e504680a27f5128b5aad6314c3c91,add missing '/',Neil Stalker
+krishnan.parthasarathi@gmail.com,2bbe25827196f104285db69a6fe12adb0f28c036,remove one commented block,krishnan parthasarathi
+
 
 # icon re-packing to shrink space usage
 ace_dent@hotmail.com,bc1523325510bdf6fdfc996d578008f8052206b6,icon shrinking,Andrew C. E. Dent
