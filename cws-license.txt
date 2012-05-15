@@ -28,6 +28,24 @@ hjs@openoffice.org,df614b6c643f4b1ff2cedf1a93dee8dd1b20c34d,cws ause130,Oracle
 hjs@openoffice.org,4fb5b90d3e3151faf457117af2f2eceeaa7f6b00,cws ause130,Oracle
 hjs@openoffice.org,36d2562f1b3fe39f11d556d0739d65c0e74bb393,cws ause130,Oracle
 
+# Ocke Janssen
+oj@openoffice.org,f44ed1142d24c2e0adeff039c626f2074c3dab87,cws impress210,Oracle
+oj@openoffice.org,6a91b70e1f5646f194044d14d9a1eaa8edb422d2,cws gnumake4,Oracle
+oj@openoffice.org,45d2a90c769c9e4930c6ff9dd0bfae79763ffd7b,cws gnumake4,Oracle
+oj@openoffice.org,dbef0ebc20d2a3258aedb98c112ba9ba6ee422e7,cws gnumake4,Oracle
+oj@openoffice.org,416435e1dcbc175787a5a9e03142f7f766b6a648,cws impress210,Oracle
+oj@openoffice.org,aff97b56be9c5467c605105898a50ffac9f27005,cws gnumake4,Oracle
+oj@openoffice.org,3c93ed792e9c5a0871973731063eb579d665f645,cws gnumake4,Oracle
+oj@openoffice.org,2fa7e03614228e65b0c81cd6bc075b08aa42907b,cws gnumake4,Oracle
+oj@openoffice.org,0851453849d36e5f58be24316d9bf910ee12faf8,cws impress210,Oracle
+oj@openoffice.org,e0247cb339336a108ce19e4e64b41d366bea344e,cws impress210,Oracle
+oj@openoffice.org,c084d59d7e06bdcef180897ee3e91f41fb2f2ae6,cws gnumake4,Oracle
+oj@openoffice.org,22a4c2db80f641277fd960d57776373fa3ae517a,cws gnumake4,Oracle
+oj@openoffice.org,9753031300bb9bd61bbba2f617900422cdbde1ff,cws impress210,Oracle
+oj@openoffice.org,909bf6e983d62ae2674c67067ee3e81b74bb8b53,cws impress210,Oracle
+oj@openoffice.org,373c9aaad6fc4701ed3ea85baf4055f130048952,cws gnumake4,Oracle
+oj@openoffice.org,d938ccbad9c0f36034cfc86c621de4d562e2b036,cws gnumake4,Oracle
+
 # Philipp Lohmann
 pl@openoffice.org,b7e00ffeaace7a35b5e69fb23b97d2d486221c90,cws ooo34gsl01,Oracle
 pl@openoffice.org,74dd991997e0ce52ab31aec63b0bb05c587e228c,cws ooo34gsl01,Oracle
