@@ -39,6 +39,21 @@ christophe.strobbe@esat.kuleuven.be,2eb2e571abdbfe143ba738a0dec0a4b73de7827c,htt
 cjbackhouse@gmail.com,1dd9b3d931becca92c3087fc26dde004e271bb9a,http://lists.freedesktop.org/archives/libreoffice/2010-December/004065.html,Christopher Backhouse
 cassio.neri@gmail.com,cd04a8d20314a86a42146208fea353c1a6d1135b,http://lists.freedesktop.org/archives/libreoffice/2011-May/011266.html,Cassio Neri
 cuvierster@gmail.com,09a8466b824b0a2017cdffe87555634054888d1b,http://lists.freedesktop.org/archives/libreoffice/2011-January/006155.html,Andy Hearn
+mordocai@gmail.com,fad7c8f3e0d0518b1a6411d53d5d0a3a43adf119,http://lists.freedesktop.org/archives/libreoffice/2011-February/007087.html,Chris Carpenter(mordocai)
+mordocai@gmail.com,64ffacdf3e269d55ede364f7847df0c56d68fc8e,http://lists.freedesktop.org/archives/libreoffice/2011-February/007087.html,Chris Carpenter(mordocai)
+mordocai@gmail.com,31bd12f464136e911f9db148a6642cfb90b4108f,http://lists.freedesktop.org/archives/libreoffice/2011-February/007087.html,Chris Carpenter(mordocai)
+jdarmochwal@gmx.de,b6aa0e81105f56fc544d1560d2b791212c5345ee,http://lists.freedesktop.org/archives/libreoffice/2011-February/007174.html,Jan Darmochwal
+jdarmochwal@gmx.de,69626cfa6458eb3d39baf679011184b3f534f037,http://lists.freedesktop.org/archives/libreoffice/2011-February/007174.html,Jan Darmochwal
+jdarmochwal@gmx.de,3c4929f2e41758eb9742e056db8dbfb08cea65f8,http://lists.freedesktop.org/archives/libreoffice/2011-February/008519.html,Jan Darmochwal
+dimitri.duc@gmail.com,bca3f94088b7769dd068a4d144034ea029eb53a2,http://lists.freedesktop.org/archives/libreoffice/2011-May/011999.html,Dimitri Duc
+dimitri.duc@gmail.com,7f5b4deabadafcf1a5af491990a3cbf741d4959b,http://lists.freedesktop.org/archives/libreoffice/2011-April/010995.html,Dimitri Duc
+dimitri.duc@gmail.com,5fe73818c6594bd60ca1c2907def44579260e08a,http://lists.freedesktop.org/archives/libreoffice/2011-April/010713.html,Dimitri Duc
+gioele@svario.it,c17e41b2aa5731f7a36a78b0a051ad44bafae014,legal list,Gioele Barabucci
+gioele@svario.it,30bd5fb0d66b32f9f0a3cbed7ab67d009ee6ead7,legal list,Gioele Barabucci
+gioele@svario.it,14a95f1a8b3886e46c6ac20032676fb96503eccc,legal list,Gioele Barabucci
+jeffdchang@gmail.com,fe3ad86423b6f14097bd9ac2d5c2d1f029635010,http://lists.freedesktop.org/archives/libreoffice/2011-July/015823.html,Jeffrey Chang
+jeffdchang@gmail.com,016bc9de1db9128df896189084c2bb00d23040fd,http://lists.freedesktop.org/archives/libreoffice/2011-July/015202.html,Jeffrey Chang
+jeffdchang@gmail.com,c91d4ffc147aa21628523e92f2373e88430c1eb4,http://lists.freedesktop.org/archives/libreoffice/2011-July/015035.html,Jeffrey Chang
 
 
 #
@@ -56,6 +71,11 @@ wrlach@gmail.com,11e64940a140a73b75b00109c494ed987748d5c4,raptor configure,Will 
 bernhardout@lsmod.de,45afb6635894a812701624ea092a9a812f048671,smoketest download python, Bernhard M. Wiedemann
 mshinke@users.sourceforge.jp,fbe60c962259ae0449acd65e74fd790530045e93,scp2 one-liner,Masataka Shinke
 cote.maxime1@gmail.com,3f897ecb3db649ef37d3381b90df51aef8ccde13,git hook improvement,Maxime Côté
+libreme@comcast.net,07a841bc1acde95229ece2a0da4e2a70be5df624,configure.in only,Mike Eberdt
+libreme@comcast.net,8e2ba3d0d547828f734238ed7e6a52499129f060,configure.in only,Mike Eberdt
+libreme@comcast.net,fe6dcc2e1b3e081161a44313e86cef82ccf30a8e,configure.in only,Mike Eberdt
+miko@gmx.ch,139995630f50d4d2b26fa6e1beaa51c73785c81f,build.pl fix,Michael Koch
+miko@gmx.ch,74d8d2dfed51e03807e347da951fdf9ef727b6a6,doubleNewlines.pl - license on-list in HTML attach,Michael Koch
 
 #
 # Humanity icon-theme work
@@ -132,6 +152,7 @@ callahan@xmission.com,040cd5d18f20655656073fc7dbb44d3410023946,far data,http://l
 jspears@umd.edu,6a8f6c4b1324e28c598a065683103ac2ef8ea3fc,remove trailing double ';;'s,Jesse
 nestalk@gmail.com,f4114329580e504680a27f5128b5aad6314c3c91,add missing '/',Neil Stalker
 krishnan.parthasarathi@gmail.com,2bbe25827196f104285db69a6fe12adb0f28c036,remove one commented block,krishnan parthasarathi
+miko@gmx.ch,fd28f6300e08b3c167c8b79c0eba5352ea9f7e12,remove double new-lines,Michael Koch
 
 
 # icon re-packing to shrink space usage
