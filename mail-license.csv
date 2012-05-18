@@ -93,6 +93,22 @@ miko@gmx.ch,139995630f50d4d2b26fa6e1beaa51c73785c81f,build.pl fix,Michael Koch
 miko@gmx.ch,74d8d2dfed51e03807e347da951fdf9ef727b6a6,doubleNewlines.pl - license on-list in HTML attach,Michael Koch
 smcmurray@mcmurrays.org,413d918706cf09a5b5b0a977e04327014e9403c3,build.pl - perl digest bits,Sean McMurray
 stevenb@kjross.com.au,079c782fb3797011209abcfd15ba2d22a5a22e46,make_installer.pl speedups,Steve Butler
+jordan.ayers@gmail.com,33a9d32107d35f8995caa2f6182427202fec17da,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,f64ca4c4273c2c281519020e1af7c70fe1d4cee2,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,a73b9fc0e2cccc240cadf40d6566fa15c46f70b7,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,38391ce90d914e0e198aae0d5b5490b42d90b092,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,75953230cc287f24c039e7fc7005229b11addc50,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,1fc2490f0da61adc616ac2c4670c9189afd557a8,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,47872cc7ad29a73d273e8857097b550a9abe2f73,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,da1681af3a32ba7d0d6406dcc4ddfc1c5e56d914,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,5d734844a505c31af8cb942f66a08ad8fbf6aa12,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,6ee0f9ae130cd0ac97a250d787faaf136bb567ab,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,4118187114d0792d707ccd41768bc54a237e4111,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,b582fdbef115e0cba09c81dd841d082bd9f42b15,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,bf33898aa01f989e4f2bb2ab635244c8c8fa3f79,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,ac06dbe8a09532750dcb3b96a561ff4e0bc33c60,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,91907b045d07f820b4de196817f94b4bb7a18016,perl fixes - configure etc.,Jordan Ayers
+jordan.ayers@gmail.com,b8fcb346da138e302d94a23d127e7df9a88ef7fe,perl fixes - configure etc.,Jordan Ayers
 
 #
 # Humanity icon-theme work
@@ -173,6 +189,26 @@ miko@gmx.ch,fd28f6300e08b3c167c8b79c0eba5352ea9f7e12,remove double new-lines,Mic
 smcmurray@mcmurrays.org,66d6b3fdcfd571efec0a6e896852401e8f9a8ed1,two line SAL_N_ELEMENTS,Sean McMurray
 smcnam@gmail.com,10cf3fed2d5636306df7e1b2c877dec049a15b2c,trivial parameter fix,Sean McNamara
 
+gertfaller@aliceadsl.fr,6fa35857f82c610573661cd6226154168e4107ee,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,492dd7d8442bee1095d96f47cb66d6e7b75b89ca,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,f72d546da78c65afbb78d818d505a0b9049f0049,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,29f5b4f7f009491b6d9780f831455397e77aa626,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,b9a388b78d737e3810ca45f2f8011d2d91f81d92,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,3648fb3c27f87e9b03679b42b9616785d02a3c22,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,d7d787c95a9dc393ca279a0b52c3ad484bf9159a,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,561b4fd234b6b1f5f0ea8291b4d89d22a44c9e09,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,c3773ef054210d792755ef68f0be3917494f7a76,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,ec03cebe17848ff9b6851f4fb6d42515a79b8776,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,c43ded52de5a31ecc9fdd414dc81ab581fc8df1a,__EXPORT removal,Gert Faller
+gertfaller@aliceadsl.fr,b343ca0dfbae0731ac0ce89d14bc9c8fc667825d,__READONLY_DATA to const,Gert Faller
+gertfaller@aliceadsl.fr,d1e95b771e91315a69b4862198f0563bdbb58888,__READONLY_DATA to const,Gert Faller
+gertfaller@aliceadsl.fr,062f24fba52d2f29efdee5f7674bdefa6d898bf3,__READONLY_DATA to const,Gert Faller
+gertfaller@aliceadsl.fr,8f1dd190d1ca2a6925f8c4dda425640db99fd83f,__READONLY_DATA to const,Gert Faller
+gertfaller@aliceadsl.fr,721804e4c5ed5a2f682cc2adc5bec12300149bce,__READONLY_DATA to const,Gert Faller
+gertfaller@aliceadsl.fr,0c938820f9059c132e1d27974f6c3c7e9a2d3f4d,__READONLY_DATA to const,Gert Faller
+gertfaller@aliceadsl.fr,090fcf0e7158b81b16277d969c8fd0bfdf06da50,__READONLY_DATA to const,Gert Faller
+gertfaller@aliceadsl.fr,d4cbcb4d72a8a0c3ef2b45c2e62c9d281482df6b,__READONLY_DATA to const,Gert Faller
+
 # icon re-packing to shrink space usage
 ace_dent@hotmail.com,bc1523325510bdf6fdfc996d578008f8052206b6,icon shrinking,Andrew C. E. Dent
 ace_dent@hotmail.com,d3c8db1aeb2e2a597a0ee15b8d8d835e3e4bdbd9,icon shrinking,Andrew C. E. Dent
@@ -230,6 +266,8 @@ wolfram.garten@oracle.com,e1db299ad5c9f914c4774933ef9f141d8ac1bb8d,available in 
 wolfram.garten@oracle.com,af683b9f090204e0fc54cd42636f4aa693236ddd,available in DEV300_m106 as 7a3b1bdaff2870004c30a5645b54c6559f4fbaea,Oracle
 
 
-# need to add - one commit from:
-# Gordon Lack,gordon.lack@dsl.pipex.com,
+#
+# Codethink work contracted by Canonical
+#
+alberto.ruiz@codethink.co.uk,2b242efd00bc475c03d43cbf568854d9784b0929,canonical contribution,Alberto Ruiz
 
