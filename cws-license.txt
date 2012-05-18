@@ -178,6 +178,12 @@ oj@openoffice.org,909bf6e983d62ae2674c67067ee3e81b74bb8b53,cws impress210,Oracle
 oj@openoffice.org,373c9aaad6fc4701ed3ea85baf4055f130048952,cws gnumake4,Oracle
 oj@openoffice.org,d938ccbad9c0f36034cfc86c621de4d562e2b036,cws gnumake4,Oracle
 
+# Oliver-Rainer Wittmann
+orwittmann@googlemail.com,b39677d5a0c55b3d9dd5e100570d432ff2ae321f,cws sw34bf06,Oracle
+orwittmann@googlemail.com,338b5258aba9ffc35f680ecd1b3bde8851659b12,cws sw34bf06,Oracle
+orwittmann@googlemail.com,3d3f292cc63c8eece0eb6fb3c25a05b3da7a994e,cws sw34bf06,Oracle
+orwittmann@googlemail.com,55ead46b3037002ace272f5fdf9eed8992cd7af2,cws sw34bf06,Oracle
+
 # Oliver Specht
 os@openoffice.org,2d96b310b4894dd06eb541474a5dc05346a28efd,from https://issues.apache.org/ooo/show_bug.cgi?id=116420 (https://issues.apache.org/ooo/attachment.cgi?id=75659),Oracle
 
