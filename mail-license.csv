@@ -54,6 +54,20 @@ gioele@svario.it,14a95f1a8b3886e46c6ac20032676fb96503eccc,legal list,Gioele Bara
 jeffdchang@gmail.com,fe3ad86423b6f14097bd9ac2d5c2d1f029635010,http://lists.freedesktop.org/archives/libreoffice/2011-July/015823.html,Jeffrey Chang
 jeffdchang@gmail.com,016bc9de1db9128df896189084c2bb00d23040fd,http://lists.freedesktop.org/archives/libreoffice/2011-July/015202.html,Jeffrey Chang
 jeffdchang@gmail.com,c91d4ffc147aa21628523e92f2373e88430c1eb4,http://lists.freedesktop.org/archives/libreoffice/2011-July/015035.html,Jeffrey Chang
+tkranz@zedat.fu-berlin.de,c72a05b60f126031405181e44ee5ae25edb8f966,http://lists.freedesktop.org/archives/libreoffice/2011-February/008081.html,Tobias Kranz
+tkranz@zedat.fu-berlin.de,303f9035b7937f73da6feeacab8f11d6bfa0a087,http://lists.freedesktop.org/archives/libreoffice/2011-February/008072.html,Tobias Kranz
+yagit@mknada.sakura.ne.jp,af0333e5865ecd184270af3211880d6d02307c31,http://lists.freedesktop.org/archives/libreoffice/2011-November/020475.html,Tomofumi Yagi
+yagit@mknada.sakura.ne.jp,8c2902ecbf135fae070ea032fa10a59bb76ec1b0,http://lists.freedesktop.org/archives/libreoffice/2011-October/019207.html,Tomofumi Yagi
+vidalmarginet@hotmail.com,5d5e02452fecc7400ebee3372dd9fb45dce179c7,http://lists.freedesktop.org/archives/libreoffice/2012-April/030537.html,Ferran Vidal
+vidalmarginet@hotmail.com,dd2230c90ff41b667bf0d750801eb0d2ab3b0317,http://lists.freedesktop.org/archives/libreoffice/2012-April/030555.html,Ferran Vidal
+elahimohammad@gmail.com,b470e596db5b58aed9cf9fd6b90045ab4940c054,legal list,Mohammad Elahi
+elahimohammad@gmail.com,9e1b651db768667ab7f87d66a225ea008b4bd811,legal list,Mohammad Elahi
+tipecaml@gmail.com,083dc1ec7925da1daf7f5a6e2474a037aea9e1ad,http://lists.freedesktop.org/archives/libreoffice/2011-April/011201.html,Cyril Roelandt
+tipecaml@gmail.com,3e7b2bfce69431713aecb5836ecb9598aefe8979,http://lists.freedesktop.org/archives/libreoffice/2011-April/011070.html,Cyril Roelandt
+iorsh@users.sourceforge.net,4ea86b46768c8309a7c259f713fd6d3c8d7abc28,http://lists.freedesktop.org/archives/libreoffice/2011-October/019187.html,Maxim Iorsh
+iorsh@users.sourceforge.net,6087dc9cddde7052258996389d561f415ebee13c,http://lists.freedesktop.org/archives/libreoffice/2011-October/019082.html,Maxim Iorsh
+openoffice@schierla.de,84370b807279cd8336c3e77278bae42b904324b4,http://lists.freedesktop.org/archives/libreoffice/2012-January/024952.html,Andreas Schierl
+openoffice@schierla.de,b446a1fb30b5a7097824acfe6bbbb143f4284b03,http://lists.freedesktop.org/archives/libreoffice/2012-January/024952.html,Andreas Schierl
 
 
 #
@@ -62,6 +76,7 @@ jeffdchang@gmail.com,c91d4ffc147aa21628523e92f2373e88430c1eb4,http://lists.freed
 delacko@linux.hr,716c0abd079a9e04c347fbd2be4825518813c46e,dictionaries
 olivier.noreply@gmail.com,14d3b8226d1e98855d44971656ae327aa25948fe,dictionaries
 penzes_david@yahoo.com,51b319868bfb3eeafc53ecfe3a689ccd5f22bbad,dictionaries
+stevenb@kjross.com.au,25de622a9706dc22faca853de0df6b1cd9dbac35,moved to dictionaries,Steven Butler
 
 #
 # non-product content
@@ -76,6 +91,8 @@ libreme@comcast.net,8e2ba3d0d547828f734238ed7e6a52499129f060,configure.in only,M
 libreme@comcast.net,fe6dcc2e1b3e081161a44313e86cef82ccf30a8e,configure.in only,Mike Eberdt
 miko@gmx.ch,139995630f50d4d2b26fa6e1beaa51c73785c81f,build.pl fix,Michael Koch
 miko@gmx.ch,74d8d2dfed51e03807e347da951fdf9ef727b6a6,doubleNewlines.pl - license on-list in HTML attach,Michael Koch
+smcmurray@mcmurrays.org,413d918706cf09a5b5b0a977e04327014e9403c3,build.pl - perl digest bits,Sean McMurray
+stevenb@kjross.com.au,079c782fb3797011209abcfd15ba2d22a5a22e46,make_installer.pl speedups,Steve Butler
 
 #
 # Humanity icon-theme work
@@ -153,17 +170,8 @@ jspears@umd.edu,6a8f6c4b1324e28c598a065683103ac2ef8ea3fc,remove trailing double 
 nestalk@gmail.com,f4114329580e504680a27f5128b5aad6314c3c91,add missing '/',Neil Stalker
 krishnan.parthasarathi@gmail.com,2bbe25827196f104285db69a6fe12adb0f28c036,remove one commented block,krishnan parthasarathi
 miko@gmx.ch,fd28f6300e08b3c167c8b79c0eba5352ea9f7e12,remove double new-lines,Michael Koch
-tkranz@zedat.fu-berlin.de,c72a05b60f126031405181e44ee5ae25edb8f966,http://lists.freedesktop.org/archives/libreoffice/2011-February/008081.html,Tobias Kranz
-tkranz@zedat.fu-berlin.de,303f9035b7937f73da6feeacab8f11d6bfa0a087,http://lists.freedesktop.org/archives/libreoffice/2011-February/008072.html,Tobias Kranz
-yagit@mknada.sakura.ne.jp,af0333e5865ecd184270af3211880d6d02307c31,http://lists.freedesktop.org/archives/libreoffice/2011-November/020475.html,Tomofumi Yagi
-yagit@mknada.sakura.ne.jp,8c2902ecbf135fae070ea032fa10a59bb76ec1b0,http://lists.freedesktop.org/archives/libreoffice/2011-October/019207.html,Tomofumi Yagi
-vidalmarginet@hotmail.com,5d5e02452fecc7400ebee3372dd9fb45dce179c7,http://lists.freedesktop.org/archives/libreoffice/2012-April/030537.html,Ferran Vidal
-vidalmarginet@hotmail.com,dd2230c90ff41b667bf0d750801eb0d2ab3b0317,http://lists.freedesktop.org/archives/libreoffice/2012-April/030555.html,Ferran Vidal
-elahimohammad@gmail.com,b470e596db5b58aed9cf9fd6b90045ab4940c054,legal list,Mohammad Elahi
-elahimohammad@gmail.com,9e1b651db768667ab7f87d66a225ea008b4bd811,legal list,Mohammad Elahi
-tipecaml@gmail.com,083dc1ec7925da1daf7f5a6e2474a037aea9e1ad,http://lists.freedesktop.org/archives/libreoffice/2011-April/011201.html,Cyril Roelandt
-tipecaml@gmail.com,3e7b2bfce69431713aecb5836ecb9598aefe8979,http://lists.freedesktop.org/archives/libreoffice/2011-April/011070.html,Cyril Roelandt
-
+smcmurray@mcmurrays.org,66d6b3fdcfd571efec0a6e896852401e8f9a8ed1,two line SAL_N_ELEMENTS,Sean McMurray
+smcnam@gmail.com,10cf3fed2d5636306df7e1b2c877dec049a15b2c,trivial parameter fix,Sean McNamara
 
 # icon re-packing to shrink space usage
 ace_dent@hotmail.com,bc1523325510bdf6fdfc996d578008f8052206b6,icon shrinking,Andrew C. E. Dent
@@ -177,9 +185,10 @@ paolo@z2z.it,b59fdcf055388f1944259abf0834a10902706ceb,nlp solver translation,Pao
 robert.sedak@roby.hr,c71df68449fff3d46da8dc31d24d6b0fbd28116e,autotext data,Robert Sedak
 
 #
-# Back-ported patches
+# external / back-ported patches
 #
 arnotixe@gmail.com,333648cc5d86ea1dcf6d85fa87a84838a0e6bb8d,hunspell back-port,Arno Teigseth
+smcnam@gmail.com,4f678fedc0fa502b355dacbbbd56e48e3c5f4179,libxmlsec configure fix,Sean McNamara
 
 # Changes that have been cherry-picked first, but later came via the
 # DEV300_m106 merge too
