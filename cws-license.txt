@@ -4,6 +4,9 @@
 # Author, git hash, mailing list link / comment
 #
 
+# Andre Fischer
+af@a-w-f.de,de2dd7a15678d2968cd7c22d74e7056c35a051f3,cws calc65,Oracle
+
 # Christian Lippka
 cl@openoffice.org,b7540a2bfe424ff761f6bfd1e7264349c83e3f59,cws impress210,Oracle
 cl@openoffice.org,37fe168502f4c21b2f1d4bb0491cbb658ae6afcb,cws impress210,Oracle
