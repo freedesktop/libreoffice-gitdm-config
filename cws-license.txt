@@ -25,9 +25,9 @@ cl@openoffice.org,a43400917e635a1b394b1eb4b53c8e709032e52d,cws impress210,Oracle
 cl@openoffice.org,15aeab6cbd0b50b1d78646f03588237b8473285c,cws impress210,Oracle
 
 # Daniel Rentz
-dr@openoffice.org,b3bc39d418b4be7f9e0abc080c5024ecfdcc5345,hg:d0beb4a8aa40,Oracle
-dr@openoffice.org,493b594915946bab2807bb1f51e6118640e35fdc,hg:d0beb4a8aa40,Oracle
-dr@openoffice.org,4ec8d1d36ac1cf4512e95e8eee7031aaa796546e,hg:d0beb4a8aa40,Oracle
+dr@openoffice.org,b3bc39d418b4be7f9e0abc080c5024ecfdcc5345,cws writerfilter10,Oracle
+dr@openoffice.org,493b594915946bab2807bb1f51e6118640e35fdc,cws writerfilter10,Oracle
+dr@openoffice.org,4ec8d1d36ac1cf4512e95e8eee7031aaa796546e,cws writerfilter10,Oracle
 
 # Hans-Joachim Lankenau
 hjs@openoffice.org,958082720c1bbf67e76ebf2d06d47904ecde0e37,cws ause130,Oracle
@@ -55,43 +55,43 @@ hjs@openoffice.org,36d2562f1b3fe39f11d556d0739d65c0e74bb393,cws ause130,Oracle
 
 # Henning Brinkmann
 hbrinkm@openoffice.org,ee774d5daf59300029a08148feadc5dcd26fc6ab,cws xmlfilter10,Oracle
-hbrinkm@openoffice.org,3b6ddf6f0ce1be4b13ccecbc6fe74a2c0d716dfb,hg:08e908d8968c,Oracle
-hbrinkm@openoffice.org,fd018e709f9fbb9b83307cc388fc50a77abf6cd5,hg:d55fc25e48ab,Oracle
-hbrinkm@openoffice.org,68a137003729b6b3eaff3cd6d890b65b4db19f6b,hg:e7087a952a92,Oracle
-hbrinkm@openoffice.org,c6e0520703e0535e986661b5f6e3f97160c1812d,hg:fb7e1780f025,Oracle
-hbrinkm@openoffice.org,b23794a4429caca9a6a29e13d3a78e53d5936d4b,cws writerfilter10 [hg:55b4d6b8eaf0],Oracle
-hbrinkm@openoffice.org,a3231ede0b6c91bac55eaafc1bc1d6bc0ce5a8c2,cws xmlfilter10 [hg:46adee0574e9],Oracle
+hbrinkm@openoffice.org,3b6ddf6f0ce1be4b13ccecbc6fe74a2c0d716dfb,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,fd018e709f9fbb9b83307cc388fc50a77abf6cd5,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,68a137003729b6b3eaff3cd6d890b65b4db19f6b,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,c6e0520703e0535e986661b5f6e3f97160c1812d,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,b23794a4429caca9a6a29e13d3a78e53d5936d4b,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,a3231ede0b6c91bac55eaafc1bc1d6bc0ce5a8c2,cws xmlfilter10,Oracle
 hbrinkm@openoffice.org,ea45be76b6475d2a400db56535fd0d9baf117713,cws sw34bf06,Oracle
-hbrinkm@openoffice.org,7d1dcef9eaca919a941749f4d18bacda4a833027,cws writerfilter10 [hg:704077f08581],Oracle
-hbrinkm@openoffice.org,7e49f82e7e6c1f51a226f7b0b7ee20c00bff1ce4,hg:b63fc5ed86aa,Oracle
-hbrinkm@openoffice.org,acbe27995f775bb89d2f3840145a9a81cdf11dad,writerfilter10 [hg:73b123a33920],Oracle
-hbrinkm@openoffice.org,9a0faec6e45cf40fc405c6dcf5da26e4dea296da,hg:5208b08c61dd,Oracle
-hbrinkm@openoffice.org,fa5fdb9dec9db75a4ad6c871858e935d02ec75e0,hg:3fe69983f7be,Oracle
-hbrinkm@openoffice.org,c35841cbf563a08402ec52b1cff99c446c20957c,cws writerfilter10 [hg:fd65d2c21e88],Oracle
-hbrinkm@openoffice.org,f188e393e8c0d9400387ce3052953603e8aa3faa,hg:746438bb8917,Oracle
-hbrinkm@openoffice.org,faa35d3f207a1b3c74a14261efeb85f83395ae29,cws writerfilter10 [hg:9d195c8de43d],Oracle
-hbrinkm@openoffice.org,a9c6105e76789864a4c0e80ffe08537a0b03e0d1,hg:e7087a952a92,Oracle
-hbrinkm@openoffice.org,99ee78cbd8e6a2e9e1850bb6b2f19b2ced1f3a68,cws writerfilter10 [hg:59fc6a13300d],Oracle
-hbrinkm@openoffice.org,3fef91e9ec6d690ac85675dd5c4253ee0673d295,cws writerfilter10 [hg:e16dd402c207],Oracle
-hbrinkm@openoffice.org,5758400c3d092a35c31b00547da48a57667b0a92,hg:e7087a952a92,Oracle
-hbrinkm@openoffice.org,e993265dec1c3c56b9de4b561dfb36a976086345,hg:f248c5f07cdf,Oracle
-hbrinkm@openoffice.org,5d24f82098aaca0a0a24048bc28d1d206c5ab6aa,cws writerfilter10 [hg:b26ee4159e52],Oracle
-hbrinkm@openoffice.org,a6ad96a9509f78ce8ece37fc64e430023e65904a,hg:b4a56c7574da,Oracle
-hbrinkm@openoffice.org,74c94aa3c44cedbbdb82de88577d9db45d0c92fe,cws writerfilter10 [hg:b26ee4159e52],Oracle
-hbrinkm@openoffice.org,5f88d318647eeac5ae7b5bd7fc51bdfd3037464f,hg:da333da977c6,Oracle
-hbrinkm@openoffice.org,778db525295267494493afa929de042cd642d99a,cws writerfilter10 [hg:972d0c5efbc4],Oracle
-hbrinkm@openoffice.org,a80169f2d97341c320d54bab5c26122b3c9ee28d,hg:3bf5ecb86397,Oracle
-hbrinkm@openoffice.org,240efb2547f4c34ed213aa26a2e81b77c37d7b2e,hg:5a96ba55f5a0,Oracle
-hbrinkm@openoffice.org,b174e5aed96d1fd685625a89a25354763e7d802b,hg:b63fc5ed86aa,Oracle
-hbrinkm@openoffice.org,1fa81ff260fab9650408934d6dc128dc4c121181,hg:9467e7f6cd60,Oracle
-hbrinkm@openoffice.org,34ae936b8993a43f482967e5ba68f021f969a026,hg:b208d29d0b58,Oracle
-hbrinkm@openoffice.org,faccbe64c45c509b75bf6ea72c2b741a95b12846,cws writerfilter10 [hg:8fa034389cd1],Oracle
+hbrinkm@openoffice.org,7d1dcef9eaca919a941749f4d18bacda4a833027,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,7e49f82e7e6c1f51a226f7b0b7ee20c00bff1ce4,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,acbe27995f775bb89d2f3840145a9a81cdf11dad,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,9a0faec6e45cf40fc405c6dcf5da26e4dea296da,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,fa5fdb9dec9db75a4ad6c871858e935d02ec75e0,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,c35841cbf563a08402ec52b1cff99c446c20957c,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,f188e393e8c0d9400387ce3052953603e8aa3faa,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,faa35d3f207a1b3c74a14261efeb85f83395ae29,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,a9c6105e76789864a4c0e80ffe08537a0b03e0d1,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,99ee78cbd8e6a2e9e1850bb6b2f19b2ced1f3a68,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,3fef91e9ec6d690ac85675dd5c4253ee0673d295,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,5758400c3d092a35c31b00547da48a57667b0a92,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,e993265dec1c3c56b9de4b561dfb36a976086345,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,5d24f82098aaca0a0a24048bc28d1d206c5ab6aa,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,a6ad96a9509f78ce8ece37fc64e430023e65904a,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,74c94aa3c44cedbbdb82de88577d9db45d0c92fe,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,5f88d318647eeac5ae7b5bd7fc51bdfd3037464f,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,778db525295267494493afa929de042cd642d99a,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,a80169f2d97341c320d54bab5c26122b3c9ee28d,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,240efb2547f4c34ed213aa26a2e81b77c37d7b2e,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,b174e5aed96d1fd685625a89a25354763e7d802b,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,1fa81ff260fab9650408934d6dc128dc4c121181,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,34ae936b8993a43f482967e5ba68f021f969a026,cws writerfilter10,Oracle
+hbrinkm@openoffice.org,faccbe64c45c509b75bf6ea72c2b741a95b12846,cws writerfilter10,Oracle
 
 # Ivo Hinkelmann
-ihi@openoffice.org,44aee83382484178ca9574c2c048269f7d3ba3b0,hg:5851574127d1,Oracle
-ihi@openoffice.org,6e5685efb15b893d1e2dfb941f1baf80085a6e78,hg:5d377dd89e6b,Oracle
-ihi@openoffice.org,cfb66648ab4e02624af33ad74b082eae8ced3796,hg:38188af12de4,Oracle
-ihi@openoffice.org,95e0b6adbffe4edcbc0de255c4c9e41d52ab81b4,hg:6b24005a31b8,Oracle
+ihi@openoffice.org,44aee83382484178ca9574c2c048269f7d3ba3b0,DEV300 masterfix hg:5851574127d1,Oracle
+ihi@openoffice.org,6e5685efb15b893d1e2dfb941f1baf80085a6e78,DEV300 masterfix hg:5d377dd89e6b,Oracle
+ihi@openoffice.org,cfb66648ab4e02624af33ad74b082eae8ced3796,DEV300 masterfix hg:38188af12de4,Oracle
+ihi@openoffice.org,95e0b6adbffe4edcbc0de255c4c9e41d52ab81b4,DEV300 masterfix hg:6b24005a31b8,Oracle
 
 # Joachim Lingner
 jl@openoffice.org,a6ff118c4fdb3af7702c463d995df38742da3464,from https://issues.apache.org/ooo/show_bug.cgi?id=117010 (https://issues.apache.org/ooo/attachment.cgi?id=77111),Oracle
@@ -206,4 +206,4 @@ pl@openoffice.org,10cd2060e705cace2ed34ce866bb3ec801fe7e3c,cws ooo34gslstop1,Ora
 pl@openoffice.org,45bf496656a7c4cd69ee055a72cf9d8c37e7e806,cws ooo34gsl01,Oracle
 
 # Sven Jacobi
-sj@openoffice.org,dc7d25dd994b18b12214ce796ecbc6d9e4fcf310,hg:95f3a25e5fc5af0502ef95fbba4dad3207051351,Oracle
+sj@openoffice.org,dc7d25dd994b18b12214ce796ecbc6d9e4fcf310,cws impress210,Oracle
