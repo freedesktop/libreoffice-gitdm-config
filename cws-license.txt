@@ -54,13 +54,13 @@ hjs@openoffice.org,4fb5b90d3e3151faf457117af2f2eceeaa7f6b00,cws ause130,Oracle
 hjs@openoffice.org,36d2562f1b3fe39f11d556d0739d65c0e74bb393,cws ause130,Oracle
 
 # Henning Brinkmann
-hbrinkm@openoffice.org,ee774d5daf59300029a08148feadc5dcd26fc6ab,cws xmlfilter10,Oracle
+hbrinkm@openoffice.org,ee774d5daf59300029a08148feadc5dcd26fc6ab,cws writerfilter10,Oracle
 hbrinkm@openoffice.org,3b6ddf6f0ce1be4b13ccecbc6fe74a2c0d716dfb,cws writerfilter10,Oracle
 hbrinkm@openoffice.org,fd018e709f9fbb9b83307cc388fc50a77abf6cd5,cws writerfilter10,Oracle
 hbrinkm@openoffice.org,68a137003729b6b3eaff3cd6d890b65b4db19f6b,cws writerfilter10,Oracle
 hbrinkm@openoffice.org,c6e0520703e0535e986661b5f6e3f97160c1812d,cws writerfilter10,Oracle
 hbrinkm@openoffice.org,b23794a4429caca9a6a29e13d3a78e53d5936d4b,cws writerfilter10,Oracle
-hbrinkm@openoffice.org,a3231ede0b6c91bac55eaafc1bc1d6bc0ce5a8c2,cws xmlfilter10,Oracle
+hbrinkm@openoffice.org,a3231ede0b6c91bac55eaafc1bc1d6bc0ce5a8c2,cws writerfilter10,Oracle
 hbrinkm@openoffice.org,ea45be76b6475d2a400db56535fd0d9baf117713,cws sw34bf06,Oracle
 hbrinkm@openoffice.org,7d1dcef9eaca919a941749f4d18bacda4a833027,cws writerfilter10,Oracle
 hbrinkm@openoffice.org,7e49f82e7e6c1f51a226f7b0b7ee20c00bff1ce4,cws writerfilter10,Oracle
@@ -191,7 +191,7 @@ os@openoffice.org,2d96b310b4894dd06eb541474a5dc05346a28efd,from https://issues.a
 pl@openoffice.org,b7e00ffeaace7a35b5e69fb23b97d2d486221c90,cws ooo34gsl01,Oracle
 pl@openoffice.org,74dd991997e0ce52ab31aec63b0bb05c587e228c,cws ooo34gsl01,Oracle
 pl@openoffice.org,ecca617a15ef8ca7dda99ab6057aa3189072f215,cws ooo340fixes,Oracle
-pl@openoffice.org,f18fc2ef12d8004ce28b4412f5ceca77d68605c6,cws ooo34gsl10,Oracle
+pl@openoffice.org,f18fc2ef12d8004ce28b4412f5ceca77d68605c6,cws ooo34gsl01,Oracle
 pl@openoffice.org,2e9c605e95d9f3e3a0fc5bf2e4eecb514a984d6e,from https://issues.apache.org/ooo/show_bug.cgi?id=116120 (https://issues.apache.org/ooo/attachment.cgi?id=75346),Oracle
 pl@openoffice.org,407dbac9fb04d78d782c555d1236f10b45f5c501,cws ooo34gsl01,Oracle
 pl@openoffice.org,042c3732d80b8061c2728caa6057207ec8fa1683,cws ooo340fixes,Oracle
@@ -202,7 +202,7 @@ pl@openoffice.org,f26865fdd3356875bafe23be226843b9a991741a,cws ooo340fixes,Oracl
 pl@openoffice.org,50c94449a942884a1bed6a85d4107342f321b9c0,cws ooo34gsl01,Oracle
 pl@openoffice.org,db08243efa05284860905c22d223cc7eb3935dc9,cws ooo34gsl01,Oracle
 pl@openoffice.org,2eccffac60ee10c3507bda71b214f0393bac648f,cws ooo34gsl01,Oracle
-pl@openoffice.org,10cd2060e705cace2ed34ce866bb3ec801fe7e3c,cws ooo34gslstop1,Oracle
+pl@openoffice.org,10cd2060e705cace2ed34ce866bb3ec801fe7e3c,cws ooo34gsl01,Oracle
 pl@openoffice.org,45bf496656a7c4cd69ee055a72cf9d8c37e7e806,cws ooo34gsl01,Oracle
 
 # Sven Jacobi
