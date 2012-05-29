@@ -76,7 +76,6 @@ openoffice@schierla.de,b446a1fb30b5a7097824acfe6bbbb143f4284b03,http://lists.fre
 delacko@linux.hr,716c0abd079a9e04c347fbd2be4825518813c46e,dictionaries
 olivier.noreply@gmail.com,14d3b8226d1e98855d44971656ae327aa25948fe,dictionaries
 penzes_david@yahoo.com,51b319868bfb3eeafc53ecfe3a689ccd5f22bbad,dictionaries
-stevenb@kjross.com.au,25de622a9706dc22faca853de0df6b1cd9dbac35,moved to dictionaries,Steven Butler
 
 #
 # non-product content
@@ -92,23 +91,6 @@ libreme@comcast.net,fe6dcc2e1b3e081161a44313e86cef82ccf30a8e,configure.in only,M
 miko@gmx.ch,139995630f50d4d2b26fa6e1beaa51c73785c81f,build.pl fix,Michael Koch
 miko@gmx.ch,74d8d2dfed51e03807e347da951fdf9ef727b6a6,doubleNewlines.pl - license on-list in HTML attach,Michael Koch
 smcmurray@mcmurrays.org,413d918706cf09a5b5b0a977e04327014e9403c3,build.pl - perl digest bits,Sean McMurray
-stevenb@kjross.com.au,079c782fb3797011209abcfd15ba2d22a5a22e46,make_installer.pl speedups,Steve Butler
-jordan.ayers@gmail.com,33a9d32107d35f8995caa2f6182427202fec17da,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,f64ca4c4273c2c281519020e1af7c70fe1d4cee2,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,a73b9fc0e2cccc240cadf40d6566fa15c46f70b7,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,38391ce90d914e0e198aae0d5b5490b42d90b092,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,75953230cc287f24c039e7fc7005229b11addc50,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,1fc2490f0da61adc616ac2c4670c9189afd557a8,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,47872cc7ad29a73d273e8857097b550a9abe2f73,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,da1681af3a32ba7d0d6406dcc4ddfc1c5e56d914,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,5d734844a505c31af8cb942f66a08ad8fbf6aa12,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,6ee0f9ae130cd0ac97a250d787faaf136bb567ab,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,4118187114d0792d707ccd41768bc54a237e4111,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,b582fdbef115e0cba09c81dd841d082bd9f42b15,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,bf33898aa01f989e4f2bb2ab635244c8c8fa3f79,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,ac06dbe8a09532750dcb3b96a561ff4e0bc33c60,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,91907b045d07f820b4de196817f94b4bb7a18016,perl fixes - configure etc.,Jordan Ayers
-jordan.ayers@gmail.com,b8fcb346da138e302d94a23d127e7df9a88ef7fe,perl fixes - configure etc.,Jordan Ayers
 
 #
 # Humanity icon-theme work
