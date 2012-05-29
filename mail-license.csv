@@ -68,7 +68,12 @@ iorsh@users.sourceforge.net,4ea86b46768c8309a7c259f713fd6d3c8d7abc28,http://list
 iorsh@users.sourceforge.net,6087dc9cddde7052258996389d561f415ebee13c,http://lists.freedesktop.org/archives/libreoffice/2011-October/019082.html,Maxim Iorsh
 openoffice@schierla.de,84370b807279cd8336c3e77278bae42b904324b4,http://lists.freedesktop.org/archives/libreoffice/2012-January/024952.html,Andreas Schierl
 openoffice@schierla.de,b446a1fb30b5a7097824acfe6bbbb143f4284b03,http://lists.freedesktop.org/archives/libreoffice/2012-January/024952.html,Andreas Schierl
-
+atayoohoo@googlemail.com,9ad4eeb4fa413b1a3e084d141c6eb01795f95b7f,http://lists.freedesktop.org/archives/libreoffice/2011-April/011134.html,Andreas Becker
+atayoohoo@googlemail.com,aff561a80ce79b4b3ee8cfd0209db29f222ac96f,http://lists.freedesktop.org/archives/libreoffice/2011-April/010927.html,Andreas Becker
+salessandri@nasel.com.ar,7c26a84a582641c671b35516ef0e6edf63c3752f,http://lists.freedesktop.org/archives/libreoffice/2010-November/002499.html,Santiago Alessandri
+salessandri@nasel.com.ar,19934b8578f210d2a90aaceb994ec861549b9a4d,http://lists.freedesktop.org/archives/libreoffice/2010-November/002476.html,Santiago Alessandri
+salessandri@nasel.com.ar,6c07a3cf7056f73488df19a135592824e692a2ea,http://lists.freedesktop.org/archives/libreoffice/2010-November/002608.html,Santiago Alessandri
+salessandri@nasel.com.ar,c7e6aaaeb29c1e1951aa42b7b82a6bb8495c959b,http://lists.freedesktop.org/archives/libreoffice/2010-November/002611.html,Santiago Alessandri
 
 #
 # content moved to another repository => no content
@@ -91,6 +96,25 @@ libreme@comcast.net,fe6dcc2e1b3e081161a44313e86cef82ccf30a8e,configure.in only,M
 miko@gmx.ch,139995630f50d4d2b26fa6e1beaa51c73785c81f,build.pl fix,Michael Koch
 miko@gmx.ch,74d8d2dfed51e03807e347da951fdf9ef727b6a6,doubleNewlines.pl - license on-list in HTML attach,Michael Koch
 smcmurray@mcmurrays.org,413d918706cf09a5b5b0a977e04327014e9403c3,build.pl - perl digest bits,Sean McMurray
+mtg@openoffice.org,a837bbd1ca16b00c6853bf3bb390fca36b49fb9c,configure.in tweak,Martin Gallwey
+atayoohoo@googlemail.com,0db604e9f46113ac66c0a55a72fa117fe68fb52b,python3 compat fixes to internal filter tool,Andreas Becker
+atayoohoo@googlemail.com,a09ce46818fd4d5e08b3af9a478501cd8ef5b4fe,configure.in tweaks for python3,Andreas Becker
+ronkko@iki.fi,9f5de9cb4fec9980fc398945648578b2a472be87,.gitignore tweak,Niko Rönkkö
+ronkko@iki.fi,a3a1705c5718a10e28c82eb30f128db6d981d43b,configure.in tweak,Niko Rönkkö
+ronkko@iki.fi,b67ab60bd680a31967834c64953ecb53f72b0619,configure.in re-order,Niko Rönkkö
+ronkko@iki.fi,665bad6b290dc90d29489381e38e5416d96e0238,fix build.lst prefixes,Niko Rönkkö
+ronkko@iki.fi,0b2bb01ad96a766534ea1c253301d0d409251ab3,fix build.lst prefixes,Niko Rönkkö
+ronkko@iki.fi,28d6a637408494b9dec6b6d1bbaac37686f5b903,fix build.lst prefixes,Niko Rönkkö
+ronkko@iki.fi,630e06a2e256b3bda49ae3017c6fe83e0fb5c729,fix build.lst prefixes,Niko Rönkkö
+ronkko@iki.fi,57aaa8981c0d1752a0579aba31421c1782103aa7,fix build.lst prefixes,Niko Rönkkö
+ronkko@iki.fi,489d849e4aabd45ad8c09af440dfaaef228eec1f,fix build.lst prefixes,Niko Rönkkö
+ronkko@iki.fi,8f94448f5f00f815a96496e8e8b5a4ffc6de0200,fix build.lst prefixes,Niko Rönkkö
+ronkko@iki.fi,c9f29cb2057227cdcacf20e8b187a05217554f4d,fix build.lst prefixes,Niko Rönkkö
+ronkko@iki.fi,ee6738b1d46f7d2762906887ad8d1dcdacd9f5b1,configure.in cleanup,Niko Rönkkö
+ronkko@iki.fi,b28c92ab0c5c4ac925c35f2ae7dbffd02b79e506,configure.in dung-out,Niko Rönkkö
+ronkko@iki.fi,561f09d4f783d4ee3eb4903b181c1b9c9bf382bc,configure.in dung-out,Niko Rönkkö
+ronkko@iki.fi,8a74ad5e9e2d4d94e9396b4544b65dd3efb45421,configure.in clean,Niko Rönkkö
+ronkko@iki.fi,2cfc85b44e63178bfd196701b2a13d8bb8843037,configure.in re-order,Niko Rönkkö
 
 #
 # Humanity icon-theme work
@@ -113,6 +137,7 @@ guillaume.fillol@lello.fr,391920118c2b627e35b6bf6cbb35ae355e7bffe9,easy hack pre
 # Script generated and/or trivial changes
 #
 # executable permissions change:
+guto@guto.net,a2def3db13aabd35f8068241d8a32d15aa93c23a,exec perm change,Guto Maia
 
 # remove __FAR_DATA
 callahan@xmission.com,b8f02010fe30cffe4dbc12cc9ecf4c52b9285b56,far data,http://lists.freedesktop.org/archives/libreoffice/2010-December/004138.html
@@ -154,6 +179,10 @@ gertfaller@aliceadsl.fr,d4cbcb4d72a8a0c3ef2b45c2e62c9d281482df6b,__READONLY_DATA
 # icon re-packing to shrink space usage
 ace_dent@hotmail.com,bc1523325510bdf6fdfc996d578008f8052206b6,icon shrinking,Andrew C. E. Dent
 ace_dent@hotmail.com,d3c8db1aeb2e2a597a0ee15b8d8d835e3e4bdbd9,icon shrinking,Andrew C. E. Dent
+
+# removed a set of files
+guto@guto.net,fa7d784704ce4513b7204d62ff0230209259574a,remove obsolete test,Guto Maia
+guto@guto.net,2ea932391f8e86a0dc7d163a432c3ad2c8d6d60b,remove obsolete test,Guto Maia
 
 #
 # translation / l10n - focus on code for now ...
@@ -217,11 +246,13 @@ kstribley@openoffice.org,e1790a6b6001276b83c589b4f24a1ef079f53c4d,available in D
 alberto.ruiz@codethink.co.uk,2b242efd00bc475c03d43cbf568854d9784b0929,canonical contribution,Alberto Ruiz
 
 #
-# Reverted and/or re-written commits
+# Reverted and/or confirmed re-written commits
 #
 gertfaller@aliceadsl.fr,433b107ea2bcc5242ab515cb82a9e6954e0c899b,by 3858ba3585ad3fca5d05d21356705b9fce3c538f,Gert Faller
 gertfaller@aliceadsl.fr,814dda2ca2d0d9ac31a32d44a75bde4a1e4ed6fc,by f9a0fa94f27b96a10e17ed0e15fbf38dc17ad1d8,Gert Faller
 gertfaller@aliceadsl.fr,f69d9079edd846c0916fd087a9094b6e89f2766f,by 1cc27fadd7996e0dc6e9c83754e1c8b77db504f2,Gert Faller
 gertfaller@aliceadsl.fr,ff1edf5a380baa88405feb325066ac70e01de507,by 7c9e4ed5417ba7b0684a2086f43dd720aeb268ee,Gert Faller
 gertfaller@aliceadsl.fr,f39607df602883c20c8769a1a2e77bcba1f880d9,by c96afbe76bed0f0804cd18f57d18db5371d6a0a4,Gert Faller
+revol.code@yahoo.com,b9020e6023eeb7a9d12a1af123b7a07c83144107,by 8c55f7542b1be9dc11992e0942eaabc6688bfa3c,Kayo Hamid
+emanuele.fia@gmail.com,4029a580f725380c395ff9ebc7ed181f376b0a96,by b9474a8cacd02bcb7b2d3b48e20eed266923a6e2 remove is restoring and re-tweaking for OSX,Emanuele Fia
 

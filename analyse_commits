@@ -21,6 +21,7 @@ sub usage()
     print "of repository type and completeness if you pass a single directory path\n";
     print "  -n, --show-tags         show legacy (note) tags extracted from notes and exit\n";
     print "  -c, --config-dir <dir>  (optional) path to the config for gitdm and this script\n";
+    print "  -d, --dump-numstat      dump numstat log on stdout in a given format\n";
     print "  -r, --reuse-log <log>   re-use an existing intermediate commit log file\n";
     print "  -g, --gitdm-path <path> path to the gitdm binary to use\n";
     print "  -o, --output-dir <dir>  path to an output directory to drop data into\n";
@@ -247,7 +248,7 @@ while (my $arg = shift @ARGV) {
 	$gitdm_path = shift @ARGV;
     } elsif ($arg =~ /--output-dir/ || $arg eq '-o') {
 	$output_dir = shift @ARGV;
-    } elsif ($arg =~ /--dump-numstat/ || $arg eq 'd') {
+    } elsif ($arg =~ /--dump-numstat/ || $arg eq '-d') {
 	$dump_numstat = 1;
     } elsif (!defined ($git_dir)) {
 	$git_dir = $arg;

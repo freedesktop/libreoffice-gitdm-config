@@ -18,7 +18,7 @@ libreoffice@mcmurrays.org smcmurray@mcmurrays.org
 tbehrens@suse.com tbehrens@novell.com
 thb@thorstens-computer.local tbehrens@novell.com
 thb@openoffice.org tbehrens@novell.com
-ronkko@iki.fi niko.ronkko@wippies.fi
+niko.ronkko@wippies.fi ronkko@iki.fi
 kaplanlior@gmail.com kaplan@debian.org
 pereriksson@openoffice.org per@erinet.se
 jpower27@cox.net jpowers27@cox.net
@@ -245,6 +245,8 @@ wmk26@cam.ac.uk weimzz@gmail.com
 "jeffrey@linux-ow08.site" jeffdchang@gmail.com
 jlc@mail2lee.com lemoyne.castle@gmail.com
 stevenb@kjross.com.au sebutler@gmail.com
+email@nadavvin.com nadavvin@gmail.com
+daniel.e.bankston@gmail.com daniel.dev.libreoffice@gmail.com
 
 # Aliases to cope with git svn data from Apache
 imacat@13f79535-47bb-0310-9956-ffa450edef68     imacat@mail.imacat.idv.tw
