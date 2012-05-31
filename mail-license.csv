@@ -175,6 +175,8 @@ gertfaller@aliceadsl.fr,721804e4c5ed5a2f682cc2adc5bec12300149bce,__READONLY_DATA
 gertfaller@aliceadsl.fr,0c938820f9059c132e1d27974f6c3c7e9a2d3f4d,__READONLY_DATA to const,Gert Faller
 gertfaller@aliceadsl.fr,090fcf0e7158b81b16277d969c8fd0bfdf06da50,__READONLY_DATA to const,Gert Faller
 gertfaller@aliceadsl.fr,d4cbcb4d72a8a0c3ef2b45c2e62c9d281482df6b,__READONLY_DATA to const,Gert Faller
+sanxiyn@gmail.com,d1b28054d9536acea0cc724da69c9a5fd3d2cace,remove single file header,Seo Sanghyeon
+
 
 # icon re-packing to shrink space usage
 ace_dent@hotmail.com,bc1523325510bdf6fdfc996d578008f8052206b6,icon shrinking,Andrew C. E. Dent
@@ -279,4 +281,18 @@ revol.code@yahoo.com,6c036ff59d350cd28975a4d4614b8bc22373460b,by b1ca0f247280ca1
 revol.code@yahoo.com,63635c60c6fa213978e2b1c2e27fa50a9ed6937e,by dbd01385199225ff7011811b28a75e88b0d2f8c8,Kayo Hamid
 revol.code@yahoo.com,76ffa2189837398beb09f65438d3180f7e32c6fc,by c326e8c68748b8793272018c2c5fa414613aa722,Kayo Hamid
 revol.code@yahoo.com,1954366d1754f785cbea25ab317d7a23de60d3a0,by d4fac516c2294596786321c040597c2659a06132,Kayo Hamid
+revol.code@yahoo.com,775f20628369d7c331a6c6daa23600c2ed25862b,empty commit,Kayo Hamid
+revol.code@yahoo.com,f4d10fee110e8387bddfbfa8f35f5f6d26c6f44f,by 3eeca6d39a0dd957bd9c3c27dae6c942ce0d9df4,Kayo Hamid
+revol.code@yahoo.com,a7be30202460cd143cb3815cf31c71ea4b374843,by 3f5762b649c43383bc4dd362d86a445205332590,Kayo Hamid
+revol.code@yahoo.com,d6fc9301e6a12c29247586e07048d5008aaffbef,by a49cd8632ea7e0fdfc3fbb2729ec4d15fbf25a18,Kayo Hamid
+revol.code@yahoo.com,d9fbee78926e5049be3dc7cc1d969a60687abe8c,by 4139e6a208ea5040b169e9775828a5513c4f4ea9,Kayo Hamid
+revol.code@yahoo.com,5dd4f9ecb2f50cf76b44472e4438297b6c65184c,by 4139e6a208ea5040b169e9775828a5513c4f4ea9,Kayo Hamid
+revol.code@yahoo.com,059e8ebcaa06525754acf335d828c8ec5b3019f0,by dc0d009f10dee5d379b41abcd51d181dda38f1dd,Kayo Hamid
+revol.code@yahoo.com,76b3568e6550eefd50af9d23bc0efc808a53f820,by dc0d009f10dee5d379b41abcd51d181dda38f1dd,Kayo Hamid
+revol.code@yahoo.com,aa960ab73007e67941ac9e1ef4cc1fbc1d1cbed4,by dc0d009f10dee5d379b41abcd51d181dda38f1dd,Kayo Hamid
+revol.code@yahoo.com,aca06bca2131bd8585f9c64e26cd6e58c6175a7d,by dc0d009f10dee5d379b41abcd51d181dda38f1dd,Kayo Hamid
+revol.code@yahoo.com,c3ee5356b7ac15cbc0dcb2b6b67e439e6b533be4,by 93b415a68f6080b5cb88381637433ff29e64cf2d,Kayo Hamid
+revol.code@yahoo.com,26c8682631d81151d1d81922a5aafde98081bfb6,by 93b415a68f6080b5cb88381637433ff29e64cf2d,Kayo Hamid
+
+sanxiyn@gmail.com,f5cc5634ebb1fd3834d963534650c9f62f00783a,by 569867b6769104f001dc1ae070783318098de583,Seo Sanghyeon
 
