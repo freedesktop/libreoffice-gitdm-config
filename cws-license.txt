@@ -42,6 +42,11 @@ merged,impress212,Apache
 
 # Andre Fischer
 af@a-w-f.de,de2dd7a15678d2968cd7c22d74e7056c35a051f3,cws calc65,Oracle
+andre.f.fischer@oracle.com,6e26550c8262b416dfd38df082f9fbf340c57516,cws slidesorter1,Oracle
+andre.f.fischer@oracle.com,bdfbbb33a491f3ce34375de14ba33436b047e88b,cws slidesorter1,Oracle
+andre.f.fischer@oracle.com,d00e10d0d5b1fb0eacd44f1599ea718a7bccf584,cws slidesorter1,Oracle
+andre.f.fischer@oracle.com,86e093007b4f87caa785455abae043d6427c7070,cws slidesorter1,Oracle
+andre.f.fischer@oracle.com,f215333002882872129066828228d3343a903331,cws slidesorter1,Oracle
 
 # Armin Le Grand
 armin.le.grand@me.com,d999ae100029641a3e21fc27d800f040c92b3ad5,cws aw084,Oracle
@@ -64,6 +69,9 @@ cl@openoffice.org,15aeab6cbd0b50b1d78646f03588237b8473285c,cws impress210,Oracle
 dr@openoffice.org,b3bc39d418b4be7f9e0abc080c5024ecfdcc5345,cws writerfilter10,Oracle
 dr@openoffice.org,493b594915946bab2807bb1f51e6118640e35fdc,cws writerfilter10,Oracle
 dr@openoffice.org,4ec8d1d36ac1cf4512e95e8eee7031aaa796546e,cws writerfilter10,Oracle
+
+# Frank Schoenheit
+frank.schoenheit@oracle.com,1b056c65f6d612a00eefe8824c854e4577e4f4be,cws fs34c,Oracle
 
 # Hans-Joachim Lankenau
 hjs@openoffice.org,958082720c1bbf67e76ebf2d06d47904ecde0e37,cws ause130,Oracle
@@ -322,6 +330,8 @@ oj@openoffice.org,9753031300bb9bd61bbba2f617900422cdbde1ff,cws impress210,Oracle
 oj@openoffice.org,909bf6e983d62ae2674c67067ee3e81b74bb8b53,cws impress210,Oracle
 oj@openoffice.org,373c9aaad6fc4701ed3ea85baf4055f130048952,cws gnumake4,Oracle
 oj@openoffice.org,d938ccbad9c0f36034cfc86c621de4d562e2b036,cws gnumake4,Oracle
+Ocke.Janssen@oracle.com,5b6487aa8ce1406efb8e29de28a9ecd1c3d06cf2,cws fs34c,Oracle
+Ocke.Janssen@oracle.com,e2ba9814858156af6a2b39f885b3a6387ca29da2,cws fs34c,Oracle
 
 # Oliver-Rainer Wittmann
 orwittmann@googlemail.com,b39677d5a0c55b3d9dd5e100570d432ff2ae321f,cws sw34bf06,Oracle
@@ -352,6 +362,9 @@ pl@openoffice.org,45bf496656a7c4cd69ee055a72cf9d8c37e7e806,cws ooo34gsl01,Oracle
 
 # Sven Jacobi
 sj@openoffice.org,dc7d25dd994b18b12214ce796ecbc6d9e4fcf310,cws impress210,Oracle
+
+# Tobias Krause
+tkr@openoffice.org,c9e1a120fff37a9d87c4e193cec804d2ac909f90,cws tkr41,Oracle
 
 # Commits from CWS' Eike merged from Apache
 er@openoffice.org,42e80ec68bc1f4d2dfd62b82116790687321d231,cws dr80,Oracle
