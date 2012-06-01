@@ -1,4 +1,40 @@
 #
+# CWS merge documentation: merged,<cws>,<milestone>
+#
+
+# Oracle merged before inclusion @ Apache
+merged,obic007,OOO340
+merged,fs34b,OOO340
+merged,l10ndev300m106,OOO340
+merged,mingwport34,OOO340
+merged,automationdev300m102cat0,OOO340
+merged,dr80,OOO340
+merged,automationdev300ebs,OOO340
+merged,impress211,OOO340
+merged,gridfixes,OOO340
+merged,impress210,OOO340
+merged,aw084,OOO340
+merged,dr78,m106
+
+# Apache merged before licensing change
+merged,mba34issues01,Apache
+merged,calc67,Apache
+merged,native373,Apache
+merged,ooo34gsl01,Apache
+merged,ooo34gsl02,Apache
+merged,impress212,Apache
+merged,calc69,Apache
+merged,slidesorter1,Apache
+merged,fs34c,Apache
+merged,sw34bf06,Apache
+merged,tkr41,Apache
+merged,jsc341,Apache
+merged,mingwport35,Apache
+merged,ooo340fixes,Apache
+merged,vcl340fixes,Apache
+merged,impress212,Apache
+
+#
 # Commits available in a CWSes that have not been merged into DEV300_m106
 #
 # Author, git hash, mailing list link / comment
@@ -279,9 +315,3 @@ sb@openoffice.org,335f7fa8c2ef418df7010dd996a2a32bbbdff459,cws sb140,Oracle
 sb@openoffice.org,bb157a42865a2d591f378577c4cfb7c731e18a08,cws sb140,Oracle
 sb@openoffice.org,390eaa736364a59e479a849598677b1a6a87f24e,cws sb140,Oracle
 sb@openoffice.org,2b39501b8ec6affb8afa9c6b93dff434b075e211,cws fs34b,Oracle
-
-#
-# OOO340_m1 merged:
-#      dr78, dr80
-# Apache merged:
-#      calc67, calc68, calc69
