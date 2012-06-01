@@ -208,3 +208,80 @@ pl@openoffice.org,45bf496656a7c4cd69ee055a72cf9d8c37e7e806,cws ooo34gsl01,Oracle
 
 # Sven Jacobi
 sj@openoffice.org,dc7d25dd994b18b12214ce796ecbc6d9e4fcf310,cws impress210,Oracle
+
+# Commits from CWS' Eike merged from Apache
+er@openoffice.org,42e80ec68bc1f4d2dfd62b82116790687321d231,cws dr80,Oracle
+er@openoffice.org,62e8e2a31a9344ee40a5ebde6fe7559290efb300,cws dr80,Oracle
+er@openoffice.org,2c326f35eb72b7e28cdeb20536c7969f9b5e5400,cws dr78,Oracle
+er@openoffice.org,549df99fdc19ad5a67e9f76f379804051656b019,cws dr78,Oracle
+er@openoffice.org,d8a85d728f45826c485eb3d250a394e3462e37a1,cws dr78,Oracle
+er@openoffice.org,b66fb4c3c5c7d1bb6543d84d425b6c4bd654fae3,cws dr78,Oracle
+er@openoffice.org,16252e44a3a1bf2414ea64455e6bf016ec5b7d04,cws dr78,Oracle
+er@openoffice.org,0c428b052fa0599637497f289e57858fcca4c4e2,cws dr78,Oracle
+er@openoffice.org,5f357f97ef1539f8dab8af69e1644af6b9c4fc0a,cws dr78,Oracle
+er@openoffice.org,7e8eb75aea745146d7d12df70c4f5ca8f3648ed3,cws dr78,Oracle
+er@openoffice.org,6b0c4cd205ee5134765955024cd727f1a23f2c24,cws dr78,Oracle
+er@openoffice.org,e55541cbf0170acfcb62001c8584da3a48c8ecc8,cws dr78,Oracle
+er@openoffice.org,22029818cb204cb6b56b6f7d3fc4d14754f2a1cf,cws dr78,Oracle
+er@openoffice.org,078796d28653118a5b225a6871e8392df1458e11,cws dr78,Oracle
+er@openoffice.org,885c328ba59b1bc70123997e22536f15f74536d0,cws dr78,Oracle
+er@openoffice.org,6341603c295a984321a420c99481a0d3aef4c4b5,cws dr78,Oracle
+er@openoffice.org,f62028b2fa9906a14dff577255ebceb70829f092,cws dr78,Oracle
+er@openoffice.org,40f38c8c9813568dfbd91e9ea97be16b69cf702a,cws dr78,Oracle
+er@openoffice.org,b0477f94d4c811b4e071e11c50bfee7977ee62f1,cws dr78,Oracle
+er@openoffice.org,4775df29d38c912f72c223d99e5104e20fbeed70,cws dr78,Oracle
+er@openoffice.org,fed1ed1964309cc2381c162e51041fc753f4abd5,cws dr78,Oracle
+er@openoffice.org,9dd0e2aabcddcac3dc961933b7bed8d612a43e58,cws dr78,Oracle
+er@openoffice.org,69c4db12089a9bf88aa053f9fab1fe5c97bd34e3,cws dr78,Oracle
+er@openoffice.org,028171ad9b344f63eec81f99c09176880886a94c,cws dr78,Oracle
+er@openoffice.org,8c414b6f59d782049aaab849bd090eaa607215f2,cws dr78,Oracle
+er@openoffice.org,cdbcb1a0d9281a7a96bcdb6b271e387f5e06813f,cws dr78,Oracle
+er@openoffice.org,f65345b11259c431e715d7f4f17d2ec035cd23d8,cws dr78,Oracle
+er@openoffice.org,e14b35d3b4333e534007902d28f433a0edc035be,cws dr78,Oracle
+er@openoffice.org,618bc5d6bd7d08441680338815f9100fbf3dd4a8,cws dr78,Oracle
+er@openoffice.org,e2e5ef04347bfb17abd7415dafa72561bd6dbfcf,cws dr78,Oracle
+er@openoffice.org,ff75bad6ae119e0532f2e6a653b8272184b2572e,cws dr78,Oracle
+er@openoffice.org,31012ab9d7035f942486c87ecc1a79b4d6579975,cws dr78,Oracle
+er@openoffice.org,8a838b9fbf46ece9680824cd3a044ab7338bf306,cws calc69,Apache
+er@openoffice.org,73d344c18ead9a905871541d5d0d37c56c598a03,cws calc69,Apache
+er@openoffice.org,871b87f9d3787967bfe1ff9dd9314d7b2a0f19c3,cws calc69,Apache
+er@openoffice.org,a70f7bfc5ee22aa54c98cb8aab69b5eb97a86bbd,cws calc69,Apache
+er@openoffice.org,36018b12c460dd0e537f2a1aff8cb78a356cafbd,cws calc68,Apache
+er@openoffice.org,a185c4c15b16a9db61019aa0c94f3e67ca81699d,cws calc67,Apache
+er@openoffice.org,f37a539b79f601e047fefee06357b5538c6c81b0,cws calc67,Apache
+
+# Stephan's commits from sb140, fs34b
+sb@openoffice.org,d996328cd5f46eeed2df0cbd510eda28e2f7cef9,cws sb140,Oracle
+sb@openoffice.org,52b32f617521fd160b043754f77f3a549fddc926,cws sb140,Oracle
+sb@openoffice.org,23b04dae8b5ff6dbc4c4b63bfe08079ac6ed74ef,cws sb140,Oracle
+sb@openoffice.org,12e2e04977ddedcb2844b69a5060eb81be84d648,cws sb140,Oracle
+sb@openoffice.org,30ad5e9d87adec68971464d49c733e29fc643847,cws sb140,Oracle
+sb@openoffice.org,75b6b24ab5e238dcd49678ce6add509e97e39605,cws sb140,Oracle
+sb@openoffice.org,98510a8f7030420be3a422ebc1ae1fcabcb3edeb,cws sb140,Oracle
+sb@openoffice.org,e07ac6765dbaec78e77c694148f5531072036dc8,cws sb140,Oracle
+sb@openoffice.org,60ad74a87cb150feed06e6c48cf7461667a9cae9,cws sb140,Oracle
+sb@openoffice.org,27b9f9f348b720e08f37db829533372dc4b73248,cws sb140,Oracle
+sb@openoffice.org,d3794d2d8ab2ee3f8118d61538bb753335b37f23,cws sb140,Oracle
+sb@openoffice.org,afe7061d8ba46629f610991b5d35f5e0668fcf89,cws sb140,Oracle
+sb@openoffice.org,16ffd2fd242b1c98cbafedb1015107713957c2e9,cws sb140,Oracle
+sb@openoffice.org,7275be15191c08009ac9c359163e3eeb1be25ca7,cws sb140,Oracle
+sb@openoffice.org,4209a6127d96c61295fad6e8f2c512644aadf850,cws sb140,Oracle
+sb@openoffice.org,fd652012ce85b9905c687e5490facba043f40a88,cws sb140,Oracle
+sb@openoffice.org,315e6ca2493d31aaedaea6747e2c39bc831a4e7f,cws sb140,Oracle
+sb@openoffice.org,e75cd93855771ef07c61e5915ffe509384eef28f,cws sb140,Oracle
+sb@openoffice.org,1d38dbab29245e430792f7b3a4c14c94cd011504,cws sb140,Oracle
+sb@openoffice.org,21d97438e2944861e26e4984195f959a0cce1e41,cws sb140,Oracle
+sb@openoffice.org,34e5e5ecec9779bae3ee48f698d52318f0be5f89,cws sb140,Oracle
+sb@openoffice.org,57d28ffd21e29d05084b16f8013eef7790403d72,cws sb140,Oracle
+sb@openoffice.org,2d5dd9a9604aeb5fd4e347d7a46acc11da9985a5,cws sb140,Oracle
+sb@openoffice.org,e700031cc4f60f62d862940cd40de73e32f9104b,cws sb140,Oracle
+sb@openoffice.org,335f7fa8c2ef418df7010dd996a2a32bbbdff459,cws sb140,Oracle
+sb@openoffice.org,bb157a42865a2d591f378577c4cfb7c731e18a08,cws sb140,Oracle
+sb@openoffice.org,390eaa736364a59e479a849598677b1a6a87f24e,cws sb140,Oracle
+sb@openoffice.org,2b39501b8ec6affb8afa9c6b93dff434b075e211,cws fs34b,Oracle
+
+#
+# OOO340_m1 merged:
+#      dr78, dr80
+# Apache merged:
+#      calc67, calc68, calc69
