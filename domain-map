@@ -20,7 +20,12 @@ de.ibm.com	IBM
 cn.ibm.com	IBM
 us.ibm.com	IBM
 
+#
 # These addresses are pre-normalised by aliases first ...
+#
+# it is important that these aliases are not associated
+# with an corporate domain / affiliation
+#
 
 thb@openoffice.org  Oracle  <2008-02-28
 thb@openoffice.org  SUSE
@@ -37,8 +42,8 @@ fridrich.strba@bluewin.ch  SUSE
 timar@fsf.hu Known contributors <2011-04-04
 timar@fsf.hu SUSE
 
-bjoern.michaelsen@canonical.com Oracle <2011-02-01
-bjoern.michaelsen@canonical.com Canonical
+b_michaelsen@openoffice.org Oracle <2011-02-01
+b_michaelsen@openoffice.org Canonical
 
 ccheney@ubuntu.com Canonical
 
