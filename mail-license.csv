@@ -384,6 +384,10 @@ gertfaller@aliceadsl.fr,0dd9bb690cbad86948369a37d4a87fb71e642105,by 839a8250114d
 gertfaller@aliceadsl.fr,6698ddb93999097587c9be6ba0c908cf847b1400,by 0ddf2b8adf119b6abeb44e507c577fbdb259be85,Gert Faller
 gertfaller@aliceadsl.fr,26d49e1f8da91f50448749d4aeb5227e82827473,by d376d6649bbdca6a5d36c8ef2a43ce3890c01d89,Gert Faller
 gertfaller@aliceadsl.fr,e6c68c3eed472aef1c116d27ff6e35e52622463d,by 78b7f6e138c561ccc3082a93b155934b4b9c3649,Gert Faller
+# hierarchical storage of styles window fdo#30917
+gertfaller@aliceadsl.fr,6e5659212308452d96ef445e6a0de4ebdee30920,by 01e6c68e0a182ff5cb783f896ed832b58b7a1d76,Gert Faller
+# writer ole2 object context menu / save-as ...
+gertfaller@aliceadsl.fr,4a554264ce017cc8f6817fe1f3ca9e3ddf21d1ed,by 1227034d594cbe141738bdf9922319643ad869ff,Gert Faller
 
 revol.code@yahoo.com,b9020e6023eeb7a9d12a1af123b7a07c83144107,by 8c55f7542b1be9dc11992e0942eaabc6688bfa3c,Kayo Hamid
 emanuele.fia@gmail.com,4029a580f725380c395ff9ebc7ed181f376b0a96,by b9474a8cacd02bcb7b2d3b48e20eed266923a6e2 remove is restoring and re-tweaking for OSX,Emanuele Fia
