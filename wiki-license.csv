@@ -31,7 +31,6 @@ Daniel Di Marco,{{nospam|d.dimarco|gmx|de}},all,wiki to ml
 Tim Retout,{{nospam|tim|retout|co|uk}},all,wiki to ml
 David Vogt,{{nospam|david.vogt|adfinis-sygroup|ch}},all,wiki to ml
 Bartolomé Sánchez,{{nospam|aliaselbarto|gmail|com}},all,wiki to ml
-Eike Rathke,{{nospam|erack|erack|de}},all,wiki to ml
 Gregg Hernandez,greggory.hz@gmail.com,all,wiki to ml
 Gustavo Buzzatti Pacheco,{{nospam|gbpacheco|gmail|com}},all,wiki to ml
 Noel Grandin,{{nospam|noel|peralex|com}},all,wiki to ml
@@ -63,7 +62,6 @@ Moritz Bechler,mbechler@eenterphace.org,all,wiki to ml
 Mihályi Dániel,{{nospam|amidabucu|gmail|com}},all,wiki to ml
 Mike Whitley,{{nospam|mike|whiteley|org}},all,wiki to ml
 Marcel Metz,{{nospam|mmetz|adrian-broher|net}},all,wiki to ml
-Michael Stahl,{{nospam|mst|openoffice|org}},all,wiki to ml
 Daisuke Nishino,{{nospam|niboshi000|gmail|com}},all,wiki to ml
 Nicolas Christener,{{nospam|nc|adfinis|com}},all,wiki to ml
 Nicolas Christener,{{nospam|nicolas.christener|adfinis-sygroup|ch}},all,wiki to ml
@@ -78,7 +76,6 @@ Rich Wareham,{{nospam|rjw57|cantab|net}},all,wiki to ml
 Samphan Raruenrom,{{nospam|samphan|osdev|co.th}},all,wiki to ml
 Santiago Martinez,{{nospam|smvarela|gmail|com}},all,wiki to ml
 Stephan Bergmann,{{nospam|stephan.bergmann.secondary|googlemail|com}},all,wiki to ml
-Stephan Bergmann,{{nospam|sb|openoffice|org}},all,wiki to ml
 Julien Nabet,{{nospam|serval2412|yahoo|fr}},all,wiki to ml
 Norbert Thiebaud,{{nospam|nthiebaud|gmail|com}},all,wiki to ml - not contrib/
 Stefan Heinemann,{{nospam|stefan.heinemann|codedump|ch}},all,wiki to ml
@@ -128,7 +125,6 @@ Bartosz Kosiorek,gang65@poczta.onet.pl,all,wiki to ml
 David Bolen,{{nospam|db3l.net|gmail|com}},all,wiki to ml
 Eric Bischoff,{{nospam|ebischoff|nerim|net}},all,wiki to ml
 Laurent Balland-Poirier,{{nospam|jumbo4444|yahoo|fr}},all,wiki to ml
-Katarina Machalkova,{{nospam|bubli|bubli|org}},all,wiki to ml
 Ken Foskey,{{nospam|kfoskey|tpg|com|au}},all,wiki to ml
 Mariana Mărășoiu,{{nospam|mariana.marasoiu|gmail|com}},all,wiki to ml
 Martin Kretzschmar,{{nospam|m_kretzschmar|gmx|net}},all-to-2006,wiki to ml
@@ -180,7 +176,6 @@ Marc-André Laverdière,marc-andre@atc.tcs.com,all,alias-of-above
 #
 # to 2012-05-02
 #
-Andras Timar,timar@fsf.hu,all,wiki to ml
 Andreu Correa Casablanca,{{nospam|castarco|gmail|com}},all,wiki to ml
 Andreas Mantke,maand@gmx.de,all,wiki to ml
 Dave Steele,{{nospam|dsteele|gmail|com}},all,wiki to ml
@@ -344,6 +339,20 @@ Stephan van den Akker,{{nospam|stephanv778|gmail|com}},all,wiki to ml
 Tomaž Vajngerl,{{nospam|quikee|gmail|com}},all,wiki to ml
 Yury Tarasievich,{{nospam|yury.tarasievich|gmail|com}},all,wiki to ml
 
+
+#
+# In order to ensure these individuals' changing affiliations are
+# honoured, and also to ensure that their aliases resolve to a
+# single person, we annotate their assignment in domain-map with an
+# 'Assigned' group, and keep their lines here, commented out
+#
+# Andras Timar,timar@fsf.hu,all,wiki to ml
+# Eike Rathke,{{nospam|erack|erack|de}},all,wiki to ml
+# Stephan Bergmann,{{nospam|sb|openoffice|org}},all,wiki to ml
+# Michael Stahl,{{nospam|mst|openoffice|org}},all,wiki to ml
+# Katarina Machalkova,{{nospam|bubli|bubli|org}},all,wiki to ml
+
+
 # --------------------------------------------------------------------------------------
 # legal list review to 2012-05-02
 # unless otherwise noted mail has subject: "License: <name>"
@@ -353,7 +362,6 @@ Andreas Sliwka,andreas.sliwka@gmail.com,all,legal list
 Dona Hertel,cocofan@mailbolt.com,all,legal list
 Jenei Gábor,jengab@elte.hu,all,legal list
 Németh László,nemeth@numbertext.org,all,legal list: License to my patches
-Eike Rathke,{{nospam|ooo|erack|de}},all,legal list
 Dmitry. A. Ashkadov,dmitry.ashkadov@gmail.com,all,legal list
 Andor Ertsey,andor.ertsey@muenchen.de,all,legal list: Lizenz fur Patches der LHM
 Baptiste Daroussin,bapt@FreeBSD.org,all,legal list
@@ -399,3 +407,4 @@ SUSE,@suse.com,all,wiki to ml
 SUSE,@suse.cz,all,wiki to ml
 SUSE,@suse.de,all,wiki to ml
 SUSE,@novell.com,all,wiki to ml
+Assigned,@bogus-non-domain,all,wiki to ml
