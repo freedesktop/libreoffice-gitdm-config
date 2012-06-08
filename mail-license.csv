@@ -239,9 +239,12 @@ wolfram.garten@oracle.com,c753fcef9d0f5177b2b840ceb1680ad99641c76c,available in 
 wolfram.garten@oracle.com,7148417accf50283b8f15ed2b94b1496c0236ef5,available in DEV300_m106 as 10bbab7568053dfe357bca6ee01450d03051cfff,Oracle
 wolfram.garten@oracle.com,e1db299ad5c9f914c4774933ef9f141d8ac1bb8d,available in DEV300_m106 as 93cf848d9f8c79981db263d2aae78ea3939dc764,Oracle
 wolfram.garten@oracle.com,af683b9f090204e0fc54cd42636f4aa693236ddd,available in DEV300_m106 as 7a3b1bdaff2870004c30a5645b54c6559f4fbaea,Oracle
+# sb
+sb@openoffice.org,56efc141e784a0c1ab7de9a91cc83ab688df381e,available in DEV300_m106 as 731881b92ce7131aff3f78ee8cd9d7c9c524174e,Oracle
+sb@openoffice.org,1604ae053c316b2638a89533df7699f4edc80203,available in DEV300_m106 as afdec552412b32d78d7a118935c0cd8941483fdc,Oracle
+sb@openoffice.org,830738b795cbb5c7998d13b665dd905efb0205e0,available in DEV300_m106 as c95c83950c9de73ca9a01f7b468b72b77c19c051,Oracle
 # non-Oracle
 kstribley@openoffice.org,e1790a6b6001276b83c589b4f24a1ef079f53c4d,available in DEV300_m106 as 2d04029ec3cc0306012d73ac6197be424c4cc734,Keith Stribley
-
 
 #
 # Codethink work contracted by Canonical
