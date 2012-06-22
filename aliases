@@ -15,9 +15,9 @@ af@openoffice.org af@a-w-f.de
 frank.schoenheit@oracle.com fs@openoffice.org
 frank.schoenheit@sun.com fs@openoffice.org
 libreoffice@mcmurrays.org smcmurray@mcmurrays.org
-tbehrens@suse.com tbehrens@novell.com
-thb@thorstens-computer.local tbehrens@novell.com
-thb@openoffice.org tbehrens@novell.com
+tbehrens@suse.com thb@openoffice.org
+tbehrens@novell.com thb@openoffice.org
+thb@thorstens-computer.local thb@openoffice.org
 niko.ronkko@wippies.fi ronkko@iki.fi
 kaplanlior@gmail.com kaplan@debian.org
 pereriksson@openoffice.org per@erinet.se
@@ -39,9 +39,9 @@ kyoshida@kohei-lenovo.(none) kyoshida@novell.com
 kohei@openoffice.org kyoshida@novell.com
 kohei.yoshida@suse.com kyoshida@novell.com
 kohei.yoshida@gmail.com kyoshida@novell.com
-npower@openoffice.org noel.power@novell.com
-npower@linux-h0uc.site noel.power@novell.com
-nopower@novell.com noel.power@novell.com
+noel.power@novell.com npower@openoffice.org
+npower@linux-h0uc.site npower@openoffice.org
+nopower@novell.com npower@openoffice.org
 christian.lippka@oracle.com cl@openoffice.org
 christian.lippka@sun.com cl@openoffice.org
 rene@openoffice.org rene@debian.org
