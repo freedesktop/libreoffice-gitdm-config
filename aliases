@@ -55,6 +55,7 @@ pavel@build.kancl.blue-point.cz pavel@janik.cz
 pmladek@novell.com pmladek@suse.cz
 pmladek@openoffice.org pmladek@suse.cz
 pmladek@plop.suse.cz pmladek@suse.cz
+pmladek@walk.suse.cz pmladek@suse.cz
 caolan@localhost.localdomain cmc@openoffice.org
 caolanm@redhat.com cmc@openoffice.org
 dtardon@openoffice.org dtardon@redhat.com
@@ -231,7 +232,6 @@ nifgraup@gmail.com nifgraup@google.com
 t12nslookup@gmail.com jadams@gmail.com
 jbf.faure@orange.fr jbf.faure@sud-ouest.org
 libreoffice@troy.rollo.name troy@troy.rollo.name
-rob@ertai.nl programming@ertai.nl
 alonso@loria.fr laurent.alonso@inria.fr
 julien@julienPC serval2412@yahoo.fr
 jsc@openoffice.org jogischmidt@googlemail.com
@@ -248,6 +248,12 @@ stevenb@kjross.com.au sebutler@gmail.com
 email@nadavvin.com nadavvin@gmail.com
 daniel.e.bankston@gmail.com daniel.dev.libreoffice@gmail.com
 ploum@ploum.net lionel@lanedo.com
+iain@iains-macbook-pro.local iainbillett@gmail.com
+reisi007@gmail.com reisi.007@t-online.de
+rob@ertai.nl programming@ertai.nl
+"ertai@obelix.(none)" programming@ertai.nl
+"joel@joel-Studio-1737.(none)" jmadero.dev@gmail.com
+qubit@runcibility.com bishop.robinson@gmail.com
 
 # Aliases to cope with git svn data from Apache
 imacat@13f79535-47bb-0310-9956-ffa450edef68     imacat@mail.imacat.idv.tw
