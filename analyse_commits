@@ -250,6 +250,8 @@ while (my $arg = shift @ARGV) {
 	$output_dir = shift @ARGV;
     } elsif ($arg =~ /--dump-numstat/ || $arg eq '-d') {
 	$dump_numstat = 1;
+    } elsif ($arg =~ /--help/ || $arg eq '-h') {
+	usage();
     } elsif (!defined ($git_dir)) {
 	$git_dir = $arg;
     } else {
