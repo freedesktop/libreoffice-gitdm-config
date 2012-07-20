@@ -431,38 +431,38 @@ sbergman@redhat.com,315e6ca2493d31aaedaea6747e2c39bc831a4e7f, by aa00f6f1ceb2672
 #
 # writerperfect analysis
 #
-obo@openoffice.org,9ed5b340dc1918b22c9ed06705b03f19154ccb1a,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,e947bca12172b77909263710892d47f9a3092b2d,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,4c2cefae797073999edabb3a7f29c47b1331d674,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,d171801250c157d92a1a5d3a822c6551acb9a674,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,e31ab06bdebd646ed1d3f40b82c2a9ed1ba6343b,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,fb290dada0fb94a79b895dbb108d6f910e574c73,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,eaf8097f7e618375f0aeca4c796a98640605915f,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,2499e2497091983049c65cd010cb61fb891e88c8,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,9f9edc638352713a18b34067cbdf97ea8a3dad28,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,90681444ef4d3d73dc453abf97be6ab433845ea0,integration of CWS fs08 purely done by fridrich_strba|some fixes from wpsimport01 also authored by fridrich_strba.
-obo@openoffice.org,be54a36000368c0b220eb7ddc0beff159b9a122f,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,a81adf62a52cb76865bad953e6320a665b559539,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,6e38470b6d4cbf3ae4fa8d8eddbad4856f2a7076,integration of CWS fs08 purely done by fridrich_strba.
-obo@openoffice.org,ce45659df365e67e913fca70ab899ed19c4a08fc,integration of CWS fs02 purely done by fridrich_strba (https://issues.apache.org/ooo/show_bug.cgi?id=51318).
-obo@openoffice.org,728c94dfaf2802f5b77222116f233f044015cc0a,integration of CWS fs04 purely done by fridrich_strba.
-obo@openoffice.org,194ca6698781e24b5ccad530fdf440e65e8bafa1,integration of CWS fs04 purely done by fridrich_strba.
-obo@openoffice.org,b48ee9302e05e24f10c1e8f91309a6e1ca1ebcfc,integration of CWS fsfixes06 purely done by fridrich_strba.
-obo@openoffice.org,48c3e6a2d615b4bb529a964688ec810fa4c3cf78,four changes of return types from const int -> int and from const bool -> bool authored by Caolan McNamara in CWS cmcfixes49.
-kz@openoffice.org,a4af4c9a4365ac2bdbe7d17e17d4515c2dee55b8,integration of CWS libwpdupgrade authored by _rene_, wlach and fridrich_strba.
-kz@openoffice.org,78e89884dda443f7d7576997c32715fd6eb46f4f,integration of CWS libwpdupgrade authored by _rene_, wlach and fridrich_strba.
-kz@openoffice.org,0d4dcb05b6d283ddddedb0d9eb714178fb2243cc,integration of CWS libwpdupgrade authored by _rene_, wlach and fridrich_strba.
-kz@openoffice.org,2396fd3f70b86f9874ffd483ccf80b9bbd588e43,integration of CWS libwpdupgrade authored by _rene_, wlach and fridrich_strba.
-kz@openoffice.org,cfce57db512d448b6735662e9c8d82b013636a72,integration of CWS libwpdupgrade authored by _rene_, wlach and fridrich_strba.
-kz@openoffice.org,ebc0e10b84ae3d08e71e7ac187b0da0c404f0a1a,integration of CWS libwpdupgrade authored by _rene_, wlach and fridrich_strba.
-kz@openoffice.org,10188896c943a75a9ecd34f5558a8c6de4fba472,integration of CWS libwpdupgrade authored by _rene_, wlach and fridrich_strba.
-kz@openoffice.org,b85cf77c3f04b0d102228c6c0e2bd9e8c35916fc,integration of CWS libwpdupgrade authored by _rene_, wlach and fridrich_strba.
-kz@openoffice.org,04cd27177e57734ca22ba7a468404195c8c8839a,integration of CWS libwpdupgrade authored by _rene_, wlach and fridrich_strba.
-kz@openoffice.org,b4702a713b4670e4621702917e1833ca2625f078,integration of CWS libwpdupgrade authored by _rene_, wlach and fridrich_strba.
-ihi@openoffice.org,5f5d654695c1463da8ad94d2fb8875e28a91ebe8,integration of CWS gcc430two authored by _rene_ (two inclusions of string.h).
-vg@openoffice.org,00691716798852c60f828355ab0b8d3b266bc8dd,CWS fwkfinal1: integration of a patch authored by fridrich_strba (https://issues.apache.org/ooo/show_bug.cgi?id=43995)
+obo@openoffice.org,9ed5b340dc1918b22c9ed06705b03f19154ccb1a,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,e947bca12172b77909263710892d47f9a3092b2d,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,4c2cefae797073999edabb3a7f29c47b1331d674,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,d171801250c157d92a1a5d3a822c6551acb9a674,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,e31ab06bdebd646ed1d3f40b82c2a9ed1ba6343b,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,fb290dada0fb94a79b895dbb108d6f910e574c73,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,eaf8097f7e618375f0aeca4c796a98640605915f,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,2499e2497091983049c65cd010cb61fb891e88c8,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,9f9edc638352713a18b34067cbdf97ea8a3dad28,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,90681444ef4d3d73dc453abf97be6ab433845ea0,integration of CWS fs08 purely done by fridrich_strba|some fixes from wpsimport01 also authored by fridrich_strba (writerperfect)
+obo@openoffice.org,be54a36000368c0b220eb7ddc0beff159b9a122f,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,a81adf62a52cb76865bad953e6320a665b559539,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,6e38470b6d4cbf3ae4fa8d8eddbad4856f2a7076,integration of CWS fs08 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,ce45659df365e67e913fca70ab899ed19c4a08fc,integration of CWS fs02 purely done by fridrich_strba (https://issues.apache.org/ooo/show_bug.cgi?id=51318) (writerperfect)
+obo@openoffice.org,728c94dfaf2802f5b77222116f233f044015cc0a,integration of CWS fs04 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,194ca6698781e24b5ccad530fdf440e65e8bafa1,integration of CWS fs04 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,b48ee9302e05e24f10c1e8f91309a6e1ca1ebcfc,integration of CWS fsfixes06 purely done by fridrich_strba (writerperfect)
+obo@openoffice.org,48c3e6a2d615b4bb529a964688ec810fa4c3cf78,four changes of return types from const int -> int and from const bool -> bool authored by Caolan McNamara in CWS cmcfixes49 (writerperfect)
+kz@openoffice.org,a4af4c9a4365ac2bdbe7d17e17d4515c2dee55b8,integration of CWS libwpdupgrade authored by _rene_ wlach and fridrich_strba (writerperfect)
+kz@openoffice.org,78e89884dda443f7d7576997c32715fd6eb46f4f,integration of CWS libwpdupgrade authored by _rene_ wlach and fridrich_strba (writerperfect)
+kz@openoffice.org,0d4dcb05b6d283ddddedb0d9eb714178fb2243cc,integration of CWS libwpdupgrade authored by _rene_ wlach and fridrich_strba (writerperfect)
+kz@openoffice.org,2396fd3f70b86f9874ffd483ccf80b9bbd588e43,integration of CWS libwpdupgrade authored by _rene_ wlach and fridrich_strba (writerperfect)
+kz@openoffice.org,cfce57db512d448b6735662e9c8d82b013636a72,integration of CWS libwpdupgrade authored by _rene_ wlach and fridrich_strba (writerperfect)
+kz@openoffice.org,ebc0e10b84ae3d08e71e7ac187b0da0c404f0a1a,integration of CWS libwpdupgrade authored by _rene_ wlach and fridrich_strba (writerperfect)
+kz@openoffice.org,10188896c943a75a9ecd34f5558a8c6de4fba472,integration of CWS libwpdupgrade authored by _rene_ wlach and fridrich_strba (writerperfect)
+kz@openoffice.org,b85cf77c3f04b0d102228c6c0e2bd9e8c35916fc,integration of CWS libwpdupgrade authored by _rene_ wlach and fridrich_strba (writerperfect)
+kz@openoffice.org,04cd27177e57734ca22ba7a468404195c8c8839a,integration of CWS libwpdupgrade authored by _rene_ wlach and fridrich_strba (writerperfect)
+kz@openoffice.org,b4702a713b4670e4621702917e1833ca2625f078,integration of CWS libwpdupgrade authored by _rene_ wlach and fridrich_strba (writerperfect)
+ihi@openoffice.org,5f5d654695c1463da8ad94d2fb8875e28a91ebe8,integration of CWS gcc430two authored by _rene_ (two inclusions of string.h) (writerperfect)
+vg@openoffice.org,00691716798852c60f828355ab0b8d3b266bc8dd,CWS fwkfinal1: integration of a patch authored by fridrich_strba (https://issues.apache.org/ooo/show_bug.cgi?id=43995) (writerperfect)
 #
 # Reverted and/or confirmed re-written
 #
-hr@openoffice.org,688695557b671739577ca7691b3538c216a1ae08,by 7989bba5b65b6fd27fb99197087456da0b2eee17,Jens-Heiner Rechtien
-ihi@openoffice.org,eec6938240bb195d61f762a7a99d637d250f0c41,by 0be0cc0e50fa6c4161d6f71964ec90ba579026ac,Ivo Hinkelmann
+hr@openoffice.org,688695557b671739577ca7691b3538c216a1ae08,by 7989bba5b65b6fd27fb99197087456da0b2eee17 (writerperfect),Jens-Heiner Rechtien
+ihi@openoffice.org,eec6938240bb195d61f762a7a99d637d250f0c41,by 0be0cc0e50fa6c4161d6f71964ec90ba579026ac (writerperfect),Ivo Hinkelmann
