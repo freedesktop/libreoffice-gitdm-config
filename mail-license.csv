@@ -2,12 +2,13 @@
 # Author, git hash, mailing list link / comment
 #
 
-# Clearly labelled MPL/LGPLv3+ in the commit message
+# Clearly labelled MPL/LGPLv3+ in the commit / commit message
 pktoss@gmail.com,0a4732acbf7149d45e076a74bea0b49ee74e2f59,cf. commit msg
 pktoss@gmail.com,8731903f5f693d323d399f05c57aac138021c440,cf. commit msg
 pktoss@gmail.com,3f3b9cecfb6e04a1ef382f7c4c5a074fb9b4c8fb,cf. commit msg
 pktoss@gmail.com,181f55a5c36b7134f39da52fdbb89ed3a1d6a560,cf. commit msg
 martius@martiusweb.net,5e301969bf1c8818b5c737757363c31584823485,cf. commit msg.
+miko@gmx.ch,74d8d2dfed51e03807e347da951fdf9ef727b6a6,doubleNewlines.pl - license in new-file,Michael Koch
 
 # Mailing list permission links
 rafaestevez@yahoo.es,00fb6c9d1c0ad01b29fb617dbe74e6ae1ddf04ce,http://lists.freedesktop.org/archives/libreoffice/2012-April/030640.html
@@ -96,7 +97,6 @@ libreme@comcast.net,07a841bc1acde95229ece2a0da4e2a70be5df624,configure.in only,M
 libreme@comcast.net,8e2ba3d0d547828f734238ed7e6a52499129f060,configure.in only,Mike Eberdt
 libreme@comcast.net,fe6dcc2e1b3e081161a44313e86cef82ccf30a8e,configure.in only,Mike Eberdt
 miko@gmx.ch,139995630f50d4d2b26fa6e1beaa51c73785c81f,build.pl fix,Michael Koch
-miko@gmx.ch,74d8d2dfed51e03807e347da951fdf9ef727b6a6,doubleNewlines.pl - license on-list in HTML attach,Michael Koch
 smcmurray@mcmurrays.org,413d918706cf09a5b5b0a977e04327014e9403c3,build.pl - perl digest bits,Sean McMurray
 mtg@openoffice.org,a837bbd1ca16b00c6853bf3bb390fca36b49fb9c,configure.in tweak,Martin Gallwey
 atayoohoo@googlemail.com,0db604e9f46113ac66c0a55a72fa117fe68fb52b,python3 compat fixes to internal filter tool,Andreas Becker
