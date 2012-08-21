@@ -19,6 +19,7 @@ intel.com	Intel
 de.ibm.com	IBM
 cn.ibm.com	IBM
 us.ibm.com	IBM
+kacst.edu.sa	KACST
 
 #
 # These addresses are pre-normalised by aliases first ...
@@ -107,3 +108,7 @@ jogischmidt@googlemail.com Oracle <2011-09-27
 jogischmidt@googlemail IBM
 orwittmann@googlemail.com Oracle <2011-09-27
 orwittmann@googlemail.com IBM
+
+# KACST
+
+developer.jesso@gmail.com KACST
