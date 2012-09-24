@@ -445,3 +445,5 @@ sb@openoffice.org,bb157a42865a2d591f378577c4cfb7c731e18a08,cws sb140,Oracle
 sb@openoffice.org,390eaa736364a59e479a849598677b1a6a87f24e,cws sb140,Oracle
 sb@openoffice.org,8c015fbb85f00fe1cc82e00ea1771ad9fba821d2,cws sb140,Oracle
 sb@openoffice.org,2b39501b8ec6affb8afa9c6b93dff434b075e211,cws fs34b,Oracle
+
+jl@openoffice.org,a6ff118c4fdb3af7702c463d995df38742da3464,cws jl166,Oracle
