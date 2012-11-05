@@ -21,6 +21,7 @@ cn.ibm.com	IBM
 us.ibm.com	IBM
 kacst.edu.sa	KACST
 
+
 #
 # These addresses are pre-normalised by aliases first ...
 #
@@ -114,3 +115,8 @@ orwittmann@googlemail.com IBM
 # KACST
 
 developer.jesso@gmail.com KACST
+
+
+# Trailing classifiers:
+
+apache.org	Apache Volunteer
