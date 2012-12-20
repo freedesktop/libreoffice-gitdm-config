@@ -1,0 +1,59 @@
+From 32259eeefb866fc3236ddf88332872a5caa80af6 Mon Sep 17 00:00:00 2001
+From: Michael Meeks <michael.meeks@suse.com>
+Date: Thu, 20 Dec 2012 12:17:53 +0000
+Subject: [PATCH] dump commit counts as well.
+
+---
+ csvdump.py |    6 ++++--
+ gitdm      |    2 +-
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+
+diff --git a/csvdump.py b/csvdump.py
+index 66b8a12..038c6a6 100644
+--- a/csvdump.py
++++ b/csvdump.py
+@@ -10,10 +10,12 @@ class CSVStat:
+         self.email = email
+         self.employer = employer
+         self.added = self.removed = 0
++        self.commits = 0;
+         self.date = date
+     def accumulate (self, p):
+         self.added = self.added + p.added
+         self.removed = self.removed + p.removed
++        self.commits = self.commits + 1
+ 
+ PeriodCommitHash = { }
+ 
+@@ -77,13 +79,13 @@ def OutputCSV (file):
+         return
+     writer = csv.writer (file, quoting=csv.QUOTE_NONNUMERIC)
+     writer.writerow (['Name', 'Email', 'Affliation', 'Date',
+-                      'Added', 'Removed'])
++                      'Added', 'Removed', 'Commits'])
+     for date, stat in PeriodCommitHash.items():
+         # sanitise names " is common and \" sometimes too
+         empl_name = stat.employer.name.replace ('"', '.').replace ('\\', '.')
+         author_name = stat.name.replace ('"', '.').replace ('\\', '.')
+         writer.writerow ([author_name, stat.email, empl_name, stat.date,
+-                          stat.added, stat.removed])
++                          stat.added, stat.removed, stat.commits])
+ 
+ def OutputHackersCSV (file, hlist):
+     if file is None:
+diff --git a/gitdm b/gitdm
+index 62a5a57..e52167c 100755
+--- a/gitdm
++++ b/gitdm
+@@ -491,7 +491,7 @@ if DateStats:
+     PrintDateStats ()
+ 
+ if HackersCSV:
+-    csv.OutputHackersCSV (HackersCSV, hlist);
++    csvdump.OutputHackersCSV (HackersCSV, hlist);
+     HackersCSV.close ()
+ 
+ if CSVPrefix:
+-- 
+1.7.10.4
+
