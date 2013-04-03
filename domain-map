@@ -23,6 +23,9 @@ kacst.edu.sa	KACST
 aentos.es	Aentos
 openismus.com   Openismus
 
+# we believe they're at IBM, but don't have their address
+unknown.ibm.com IBM
+
 #
 # These addresses are pre-normalised by aliases first ...
 #
