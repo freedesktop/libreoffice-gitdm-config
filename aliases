@@ -29,10 +29,12 @@ philipp.lohmann@sun.com pl@openoffice.org
 philipp.lohmann@oracle.com pl@openoffice.org
 dirfin@broffice.org olivier.hallot@documentfoundation.org
 olivier.hallot@alta.org.br olivier.hallot@documentfoundation.org
+olivier.hallot@edx.srv.br olivier.hallot@documentfoundation.org
 malte.timmermann@sun.com mt@openoffice.org
 malte.timmermann@oracle.com mt@openoffice.org
 mmeeks@openoffice.org michael.meeks@novell.com
 michael.meeks@suse.com michael.meeks@novell.com
+mmeeks@suse.com michael.meeks@novell.com
 ocke.janssen@sun.com oj@openoffice.org
 ocke.janssen@oracle.com oj@openoffice.org
 Kohei@lenovo-quad.(none) kyoshida@novell.com
@@ -47,6 +49,7 @@ noel.power@suse.com npower@openoffice.org
 nopower@suse.com npower@openoffice.org
 christian.lippka@oracle.com cl@openoffice.org
 christian.lippka@sun.com cl@openoffice.org
+cl@lippka.com cl@openoffice.org
 rene@openoffice.org rene@debian.org
 rene@rene-engelhard.de rene@debian.org
 rene@frodo.lan rene@debian.org
@@ -62,6 +65,7 @@ pmladek@walk.suse.cz pmladek@suse.cz
 caolan@localhost.localdomain cmc@openoffice.org
 caolanm@redhat.com cmc@openoffice.org
 dtardon@openoffice.org dtardon@redhat.com
+root@fedora1.s390.bos.redhat.com dtardon@redhat.com
 fa@openoffice.org dcbw@redhat.com
 daniel.rentz@sun.com dr@openoffice.org
 daniel.rentz@oracle.com dr@openoffice.org
@@ -128,6 +132,7 @@ ping.liao@openoffice.org pliao@openoffice.org
 ericb@ordinateur-de-eric-b-2.local ericb@openoffice.org
 ebachard@gnome.org ericb@openoffice.org
 eric.bachard@free.fr ericb@openoffice.org
+ericb@ooo4kids.org ericb@openoffice.org
 devel@thanlwinsoft.org kstribley@openoffice.org
 cedric.bosdonnat@free.fr cbosdonnat@novell.com
 cedricbosdo@openoffice.org cbosdonnat@novell.com
@@ -174,6 +179,7 @@ vmiklos@openoffice.org vmiklos@frugalware.org
 vmiklos@suse.cz vmiklos@frugalware.org
 jani@ubuntu.com jani.monoses@canonical.com
 christian@twotoasts.de christian.dywan@lanedo.com
+christian@lanedo.com christian.dywan@lanedo.com
 mitch@gimp.org michael.natterer@lanedo.com
 lionel.mamane@gestman.lu lionel@mamane.lu
 stephan.bergmann.secondary@googlemail.com sb@openoffice.org
@@ -191,6 +197,7 @@ yifan@bang.bang yfjiang@suse.com
 yfjiang@novell.com yfjiang@suse.com
 thuswa@gmail.com albert.thuswaldner@gmail.com
 matteo.casalin@poste.it matteo.casalin@gmx.com
+matteo.casalin@yahoo.com matteo.casalin@gmx.com
 tabe-wfainkbuzdxhpplsxpa2lq@public.gmane.org tantai@osdev.co.th
 g.poussel@wanadoo.fr gpoussel@gmail.com
 guillaume@lello.fr gpoussel@gmail.com
@@ -283,6 +290,20 @@ regina@apache.org rb.henschel@t-online.de
 leiw@apache.org leiw@cn.ibm.com
 zhangjf@apache.org zhangjf@cn.ibm.com
 arist@apache.org andrew.rist@oracle.com
+thardeck@suse.de thardeck@suse.com
+s.mehrbrodt@googlemail.com s.mehrbrodt@gmail.com
+tibbylickle@gmail.com eilidh@lanedo.com
+jcorrius@gmail.com jesus@softcatala.org
+marcospdss.org@gmail.com marcos.souza.org@gmail.com
+doko@canonical.com matthias.klose@canonical.com
+msvec@suse.com msvec@novell.com
+nicolas.christener@adfinis-sygroup.ch nc@adfinis.com
+noelgrandin@gmail.com noel@peralex.com
+gautier.shopie@gmail.com gautier.sophie@gmail.com
+"alexander@Notebook-Alexander.(none)" alexander.wilms@zoho.com
+root@linux-dre0.site zolniatamas@caesar.elte.hu
+# one time "via gerrit-commit"
+gerrit@gerrit.libreoffice.org me@siqi.fr
 
 # Aliases to get affiliations right from Apache
 chengjh@apache.org chengjh@unknown.ibm.com
