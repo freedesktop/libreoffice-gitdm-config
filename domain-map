@@ -49,7 +49,8 @@ fridrich.strba@bluewin.ch  (Unknown) <2007-03-01
 fridrich.strba@bluewin.ch  SUSE
 
 timar@fsf.hu Assigned <2011-04-04
-timar@fsf.hu SUSE
+timar@fsf.hu SUSE <2013-09-01
+timar@fsf.hu Collabora
 
 b_michaelsen@openoffice.org Oracle <2011-02-01
 b_michaelsen@openoffice.org Canonical
@@ -59,8 +60,6 @@ ccheney@ubuntu.com Canonical
 federico@ximian.com SUSE
 
 kstribley@openoffice.org SIL
-
-mitch@gimp.org Lanedo
 
 olivier.hallot@documentfoundation.org ALTA
 
@@ -85,12 +84,30 @@ cosimoc@gnome.org RedHat
 
 winddss@gmail.com SUSE
 
+mitch@gimp.org Lanedo
+
 # check tibby's date.
 tibbylickle@gmail.com Known contributors <2012-03-01
 tibbylickle@gmail.com Lanedo
 
 vmiklos@frugalware.org Known contributors <2012-02-01
-vmiklos@frugalware.org SUSE
+vmiklos@frugalware.org SUSE <2013-09-01
+vmiklos@frugalware.org Collabora
+
+tml@iki.fi SUSE <2013-09-01
+tml@iki.fi Collabora
+
+michael.meeks@novell.com SUSE <2013-09-01
+michael.meeks@novell.com Collabora
+
+kendy@notthere.aliasdomain.foo SUSE <2013-09-1
+kendy@notthere.aliasdomain.foo Collabora
+
+muthusuba@gmail.com SUSE <2013-09-01
+muthusuba@gmail.com Collabora
+
+kohei@openoffice.org SUSE <2013-09-01
+kohei@openoffice.org Collabora
 
 bubli@bubli.org SUSE <2011-08-01
 bubli@bubli.org Assigned
@@ -124,6 +141,9 @@ orwittmann@googlemail.com IBM
 # KACST
 
 developer.jesso@gmail.com KACST
+
+# CloudOn
+rattles2013@gmail.com CloudOn
 
 # Trailing classifiers:
 
