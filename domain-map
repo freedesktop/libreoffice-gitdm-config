@@ -26,6 +26,7 @@ openismus.com   Openismus
 igalia.com      Igalia
 cloudon.com	CloudOn
 multicorewareinc.com	MultiCoreWare
+synerzip.com    SYNERZIP
 
 # we believe they're at IBM, but don't have their address
 unknown.ibm.com IBM
@@ -45,10 +46,12 @@ cmc@openoffice.org  Oracle  <2004-03-01
 cmc@openoffice.org  RedHat
 
 cedricbosdo@openoffice.org (Unknown) <2008-12-01
-cedricbosdo@openoffice.org SUSE
+cedricbosdo@openoffice.org SUSE      <2013-09-15
+cedricbosdo@openoffice.org Assigned
 
 fridrich.strba@bluewin.ch  (Unknown) <2007-03-01
-fridrich.strba@bluewin.ch  SUSE
+fridrich.strba@bluewin.ch  SUSE      <2013-09-15
+fridrich.strba@bluewin.ch  Assigned
 
 timar@fsf.hu Assigned <2011-04-04
 timar@fsf.hu SUSE <2013-09-01
@@ -110,6 +113,12 @@ muthusuba@gmail.com Collabora
 
 kohei@openoffice.org SUSE <2013-09-01
 kohei@openoffice.org Collabora
+
+markus.mohrhard@googlemail.com Assigned <2013-09-01
+markus.mohrhard@googlemail.com Collabora
+
+matus.kukan@gmail.com Assigned <2013-10-01
+matus.kukan@gmail.com Collabora
 
 bubli@bubli.org SUSE <2011-08-01
 bubli@bubli.org Assigned
