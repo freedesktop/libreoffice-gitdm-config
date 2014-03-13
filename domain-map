@@ -1,33 +1,3 @@
-novell.com  SUSE
-suse.cz     SUSE
-suse.com    SUSE
-sun.com     Oracle
-oracle.com  Oracle
-redhat.com  RedHat
-canonical.com   Canonical
-ubuntu.com      Canonical
-lanedo.com      Lanedo
-codethink.co.uk CodeThink
-bobiciel.com    Bobiciel
-sil.org         SIL
-tcs.com		Tata Consultancy Services
-muenchen.de	Munich
-nouenoff.nl	Nou & Off
-linagora.com	Linagora
-collabora.com   Collabora
-collabora.co.uk Collabora
-intel.com	Intel
-de.ibm.com	IBM
-cn.ibm.com	IBM
-us.ibm.com	IBM
-kacst.edu.sa	KACST
-aentos.es	Aentos
-openismus.com   Openismus
-igalia.com      Igalia
-cloudon.com	CloudOn
-multicorewareinc.com	MultiCoreWare
-synerzip.com    SYNERZIP
-
 # we believe they're at IBM, but don't have their address
 unknown.ibm.com IBM
 
@@ -126,6 +96,15 @@ matus.kukan@gmail.com Collabora
 andrzej@ahunt.org Assigned <2013-12-03
 andrzej@ahunt.org Collabora
 
+l.lunak@collabora.com SUSE <2014-03-12
+l.lunak@collabora.com Collabora
+
+zolniatamas@caesar.elte.hu Assigned <2014-01-01
+zolniatamas@caesar.elte.hu Collabora
+
+quikee@gmail.com Assigned <2014-02-01
+quikee@gmail.com Collabora
+
 bubli@bubli.org SUSE <2011-08-01
 bubli@bubli.org Assigned
 
@@ -165,3 +144,35 @@ rattles2013@gmail.com CloudOn
 # Trailing classifiers:
 
 apache.org	Apache Volunteer
+
+# Fallback classification by company name
+
+novell.com  SUSE
+suse.cz     SUSE
+suse.com    SUSE
+sun.com     Oracle
+oracle.com  Oracle
+redhat.com  RedHat
+canonical.com   Canonical
+ubuntu.com      Canonical
+lanedo.com      Lanedo
+codethink.co.uk CodeThink
+bobiciel.com    Bobiciel
+sil.org         SIL
+tcs.com		Tata Consultancy Services
+muenchen.de	Munich
+nouenoff.nl	Nou & Off
+linagora.com	Linagora
+collabora.com   Collabora
+collabora.co.uk Collabora
+intel.com	Intel
+de.ibm.com	IBM
+cn.ibm.com	IBM
+us.ibm.com	IBM
+kacst.edu.sa	KACST
+aentos.es	Aentos
+openismus.com   Openismus
+igalia.com      Igalia
+cloudon.com	CloudOn
+multicorewareinc.com	MultiCoreWare
+synerzip.com    SYNERZIP
