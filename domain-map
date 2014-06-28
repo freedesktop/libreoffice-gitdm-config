@@ -83,8 +83,10 @@ mmeeks@openoffice.org Collabora
 kendy@notthere.aliasdomain.foo SUSE <2013-09-1
 kendy@notthere.aliasdomain.foo Collabora
 
+muthusuba@gmail.com Known contributors <2010-05-02
 muthusuba@gmail.com SUSE <2013-09-01
-muthusuba@gmail.com Collabora
+muthusuba@gmail.com Collabora <2014-05-01
+muthusuba@gmail.com Ericsson
 
 kohei@openoffice.org SUSE <2013-09-01
 kohei@openoffice.org Collabora
@@ -116,6 +118,14 @@ mba@openoffice.org (Unknown)
 madewokherd@gmail.com CodeWeavers
 
 mark@klomp.org RedHat
+
+2robinsaini@gmail.com Ericsson
+
+rush2hina@gmail.com Ericsson
+
+tk7ua1678@gmail.com Ericsson
+
+charu.tyagi@ericsson.com Ericsson
 
 # Martin Gallwey is one of the Irish guys working for Sun at some stage; I've
 # chosen the LO creation as the date - his last OOo commits were in
@@ -179,3 +189,4 @@ cloudon.com	CloudOn
 multicorewareinc.com	MultiCoreWare
 synerzip.com    SYNERZIP
 sonicle.com	Sonicle
+ericsson.com	Ericsson
