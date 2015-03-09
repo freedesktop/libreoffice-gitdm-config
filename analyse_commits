@@ -98,41 +98,6 @@ sub sanity_check_git_dir($)
     $error && die "please checkout missing git repositories before continuing";
 }
 
-# our legacy tags are stored as notes ...
-sub read_legacy_tags($)
-{
-    my $git_dir = shift;
-    my %tags;
-    my $outputh;
-    chdir ($git_dir);
-    print STDERR "read legacy tags from notes\n";
-
-    open ($outputh, "git notes list |") || die "can't read git notes";
-    while (<$outputh>) {
-	/\s*(\S+)\s+(\S+)$/ || die "badly formatted '\$ git notes list' output";
-	my $gith = $2;
-	chomp (my $note = `git notes show $gith`);
-	for my $line (split /\n/, $note) {
-	    $line =~ /^\s*$/ && next;
-#	    print "hash $gith line: '$line'\n";
-	    if ($line =~ m/split repo tag: (\S+)/) {
-		$tags{$1} = $gith;
-#		print "\t'$1' -> '$gith'\n";
-	    } else {
-		print STDERR "Warning: unusual note: '$line' hash $gith\n"
-	    }
-	}
-    }
-    close ($outputh);
-
-    if (keys(%tags) < 1) {
-	print "\nError: Missing required notes in the core repository, please run:\n";
-	print "    (cd $git_dir ; git fetch origin refs/notes/*:refs/notes/* )\n\n";
-	exit 1;
-    }
-    return \%tags;
-}
-
 # build a list of hashes for all the revisions
 
 my %check_queries;
@@ -180,45 +145,15 @@ sub merge_logs ($$@)
 
     my @revisions;
 
-    # since the 'onegit' migration, all repos were merged into
-    # one big repo, so we need to diff up to the merge point
-    my @old_repo_names = ( 'artwork', 'base', 'bootstrap',
-			   'calc', 'components', 'extensions',
-			   'extras', 'filters', 'impress',
-			   'libs-core', 'libs-extern',
-			   'libs-extern-sys', 'libs-gui',
-			   'postprocess', 'sdk', 'testing',
-			   'writer', 'ure' );
-
-    # all above:
-    my $tags = read_legacy_tags($git_dir);
-
     print STDERR "reading revisions\n";
-    for my $repo (@old_repo_names) {
-	# you will need a recent set of 'notes'
-	my $start = $tags->{$repo. "_LIBREOFFICE_CREATE"};
-	die ("Missing note: $repo" . "_LIBREOFFICE_CREATE") if (!defined $start);
-	my $meld  = $tags->{$repo. "_PRE_MELD_REPOS"};
-	die ("Missing note: $repo" . "_PRE_MELD_REPOS") if (!defined $meld);
-	if (defined ($just_core_numstat)) {
-	    system("cd $git_dir ; $dump_numstat_cmd $start..$meld");
-	} else {
-	    push @revisions, read_rev_list ($git_dir, "old $repo", "$start..$meld");
-	}
-    }
     # recent work on core ...
     if (defined ($just_core_numstat)) {
 	system("cd $git_dir ; $dump_numstat_cmd MELD_LIBREOFFICE_REPOS..");
 	exit (0);
     } else {
-	push @revisions, read_rev_list ($git_dir, "core", "MELD_LIBREOFFICE_REPOS..");
+	# magic from: git log --since 2013-01-01 | grep 'commit ' | tail -n 1
+	push @revisions, read_rev_list ($git_dir, "core", "ffaf6adba6da2af0bd9ceb7f94b4e4eff055ae20..");
     }
-
-    # build ...
-    push @revisions, read_rev_list ("$git_dir/clone/build", "build", "LIBREOFFICE_CREATE..");
-    # binfilter
-    push @revisions, read_rev_list ("$git_dir/clone/binfilter", "binfilter", "binfilter_LIBREOFFICE_CREATE..");
-    # ignore dictionaries and help: ~no code there
 
     my $revcount = @revisions;
     print "sorting $revcount revisions\n";
@@ -276,14 +211,6 @@ $app_path = "$cwd/$app_path" if ($app_path =~ /^[^\/]/);
 print "app path $app_path\n";
 
 infer_optional_variables();
-
-if ($show_note_tags) {
-    my $tags = read_legacy_tags ($git_dir);
-    for my $tag (sort keys (%{$tags})) {
-	print "\t$tag\t".$tags->{$tag}."\n";
-    }
-    exit (0);
-}
 
 if (-f "$git_dir/rat-excludes") { # it is Apache
     $apache_svn_git_repo = 1;
