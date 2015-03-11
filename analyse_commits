@@ -258,7 +258,7 @@ close ($gitdmfh) || die "$cmd: command failed";
 
 for my $f ("$output_dir/git-hackers-data.csv", "$output_dir/hackers.csv") {
     print "final sed csv output '$f'\n";
-    system ("sed -i.bak 's/(Unknown)/New Contributors/' $f") && die "failed to sed: $!";
+    system ("sed -i.bak 's/(Unknown)/Assigned/' $f") && die "failed to sed: $!";
 }
 print "done.\n";
 
