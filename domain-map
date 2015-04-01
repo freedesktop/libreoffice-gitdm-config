@@ -8,9 +8,10 @@ unknown.ibm.com IBM
 # with an corporate domain / affiliation
 #
 
-thb@openoffice.org  Oracle  <2008-02-28
-thb@openoffice.org  SUSE    <2013-09-15
-thb@openoffice.org  Assigned
+thb@openoffice.org  Oracle   <2008-02-28
+thb@openoffice.org  SUSE     <2013-09-15
+thb@openoffice.org  Assigned <2015-04-01
+thb@openoffice.org  CIB
 
 cmc@openoffice.org  Oracle  <2004-03-01
 cmc@openoffice.org  RedHat
@@ -139,8 +140,9 @@ hcvcastro@gmail.com Collabora
 me@siqi.fr Assigned <2015-03-01
 me@siqi.fr Collabora
 
-bubli@bubli.org SUSE <2011-08-01
-bubli@bubli.org Assigned
+bubli@bubli.org SUSE     <2011-08-01
+bubli@bubli.org Assigned <2015-04-01
+bubli@bubli.org CIB
 
 mba@openoffice.org Oracle <2011-12-01
 mba@openoffice.org (Unknown)
