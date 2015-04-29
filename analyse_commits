@@ -85,7 +85,7 @@ sub sanity_check_git_dir($)
     -d "$core/clone" || die "expected directory $core/clone for sub-repositories";
 
     my $error = 0;
-    my @required = ( 'binfilter', 'build' );
+    my @required = ( 'online' );
     for my $expect (@required) {
 	my $dir = "$core/clone/$expect";
 	if (!is_git_repo ($dir)) {
@@ -151,6 +151,7 @@ sub merge_logs ($$@)
 	system("cd $git_dir ; $dump_numstat_cmd MELD_LIBREOFFICE_REPOS..");
 	exit (0);
     } else {
+	push @revisions, read_rev_list ("$git_dir/clone/online", "online", "d106b7cb3a962ef33fb28c9fb49b4858beafc817..");
 	# magic from: git log --since 2013-01-01 | grep 'commit ' | tail -n 1
 	push @revisions, read_rev_list ($git_dir, "core", "ffaf6adba6da2af0bd9ceb7f94b4e4eff055ae20..");
     }
