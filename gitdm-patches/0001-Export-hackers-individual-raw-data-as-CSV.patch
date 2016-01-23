@@ -55,12 +55,13 @@ diff --git a/database.py b/database.py
 index d8c8095..a8677e0 100644
 --- a/database.py
 +++ b/database.py
-@@ -25,6 +25,8 @@ class Hacker:
+@@ -25,7 +25,9 @@ class Hacker:
          self.tested = [ ]
          self.reports = [ ]
          self.testcred = self.repcred = 0
 +        self.activity_start = datetime.date.max
 +        self.activity_end = datetime.date.min
+         self.versions = [ ]
  
      def addemail (self, email, elist):
          self.email.append (email)
@@ -104,38 +105,27 @@ index 41634e6..774b059 100755
  # -l count	Maximum length for output lists
  # -n        Use numstats instead of generated patch from git log
  # -o file	File for text output
-@@ -67,10 +69,10 @@ ReportByFileType = 0
+@@ -67,10 +69,11 @@ ReportByFileType = 0
  def ParseOpts ():
      global MapUnknown, DevReports
      global DateStats, AuthorSOBs, FileFilter, AkpmOverLt, DumpDB
--    global CFName, CSVFile, CSVPrefix,DirName, Aggregate, Numstat
--    global ReportByFileType
-+    global CFName, CSVFile, CSVPrefix, HackersCSV, DirName,
-+    global Aggregate, Numstat, ReportByFileType
+     global CFName, CSVFile, CSVPrefix,DirName, Aggregate, Numstat
+     global ReportByFileType, ReportUnknowns, CompanyFilter, FileReport
++    global HackersCSV
  
--    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:l:no:p:r:stuwx:z')
-+    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:H:l:no:p:r:stuwx:z')
+-    opts, rest = getopt.getopt(sys.argv[1:], 'ab:dC:c:Df:h:l:no:p:r:stUuwx:yz')
++    opts, rest = getopt.getopt(sys.argv[1:], 'ab:dC:c:Df:H:h:l:no:p:r:stUuwx:yz')
      for opt in opts:
          if opt[0] == '-a':
              AkpmOverLt = 1
-@@ -84,6 +86,8 @@ def ParseOpts ():
-             DateStats = 1
+@@ -84,4 +86,6 @@ def ParseOpts ():
          elif opt[0] == '-h':
-             reports.SetHTMLOutput (open (opt[1], 'w'))
+             reports.SetHTMLOutput(open(opt[1], 'w'))
 +        elif opt[0] == '-H':
 +            HackersCSV = open (opt[1], 'w')
          elif opt[0] == '-l':
-             reports.SetMaxList (int (opt[1]))
-         elif opt[0] == '-n':
-@@ -108,7 +112,6 @@ def ParseOpts ():
-             Aggregate = 'week'
-         elif opt[0] == '-z':
-             DumpDB = 1
--        
- 
- 
- def LookupStoreHacker (name, email):
-@@ -480,6 +483,10 @@ if TotalChanged == 0:
+             reports.SetMaxList(int(opt[1]))
+@@ -480,5 +483,9 @@ if TotalChanged == 0:
  if DateStats:
      PrintDateStats ()
  
@@ -145,7 +135,3 @@ index 41634e6..774b059 100755
 +
  if CSVPrefix:
      csvdump.save_csv (CSVPrefix)
- 
--- 
-1.7.3.4
-

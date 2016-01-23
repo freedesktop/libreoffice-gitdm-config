@@ -25,12 +25,6 @@ diff --git a/gitdm b/gitdm
 index 774b059..62a5a57 100755
 --- a/gitdm
 +++ b/gitdm
-@@ -1,4 +1,4 @@
--#!/usr/bin/pypy
-+#!/usr/bin/python
- #-*- coding:utf-8 -*-
- #
- 
 @@ -34,6 +34,7 @@ DevReports = 1
  DateStats = 0
  AuthorSOBs = 1
@@ -39,24 +33,26 @@ index 774b059..62a5a57 100755
  CSVFile = None
  CSVPrefix = None
  HackersCSV = None
-@@ -63,16 +64,17 @@ ReportByFileType = 0
+@@ -63,18 +64,19 @@ ReportByFileType = 0
  # -s		Ignore author SOB lines
  # -u		Map unknown employers to '(Unknown)'
+ # -U 		Dump unknown hackers in report
  # -x file.csv   Export raw statistics as CSV
 +# -X pattern    Exclude matching files
  # -w        Aggregrate the raw statistics by weeks instead of months
+ # -y            Aggregrate the raw statistics by years instead of months
  # -z		Dump out the hacker database at completion
  
- def ParseOpts ():
+ def ParseOpts():
      global MapUnknown, DevReports
      global DateStats, AuthorSOBs, FileFilter, AkpmOverLt, DumpDB
--    global CFName, CSVFile, CSVPrefix, HackersCSV, DirName,
--    global Aggregate, Numstat, ReportByFileType
-+    global CFName, CSVFile, CSVPrefix, HackersCSV, DirName
-+    global Aggregate, Numstat, ReportByFileType, ExcludeFilter
+     global CFName, CSVFile, CSVPrefix,DirName, Aggregate, Numstat
+     global ReportByFileType, ReportUnknowns, CompanyFilter, FileReport
+-    global HackersCSV
++    global HackersCSV, ExcludeFilter
  
--    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:H:l:no:p:r:stuwx:z')
-+    opts, rest = getopt.getopt (sys.argv[1:], 'ab:dc:Dh:H:l:no:p:r:stuwx:X:z')
+-    opts, rest = getopt.getopt(sys.argv[1:], 'ab:dC:c:Df:H:h:l:no:p:r:stUuwx:yz')
++    opts, rest = getopt.getopt(sys.argv[1:], 'ab:dC:c:Df:H:h:l:no:p:r:stUuwx:X:yz')
      for opt in opts:
          if opt[0] == '-a':
              AkpmOverLt = 1
