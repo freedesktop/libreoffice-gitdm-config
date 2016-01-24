@@ -4,3 +4,7 @@ git-reports.txt
 *.dump
 *.ods
 week-*
+/checkouts
+/stats-*
+*~
+
