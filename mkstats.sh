@@ -7,7 +7,7 @@ run_stats ()
     topic=${topic%.config}
     output_dir=`pwd`/stats-$topic-`date -u +'%Y-%m-%d'`
 
-	-d $output_dir || mkdir $output_dir || exit 1
+	test -d $output_dir || mkdir $output_dir || exit 1
 
 	# update/clone repos
 	./mr -c $mr_config update
