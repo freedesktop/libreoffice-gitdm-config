@@ -23,7 +23,6 @@ run_stats ()
 }
 
 # run all known stats
-#for item in mr-*.config; do
-for item in mr-legacydev.config; do
+for item in mr-*.config; do
 	run_stats $item
 done
