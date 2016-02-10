@@ -1,17 +1,17 @@
-From 82cb8cc64e7e2d744bbf65673e61979160a5b767 Mon Sep 17 00:00:00 2001
-From: Cedric Bosdonnat <cedric.bosdonnat.ooo@free.fr>
-Date: Wed, 14 Sep 2011 00:55:30 +0200
+From 848f32d7224a2ca877e95f6815b14f8a9fdd9e21 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?C=C3=A9dric=20Bosdonnat?= <cedricbosdo@openoffice.org>
+Date: Sun, 7 Feb 2016 00:19:08 +0100
 Subject: [PATCH 1/2] Export hackers individual raw data as CSV
 
 The data exported for each hacker are the date of the first commit,
 the date of the last commit, the commits count. These help distinguish
 regular core hackers from one-shot contributors.
 ---
- README      |    3 +++
- csvdump.py  |   16 +++++++++++++++-
- database.py |    8 +++++++-
- gitdm       |   15 +++++++++++----
- 4 files changed, 36 insertions(+), 6 deletions(-)
+ README      |  3 +++
+ csvdump.py  | 16 +++++++++++++++-
+ database.py |  8 +++++++-
+ gitdm       | 11 ++++++++++-
+ 4 files changed, 35 insertions(+), 3 deletions(-)
 
 diff --git a/README b/README
 index dab372e..e60285d 100644
@@ -28,12 +28,12 @@ index dab372e..e60285d 100644
  
      -n  Use --numstat instead of generated patches to get the statistics.
 diff --git a/csvdump.py b/csvdump.py
-index b76a5f6..66b8a12 100644
+index c3f6b5a..f0f5e6b 100644
 --- a/csvdump.py
 +++ b/csvdump.py
-@@ -85,4 +85,18 @@ def OutputCSV (file):
+@@ -89,4 +89,18 @@ def OutputCSV (file):
          writer.writerow ([author_name, stat.email, empl_name, stat.date,
-                           stat.added, stat.removed])
+                           stat.added, stat.removed, stat.changesets])
  
 -__all__ = [  'AccumulatePatch', 'OutputCSV', 'store_patch' ]
 +def OutputHackersCSV (file, hlist):
@@ -52,10 +52,10 @@ index b76a5f6..66b8a12 100644
 +
 +
 diff --git a/database.py b/database.py
-index d8c8095..a8677e0 100644
+index cb242c1..bf13227 100644
 --- a/database.py
 +++ b/database.py
-@@ -25,7 +25,9 @@ class Hacker:
+@@ -25,6 +25,8 @@ class Hacker:
          self.tested = [ ]
          self.reports = [ ]
          self.testcred = self.repcred = 0
@@ -64,8 +64,7 @@ index d8c8095..a8677e0 100644
          self.versions = [ ]
  
      def addemail (self, email, elist):
-         self.email.append (email)
-@@ -33,7 +35,7 @@ class Hacker:
+@@ -34,7 +36,7 @@ class Hacker:
  
      def emailemployer (self, email, date):
          for i in range (0, len (self.email)):
@@ -74,9 +73,9 @@ index d8c8095..a8677e0 100644
                  for edate, empl in self.employer[i]:
                      if edate > date:
                          return empl
-@@ -44,6 +46,10 @@ class Hacker:
-         self.added += patch.added
+@@ -46,6 +48,10 @@ class Hacker:
          self.removed += patch.removed
+         self.changed += max(patch.added, patch.removed)
          self.patches.append (patch)
 +        if patch.date < self.activity_start:
 +            self.activity_start = patch.date
@@ -84,9 +83,9 @@ index d8c8095..a8677e0 100644
 +            self.activity_end= patch.date
  
      #
-     # There's got to be a better way.
+     # Note that the author is represented in this release.
 diff --git a/gitdm b/gitdm
-index 41634e6..774b059 100755
+index c2b20cd..61318ad 100755
 --- a/gitdm
 +++ b/gitdm
 @@ -36,6 +36,7 @@ AuthorSOBs = 1
@@ -97,17 +96,15 @@ index 41634e6..774b059 100755
  AkpmOverLt = 0
  DumpDB = 0
  CFName = 'gitdm.config'
-@@ -53,6 +54,7 @@ ReportByFileType = 0
- # -d		Output individual developer stats
+@@ -57,6 +58,7 @@ FileReport = None
  # -D		Output date statistics
+ # -f file	Write touched-files report to <file>
  # -h hfile	HTML output to hfile
 +# -H file   Export individual developer raw data as CSV
  # -l count	Maximum length for output lists
  # -n        Use numstats instead of generated patch from git log
  # -o file	File for text output
-@@ -67,10 +69,11 @@ ReportByFileType = 0
- def ParseOpts ():
-     global MapUnknown, DevReports
+@@ -75,8 +77,9 @@ def ParseOpts():
      global DateStats, AuthorSOBs, FileFilter, AkpmOverLt, DumpDB
      global CFName, CSVFile, CSVPrefix,DirName, Aggregate, Numstat
      global ReportByFileType, ReportUnknowns, CompanyFilter, FileReport
@@ -118,20 +115,26 @@ index 41634e6..774b059 100755
      for opt in opts:
          if opt[0] == '-a':
              AkpmOverLt = 1
-@@ -84,4 +86,6 @@ def ParseOpts ():
+@@ -94,6 +97,8 @@ def ParseOpts():
+             FileReport = opt[1]
          elif opt[0] == '-h':
              reports.SetHTMLOutput(open(opt[1], 'w'))
 +        elif opt[0] == '-H':
 +            HackersCSV = open (opt[1], 'w')
          elif opt[0] == '-l':
              reports.SetMaxList(int(opt[1]))
-@@ -480,5 +483,9 @@ if TotalChanged == 0:
+         elif opt[0] == '-n':
+@@ -551,6 +556,10 @@ if TotalChanged == 0:
  if DateStats:
-     PrintDateStats ()
+     PrintDateStats()
  
 +if HackersCSV:
 +    csvdump.OutputHackersCSV (HackersCSV, hlist);
 +    HackersCSV.close ()
 +
  if CSVPrefix:
-     csvdump.save_csv (CSVPrefix)
+     csvdump.save_csv(CSVPrefix)
+ 
+-- 
+2.1.4
+
