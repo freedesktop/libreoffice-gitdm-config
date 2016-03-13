@@ -1,0 +1,145 @@
+From bdc0abe0e86a9c5b681fe3c6767433f0f17c580e Mon Sep 17 00:00:00 2001
+From: Thorsten Behrens <Thorsten.Behrens@CIB.de>
+Date: Sun, 13 Mar 2016 02:38:35 +0100
+Subject: [PATCH 4/4] Add two more by-employer reports
+
+---
+ database.py |  9 +++++++++
+ gitdm       | 16 ++++++++++++----
+ reports.py  | 40 +++++++++++++++++++++++++++++++++++++++-
+ 3 files changed, 60 insertions(+), 5 deletions(-)
+
+diff --git a/database.py b/database.py
+index 226ae05..97243e2 100644
+--- a/database.py
++++ b/database.py
+@@ -164,6 +164,8 @@ class Employer:
+         self.name = name
+         self.added = self.removed = self.count = self.changed = 0
+         self.sobs = 0
++        self.tests = 0
++        self.reviews = 0
+         self.hackers = [ ]
+         self.bugfixes = [ ]
+ 
+@@ -179,6 +181,13 @@ class Employer:
+     def AddSOB (self):
+         self.sobs += 1
+ 
++    def AddReview (self):
++        self.reviews += 1
++
++    def AddTest (self):
++        self.tests += 1
++
++
+ Employers = { }
+ 
+ def GetEmployer (name):
+diff --git a/gitdm b/gitdm
+index a7eee64..fa41505 100755
+--- a/gitdm
++++ b/gitdm
+@@ -305,12 +305,14 @@ def grabpatch(logpatch):
+         m = patterns['reviewed-by'].match(Line)
+         if m:
+             email = database.RemapEmail(m.group(2))
+-            p.addreviewer(LookupStoreHacker(m.group(1), email))
++            reviewer = LookupStoreHacker(m.group(1), email)
++            p.addreviewer((email, LookupStoreHacker(m.group(1), m.group(2))))
+             continue
+         m = patterns['tested-by'].match(Line)
+         if m:
+             email = database.RemapEmail(m.group(2))
+-            p.addtester(LookupStoreHacker(m.group(1), email))
++            tester = LookupStoreHacker(m.group(1), email)
++            p.addtester((email, LookupStoreHacker(m.group(1), m.group(2))))
+             p.author.testcredit(patch)
+             continue
+         # Reported-by:
+@@ -528,16 +530,22 @@ for logpatch in patches:
+         for sobemail, sobber in p.sobs:
+             empl = sobber.emailemployer(sobemail, p.date)
+             empl.AddSOB()
++        for revemail, reviewer in p.reviews:
++            empl = reviewer.emailemployer(revemail, p.date)
++            empl.AddReview()
++        for testemail, tester in p.testers:
++            empl = tester.emailemployer(testemail, p.date)
++            empl.AddTest()
+ 
+     if not p.merge:
+         p.author.addpatch(p)
+         for sobemail, sob in p.sobs:
+             sob.addsob(p)
+-        for hacker in p.reviews:
++        for hackemail, hacker in p.reviews:
+             hacker.addreview(p)
+         for bug in p.bugfixes:
+             p.author.addbugfix(bug)
+-        for hacker in p.testers:
++        for hackemail, hacker in p.testers:
+             hacker.addtested(p)
+         for hacker in p.reports:
+             hacker.addreport(p)
+diff --git a/reports.py b/reports.py
+index 535f502..992fc63 100644
+--- a/reports.py
++++ b/reports.py
+@@ -375,7 +375,43 @@ def ReportByESOBs(elist):
+         if count >= ListCount:
+             break
+     EndReport()
+-   
++
++def CompareERevs(e1, e2):
++    return e2.reviews - e1.reviews
++
++def ReportByERevs(elist):
++    elist.sort(CompareERevs)
++    totalrevs = 0
++    for e in elist:
++        totalrevs += e.reviews
++    count = 0
++    BeginReport('Employers with the most reviews (total %d)' % totalrevs)
++    for e in elist:
++        if e.reviews > 0:
++            ReportLine(e.name, e.reviews, (e.reviews*100.0)/totalrevs)
++        count += 1
++        if count >= ListCount:
++            break
++    EndReport()
++
++def CompareETests(e1, e2):
++    return e2.tests - e1.tests
++
++def ReportByETests(elist):
++    elist.sort(CompareETests)
++    totaltests = 0
++    for e in elist:
++        totaltests += e.tests
++    count = 0
++    BeginReport('Employers with the most tested-by (total %d)' % totaltests)
++    for e in elist:
++        if e.tests > 0:
++            ReportLine(e.name, e.tests, (e.tests*100.0)/totaltests)
++        count += 1
++        if count >= ListCount:
++            break
++    EndReport()
++
+ def CompareHackers(e1, e2):
+     return len(e2.hackers) - len(e1.hackers)
+ 
+@@ -442,6 +478,8 @@ def EmplReports(elist, totalchanged, cscount):
+     ReportByPCEmpl(elist, cscount)
+     ReportByELChanged(elist, totalchanged)
+     ReportByESOBs(elist)
++    ReportByERevs(elist)
++    ReportByETests(elist)
+     ReportByEHackers(elist)
+     ReportByEBugfixes(elist)
+ 
+-- 
+2.6.4
+

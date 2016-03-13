@@ -1,0 +1,80 @@
+From 93ffbdc9d5fbe547325cf23de08093990e2ce9d7 Mon Sep 17 00:00:00 2001
+From: Thorsten Behrens <Thorsten.Behrens@CIB.de>
+Date: Tue, 8 Mar 2016 18:12:50 +0100
+Subject: [PATCH 3/4] also report bugfix credits by employer
+
+---
+ database.py |  2 ++
+ reports.py  | 31 +++++++++++++++++++++++++++++++
+ 2 files changed, 33 insertions(+)
+
+diff --git a/database.py b/database.py
+index a2b6727..226ae05 100644
+--- a/database.py
++++ b/database.py
+@@ -165,11 +165,13 @@ class Employer:
+         self.added = self.removed = self.count = self.changed = 0
+         self.sobs = 0
+         self.hackers = [ ]
++        self.bugfixes = [ ]
+ 
+     def AddCSet (self, patch):
+         self.added += patch.added
+         self.removed += patch.removed
+         self.changed += max(patch.added, patch.removed)
++        self.bugfixes += patch.bugfixes
+         self.count += 1
+         if patch.author not in self.hackers:
+             self.hackers.append (patch.author)
+diff --git a/reports.py b/reports.py
+index 48223fc..535f502 100644
+--- a/reports.py
++++ b/reports.py
+@@ -395,6 +395,36 @@ def ReportByEHackers(elist):
+             break
+     EndReport()
+ 
++#
++# Bugfixer reporting.
++#
++def ReportByEBugfixes(elist):
++    # extract all bugfix types, flatten list then use unique set
++    bug_domains = set( [ j[0] for i in elist for j in i.bugfixes ] )
++
++    # output stats separate for type
++    for domain in bug_domains:
++        filtered_employers = [ ]
++        for e in elist:
++            filtered_e = database.Employer(e.name)
++            filtered_e.bugfixes = [ i for i in e.bugfixes if i[0] == domain ]
++            filtered_employers.append( filtered_e )
++        filtered_employers.sort(CompareBugfixes)
++        totalfixes = 0
++        for e in filtered_employers:
++            totalfixes += len(e.bugfixes)
++        count = 0
++        BeginReport('Employers with the most bugfixes for %s#xxx (total %d)' % (
++            domain, totalfixes))
++        for e in filtered_employers:
++            scount = len(e.bugfixes)
++            if scount > 0:
++                ReportLine(e.name, scount, (scount*100.0)/totalfixes)
++            count += 1
++            if count >= ListCount:
++                break
++        EndReport()
++
+ 
+ def DevReports(hlist, totalchanged, cscount, totalremoved):
+     ReportByPCount(hlist, cscount)
+@@ -413,6 +443,7 @@ def EmplReports(elist, totalchanged, cscount):
+     ReportByELChanged(elist, totalchanged)
+     ReportByESOBs(elist)
+     ReportByEHackers(elist)
++    ReportByEBugfixes(elist)
+ 
+ #
+ # Who are the unknown hackers?
+-- 
+2.6.4
+

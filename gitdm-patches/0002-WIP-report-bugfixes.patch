@@ -1,0 +1,150 @@
+From 58240a83241b7bcf693a363b0bd19847afaf4a67 Mon Sep 17 00:00:00 2001
+From: Thorsten Behrens <Thorsten.Behrens@CIB.de>
+Date: Tue, 8 Mar 2016 12:31:10 +0100
+Subject: [PATCH 2/4] WIP: report bugfixes
+
+---
+ database.py |  3 +++
+ gitdm       | 10 ++++++++++
+ patterns.py |  1 +
+ reports.py  | 36 +++++++++++++++++++++++++++++++++++-
+ 4 files changed, 49 insertions(+), 1 deletion(-)
+
+diff --git a/database.py b/database.py
+index bf13227..a2b6727 100644
+--- a/database.py
++++ b/database.py
+@@ -22,6 +22,7 @@ class Hacker:
+         self.patches = [ ]
+         self.signoffs = [ ]
+         self.reviews = [ ]
++        self.bugfixes = [ ]
+         self.tested = [ ]
+         self.reports = [ ]
+         self.testcred = self.repcred = 0
+@@ -66,6 +67,8 @@ class Hacker:
+         self.signoffs.append (patch)
+     def addreview (self, patch):
+         self.reviews.append (patch)
++    def addbugfix (self, bug):
++        self.bugfixes.append (bug)
+     def addtested (self, patch):
+         self.tested.append (patch)
+     def addreport (self, patch):
+diff --git a/gitdm b/gitdm
+index 6b7e378..a7eee64 100755
+--- a/gitdm
++++ b/gitdm
+@@ -210,12 +210,16 @@ class patch:
+         self.reviews = [ ]
+         self.testers = [ ]
+         self.reports = [ ]
++        self.bugfixes = [ ]
+         self.filetypes = {}
+         self.files = [ ]
+ 
+     def addreviewer(self, reviewer):
+         self.reviews.append(reviewer)
+ 
++    def addbugfix(self, bug):
++        self.bugfixes.append(bug)
++
+     def addtester(self, tester):
+         self.testers.append(tester)
+ 
+@@ -294,6 +298,10 @@ def grabpatch(logpatch):
+         #
+         # Various other tags of interest.
+         #
++        m = patterns['bugfix'].match(Line)
++        if m:
++            p.addbugfix((m.group(2), m.group(3)))
++            continue
+         m = patterns['reviewed-by'].match(Line)
+         if m:
+             email = database.RemapEmail(m.group(2))
+@@ -527,6 +535,8 @@ for logpatch in patches:
+             sob.addsob(p)
+         for hacker in p.reviews:
+             hacker.addreview(p)
++        for bug in p.bugfixes:
++            p.author.addbugfix(bug)
+         for hacker in p.testers:
+             hacker.addtested(p)
+         for hacker in p.reports:
+diff --git a/patterns.py b/patterns.py
+index db36873..b346013 100644
+--- a/patterns.py
++++ b/patterns.py
+@@ -37,6 +37,7 @@ patterns = {
+     'tested-by': re.compile (r'^\s+tested-by:' + _pemail + '.*$', re.I),
+     'reported-by': re.compile (r'^\s+Reported-by:' + _pemail + '.*$', re.I),
+     'reported-and-tested-by': re.compile (r'^\s+reported-and-tested-by:' + _pemail + '.*$', re.I),
++    'bugfix': re.compile (r'(^|.* )(\w+)#(\d+) .*$', re.I),
+     #
+     # Merges are described with a variety of lines.
+     #
+diff --git a/reports.py b/reports.py
+index 1c707d0..48223fc 100644
+--- a/reports.py
++++ b/reports.py
+@@ -10,7 +10,7 @@
+ # Public License, version 2.
+ #
+ 
+-import sys
++import sys, database
+ 
+ Outfile = sys.stdout
+ HTMLfile = None
+@@ -296,6 +296,39 @@ def ReportByRepCreds(hlist):
+     EndReport()
+ 
+ #
++# Bugfixer reporting.
++#
++def CompareBugfixes(h1, h2):
++    return len(h2.bugfixes) - len(h1.bugfixes)
++
++def ReportByBugfixes(hlist):
++    # extract all bugfix types, flatten list then use unique set
++    bug_domains = set( [ j[0] for i in hlist for j in i.bugfixes ] )
++
++    # output stats separate for type
++    for domain in bug_domains:
++        filtered_hackers = [ ]
++        for hacker in hlist:
++            filtered_hacker = database.Hacker(hacker.name, None, None, None)
++            filtered_hacker.bugfixes = [ i for i in hacker.bugfixes if i[0] == domain ]
++            filtered_hackers.append( filtered_hacker )
++        filtered_hackers.sort(CompareBugfixes)
++        totalfixes = 0
++        for h in filtered_hackers:
++            totalfixes += len(h.bugfixes)
++        count = 0
++        BeginReport('Developers with the most bugfix credits for %s#xxx (total %d)' % (
++            domain, totalfixes))
++        for h in filtered_hackers:
++            scount = len(h.bugfixes)
++            if scount > 0:
++                ReportLine(h.name, scount, (scount*100.0)/totalfixes)
++            count += 1
++            if count >= ListCount:
++                break
++        EndReport()
++
++#
+ # Versions.
+ #
+ def CompareVersionCounts(h1, h2):
+@@ -373,6 +406,7 @@ def DevReports(hlist, totalchanged, cscount, totalremoved):
+     ReportByTestCreds(hlist)
+     ReportByReports(hlist)
+     ReportByRepCreds(hlist)
++    ReportByBugfixes(hlist)
+ 
+ def EmplReports(elist, totalchanged, cscount):
+     ReportByPCEmpl(elist, cscount)
+-- 
+2.6.4
+

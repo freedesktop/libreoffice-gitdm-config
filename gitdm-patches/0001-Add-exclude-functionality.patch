@@ -1,7 +1,7 @@
-From da4fc5c5acb6839dc91cb6174ece03a98464e824 Mon Sep 17 00:00:00 2001
+From 1e503647f7c8a06fa6859bc8c0c2628854ed26be Mon Sep 17 00:00:00 2001
 From: Michael Meeks <michael.meeks@novell.com>
 Date: Wed, 14 Sep 2011 01:12:00 +0200
-Subject: [PATCH 2/2] Add exclude functionality
+Subject: [PATCH 1/4] Add exclude functionality
 
 ---
  README |  2 ++
@@ -137,5 +137,5 @@ index 61318ad..6b7e378 100755
          TotalRemoved += p.removed
          TotalChanged += max(p.added, p.removed)
 -- 
-2.1.4
+2.6.4
 
