@@ -2,13 +2,13 @@ This is the configuration we use to extract changesets and run gitdm on them.
 
 * Tweaking your affiliation
 
-	This mostly happens in domain_map; there should be no need to
-touch the 'oracle' and 'go-oo' files, which tag legacy account
-affiliation.
+This mostly happens in domain_map; there should be no need to touch
+the 'oracle' and 'go-oo' files, which tag legacy account affiliation.
 
-* Running analyse_stats
+* Running mkstats.sh
 
-To run this, you will also need a patched gitdm; something like this:
+To run this, you will also need a patched gitdm next to this repo;
+something like this:
 
 cd ..
 git clone git://git.lwn.net/gitdm.git
@@ -19,17 +19,21 @@ done
 
 Then - simply run:
 
-./analyse_commits /path/to/libreoffice/core/checkout
+./mkstats.sh
 
-	This will lead you through checking out some extra (old) clone
-repositories eg. 'build', and to pull the (unusual) notes to have the
-legacy tags we need.
+(which will clone a lot of repos under ./checkouts, make sure the
+filesystem has some GB of space)
 
-	Having got that right - you shoudl end up with a
-stats-$year-$week directory containing the required data.
+This no longer handles the old split-repo source setup, which was ~impossible
+to extract accurate statistics out of, anyway. As an upshot, it now
+handles almost every git repo that is under the TDF umbrella.
+
+Having got that right - you should end up with a stats-$year-$week
+directory containing the required data.
 
 	Best of luck interpreting it.
 
 Authors:
 	Cedric Bosdonnat
 	Michael Meeks
+    Thorsten Behrens
