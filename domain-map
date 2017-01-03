@@ -1,0 +1,270 @@
+# we believe they're at IBM, but don't have their address
+unknown.ibm.com IBM
+
+#
+# These addresses are pre-normalised by aliases first ...
+#
+# it is important that these aliases are not associated
+# with an corporate domain / affiliation
+#
+
+d.ostrovsky@gmx.de   Assigned <2014-09-01
+d.ostrovsky@gmx.de   CIB
+
+s.mehrbrodt@gmail.com   Assigned <2015-09-14
+s.mehrbrodt@gmail.com   CIB
+
+os@openoffice.org   Oracle <2011-08-30
+os@openoffice.org   OX     <2015-09-01
+os@openoffice.org   CIB
+
+thb@openoffice.org  Oracle   <2008-02-28
+thb@openoffice.org  SUSE     <2013-09-15
+thb@openoffice.org  Assigned <2015-04-01
+thb@openoffice.org  CIB
+
+cmc@openoffice.org  Oracle  <2004-03-01
+cmc@openoffice.org  RedHat
+
+cedricbosdo@openoffice.org (Unknown) <2008-12-01
+cedricbosdo@openoffice.org SUSE      <2013-09-15
+cedricbosdo@openoffice.org Assigned
+
+fridrich.strba@bluewin.ch  (Unknown) <2007-03-01
+fridrich.strba@bluewin.ch  SUSE      <2013-09-15
+fridrich.strba@bluewin.ch  Assigned
+
+timar@fsf.hu Assigned <2011-04-04
+timar@fsf.hu SUSE <2013-09-01
+timar@fsf.hu Collabora
+
+b_michaelsen@openoffice.org Oracle <2011-02-01
+b_michaelsen@openoffice.org Canonical
+
+ccheney@ubuntu.com Canonical
+
+gquigs@gmail.com Canonical
+
+federico@ximian.com SUSE
+
+kstribley@openoffice.org SIL
+
+sb@openoffice.org Oracle <2011-08-30
+sb@openoffice.org RedHat
+
+glogow@fbihome.de Munich
+chrlutz@googlemail.com Munich
+eymux2009@googlemail.com Munich
+ulkitz@hotmail.de Munich
+d.sikeler94@gmail.com Munich
+jliebel94@gmail.com Munich
+stefan.weiberg@germandev.org Munich
+meta_dev@yahoo.com Munich
+m.weghorn@posteo.de Munich
+tobias.madl.dev@gmail.com Munich
+
+er@openoffice.org Oracle <2011-07-30
+er@openoffice.org Assigned <2011-10-17
+er@openoffice.org RedHat
+
+mst@openoffice.org Oracle <2011-09-01
+mst@openoffice.org Assigned <2011-10-01
+mst@openoffice.org RedHat
+
+npower@openoffice.org Oracle <2005-07-04
+npower@openoffice.org SUSE
+
+cosimoc@gnome.org RedHat
+
+lennart@poettering.net RedHat
+
+winddss@gmail.com SUSE
+
+mitch@gimp.org Lanedo
+
+# check tibby's date.
+tibbylickle@gmail.com Assigned <2012-03-01
+tibbylickle@gmail.com Lanedo <2014-04-01
+tibbylickle@gmail.com ITOMIG
+
+vmiklos@frugalware.org Assigned <2012-02-01
+vmiklos@frugalware.org SUSE <2013-09-01
+vmiklos@frugalware.org Collabora
+
+tml@iki.fi SUSE <2013-09-01
+tml@iki.fi Collabora
+
+mmeeks@openoffice.org SUSE <2013-09-01
+mmeeks@openoffice.org Collabora
+
+kendy@notthere.aliasdomain.foo SUSE <2013-09-1
+kendy@notthere.aliasdomain.foo Collabora
+
+muthusuba@gmail.com Assigned <2010-05-02
+muthusuba@gmail.com SUSE <2013-09-01
+muthusuba@gmail.com Collabora <2014-05-01
+muthusuba@gmail.com Ericsson <2016-01-01
+muthusuba@gmail.com Assigned
+
+kohei@openoffice.org SUSE <2013-09-01
+kohei@openoffice.org Collabora <2015-01-17
+kohei@openoffice.org Assigned <2016-09-19
+kohei@openoffice.org Collabora
+
+markus.mohrhard@googlemail.com Assigned <2013-09-01
+markus.mohrhard@googlemail.com Collabora <2015-04-01
+markus.mohrhard@googlemail.com Assigned
+
+matus.kukan@gmail.com Assigned <2013-10-01
+matus.kukan@gmail.com Collabora <2015-01-01
+matus.kukan@gmail.com Assigned
+
+andrzej@ahunt.org Assigned <2013-12-03
+andrzej@ahunt.org Collabora <2015-12-01
+andrzej@ahunt.org Assigned
+
+l.lunak@collabora.com SUSE <2014-03-12
+l.lunak@collabora.com Collabora <2016-06-20
+l.lunak@collabora.com (Unknown)
+
+zolniatamas@caesar.elte.hu Assigned <2014-01-01
+zolniatamas@caesar.elte.hu Collabora <2015-01-01
+zolniatamas@caesar.elte.hu Assigned <2016-09-01
+zolniatamas@caesar.elte.hu Collabora
+
+quikee@gmail.com Assigned <2014-02-01
+quikee@gmail.com Collabora
+
+mrcekets@gmail.com Assigned <2014-10-01
+mrcekets@gmail.com Collabora
+
+nemeth@numbertext.org Assigned <2014-10-01
+nemeth@numbertext.org Collabora
+
+chris.sherlock79@gmail.com Assigned <2015-01-01
+chris.sherlock79@gmail.com Collabora <2015-03-06
+chris.sherlock79@gmail.com Assigned
+
+mihai.mv13@gmail.com Assigned <2015-02-01
+mihai.mv13@gmail.com Collabora <2015-12-31
+mihai.mv13@gmail.com Assigned
+
+hcvcastro@gmail.com Assigned <2015-03-09
+hcvcastro@gmail.com Collabora
+
+olivier.hallot@edx.srv.br Assigned <2015-11-20
+olivier.hallot@edx.srv.br Collabora <2016-04-01
+olivier.hallot@edx.srv.br TDF
+
+noelgrandin@gmail.com Peralex <2016-09-12
+noelgrandin@gmail.com Collabora
+
+cloph@openoffice.org TDF
+
+jani@documentfoundation.org TDF
+
+ashodnakashian@yahoo.com Assigned <2015-12-12
+ashodnakashian@yahoo.com Collabora
+
+me@siqi.fr Assigned <2015-03-01
+me@siqi.fr Collabora
+
+bubli@bubli.org SUSE     <2011-08-01
+bubli@bubli.org Assigned <2015-04-01
+bubli@bubli.org CIB
+
+mba@openoffice.org Oracle <2011-12-01
+mba@openoffice.org (Unknown)
+
+madewokherd@gmail.com CodeWeavers
+
+mark@klomp.org RedHat
+
+2robinsaini@gmail.com Ericsson
+
+rush2hina@gmail.com Ericsson
+
+tk7ua1678@gmail.com Ericsson
+
+charu.tyagi@ericsson.com Ericsson
+
+# Martin Gallwey is one of the Irish guys working for Sun at some stage; I've
+# chosen the LO creation as the date - his last OOo commits were in
+# 2002, so we should be safe...  Later he contributed to LO.
+mtg@openoffice.org  Oracle  <2010-09-28
+mtg@openoffice.org  (Unknown)
+
+# IBM guys
+
+duerr@de.ibm.com Oracle <2011-09-27
+duerr@de.ibm.com IBM
+armin.le.grand@me.com Oracle <2011-09-27
+armin.le.grand@me.com IBM <2015-07-01
+armin.le.grand@me.com CIB
+af@a-w-f.de Oracle <2011-09-27
+af@a-w-f.de IBM
+jogischmidt@googlemail.com Oracle <2011-09-27
+jogischmidt@googlemail.com IBM
+orwittmann@googlemail.com Oracle <2011-09-27
+orwittmann@googlemail.com IBM
+
+# KACST
+
+developer.jesso@gmail.com KACST
+
+# CloudOn
+rattles2013@gmail.com CloudOn
+
+# Trailing classifiers:
+
+apache.org	Apache Volunteer
+
+deena.francis@gmail.com Libre Data Consultancy Services
+
+# Fallback classification by company name
+
+novell.com  SUSE
+suse.cz     SUSE
+suse.com    SUSE
+sun.com     Oracle
+oracle.com  Oracle
+redhat.com  RedHat
+canonical.com   Canonical
+lanedo.com      Lanedo
+codethink.co.uk CodeThink
+bobiciel.com    Bobiciel
+sil.org         SIL
+tcs.com		TCS
+muenchen.de	Munich
+nouenoff.nl	Nou & Off
+linagora.com	Linagora
+collabora.com   Collabora
+collabora.co.uk Collabora
+intel.com	Intel
+de.ibm.com	IBM
+cn.ibm.com	IBM
+us.ibm.com	IBM
+kacst.edu.sa	KACST
+aentos.es	Aentos
+openismus.com   Openismus
+igalia.com      Igalia
+cloudon.com	CloudOn
+multicorewareinc.com	MultiCoreWare
+synerzip.com    SYNERZIP
+sonicle.com	Sonicle
+ericsson.com	Ericsson
+xamarin.com     Xamarin
+cib.de          CIB
+itomig.de       ITOMIG
+peralex.com     Peralex
+
+# Added to provide consistencty with Wiki
+conectiva.com    Conectiva
+conectiva.com.br Conectiva
+bogus-non-domain Bogus
+mandriva.com     Mandriva
+credativ.com     Credativ
+codeweavers.com  Codeweavers 
+connectiva       Connectiva
+suse.de          Suse
+mandrake.com     Mandrake

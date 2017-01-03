@@ -1,5 +1,4 @@
 *.log
-*.csv
 git-reports.txt
 *.dump
 *.ods
