@@ -43,7 +43,10 @@ Authors:
 File information:
 
 domain-name, contains all companies who have a blanket license
-knownn-licensee.csv, contains all known licensee (from email, wiki, legal@ or blanket license)
+aliases, contains know email aliases
+mr_configs, contains the mr configurations
 audit, contains the audit history
-developers-dump.json, is extended information, needed by the esc-reporting tool
+licensePersonal.csv, contain person licenses
+licenseCompany.csv, contain company blanket licenses
+
 
