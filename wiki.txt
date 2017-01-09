@@ -1,0 +1,6869 @@
+{{TopMenu}}
+{{Menu}}
+{{Menu.Development}} 
+{{OrigLang|Developers and Contributors list}}
+Searching for other teams:
+* [[QA/Team|QA team]]
+* [[Infra/AdminTeam|Infra team]]
+* [[Design/Team|Design team]]
+
+Here is where we try to keep track of who has contributed to the project, and a list of their public license statements, so we can manage provenance of the code and more simply [[Development/Re-Basing|migrate to an MPLv2/LGPLv3+ license]].
+
+'''Changes to this page are watched carefully - and are related to audit tooling - please do not radically alter, re-structure, or change this page unless you know what you're doing'''
+
+'''N.B.''' The statements below are blanket statements covering all contributions, unless otherwise noted.
+
+== Example Statement ==
+
+=== Example Code Contributor Statement ===
+
+A nice minimal statement in an E-mail for a code developer looks like this:
+
+    All of my past & future contributions to LibreOffice may be
+    licensed under the MPLv2/LGPLv3+ dual license.
+
+Slight variation to suit your personal taste is fine as long as the intention is clear.
+
+=== Example Artist Statement ===
+
+For some forms of art-work, such as clipart and templates - we routinely get queries
+from document authors as to licensing, inclusion in books etc. To provide the simplest
+and widest possible usage of clipart, templates etc. we encourage the use of the CC0
+license, so a statement of this form:
+
+    To the extent possible under law, I waive all copyright and related or neighboring
+    rights to my past & future contributions to LibreOffice:
+    http://creativecommons.org/publicdomain/zero/1.0
+
+== Where do I send the Statement? ==
+
+It's best to send your statement to a public, archived list. We suggest the developers' list (no subscription required):
+* <big>libreoffice{{@}}lists.freedesktop.org</big>
+
+If you can, it's great to use Subject: <code>&lt;your name&gt; license statement</code> - that helps search the archive nicely.
+
+'''Please only send the statement no earlier than when you post your first submission to gerrit!'''
+
+= Individuals =
+
+Many are sorted by last name, first name under letter by letter. Many are sorted under first name before last, under word by word.
+
+= Validity of this list =
+
+This list is not the authorative license list, the list does not contain all people who have issued a license statement and in some cases it contains people that have not issued a license statement.
+
+This list is not centrally maintained. The authorative list is kept in the gitdm-config repo.
+
+== A ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Aafløy, Kenneth
+| {{nospam|kenneth_lists|aafloy.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/023747.html]
+|-
+| 
+| Abanumay, Norah A.
+| {{nospam|nabanimy|kacst.edu.sa}}
+| 
+| KACST
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/036210.html]
+|-
+| 
+| Abdillah, Hernawan Fa'iz
+| {{nospam|hernawan.faiz.abdillah|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/073986.html]
+|-
+| 
+| Abdelkebir, Hamza
+| {{nospam|comtact|hamza-abdelkebir.eu}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046267.html]
+|-
+| tabe
+| Abe, Takeshi
+| {{nospam|tabe|fixedpoint.jp}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-January/006748.html]
+|-
+| jad
+| Adams, Jonathan
+| {{nospam|jadams|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028373.html]
+|-
+| 
+| Adriaensen, Pieter
+| {{nospam|pieter.ad|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065398.html]
+|-
+| 
+| Adriano de Melo, Gabriel
+| {{nospam|gaadrime.melo|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075650.html]
+|-
+| 
+| Akkurt, Barış
+| {{nospam|dbarisakkurt|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/025187.html]
+|-
+| Abdulmajeed
+| Al-Abdulrazzaq, Abdulmajeed
+| {{nospam| aalabdulrazzaq|kacst.edu.sa}}
+| 
+| Motah Program, KACST
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035301.html]
+|-
+| 
+| Al-Arifi, Abdulelah Saad
+| {{nospam|asalarifi|kacst.edu.sa}}
+| 
+| Motah Program, KACST
+| [http://lists.freedesktop.org/archives/libreoffice/2012-December/043114.html]
+|-
+| 
+| Al-Saidi, Fahad
+| {{nospam|fahad.alsaidi|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-July/062344.html]
+|-
+| 
+| Al-Sakka, Ghasan
+| {{nospam|devghasan|hotmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-November/070973.html]
+|-
+| 
+| Alayed, Abdulaziz Ayed Khalid
+| {{nospam|aalayed|kacst.edu.sa}}
+| 
+| Motah Program, KACST
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/045590.html]
+|-
+| 
+| Alessandri, Santiago
+| {{nospam|salessandri|nasel.com.ar}}
+| 
+| 
+| pending moderation
+|-
+| Ahmad
+| Al-Harthi, Ahmad Hussein
+| {{nospam|aalharthi|kacst.edu.sa}}
+| ahmd
+| Motah Program, KACST
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035529.html]
+|-
+| 
+| Alhassoun, Manal M.
+| {{nospam|malhassoun|kacst.edu.sa}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038177.html]
+|-
+| 
+| Al-Hinai, Sheikha
+| {{nospam|sheikha443|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/071726.html]
+|-
+| 
+| Altin, Nurhak
+| {{nospam|nurhakaltin|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/072397.html]
+|-
+| 
+| Akalın, Burçin
+| {{nospam|brcnakalin|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-December/071502.html]
+
+|-
+| Issa
+| Alkurtass, Issa
+| {{nospam|ialkurtass|kacst.edu.sa}}
+| issa
+| Motah Program, KACST
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038080.html]
+|-
+| 
+| Allmann-Rahn, Florian
+| {{nospam|f.allmann-rahn|gmx.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030141.html]
+|-
+| 
+| Alonso, Laurent
+| {{nospam|laurent.alonso|inria.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031317.html]
+|-
+| Faisal
+| Al-Otaibi, Faisal M.
+| {{nospam|fmalotaibi|kacst.edu.sa}}
+| 
+| Motah Program, KACST 
+| [http://article.gmane.org/gmane.comp.documentfoundation.libreoffice.devel/32173]
+|-
+| 
+| Alt, Xavier
+| {{nospam|dex|phoenix-ind.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032001.html]
+|-
+| alvarezp
+| Alvarez, Octavio
+| {{nospam|alvarezp|ods.org}}
+| alvarezp/oalvarez
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031512.html]
+|-
+| Owenanderson
+| Anderson, Owen
+| {{nospam|owenthomasanderson|gmail.com}}
+| shimmy568
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/075961.html]
+|-
+| 
+| Andreev, Aleksandr
+| {{nospam|aleksandr.andreev|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067780.html]
+|-
+| 
+| Anisimov, Alexander O.
+| {{nospam|alenyashka|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031274.html]
+|-
+| 
+| Anjaria, Janit
+| {{nospam|janit92|gmail.com}}
+| Computer1
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/050530.html]
+|-
+| 
+| Aquilina, Jonathan
+| {{nospam|eagles051387|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031930.html]
+|-
+| jaragunde
+| Aragunde Pérez, Jacobo
+| {{nospam|jaragunde|igalia.com}}
+| jacobo
+| Igalia
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/050153.html]
+|-
+| 
+| Arnhold, Thomas
+| {{nospam|thomas|arnhold.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031050.html]
+|-
+| 
+| Aryal, Supreme
+| {{nospam|supremearyal|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/065807.html]
+|-
+| 
+| Assefa, Tadele
+| {{nospam|milkyswd|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-January/044087.html]
+|-
+| 
+| Ateş, Enes
+| {{nospam|enes|enesates.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067137.html]
+|-
+|
+| Awashiro, Ikuya
+| {{nospam|ikuya|fruitsbasket.info}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031817.html]
+|-
+|
+| Ayers, Jordan
+| {{nospam|jordan.ayers|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032381.html]
+|-
+|
+| Azeem, Mohammed Abdul
+| {{nospam|azeemmysore|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/072006.html]
+|-
+| sedat
+| Ak, Sedat
+| {{nospam|sedat.ak.bm|gmail.com}}
+| sedat
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070431.html]
+|}
+
+== B ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Babati, Bence
+| {{nospam|b.baabsi|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/036314.html]
+|-
+| 
+| Bailey, Dwayne
+| {{nospam|dwayne|translate.org.za}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032059.html]
+|-
+| Acbaird
+| Baird, Alan C.
+| 
+| 
+| Screenwright(R)
+| 
+|-
+| 
+| Bar-Nissan, Gal
+| {{nospam|gal.bar.nissan|cloudon.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065006.html]
+|-
+| Bjoern
+| Balazs, Bjoern
+| {{nospam|bjoern.balazs|user-prompt.com}}
+| bbalazs
+| [http://www.user-prompt.com User Prompt GmbH]
+| 
+|-
+| jumbo444
+| Balland-Poirier, Laurent
+| {{nospam|jumbo4444|yahoo.fr}}
+| jumbo444
+| Individual
+| [http://nabble.documentfoundation.org/License-statement-tp3819044p3819044.html]
+|-
+| 
+| Banko, Slávek
+| {{nospam|slavek.banco|axis.cz}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2015-October/070552.html]
+|-
+| 
+| Banerjee, Ashish
+| {{nospam|ashish.banerjee10|gmail.com}}
+| 
+| 
+| [http://article.gmane.org/gmane.comp.documentfoundation.libreoffice.devel/46926]
+|-
+| dbank
+| Bankston, Daniel
+| {{nospam|daniel.e.bankston|gmail.com}}
+| dbank
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/029412.html]
+|-
+| 
+| Barberi, Paul
+| {{nospam|paul.barberi13|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-October/064067.html]
+|-
+| 
+| Bartek, András
+| {{nospam|barteka13|gmail.com}}
+| barteka13
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/034699.html]
+|-
+| 
+| Basabhat, Akash Prasanna
+| {{nospam|akash.basabhat|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073442.html]
+|-
+| 
+| Bassini, Federico
+| {{nospam|kurogan21|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075449.html]
+|-
+| xapantu
+| Baudin, Lucas
+| {{nospam|xapantu|gmail.com}}
+| xapantu
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/018776.html]
+|-
+| 
+| Baudin, Roland
+| {{nospam|roland65|free.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031541.html]
+|-
+| 
+| Bauer, Michael
+| {{nospam|fios|akerbeltz.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057624.html]
+|-
+| 
+| Baumgarten, Peter
+| {{nospam|peter10691|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-November/041619.html]
+|-
+| chouquette
+| Beauzée-Luyssen, Hugo
+| {{nospam|beauze.h|gmail.com}}
+| chouquette
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/018858.html]
+|-
+| 
+| Bayreuther, Martin
+| {{nospam|maba|mb-systemhaus.net}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/073960.html]
+|-
+| 
+| Bágyi, Barnabás
+| {{nospam|bagyi_barnabas|yahoo.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076105.html]
+|-
+| mbechler
+| Bechler, Moritz
+| 
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/021925.html]
+|-
+| 
+| Behrens, Katarína
+| {{nospam|katarina.behrens|cib.de}}
+| bubli
+| CIB
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html]
+|-
+| thb
+| Behrens, Thorsten
+| {{nospam|thorsten.behrens|cib.de}}
+| thorsten
+| CIB
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html]
+|-
+|
+| Behrens, Linus
+| {{nospam|linus|thebehrens.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-May/067878.html] [http://lists.freedesktop.org/archives/libreoffice/2015-May/067879.html]
+|-
+| 
+| Bende, Tushar
+| {{nospam|tushar.bende|synerzip.com}}
+| 
+| Synerzip
+| [http://lists.freedesktop.org/archives/libreoffice/2013-October/056680.html]
+|-
+| 
+| Benes, Luke
+| {{nospam|lukebenes|hotmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/065752.html]
+|-
+| dali123
+| BEN MANSOUR, Mohamed-Ali
+| {{nospam|medalibenmansour|gmail.com}}
+| dali
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/060158.html]
+|-
+| 
+| Berg, Johannes
+| {{nospam|Johannes|sipsolutions.net}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/074912.html]
+|-
+| 
+| Bergmann, Alexander
+| {{nospam|myaddons|gmx.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/023958.html]
+|-
+| sb
+| Bergmann, Stephan
+| {{nospam|sbergman|redhat.com}}, {{nospam|stephan.bergmann.secondary|googlemail.com}}, {{nospam|sb|openoffice.org}}
+| sberg
+| Red Hat, Inc.
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/017756.html], [http://lists.freedesktop.org/archives/libreoffice/2011-August/017383.html]
+|-
+| bernarpa
+| Bernardi, Paolo
+| {{nospam|bernarpa|gmail.com}}
+| bernarpa
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-November/071290.html]
+|-
+| Marc
+| Bessières, Marc
+|
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-February/072435.html]
+|-
+| darcy
+| Beurle, Darcy
+| {{nospam|dbeurle|student.unimelb.edu.au}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/065790.html]
+|-
+| kbhat
+| Bhat, Kishor
+| {{nospam|kishorbhat|gmail.com}}
+| kbhat
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/066127.html]
+|-
+| RBd
+| Bielefeld, Rainer
+| {{nospam|LibreOffice|bielefeldundbuss.de}}
+| Rainer_Bielefeld
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/050600.html]
+|-
+| 
+| Billel, Nazir
+| {{nospam|b.nazir|aposte.net}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073799.html]
+|-
+| 
+| Billett, Iain
+| {{nospam|iainbillett|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/029856.html]
+|-
+| gbilotta
+| Bilotta, Giuseppe
+| {{nospam|giuseppe.bilotta|gmail.com}}
+| tango_
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063224.html]
+|-
+| 
+| Biocchetti, Fabio
+| {{nospam|fabio.biocchetti|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075601.html]
+|-
+| 
+| Bircher, Florian
+| {{nospam|florian.bi|gmx.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-January/006208.html]
+|-
+| 
+| Biru, Ionut
+| {{nospam|ibiru|archlinux.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032454.html]
+|-
+| marcobiscaro2112
+| Biscaro, Marco
+| {{nospam|marcobiscaro2112|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/037525.html]
+|-
+|
+| Bischoff, Eric
+| {{nospam|ebischoff|nerim.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/027788.html]
+|-
+| 
+| Blandford, Jonathan
+| 
+| 
+| Red Hat, Inc.
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/031021.html]
+|-
+| 
+| Blecha, Jiří
+| {{nospam|blecha.jiri|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/047002.html]
+|-
+| Meo
+| Bogliolo, Meo
+| {{nospam|meo|bogliolo.name}}
+| 
+| XeniaLAB srl
+| 
+|-
+| Shortblack
+| Boldiston, Kyle
+| {{nospam|k.boldiston|gmail.com}}
+| 
+| Individual
+| 
+|-
+| db3l
+| Bolen, David
+| {{nospam|db3l.net|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028061.html]
+|-
+| 
+| Bordelon, Phil
+| {{nospam|phil|thenexusproject.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031573.html]
+|-
+| Cbosdo
+| Bosdonnat, Cédric
+| {{nospam|cedric.bosdonnat.ooo|free.fr}}
+| cbosdonnat
+| SUSE
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html]
+|-
+| sbosio
+| Bosio, Santiago
+| {{nospam|santiago.bosio|gmail.com}}
+| sbosio
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-May/074239.html]
+|-
+| 
+| Bosmans, Maarten
+| {{nospam|mkbosmans|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/075081.html]
+|-
+| 
+| Botto, Ricardo
+| {{nospam|andarilho.botto|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-June/052830.html]
+|-
+| 
+| Bonnet, William
+| {{nospam|william|wbonnet.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063389.html]
+|-
+| yzsolt
+| Bölöny, Zsolt
+| {{nospam|bolony.zsolt|gmail.com}}
+| yzsolt
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/065748.html]
+|-
+| 
+| Brahmbhatt, Vishv
+| {{nospam|vishvbrahmbhatt19|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-January/044115.html]
+|-
+| 
+| Branch, Andrew
+| {{nospam|andyb1.lod|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046194.html]
+|-
+| 
+| Brevoort, Benitius
+| {{nospam|benitius|tiscali.it}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-June/062047.html]
+|-
+| brinzing
+| Brinzing, Oliver
+| {{nospam|oliver.brinzing|gmx.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-August/069896.html]
+|-
+| egore911
+| Brill, Christoph
+| {{nospam|egore911|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/072835.html]
+|-
+| 
+| Brown, Jeremy
+| {{nospam|jeremy.r.brown|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038677.html]
+|-
+| 
+| Brown, Joseph
+| {{nospam|1st2be|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/037397.html]
+|-
+| jhbruhn
+| Bruhn, Jan-Henrik
+| {{nospam|jh.bruhn|me.com}}, {{nospam|jh.bruhn97|gmail.com}}
+| jhbruhn
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-July/062220.html]
+|-
+| 
+| Budea, Áron
+| {{nospam|baron|caesar.elte.hu}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065412.html]
+|-
+| rbuj
+| Buj Gelonch, Robert Antoni
+| {{nospam|robert.buj|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-June/061772.html]
+|-
+| gbulfon
+| Bulfon, Gabriele
+| {{nospam|gabriele.bulfon|sonicle.com}}
+| 
+| Sonicle srl
+| [http://lists.freedesktop.org/archives/libreoffice/2013-July/054055.html]
+|-
+| JBurant
+| Burant, Jiri
+| {{nospam|burant.J|seznam.cz}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/073970.html]
+|-
+| 
+| Butler, Steven
+| {{nospam|sebutler|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031558.html]
+|-
+| gbpacheco
+| Buzzatti Pacheco, Gustavo
+| {{nospam|gbpacheco|gmail.com}}
+| gbpacheco
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/022592.html]
+|-
+|}
+
+== C ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| JamesC
+| C., James
+| {{nospam|james.from.wellington|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/022853.html]
+|-
+| 
+| Cabral, Rafael
+| {{nospam|cabral|mandriva.com.br}}
+| 
+| Mandriva
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/029478.html]
+|-
+| 
+| Callen, Jonathan
+| {{nospam|abcd|gentoo.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-January/006758.html]
+|-
+| matteo.campanelli
+| Campanelli, Matteo
+| {{nospam|matteo.campanelli|gmail.com}}
+| matteocam
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/059992.html]
+|-
+| 
+| Campbell, Robert M
+| {{nospam|robert.rcampbell|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057467.html]
+|-
+| 
+| Cantrell, Samuel
+| {{nospam|samuelcantrell|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-June/013733.html]
+|-
+|
+| Carl, Jens
+| {{nospam|j.carl43|gmx.de}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-May/061451.html]
+|-
+| Eskroni
+| Carrera, Sigrid
+| {{nospam|sigrid.carrera|googlemail.com}}
+| eskroni
+| Individual
+| 
+|-
+| PrinceManfred
+| Carter, Travis
+| {{nospam|bugs|traviswcarter.com}}
+| PrinceManfred
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/034127.html]
+|-
+| m.casalin
+| Casalin, Matteo
+| {{nospam|matteo.casalin|yahoo.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/021793.html]
+|-
+| Beppec56
+| Castagno, Giuseppe
+| {{nospam|giuseppe.castagno|acca-esse.eu}}
+| beppec56
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031514.html]
+|-
+| 
+| Castro, Henry
+| {{nospam|hcvcastro|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065473.html]
+|-
+| Caster
+| Castermans, Luc
+| {{nospam|luc.castermans|gmail.com}}
+| castermn
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020944.html]
+|-
+| LeMoyne
+| Castle, John LeMoyne
+| {{nospam|lemoyne.castle|gmail.com}}
+| lemoyne
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031968.html]
+|-
+| 
+| Ceccarini, Gian Domenico
+| {{nospam|gdceccarini|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075563.html]
+|-
+| 
+| Cecchetti, Marco
+| {{nospam|mrcekets|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031191.html]
+|-
+| 
+| Cecchi, Cosimo
+| {{nospam|cosimoc|gnome.org}}
+| cosimoc
+| Red Hat, Inc.
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020115.html]
+|-
+| 
+| Celley, Grant
+| {{nospam|grant.celley|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-May/074354.html]
+|-
+| jchaffraix
+| Chaffraix, Julien
+| 
+| jchaffraix
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020878.html]
+|-
+| 
+| Chambe, Damien
+| {{nospam|Damien.Chambe|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-June/061926.html]
+|-
+| 
+| Charrière, Laurent
+| {{nospam|lcharriere|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031659.html]
+|-
+| 
+| Chasák, Ota
+| {{nospam|chasak.ota|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/050995.html]
+|-
+| alexey.chemichev
+| Chemichev, Alexey
+| {{nospam|alexey.chemichev|gmail.com}}
+| axula
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-November/071104.html]
+|-
+| 
+| Chen, Austin
+| {{nospam|austinchen.94|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067278.html]
+|-
+| 
+| Chestnykh, Dmitry
+| {{nospam|dmitry|codingrobots.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-July/054623.html]
+|-
+| 
+| Choo, Foo Lai
+| {{nospam|choofoolai|gmail|com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-November/064931.html]
+|-
+| Nicolas
+| Christener, Nicolas
+| {{nospam|nc|adfinis.com}}, {{nospam|nicolas.christener|adfinis-sygroup.ch}}, {{nospam|nicu|0x17.ch}},
+| nicu
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-March/009034.html]
+|-
+| 
+| Choyal, Sailesh
+| {{nospam|gamebusterz2|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-February/066564.html]
+|-
+| Epix
+| Christian, Erich
+| 
+| epix
+| Individual
+| 
+|-
+| Mfldelton
+| Chung, Elton
+| {{nospam|elton|layerjet.com}}
+| MfldElton
+| [http://layerjet.com LayerJet Solutions]
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/024938.html]
+|-
+| scarabeus
+| Chvátal, Tomáš
+| {{nospam|tchvatal|suse.cz}}
+| scarabeus
+| SUSE
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html]
+|-
+| 
+| Ciorba, Edmond
+| {{nospam|edmond_ciorba|yahoo.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-June/053104.html]
+|-
+| jrtc27
+| Clarke, James
+| {{nospam|jrtc27|jrtc27.com}}
+| jrtc27
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/074928.html]
+|-
+| 
+| Clio
+| {{nospam|menenem|bk.ru}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031649.html]
+|-
+| 
+| Codinachs, Gil Forcada
+| {{nospam|gforcada|gnome.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031663.html]
+|-
+| Cœur
+| Cœur, Antoine
+| {{nospam|coeur|gmx.fr}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-June/068582.html]
+|-
+| 
+| Cogliati, Josh
+| {{nospam|jjcogliati-r1|yahoo.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031772.html]
+|-
+| 
+| Collerton, Thomas
+| {{nospam|tom.coll91|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/024242.html]
+|-
+| 
+| Copits, Christopher
+| {{nospam|chriscdev|live.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038996.html]
+|-
+| 
+| Corneanu, Dan
+| {{nospam|cdan|savatech.ro}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031843.html]
+|-
+| ccornell
+| Cornell, Clayton
+| {{nospam|smaug42|gmail.com}}
+| smaug42
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-December/071346.html]
+|-
+| 
+| Correa Casablanca, Andreu
+| {{nospam|castarco|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/018150.html]
+|-
+| Jcorrius
+| Corrius, Jesús
+| {{nospam|jesus|softcatala.org}}
+| jcorrius
+| TDF
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020277.html]
+|-
+| 
+| Ćosić, Neven
+| {{nospam|senseitcom|email.t-com.hr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-October/039644.html]
+|-
+| 
+| Crhonek, Zdeněk
+| {{nospam|zcrhonek|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-May/074288.html]
+|-
+| 
+| Csikós, Tamás
+| {{nospam|csks.tomi|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-June/053752.html]
+|-
+| 
+| Cumming, Murray
+| 
+|
+| Openismus GmbH
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048202.html]
+|-
+| 
+| Curtis, Keith
+| {{nospam|keithcu|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-December/058345.html]
+|-
+|}
+
+== D ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| D., Mathieu
+| {{nospam|call.protected|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-November/041142.html]
+|-
+| 
+| Danner, Simon
+| {{nospam|danner.simon|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/062643.html]
+|-
+| 
+| Darak, Maxim
+| {{nospam|maxim.darak|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-January/044887.html]
+|-
+| 
+| Dargaud, Robert
+| {{nospam|libo|bobiciel.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031816.html]
+|-
+| 
+| Darshit, Patel
+| {{nospam|pateldarshit05|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073891.html]
+|-
+| 
+| Dasanayaka, Asela
+| {{nospam|rukmal.tb|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-July/074853.html]
+|-
+| 
+| de Almeida, Douglas Rodrigues
+| {{nospam|douglasralmeida|live.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-November/041729.html MPL1.1+ / GPLv3+ / LGPLv3+]
+|-
+| 
+| de Bruijn, Arne
+| {{nospam|mail|arnedebruijn.nl}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-December/042506.html]
+|-
+| JorenDC
+| De Cuyper, Joren
+| {{nospam|jorendc|libreoffice.org}}
+| jorendc
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-December/043153.html]
+|-
+| 
+| de Oliveira, Junior Cesar
+| {{nospam|juniorcesar.utfpr|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-September/056002.html]
+|-
+| 
+| de Roucy, Maxime
+| {{nospam|mderoucy|linagora.com}}
+| 
+| Linagora
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028147.html]
+|-
+| Paulo
+| de Souza Lima, Paulo
+| {{nospam|paulo.s.lima|gmail.com}}
+| stellarium
+| Individual
+| 
+|-
+| 
+| Dean, Ed
+| {{nospam|topround|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031979.html] - only past
+|-
+| 
+| Deep, Akshay
+| {{nospam|akshaydeepiitr|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/072140.html]
+|-
+| 
+| Deller, Luke
+| {{nospam|luke|deller.id.au}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-November/041657.html]
+|-
+| 
+| Delma, David
+| {{nospam|ddelma|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057314.html]
+|-
+| 
+| Demirkapi, Erdem
+| {{nospam|erdemdemirkapi.1995|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/072396.html]
+|-
+| 
+| Dent, Andrew
+| {{nospam|dent.ace|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059722.html]
+|-
+| 
+| Desai, Karan
+| {{nospam|kud360|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/029220.html]
+|-
+| yogeshdesai
+| Desai, Yogesh
+| {{nospam|er.yogeshdesai|gmail.com}}
+| yogeshdesai
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/071707.html]
+|-
+| Rohit deshmukh11
+| Deshmukh, Rohit
+| {{nospam|rohit.deshmukh|synerzip.com}}
+| rdsyn
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-October/056650.html]
+|-
+|
+| Deshmukh, Sameer
+| {{nospam|sameer.deshmukh93|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/051187.html]
+|-
+|
+| Deshpande, Akash
+| {{nospam|fastakash|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-May/074240.html]
+
+|-
+| 
+| Dézsi, Szabolcs
+| {{nospam|dezsiszabi88|gmail.com}}
+| szabolcs
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/026216.html]
+|-
+| Varun.dhall
+| Dhall, Varun
+| {{nospam|Varun.Dhall|studentpartner.com}}
+| varundhall
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067409.html]
+|-
+|
+| Dhingra, Gaurav
+| {{nospam|gxyd007|yahoo.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073036.html]
+|-
+| ddimarco
+| Di Marco, Daniel
+| {{nospam|d.dimarco|gmx.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/021157.html]
+|-
+| 
+| Diedler, Henning
+| {{nospam|henning.diedler|gmx.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057307.html]
+|-
+| Bedipp
+| Dippold, Bernhard
+| 
+| bedipp
+| Individual
+| 
+|-
+| 
+| Dixon, Luke
+| {{nospam|6b8b4567|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031552.html]
+|-
+| 
+| Djordjevic, Maja
+| {{nospam|ovcica|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/022926.html] <!-- just for nav buttons -->
+|-
+| 
+| Dockes, Jean-François
+| {{nospam|jf|dockes.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057734.html]
+|-
+| mdolezel
+| Doležel, Marek
+| {{nospam|marekdolezel|gmail.com}}
+| mdolezel
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-July/069113.html]
+|-
+| 
+| Dolives, Benoit
+| {{nospam|benoit.dolives|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031770.html]
+|-
+| 
+| Domanska, Agnieszka
+| {{nospam|domanska.a.m.87|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/074949.html]
+|-
+| npcdoom
+| Dominguez, Rafael
+| {{nospam|venccsralph|gmail.com}}
+| npcdoom
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-June/014500.html]
+|-
+| Winfried
+| Donkers, Winfried
+| {{nospam|winfrieddonkers|libreoffice.org}}
+| winfried
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020449.html]
+|-
+| 
+| Dorda, Artur
+| {{nospam|artur.dorda|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030307.html]
+|-
+| ploum
+| Dricot, Lionel
+| {{nospam|lionel|lanedo.com}}
+| ploum
+| Lanedo
+| [http://lists.freedesktop.org/archives/libreoffice/2011-June/013179.html] [http://lists.freedesktop.org/archives/libreoffice/2012-June/032820.html]
+|-
+| 
+| Drung, Benjamin
+| {{nospam|bdrung|ubuntu.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/034043.html]
+|-
+| ming
+| Dryomov, Artur
+| {{nospam|artur.dryomov|gmail.com}}
+| ming13
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/047648.html]
+|-
+| 
+| Du, Alan
+| {{nospam|alan_du22|yahoo.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031866.html]
+|-
+| 
+| Duan, Xiaoli
+| {{nospam|duan19002009|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048367.html]
+|-
+| 
+| Duc, Tung Ta
+| {{nospam|tatung2112|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032434.html]
+|-
+| 
+| Dumas, Arnold
+| {{nospam|arnold|dumas.at}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073217.html]
+|-
+| 
+| Dumont, Marc Antoine
+| {{nospam|dumont.marcantoine13|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075631.html]
+|-
+| 
+| Dunphy, Michael
+| {{nospam|michael.w.dunphy|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/050307.html]
+|-
+| Mdupont
+| DuPont, James Michael
+| {{nospam|jamesmikedupont|googlemail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057485.html]
+|-
+| 
+| Dušek, Boris
+| {{nospam|me|dusek.me}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-July/054835.html]
+|-
+| 
+| Dykierek, Mariusz
+| {{nospam|mariuszdykierek|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/024172.html]
+|-
+| kalikiana
+| Dywan, Christian
+| {{nospam|christian.dywan|lanedo.com}}
+| kalikiana
+| Lanedo
+| [http://lists.freedesktop.org/archives/libreoffice/2011-June/013179.html]
+|}
+
+== E ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Eekhoorn, Joost
+| {{nospam|joost.eekhoorn|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031809.html]
+|-
+| floeff
+| Effenberger, Florian
+| {{nospam|floeff|documentfoundation.org}}
+| floeff
+| TDF
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/074033.html]
+|-
+| 
+| Egorov, Boris
+| {{nospam|egorov|linux.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063203.html]
+|-
+| Eldan
+| Eldan
+| {{nospam|secmail|centrum.cz}}
+| Eldan
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-January/043685.html]
+|-
+| Spacebat
+| Ellis, Damien
+| 
+| Spcebt
+| Individual
+| 
+|-
+| 
+| Engelhard, Rene
+| {{nospam|rene|debian.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/027282.html]
+|-
+| Terrence Enger
+| Enger, Terrence
+| {{nospam|tenger|iseries-guru.com}}
+| TerrenceEnger
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/018928.html]
+|-
+| 
+| Eraslan, Gökçen
+| {{nospam|gokcen.eraslan|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030270.html]
+|-
+| eymux2009
+| Ertsey, Andor
+| {{nospam|eymux2009|googlemail.com}}
+| 
+| [http://www.muenchen.de/Rathaus/dir/limux/wollmux/index.html Landeshauptstadt München]
+| 
+|-
+| ozcanesen
+| Esen, Özcan
+| {{nospam|ozcanesen|gmail.com}}
+| ozcanesen
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-November/071252.html]
+|-
+|}
+
+== F ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Faile, Ron
+| {{nospam|rmfaile|att.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/034498.html]
+|-
+| 
+| Farago, Janos
+| {{nospam|farago.janos|andrews.hu}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-September/055644.html]
+|-
+| 
+| Farbotka, Sergey
+| {{nospam|z8sergey8z|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038724.html]
+|-
+| 
+| Fässler, Urs
+| {{nospam|urs|bitzgi.ch}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/045947.html]
+|-
+| 
+| Faulí Tarazona, Xisco
+| {{nospam|anistenis|gmail.com}}
+| x1sc0
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031199.html]
+|-
+| 
+| Faure, Jean-Baptiste
+| {{nospam|jbf.faure|sud-ouest.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031556.html]
+|-
+| 
+| Felbab, Vukasin
+| {{nospam|vukasindfelbab|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076058.html]
+|-
+| 
+| Fernandes, Horácio
+| {{nospam|horacio.fernandes|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035452.html]
+|-
+| 
+| Fernandez, Javier
+| {{nospam|jfernandez|igalia.com}}
+| lajava
+| Igalia
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/050153.html]
+|-
+| 
+| Fernández, Miguel
+| {{nospam|losmeus|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030842.html]
+|-
+| 
+| Ferreira, Alberto
+| {{nospam|acdrferreira|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/033069.html]
+|-
+| 
+| Ferreira, Renato
+| {{nospam|renato.wolp|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-November/064606.html]
+|-
+| 
+| Filippov, Valek
+| {{nospam|frob|gnome.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046402.html]
+|-
+| 
+| Filippozzi, Marco
+| {{nospam|marco.filippozzi|studiostorti.org}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-June/074691.html]
+|-
+| 
+| Fiori, Massimiliano
+| {{nospam|massimiliano.fiori|aol.it}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-May/068030.html]
+|-
+| Aurimas
+| Fišeras, Aurimas
+| {{nospam|aurimas|members.fsf.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031233.html]
+|-
+| 
+| Flex, Liu
+| {{nospam|winddss|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038060.html]
+|-
+| pefoley2
+| Foley, Peter
+| {{nospam|pefoley2|pefoley.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/017885.html]
+|-
+|
+| Fong, Alex
+| {{nospam|alexfongg|gmail.com}}
+| 
+| Individual
+| [http://nabble.documentfoundation.org/Alex-Fong-license-statement-td4165991.html]
+|-
+| Vsfoote
+| Foote, V Stuart
+| {{nospam|VStuart.Foote|utsa.edu}}
+| vsfoote
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065027.html]
+|-
+| 
+| Fortin Tam, Jean-François
+| {{nospam|nekohayo|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057654.html]
+|-
+| 
+| Foskey, Ken
+| {{nospam|kfoskey|tpg|com.au}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/027491.html]
+|-
+| 
+| Fournier, Alexandre
+| {{nospam|brutus|free.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031864.html]
+|-
+| 
+| Franceschi, Manuel De 
+| {{nospam|manuel.defranceschi|studiostorti.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-June/074637.html]
+|-
+| 
+| Francis, Deena P.
+| {{nospam|deena.francis|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/062961.html]
+|-
+| 
+| Francis, Dennis P.
+| {{nospam|dennisfrancis.in|gmail.com}}
+| dennisfrancis
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067786.html]
+|-
+| mjayfrancis
+| Francis, Matthew
+| {{nospam|mjay.francis|gmail.com}}
+| mjayfrancis
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/063000.html]
+|-
+| 
+| Fraser, Brian
+| {{nospam|andthebrain|softfrog.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-September/055679.html]
+|-
+| 
+| Fraser, David
+| {{nospam|david|sjsoft.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/027408.html]
+|-
+| 
+| Frączek, Jacek 
+| {{nospam|fraczek.jacek|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075426.html]
+|-
+| Papamatti
+| Freund, Matthias
+| {{nospam|matti_lx|secure.mailbox.org}}
+| Papamatti
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/045786.html]
+|-
+| Fukanchik
+| Fukanchik, Sergey
+| {{nospam|fukanchik|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-September/070267.html]
+|-
+| Juergenf
+| Funk, Juergen
+| {{nospam|juergen.funk_ml|cib.de}}
+| juergenf
+| CIB
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063471.html]
+|-
+|}
+
+== G ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| Fgallaire
+| Gallaire, Florent
+| {{nospam|fgallaire|gmail|com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030835.html]
+|-
+| 
+| Gajdos, Petr
+| {{nospam|pgajdos|suse.cz}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067496.html]
+|-
+|
+| Ganorkar, Pranav 
+| {{nospam|pranvg189|gmail|com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-June/061577.html]
+|-
+| Jessie
+| Gao, Qiwen 
+| {{nospam|gqwgqw0916|gmail|com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067057.html]
+|-
+| 
+| Garcia, Marc
+| {{nospam|garcia.marc|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031182.html]
+|-
+| 
+| García Linde, Laure
+| {{nospam|lauregl|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030371.html]
+|-
+| 
+| Garg, Lovekesh
+| {{nospam|iamvoid13|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/066794.html]
+|-
+| 
+| Garretsen, Evertjan
+| {{nospam|info|eg-internetdiensten.nl}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031842.html]
+|-
+| wget
+| Gathoye, William
+| {{nospam|william|gathoye.be}}
+| wget
+| Individual
+| [http://nabble.documentfoundation.org/License-statement-td3801956.html], progress template: [http://lists.freedesktop.org/archives/libreoffice/2012-June/034124.html]
+|-
+| sophi
+| Gautier, Sophie
+| {{nospam|gautier.sophie|gmail.com}}
+| sophi
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/027107.html]
+|-
+| 
+| Gay, Matthieu
+| {{nospam|matthieu.gay|capgemini.com}}
+| 
+| CapGemini
+| [http://lists.freedesktop.org/archives/libreoffice/2013-September/055918.html]
+|-
+| 
+| Geczi, Zoltan Csaba
+| {{nospam|zolicsaba|yahoo.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076433.html]
+|-
+| 
+| Geevan, Chandanathil P
+| {{nospam|cpgeevan|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075620.html]
+|-
+| Andrea_Gelmini
+| Gelmini, Andrea
+| {{nospam|andrea.gelmini|gelma.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-October/064266.html]
+|-
+| 
+| Gemkow, Ulrich
+| {{nospam|lobugs|ikr.uni-stuttgart.de}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075610.html]
+|-
+| 
+| Georgaras, Spiros
+| {{nospam|sng|hellug.gr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/062688.html]
+|-
+| 
+| Gergely, Máté
+| {{nospam|sportember|caesar.elte.hu}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-July/054330.html]
+|-
+| 
+| Gerlowski, Jason
+| {{nospam|gerlowskija|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/059962.html]
+|-
+|  
+| Ghosh, Susobhan
+| {{nospam|susobhang70|gmail.com}}
+| susobhang70
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/071621.html]
+|-
+|  
+| Ghosh, Soumyadip
+| {{nospam|gsoumyadip5|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067122.html] 
+|-
+|
+| Giacchè, Filippo
+| {{nospam|filippo.giacche|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075498.html]
+|-
+| igilham
+| Gilham, Ian
+| {{nospam|ian.gilham|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-August/069608.html]
+|-
+| 
+| Glaubitz, John Paul Adrian
+| {{nospam|glaubitz|physik.fu-berlin.de}}
+| cbmuser
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-November/075971.html]
+|-
+| jmux
+| Glogowski, Jan-Marek
+| {{nospam|glogow|fbihome.de}}
+| jmux
+| Landeshauptstadt München
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057549.html]
+|-
+| 
+| Glus, Daniel
+| {{nospam|danielhglus|gmail|com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-October/063837.html]
+|-
+| lgodard
+| Godard, Laurent
+| {{nospam|lgodard.libre|laposte.net}} (current), {{nospam|oooconv|free.fr}} (old)
+| lgodard
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020261.html]
+|-
+| Gokul 
+| Gokul, S
+| {{nospam|gokuls|cdac.in}}
+| gokuls
+| CDAC
+| [http://article.gmane.org/gmane.comp.documentfoundation.libreoffice.devel/32822]
+|-
+| 
+| Gomes, Rodolfo Ribeiro
+| {{nospam|rodolforg|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-December/043005.html]
+|-
+| Tanty
+| Gomez, Andres
+| {{nospam|agomez|igalia.com}}
+| tanty
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/050153.html]
+|-
+| 
+| Gomez, Miguel
+| {{nospam|magomez|igalia.com}}
+| magomez
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/050153.html]
+|-
+| tagezi
+| Goncharuk, Lera
+| {{nospam|lera.goncharuk|gmail.com}}
+| tagezi
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-September/070286.html]
+|-
+| Back69
+| Gonzalez, Daniel
+| {{nospam|gonzalezdr|gmail.com}}
+| DaniGO83
+| Individual
+| 
+|-
+| 
+| Goss, Kate
+| {{nospam|katherine.goss|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/025938.html]
+|-
+| 
+| Governatore, Fernando
+| {{nospam|affqlixo|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/027130.html]
+|-
+| 
+| Le Grand, Armin
+| {{nospam|armin.le.grand|cib.de}}
+| alg
+| CIB
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html]
+|-
+| grandinj
+| Grandin, Noel
+| {{nospam|noel|peralex.com}}, {{nospam|noelgrandin|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/025634.html] [http://lists.freedesktop.org/archives/libreoffice/2012-January/024202.html]
+|-
+| 
+| Gulyás, Alex
+| {{nospam|gulyas.alex|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-April/060735.html]
+|-
+| gokhan
+| Gurbetoğlu, Gökhan
+| {{nospam|gokhan.gurbetoglu|pardus.org.tr}}
+| ggurbet
+| [http://www.pardus.org.tr/projeler/libreoffice/ Pardus]
+| [https://lists.freedesktop.org/archives/libreoffice/2016-June/074449.html]
+|-
+| 
+| Gulácsi, Tamás
+| {{nospam|tgulacsi78|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/075816.html]
+|-
+| 
+| Guo, Steven
+| {{nospam|steventhimothyguo|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/036616.html]
+|-
+| 
+| Gupta, Heena
+| {{nospam|rush2hina|gmail.com}}, {{nospam|heena.h.gupta|ericsson.com}}
+| heena2310
+| Ericsson
+| [http://lists.freedesktop.org/archives/libreoffice/2014-June/061878.html]
+|-
+| 
+| Gupta, Mayank
+| {{nospam|techfreakworm|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073686.html]
+|-
+| 
+| Gupta, Mridul
+| {{nospam|mridulgupta9|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/066903.html]
+|-
+| r4chi7
+| Gupta, Rachit
+| {{nospam|rachitgupta1792|gmail.com}}
+| r4chi7
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059628.html]
+|-
+| 
+| Güreken, Berk
+| {{nospam|berkgureken|gmail.com}}
+| bureken
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2015-September/070408.html]
+|-
+|}
+
+== H ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| Thackert
+| Hackert, Thomas
+| 
+| thackert
+| Individual
+| 
+|-
+| MHaggag
+| Haggag, Muhammad
+| {{nospam|MHaggag|gmail.com}}
+| MHaggag
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/025639.html LGPLv3+ and MPL 1.1]
+|-
+|
+| Haldar, Aparajita
+| {{nospam|aparajita|haldar.org}}
+|
+|
+| [https://lists.freedesktop.org/archives/libreoffice/2016-June/074523.html]
+|-
+|
+| Hallaç, Kerem
+| {{nospam|hallackerem|gmail.com}}
+|
+|
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070458.html]
+|-
+| ohallot
+| Hallot, Olivier
+| {{nospam|olivier.hallot|edxsrv.br}}
+| ohallot
+| [http://www.edx.srv.br EDX]
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020544.html]
+|-
+| 
+| Halls, Chris
+| {{nospam|halls|debian.org}}
+| haggai
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028662.html]
+|-
+| 
+| Hamidi, Massinissa
+| {{nospam|hamidimassinissa|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-May/067979.html]
+|-
+| 
+| Haratický, Pavel
+| {{nospam|haraticky|nepistemi.cz}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-December/058204.html]
+|-
+| 
+| Harkness, Zenaan
+| {{nospam|zen|freedbms.net}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/075035.html]
+|-
+| 
+| Hart, Phil
+| {{nospam|html.wallah|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/034306.html]
+|-
+| 
+| Hart, Steven
+| {{nospam|libreoffice|stevehart.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-August/069681.html]
+|-
+| 
+| Hasselmann, Mathias
+| {{nospam|mathias|openismus.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/045850.html]
+|-
+| 
+| Hauf, Johannes
+| {{nospam|hauf.johannes|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-December/071591.html]
+|-
+| 
+| Hausmann, Kevin
+| {{nospam|kevin.hausmann|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038114.html]
+|-
+| 
+| Havlíček, Jan
+| {{nospam|havlicek.honza|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059328.html]
+|-
+| NigelH
+| Hawkins, Nigel
+| {{nospam|n.hawkins|gmx.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031259.html]
+|-
+| 
+| Hedges, Robert
+| 
+| 
+| MultiCoreWare
+| [http://lists.freedesktop.org/archives/libreoffice/2013-May/052680.html]
+|-
+| 
+| Hegedus, Attila
+| {{nospam|redarcher36|gmail.com}}
+| hege
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035217.html]
+|-
+| TheJosh
+| Heidenreich, Josh
+| {{nospam|josh.sickmate|gmail.com}}
+| TheJosh
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/025300.html]
+|-
+| 
+| Heinemann, Stefan
+| {{nospam|stefan.heinemann|codedump.ch}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/026674.html]
+|-
+| 
+| Heller, Christian
+| {{nospam|christian.heller63|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046616.html]
+|-
+| 
+| Hemmerling, Rolf
+| {{nospam|hemmerling|gmx.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/attachments/20130616/4f4166e2/attachment-0001.html]
+|-
+| Regina
+| Henschel, Regina
+| {{nospam|rb.henschel|t-online.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/017950.html]
+|-
+| Alex Henrie
+| Henrie, Alex
+| {{nospam|alexhenrie24|gmail.com}}
+| alexhenrie
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/059867.html MPLv2+/LGPLv3+]
+|-
+| dherde
+| Herde, Daniel
+| {{nospam|daniel|dher.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/036580.html]
+|-
+| gregghz
+| Hernandez, Gregg
+| {{nospam|greggory.hz|gmail.com}}
+| gregghz
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/026840.html]
+|-
+| jhertel
+| Hertel, Jesper
+| {{nospam|jesper.hertel|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-February/066331.html MPLv2/LGPLv3+]
+|-
+| rhogez
+| Herzog, Christoph
+| {{nospam|rhogez|googlemail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031220.html]
+|-
+| At.higginson
+| Higginson, Andrew
+| {{nospam|at.higginson|gmail.com}}
+| and471
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/029495.html]
+|-
+|
+| Hirahara, Suguru
+| {{nospam|luixxiul|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031686.html]
+|-
+| Hlavaty
+| Hlavaty, Tomas
+| {{nospam|tom|logand.com}}, {{nospam|tomas.hlavaty|knowledgetools.de}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/023333.html]
+|-
+| 
+| Hobley, David
+| {{nospam|david.hobley|sharpblue.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031258.html]
+|-
+| 
+| Hoes, Maarten
+| {{nospam|hoes.maarten|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075653.html]
+|-
+| Juliohm
+| Hoffimann Mendes, Júlio
+| {{nospam|julio.hoffimann|gmail.com}}
+| juliohm
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031235.html]
+|-
+|
+| Hofmann, Matthias (Borim)
+| {{nospam|borim7|web.de}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048727.html]
+|-
+| 
+| Holder, Andy
+| {{nospam|andy.m.holder|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031658.html]
+|-
+| Kendy
+| Holešovský, Jan
+| {{nospam|kendy|suse.cz}}
+| kendy
+| SUSE
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html]
+|-
+| 
+| Hoppe, Chris
+| {{nospam|hoppe7|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-June/053829.html]
+|-
+| strepon
+| Horáček, Stanislav
+| {{nospam|stanislav.horacek|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/026186.html]
+|-
+| 
+| Horák, Michal
+| {{nospam|horakmi|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-April/060633.html]
+|-
+|
+| Horn, Michael
+| {{nospam|hornmichaels|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067166.html]
+|-
+| 
+| Hosken, Martin
+| {{nospam|martin_hosken|sil.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031180.html]
+|-
+| Khaledhosny
+| Hosny, Khaled
+| {{nospam|khaledhosny|eglug.org}}
+| KhaledHosny
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-February/007181.html]
+|-
+| 
+| Hotchkiss, Christopher
+| {{nospam|christopher.hotchkiss|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046048.html]
+|-
+| Ghouston
+| Houston, Gary
+| {{nospam|ghouston|arglist.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065368.html]
+|-
+| lukequaint
+| Hryniuk, Łukasz
+| {{nospam|lukasz.hryniuk|wp.pl}}
+| lukequaint
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/065563.html]
+|- 
+|
+| Huang, Hongtao
+| {{nospam|hht930129|outlook.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/074058.html]
+|- 
+|
+| Hufnagle, Kevin
+| {{nospam|khufnagle|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/075705.html]
+|- 
+|
+| Hulme, Jason
+| {{nospam|jsnhulme|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-July/053960.html]
+|-
+| 
+| Hung, Chen
+| {{nospam|paulhuang34|utexas.edu}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073626.html]
+|-
+| 
+| Hung, Mark
+| {{nospam|marklh9|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-November/064390.html]
+|-
+| ajrhunt
+| Hunt, Andrzej
+| {{nospam|andrzej|ahunt.org}}
+| ahunt
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030227.html]
+|-
+| hunteke
+| Hunter, Kevin
+| {{nospam|hunteke|earlham.edu}}
+| hoonteke
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019231.html LGPLv3+/MPL1.1]
+|-
+| 
+| Hussian, Alamri
+| {{nospam|husain.amri|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-May/061120.html]
+|}
+
+== I ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Iftikhar, Huzaifa
+| {{nospam|huzaifa3196|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075475.html]
+|-
+| 
+| Ikeda, Hideki
+| {{nospam|hideki.ikeda|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-June/061987.html]
+|-
+| cataliniacob
+| Iacob, Catalin
+| {{nospam|iacobcatalin|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/025948.html]
+|-
+| 
+| Irannejad, Golnaz
+| {{nospam|golnazirannejad|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/049445.html]
+|-
+|
+| Irányossy Knoblauch, Artúr
+| {{nospam|ikartur|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/049452.html]
+|-
+| tux3
+| Isnard, Timothée
+| {{nospam|timotheecisnard|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-August/069644.html]
+|-
+|
+| Ivan, Apachev
+| {{nospam|myromeu|ya.ru}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/075748.html]
+|-
+| janIversen
+| Iversen, Jan
+| {{nospam|jani|documentfoundation.org}}
+| janIV
+| TDF
+| [http://nabble.documentfoundation.org/Jan-Iversen-license-statement-td4165252.html]
+|-
+|}
+
+== J ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+|
+| Jacobi, Sven
+| {{nospam|Sven-Jacobi|gmx.de}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/047031.html]
+|- 
+| pjacquod
+| Jacquod, Pierre-André
+| {{nospam|pjacquod|alumni.ethz.ch}}
+| pjacquod
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031279.html]
+|-
+| 
+| Jadhav, Pallavi
+| {{nospam|pallavi.jadhav|synerzip.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/047214.html]
+|-
+| 
+| Jahagirdar, Abhilash R
+| {{nospam|abhi95.dev|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073448.html]
+|-
+| 
+| Jaillet, Christophe
+| {{nospam|christophe.jaillet|wanadoo.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/033488.html]
+|-
+| 
+| Jain, Akash
+| {{nospam|akash96j|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073620.html]
+
+|-
+| Anuragjain
+| Jain, Anurag
+| {{nospam|anuragjainfzd|gmail.com}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2011-August/017060.html], [http://lists.freedesktop.org/archives/libreoffice/2012-September/039008.html]
+|-
+| 
+| Jañez, Rubén
+| {{nospam|rjanezfer|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031810.html]
+|-
+| 
+| Janik, Tim
+| {{nospam|tim.janik|lanedo.com}}
+| timj
+| Lanedo
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/036615.html]
+|-
+| 
+| Jaumann, Michael
+| {{nospam|meta_dev|yahoo.com}}
+| joman
+| Landeshauptstadt München
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063121.html]
+|-
+| 
+| Jayaraman, Neelesh
+| {{nospam|neeleshjayaraman9795|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/072384.html]
+|-
+| Fitoschido
+| Jayme Barrientos, Adolfo
+| {{nospam|fitojb|ubuntu.com}}, {{nospam|fitoschido|gmail.com}}
+| fitoschido
+|Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/073974.html]
+|-
+| HenrikJ
+| Jensen, Henrik
+| {{nospam|hrikjsenvagt-lo|yahoo.dk}}
+| HenrikJ
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-August/017162.html]
+|-
+| 
+| Jensen, Jonas Finnemann
+| {{nospam|jopsen|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/022861.html]
+|-
+| 
+| Jentsch, Peter
+| {{nospam|pjotr|guineapics.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031560.html]
+|-
+| Yfjiang
+| Jiang, Yifan
+| {{nospam|yifanj2007|gmail.com}}
+| yifan
+| SUSE
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html]
+|-
+| 
+| Jing, Lim
+| {{nospam|limjing7|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063292.html]
+|-
+| 
+| Jinoch, Vlastimil
+| {{nospam|elianoss|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/049892.html]
+|-
+| Nikjoh
+| Johansson, Niklas
+| {{nospam|sleeping.pillow|gmail.com}}
+| nikjoh
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020913.html]
+|-
+| 
+| Johnsson, Mattias
+| {{nospam|m.t.johnsson|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031501.html]
+|-
+| 
+| Jonsson, Anders
+| {{nospam|anders.jonsson|norsjonet.se}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031511.html]
+|-
+| PhilJung
+| Jung, Philippe
+| {{nospam|phil.jung|free.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067781.html]
+|-
+| 
+| Junker, Christian
+| {{nospam|christianjunker|gmail.com}}
+| christianju
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059485.html LGPL3+/GPL3+/MPL1.1+]
+|-
+| HiTom
+| Jingtao, Yan
+| {{nospam|yanjingtao|gmail.com}}
+| ACTom
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/066989.html]
+|-
+| aj
+| Jain, Atishay
+| {{nospam|atishayjain708|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/076005.html]
+|-
+|}
+
+== K ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+|
+| K, Sudarshan
+| {{nospam|sudk1896|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075511.html]
+|-
+| 10110111
+| Kabatsayev, Ruslan
+| {{nospam|b7.10110111|gmail.com}}
+| l0ll0lll
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031877.html]
+|-
+| mikekaganski
+| Kaganski, Mike
+| {{nospam|mikekaganski|hotmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067785.html]
+|- 
+| 
+| Kagotani, Hiroto
+| {{nospam|hiroto.kagotani|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/062922.html]
+|-
+|  
+| Kainz, Andreas
+| {{nospam|kainz.a|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067112.html]
+|-
+| 
+| Kakol, Lester
+| {{nospam|lester.kakol|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-January/043768.html]
+|-
+| 
+| Kale, Aditya
+| {{nospam|voilavoila28|yahoo.in}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059724.html]
+|-
+| 
+| Kaleski, Horst
+| {{nospam|homaka|yahoo.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice-qa/2012-September/002622.html]
+|-
+| 
+| Kaluza, Philipp
+| {{nospam|floss|ghostroute.eu}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-October/040016.html]
+|-
+| 
+| Kamadanis, Efstratios
+| {{nospam|kam.stratos|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065417.html]
+
+|-
+| KamranMackey
+| Kamran Mackey
+| {{nospam|kamranm1200|gmail.com}}
+| Kamran
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067836.html]
+|-
+| 
+| Kanapickas, Povilas
+| {{nospam|povilas.kanapickas|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031653.html]
+|-
+| anurag_kanungo
+| Kanungo, Anurag
+| {{nospam|anuragkanungo|gmail.com}}
+| anurag_kanungo
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/051106.html]
+|-
+| pranavk
+| Kant, Pranav
+| {{nospam|pranav913|gmail.com}}
+| pranavk
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-February/066588.html]
+|-
+| 
+| Kantert, Jan
+| {{nospam|jan-libreoffice|kantert.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-February/066403.html]
+|-
+| 
+| Kao HaoCheng
+| {{nospam|abcdefghi236|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/074968.html]
+|-
+| kaplan
+| Kaplan, Lior
+| {{nospam|kaplanlior|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020120.html LGPLv3+ / MPL 1.1+]
+|-
+| Kara
+| Kara, Muhammet
+| {{nospam|muhammet.kara|pardus.org.tr}}
+| mkara
+| [http://www.pardus.org.tr/projeler/libreoffice/ Pardus]
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073795.html]
+|-
+| Bersam
+| Karbasion, Bersam
+| {{nospam|bersam.k|gmail.com}}
+| bersam
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/073965.html]
+|-
+| slideon
+| Kasztenny, Adam
+| {{nospam|adamkasztenny|gmail.com}}
+| 
+| Individual
+| [http://nabble.documentfoundation.org/License-statement-td4179584.html]
+|-
+| 
+| Kawamura, Keigo
+| {{nospam|2448848492|mail.ecc.u-tokyo.ac.jp}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-November/071055.html]
+|-
+| 
+| Kekäläinen, Otto
+| {{nospam|otto|seravo.fi}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075651.html]
+|-
+| 
+| Kelemen, Gabor
+| {{nospam|kelemeng|ubuntu.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-June/053610.html]
+|-
+| 
+| Kéménczy, Kálmán
+| {{nospam|kkemenczy|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031074.html]
+|-
+| ackepenek
+| Kepenek, Ahmet Can
+| {{nospam|ahmetcan.kepenek|gmail.com}}
+| ackepenek
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/072735.html]
+|-
+| merge
+| Kepplinger, Martin
+| {{nospam|martinkepplinger|eml.cc}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031108.html]
+|-
+| Krishnakeshav
+| keshav, krishna
+| {{nospam|princy.krishnakeshav|gmail.com}}
+| peace
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073745.html]
+|-
+| Divayth
+| Kettner, Valentin
+| {{nospam|vakevk+libreoffice|gmail.com}}
+| Divayth
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/060285.html]
+|-
+| 
+| Khan, Usman
+| {{nospam|usman.na.khan|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/074065.html]
+|-
+| 
+| Khandekar, Sarthak
+| {{nospam|khandekarsarthak|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073450.html]
+|-
+| 
+| Khatri, Srishti
+| {{nospam|shristi.500|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/071764.html]
+|-
+| weimzz
+| Khoo, Wei Ming
+| {{nospam|weimzz|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031072.html]
+|-
+|
+| Kim, Jung-uk
+| {{nospam|jkim|FreeBSD.org}}
+|
+|
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/037302.html]
+|-
+|
+| Kim, Seyeong
+| {{nospam|seyeong.kim|canonical.com}}
+|
+| Canonical Ltd.
+| [http://lists.freedesktop.org/archives/libreoffice/2014-July/062491.html]
+|-
+| 
+| kindi, noseeba Al
+| {{nospam|noseeba1|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/073978.html]
+|-
+| 
+| King, Gregg
+| {{nospam|smokedart|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046450.html]
+|-
+|
+| Kirkovski, Seraphime
+| {{nospam|kirkseraph|gmail.com}}
+| Seraphime
+| Linagora
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073911.html]
+|-
+| 
+| Király, Ádám
+| {{nospam|kiraly.adam.csaba|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046478.html]
+|-
+| dfighter1985
+| Kis-Ádám, László
+| {{nospam|dfighter1985|gmail.com}}
+| dfighter
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067142.html]
+|-
+| Ulkitz
+| Kitzinger, Ulrich
+| {{nospam|ulkitz|hotmail.de}}
+|
+| Landeshauptstadt München
+| [http://lists.freedesktop.org/archives/libreoffice/2013-December/058029.html]
+|-
+| 
+| Kjellerup, René
+| {{nospam|rk.katana.steel|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031261.html]
+|-
+| Wiz
+| Klausner, Thomas
+| {{nospam|wiz|NetBSD.org}}
+| _wiz_
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028331.html]
+|-
+| 
+| Kloke, Philipp
+| {{nospam|philipp.kloke|web.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031997.html]
+|-
+| eszka
+|  Kłos, Szymon
+| {{nospam|eszkadev|gmail.com}}
+| eszka
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/060060.html]
+|-
+| 
+| Kluge, Tino
+| {{nospam|ttk448|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-December/042335.html]
+|-
+| Astron
+| Knorr, Stefan
+| {{nospam|heinzlesspam|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/021386.html]
+|-
+| PLNET
+| Konefal, Pawel
+| polishnet...
+| 
+| Individual
+| 
+|-
+| 
+| Koppelt, Christine
+| {{nospam|ch.ko123|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-December/042028.html]
+|-
+| 
+| Körner, Werner
+| {{nospam|wk661lo|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-December/042823.html]
+|-
+| 
+| Korostil, Daniel
+| {{nospam|ted.korostiled|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031547.html]
+|-
+| gang65
+| Kosiorek, Bartosz
+| {{nospam|gang65|poczta|onet.pl}}
+| gang65
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028066.html]
+|-
+| 
+| Koski, Ken
+| {{nospam|mechaxl|gmail.com}}
+| 
+| Individual
+| []
+|-
+| 
+| Kostenich, Dima
+| {{nospam|dima.kostenich|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-January/058882.html]
+|-
+| 
+| Kranich, Daniel
+| {{nospam|daniel|nusalaska.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065140.html]
+|-
+|
+| Kraus, Petr
+| {{nospam|petr_kraus|email.cz}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048728.html]
+|-
+| 
+| Kretzschmar, Martin
+| {{nospam|m_kretzschmar|gmx.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/027756.html] until 2006
+|-
+| K_Karthikeyan
+| Krishnamurthi, Karthikeyan
+| {{nospam|coder.karthikeyan|gmail.com}}
+| karth
+| C-DAC
+| [http://article.gmane.org/gmane.comp.documentfoundation.libreoffice.devel/41230]
+|-
+| 
+| Krishnan, H.Chaithanyal
+| {{nospam|chaitanya7991|gmail.com}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/072001.html]
+|-
+| 
+| Kroah-Hartman, Greg
+| {{nospam|gregkh|linuxfoundation.org}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031466.html]
+|-
+| 
+| Krot, Serge
+| {{nospam|serge.krot|cib.de}}
+|
+| CIB
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html]
+|-
+| Rq
+| Kudelis, Rimas
+| {{nospam|rq|akl.lt}}
+| RQ
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/065664.html]
+|-
+| 
+| Kukade, Saurabh
+| {{nospam|saurabhkukade|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/072017.html]
+|-
+| Kue
+| Kühl, Christian
+| {{nospam|kuehl.christian|googlemail.com}}
+| 
+| Individual
+| 
+|-
+| Matus
+| Kukan, Matúš
+| {{nospam|matus.kukan|gmail.com}}
+| matus
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/025908.html]
+|-
+| 
+| Kumar, Rishabh
+| {{nospam|kris.kr296|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/066876.html]
+|-
+| 
+| Kumar, Robin
+| {{nospam|robin.r.kumar|ericsson.com}}, {{nospam|2robinsaini|gmail.com}}
+| 2robinsaini
+| Ericsson
+| [http://lists.freedesktop.org/archives/libreoffice/2014-June/061879.html]
+|-
+| 
+| Kumar, Rohan
+| {{nospam|rohankanojia420|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-February/072595.html]
+|-
+| tk7ua
+| Kumar, Tarun
+| {{nospam|tarun.k.kumar|ericsson.com}}, {{nospam|tk7ua1678|gmail.com}}
+| 
+| Ericsson
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059686.html]
+|-
+| kumar
+| Kumar, Thangavel
+| {{nospam|kumarr908|gmail.com}}
+| kumarT
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/071709.html]
+|-
+| 
+| Kumar, Vijay
+| {{nospam|v.vijayakumar|gmail.com}}
+|
+| iArmor
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073166.html]
+|-
+| 
+| Kurosawa, Takeshi
+| {{nospam|taken.spc|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031269.html]
+|-
+| 
+| Kudasov, Fedor
+| {{nospam|forgerrit|yahoo.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065229.html]
+|-
+| 
+| Kuvaev, Alexander
+| {{nospam|vinetorul|yandex.ru}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065277.html]
+|-
+|
+| Kütt, Moritz
+| {{nospam|moritz.kuett|web.de}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048541.html]
+|-
+| 
+| Kysilka, Pavel
+| {{nospam|goldenfish|linuxsoft.cz}}
+| 
+| Individual
+| [http://article.gmane.org/gmane.comp.documentfoundation.libreoffice.devel/32089]
+|-
+| suokunlong
+| Kevin, Suo (锁琨珑)
+| {{nospam|suokunlong|126.com}}
+| suokunlong
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-November/064433.html]
+|-
+| gulsahkose
+| Köse, Gülşah
+| {{nospam|gulsah.1004|gmail.com}}
+| gulsahkose
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067598.html]
+|
+|-
+| yurikoles
+| Kolesnykov, Yurii
+| {{nospam|yurikoles|gmail.com}}
+| yurikoles
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-May/068018.html]
+|}
+
+== L ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Lack, Gordon
+| {{nospam|gordon.lack|dsl.pipex.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032471.html]
+|-
+| 
+| Lagrange, J. Fernando
+| {{nospam|fernando+libreoffice|trankil.info}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059298.html]
+|-
+| Mostthingsweb
+| Laplante, Chris
+| {{nospam|mostthingsweb|gmail.com}}
+| mostthingsweb
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-April/060409.html]
+|-
+|
+| Lassieur, Clément
+| {{nospam|clement|lassieur.org}}
+|
+| Linagora
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065403.html]
+|-
+|
+| Laštovička, Pavel
+| {{nospam|pavel.lastovicka|blue-point.cz}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059614.html]
+|-
+|
+| Latini, Marina
+| {{nospam|marina|studiostorti.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/075829.html]
+|-
+| 
+| Laverdière, Marc-André
+| {{nospam|marcandre.laverdiere|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030912.html]
+|-
+| jtlebigot
+| Le Bigot, Jean-Tiare
+| {{nospam|admin|jtlebi.fr}}
+| jtlebi
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035637.html]
+|-
+| bansan
+| Le Garrec, Vincent
+| {{nospam|legarrec.vincent|gmail.com}}
+| bansan
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076341.html]
+|-
+| mlechner
+| Lechner, Marco
+| {{nospam|marco|fossgis.de}}
+| mlechner
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063262.html]
+|-
+| JPLED
+| Ledure, Jean-Pierre
+| {{nospam|jp|ledure.be}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-September/055748.html]
+|-
+| 
+| Leininger, Hank
+| {{nospam|hlein|korelogic.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073438.html]
+|-
+| 
+| Lee, Victor
+| {{nospam|konya.vic|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030523.html]
+|-
+| 
+| Lefèvre, Michaël
+| {{nospam|lefevre00|yahoo.fr}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2011-February/008441.html]
+|-
+| leighman
+| Leigh, Jack
+| {{nospam|leighman|gmx.se}} ({{nospam|leighmanthegreat|hotmail.com}})
+| leighman
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/037594.html]
+|-
+| 
+| Lepage, Pierre 
+| {{nospam|pierrelepage3|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-September/075294.html]
+|-
+| 
+| L'Etrange, Zika
+| {{nospam|zika.letrange|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059436.html]
+|-
+| 
+| Lewis, Michael
+| {{nospam|m1ewi5|mac.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-September/075138.html]
+|-
+| jeyli
+| Liebel, Jennifer
+| {{nospam|jliebel94|gmail.com}}
+| jeyli
+| Landeshauptstadt München
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/063059.html]
+|-
+| TorLillqvist
+| Lillqvist, Tor
+| {{nospam|tml|collabora.com}}
+| tml_
+| Collabora
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030629.html]
+|-
+| jgraeme
+| Lingard, J. Graeme
+| {{nospam|jgraeme+git|gmail.com}} ({{nospam|jgraeme+lists|gmail.com}})
+| jgraeme
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031975.html]
+|-
+|
+| Lippert, Tobias
+| {{nospam|drtl|fastmail.fm}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059533.html]
+|-
+| 
+| Liu, Siqi
+| {{nospam|me|siqi.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/050357.html]
+
+|-
+| Aqcoder
+| Liwen, Fan
+| {{nospam|flw.aquarius|gmail.com}}
+| aqcoder
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-December/071455.html]
+|-
+| cloph
+| Lohmaier, Christian
+| {{nospam|lohmaier+LibreOffice|googlemail.com}}
+| cloph
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020489.html]
+|-
+| 
+| Lokhande, Prashant
+| {{nospam|lprashant.94|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-May/074251.html]
+|-
+| 
+| Long, Simon
+| {{nospam|simon|raspberrypi.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-July/069153.html]
+|-
+| 
+| Lorentz, Bertrand
+| {{nospam|bertrand.lorentz|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/036264.html]
+|-
+| 
+| Luby, Patrick
+| {{nospam|pluby|neooffice.org}}
+| 
+| Planamesa
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070432.html]
+|-
+| 
+| Luna, Mateus Machado
+| {{nospam|mateus.m.luna|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-January/044895.html]
+|-
+| 
+| Luth, Justin
+| {{nospam|justin_luth|sil.org}}
+| 
+| Individual / SIL
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063740.html]
+|-
+| Clutz
+| Lutz, Christoph
+| {{nospam|christoph.lutz_ml|cib.de}}
+| clutz
+| CIB
+| for contributions up to now: [http://lists.freedesktop.org/archives/libreoffice/2011-September/017788.html]
+|-
+| RogerioLuzCoelho
+| Luz Coelho, Rogério
+| {{nospam|luz.rogerio|that mail by google}}
+| RogerioLuzCoelho
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-September/055984.html]
+|-
+| 
+| Lyhne, Hannah
+| {{nospam|hdlyhne1|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-April/060388.html]
+|}
+
+== M ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| M., Mirek
+| {{nospam|mazelm|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/032855.html]
+|-
+| 
+| MacAlpine, Trent
+| {{nospam|tmacalp|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/059849.html]
+|-
+| 
+| Machniak, Aleksander
+| {{nospam|machniak|kolabsys.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075580.html]
+|-
+| 
+| Maciel, Ana Claudia
+| {{nospam|anacm.maciel|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-October/056186.html]
+|-
+| 
+| Madero, Joel
+| {{nospam|jmadero.dev|gmail.com}}
+| jmadero
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/033747.html]
+|-
+| tobaem
+| Madl, Tobias
+| {{nospam|tobias.madl.dev|gmail.com}}
+| tobaem
+| Landeshauptstadt München
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063116.html]
+|-
+| Blendergeek
+| Magee, Timothy
+| {{nospam|timothy|eastlincoln.net}}
+| Blendergeek
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/074043.html]
+|-
+| Rm
+| Magliocchetti, Riccardo
+| {{nospam|riccardo.magliocchetti|gmail.com}}
+| xrmx
+| menodizero.it
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/025156.html]
+|-
+|
+| Mahendran, Surendran
+| {{nospam|surenspost|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031593.html]
+|-
+| 
+| Maier, Markus
+| {{nospam|maier|fs.ei.tum.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-November/041613.html]
+|-
+| 
+| Malinda, Nadith  
+| {{nospam|nadmalinda|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-July/074796.html]
+|-
+| 
+| Mallach, Jordi
+| {{nospam|jordi|sindominio.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031178.html]
+|-
+| lmamane
+| Mamane, Lionel Elie
+| {{nospam|lionel|mamane.lu}}
+| schoinobates
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-August/016134.html]
+|-
+| future1529
+| Manas Joshi
+| {{nospam|futurejoshi15|gmail.com}}
+| manas
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/060049.html]
+|-
+|
+| Mandke, Vinaya
+| {{nospam|vinaya.mandke|synerzip.com}}
+|
+| Synerzip
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057468.html]
+|-
+| 
+| Mannes, Paula
+| {{nospam|paulamannes|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-November/041955.html]
+|-
+| 
+| Manik, Malhotra
+| {{nospam|manikmalhotra92|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-May/068014.html]
+|-
+| Andreasma
+| Mantke, Andreas
+| {{nospam|maand|gmx.de}}
+| andreasma
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031079.html]
+|-
+|
+| Manwani, Chirag
+| {{nospam|cmkmanwani|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073256.html]
+|-
+| MMariana
+| Mărăşoiu, Mariana
+| {{nospam|mariana.marasoiu|gmail.com}}
+| phoenixme
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028201.html]
+|-
+|
+| Markle, Timothy
+| {{nospam|tmarkle7|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059433.html]
+|-
+| 
+| Martinez, Santiago
+| {{nospam|smvarela|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/024189.html]
+|-
+| 
+| Martínez Cortés, Juan Pablo
+| {{nospam|jpmart|unizar.es}}
+| 
+| Individual
+| [http://listarchives.libreoffice.org/global/l10n/msg03508.html]
+|-
+| 
+| Mas, Jordi
+| {{nospam|jmas|softcatala.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046240.html]
+|-
+| 
+| Matherne, Tommie
+| {{nospam|tommie.matherne|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-July/074819.html]
+|-
+| 
+| McAdam, Eilidh
+| {{nospam|eilidh.mcadam|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031880.html]
+|-
+| 
+| McCoskrie, Ryan
+| {{nospam|ryan.mccoskrie|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063297.html]
+|-
+| CodeMouse92
+| McDonald, Jason C.
+| {{nospam|indeliblebluepen|gmail.com}}
+| CodeMouse
+| Individual
+|-
+| caolan
+| McNamara, Caolán
+| {{nospam|caolanm|redhat.com}}
+| caolan
+| Red Hat, Inc.
+| 
+|-
+| 
+| McQueen, Robert
+| {{nospam|robert.mcqueen|collabora.co.uk}}
+| 
+| Collabora
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030629.html]
+|-
+| 
+| McRae, Keith
+| {{nospam|keithcoder|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031552.html]
+|-
+| Mmeeks
+| Meeks, Michael
+| {{nospam|michael.meeks|suse.com}}
+| mmeeks
+| SUSE
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html]
+|-
+| 
+| Mehne, Julian
+| {{nospam|julian.mehne|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/074915.html]
+|-
+| Sam_m
+| Mehrbrodt, Samuel
+| {{nospam|s.mehrbrodt|gmail.com}}
+| samuel_m
+| CIB
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/037510.html]
+|-
+| 
+| meitav, stav
+| {{nospam|stav-m|drorisrael.org.il}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-July/074830.html]
+|-
+| Meixome
+| Méixome, Antón
+| {{nospam|meixome|certima.net}}
+| meixome
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028940.html], [http://lists.freedesktop.org/archives/libreoffice/2012-May/031620.html]
+|-
+| Vasily.melenchuk
+| Melenchuk, Vasily
+| {{nospam|vasily.melenchuk|cib.de}}
+| 
+| CIB
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/066121.html]
+|-
+| dougmencken
+| Mencken, Douglas
+| {{nospam|dougmencken|gmail.com}}
+| dougmencken
+| Individual
+| [https://www.mail-archive.com/libreoffice@lists.freedesktop.org/msg83440.html Public Domain/WTFPLv2+]
+|-
+|
+| Mendes, Jorge
+| {{nospam|jorgecunhamendes|gmail.com}}
+| jmendes
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067427.html]
+|-
+|
+| Mendez, Jose
+| {{nospam|lomen30|hotmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073758.html]
+|-
+| 
+| Merda, Marcin "exine"
+| {{nospam|bubstakker|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031262.html]
+|-
+| Volkerme
+| Merschmann, Volker
+| 
+| volkerme
+| Individual
+| 
+|-
+| 
+| Messner, Johann
+| {{nospam|johann.messner|jku.at}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/037530.html]
+|-
+| adrian_broher
+| Metz, Marcel
+| {{nospam|mmetz|adrian-broher.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/021654.html]
+|-
+|
+| Meyer, Steven
+| {{nospam|steven.meyer29|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/047597.html]
+|-
+| 
+| Meyer-Thurow, Hanno
+| {{nospam|h.mth|web.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028321.html]
+|-
+| Bjoern-michaelsen
+| Michaelsen, Björn
+| {{nospam|bjoern.michaelsen|canonical.com}}
+| Sweetshark
+| Canonical Ltd.
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020761.html]
+|-
+| Matm
+| Michel, Mathias
+| {{nospam|matm|gmx.fr}}
+| matm
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-October/039723.html]
+|-
+| 
+| Michael, Arul
+| {{nospam|arul71.m|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/071708.html]
+|-
+| 
+| Mihályi, Dániel
+| {{nospam|amidabucu|gmail.com}}
+| amidabucu
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/025309.html]
+|-
+| pasqualm
+| Milvaques, Pasqual
+| {{nospam|pasqual.milvaques|gmail.com}}
+| pasqualm
+| individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-December/071314.html]
+|-
+| 
+| Minarik, Honza
+| {{nospam|minarja4|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/049238.html]
+|-
+| 
+| Minicz, Pedro
+| {{nospam|pedrominicz|uol.com.br}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067415.html]
+|-
+| ace7495
+| Mishra, Anubhav
+| {{nospam|anubhav.worklinux|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-May/068087.html]
+|-
+| 
+| Miśkiewicz, Arkadiusz
+| {{nospam|arekm|maven.pl}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028319.html]
+|-
+| pmladek
+| Mladek, Petr
+| {{nospam|pmladek|suse.cz}}
+| pmladek
+| SUSE
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html]
+|-
+| 
+| Mocsi, Gergő
+| {{nospam|gmocsi91|gmail.com}}
+| gmocsi91, stalker08
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/045556.html]
+|-
+|
+| Moges, Beza
+| {{nospam|Bezawit_Moges|berea.edu}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073909.html]
+|-
+|
+| Mogi, Isamu
+| {{nospam|saturday6c|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-May/051437.html]
+
+|-
+| 
+| Mohan Lal Srivastava, Brij
+| {{nospam|contactbrijmohan|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-November/064486.html]
+|-
+| Markus
+| Mohrhard, Markus
+| {{nospam|markus.mohrhard|googlemail.com}}
+| moggi
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/023489.html]
+|-
+| scren
+| Möller, Sören — spelled Soeren Moeller in some patches
+| {{nospam|soerenmoeller2001|gmail.com}}
+| scren
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-January/006723.html]
+|-
+| Mmonas
+| Monastirsky, Maxim
+| {{nospam|momonasmon|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-October/057032.html]
+|-
+| janimo
+| Monoses, Jani
+| {{nospam|jani|canonical.com}}
+| 
+| Canonical
+| see below
+|-
+| Jmontane
+| Montané, Joan
+| {{nospam|joan|montane.cat}}
+| 
+| Individual
+| 
+|-
+| 
+| Montania, Ricardo
+| {{nospam|ricardo|linuxafundo.com.br}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-July/054336.html]
+|-
+| 
+| Morbach, Benedikt
+| {{nospam|benedikt.morbach|googlemail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048971.html]
+|-
+| emoreno
+| Moreno, Eduardo
+| {{nospam|emoreno|tokonhu.com}}
+| emoreno
+| TOKONHU de México
+| 
+|-
+| ploxiz
+| Moscu, Alexandru
+| {{nospam|moscu.alex|gmail.com}}
+| ploxiz
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073803.html]
+|-
+| 
+| Moulin, Camille
+| {{nospam|camille.moulin|free.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031771.html]
+|-
+| 
+| Móger, Tibor
+| {{nospam|hapcyhun|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076074.html]
+|-
+| 
+| Mróz, Adam
+| {{nospam|sadam36|gmail.com}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046457.html]
+|-
+| 
+| Mueller, Tobias
+| {{nospam|tobiasmue|gnome.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-July/062470.html]
+|-
+| 
+| Münch, Michael
+| {{nospam|michael|codingmicha.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031677.html]
+|-
+| 
+| Murphy, Trevor
+| {{nospam|trevor.m.murphy|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031774.html]
+|-
+| Jessoclarence
+| Murugan, Jesso Clarence
+| {{nospam|developer.jesso|gmail.com}}
+| jesso
+| Motah program, KACST
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/034038.html]
+|-
+| 
+| Mukhiddin Yusupov
+| {{nospam|ymukhiddin|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-May/061202.html]
+|-
+|}
+
+== N ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Naber, Daniel
+| {{nospam|naber|danielnaber.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031510.html]
+|-
+| serval2412
+| Nabet, Julien
+| {{nospam|serval2412|yahoo.fr}}
+| julien2412
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/018568.html]
+|-
+| 
+| Nagar, Akshay
+| {{nospam|2014ucp1524|mnit.ac.in}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075501.html]
+|-
+| 
+| Nagy, Robert
+| {{nospam|robert|openbsd.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028407.html]
+|-
+| 
+| Nakamoto, Takashi
+| {{nospam|bluedwarf|bpost.plala.org.jp}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-August/017426.html]
+|-
+| Ashod
+| Nakashian, Ashod
+| {{nospam|ashodnakashian|yahoo.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/065696.html]
+|-
+| 
+| Nalley, David
+| {{nospam|david|gnsa.us}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032439.html]
+|-
+| 
+| Nardi, Saverio
+| {{nospam|sav.nardi|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063485.html]
+|-
+| 
+| Nathani, Sonakshi
+| {{nospam|sonakshinathani|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-June/053804.html]
+|-
+| muxer
+| Nathansen, Martin
+| {{nospam|marsianer|gmail.com}}
+| limuxer
+| Landeshauptstadt München
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/074064.html]
+|-
+| Dneelyep
+| Neel, Daniel
+| {{nospam|dneelyep|gmail.com}}
+| 
+| Individual
+|-
+| 
+| Németh, László
+| {{nospam|nemeth|numbertext.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-May/052494.html]
+|-
+| 
+| Nespolo, Jacopo
+| {{nospam|j.nespolo|gmail.com}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031229.html]
+|-
+| .
+| Ngo, Cao Cuong
+| {{nospam|cao.cuong.ngo|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/046989.html]
+|-
+| Nlminhtl
+| Ngo, Minh
+| {{nospam|nlminhtl|gmail.com}}
+| nlminhtl
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-May/051422.html]
+|-
+| 
+| Ni, Benjamin
+| {{nospam|benjaminniri|hotmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067422.html]
+|-
+| niboshi
+| Nishino, Daisuke
+| {{nospam|niboshi000|gmail.com}}
+| niboshi
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/021287.html]
+|-
+| 
+| Nicholls, Matthew
+| {{nospam|matthew.nicholls95|hotmail.co.uk}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067339.html]
+|-
+| 
+| Niehaus, Carsten
+| {{nospam|cniehaus|gmx.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031413.html]
+|-
+| 
+| Nijhof, Jeroen
+| {{nospam|jeroen|nijhof.co.uk}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-May/060820.html]
+|-
+| 
+| Niranjan, Dipankar
+| {{nospam|dipankar1995|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/071607.html]
+|-
+| 
+| Nitschke, Joschen
+| {{nospam|j.nitschke|ok.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-February/072495.html]
+|-
+| .
+| Noack, Christoph
+| {{nospam|christoph|dogmatux.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031316.html]
+|-
+| cornouws
+| Nouws, Cor
+| 
+| cornouws
+| Nou&Off, Netherlands
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020932.html]
+|-
+| Nnino
+| Novak, Nino
+| {{nospam|nn.libo|kflog.org}}
+| 
+| Individual
+| CC-BY-SA (for wiki)
+|-
+| peternowee
+| Nowee, Peter
+| {{nospam|peter.nowee|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/066000.html]
+|-
+| aldo.roman
+| Nureña, Aldo Román
+| {{nospam|aldo.roman.nurena|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031797.html]
+|-
+| 
+| Nyers, Gábor
+| {{nospam|gnyers|opensuse.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/046815.html]
+|-
+| nrbrtx
+| Norbert X
+| {{nospam|nrbrtx|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-June/061800.html]
+|-
+|}
+
+== O ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Ofitserov, Nikita
+| {{nospam|himikof|gmail|com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031828.html]
+|-
+| 
+| Ogasawara, Naruhiko
+| {{nospam|naruoga|gmail|com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-October/064190.html]
+|-
+| 
+| Okano, Takayoshi
+| {{nospam|kano|rim.or.jp}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/045226.html]
+|-
+| Ryoon
+| ONODERA, Ryo
+| {{nospam|ryo_on|yk.rim.or.jp}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-February/066674.html]
+|-
+| Davido
+| Ostrovsky, David
+| {{nospam|d.ostrovsky|gmx.de}}
+| _david_
+| Individual, CIB
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030018.html] [http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html]
+|-
+| oger000
+| Öttl, Gerhard
+| {{nospam|lodev|ogersoft.at}}
+| oger000
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/037726.html]
+|-
+| Aybuke
+| Ozdemir, Aybuke
+| {{nospam|aybuke.147|gmail.com}}
+| aybuke
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-September/070398.html]
+|-
+| 
+| Owens, Martin
+| {{nospam|doctormo|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-July/062510.html]
+|-
+|}
+
+== P ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Páder, Rezső
+| {{nospam|rezso|rezso.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-July/053955.html]
+|-
+| treadstone90
+| Padmanabhan, Karthik
+| {{nospam|treadstone90|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/029327.html]
+|-
+| 
+| Padmadas, Darshana
+| {{nospam|darshanapadmadas|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/060124.html]
+|-
+| 
+| Page, Mark
+| {{nospam|apitude|btconnect.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/074098.html]
+|-
+| 
+| Palenik, Mihály
+| {{nospam|palenik.mihaly|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-June/053905.html]
+|-
+| 
+| Palo, Richard
+| {{nospam|richard|netbsd.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-November/064485.html]|-
+|-
+|
+| Palomares Martínez, Ricardo
+| {{nospam|rpm-disguise-java|yahoo.es}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075688.html]
+|-
+| 
+| Pandey, Prashant
+| {{nospam|prashant3.yishu|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046321.html]
+|-
+| 
+| Pantechovskis, Aleksas
+| {{nospam|alex.pantec|gmail.com}}
+| AlexP11223
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073510.html]
+|-
+| 
+| Papin, Jean-Charles
+| {{nospam|jean.charles.papin|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031998.html]
+|-
+| 
+| Paquin, Alexis
+| {{nospam|chaqou|gmail.com}}, {{nospam|trtle|yahoo.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-June/074450.html]
+|-
+| 
+| Paragas, Jorenz
+| {{nospam|j.paragas.237|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-June/068865.html]
+|-
+| phora
+| Paraiso, Joan
+| {{nospam|phora.public|outlook.com}}
+| phora
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-September/070345.html]
+|-
+| 
+| Parent, Mathieu
+| {{nospam|math.parent|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-October/056641.html]
+|-
+| 
+| Parruck, Barun
+| {{nospam|barun.parruck|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073741.html]
+|-
+| .
+| Patidar, Navin
+| {{nospam|patidar|kacst.edu.sa}}
+| 
+| Motah Program, KACST
+| [http://article.gmane.org/gmane.comp.documentfoundation.libreoffice.devel/41271]
+|-
+| campaul
+| Paul, Cameron
+| {{nospam|cpaul37|gmail.com}}
+| campaul
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/027146.html]
+|-
+| pa1pal
+| Pal, Pawan
+| {{nospam|pawanpal004|gmail.com}}
+| pa1pal
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-July/074856.html]
+|-
+| madscientist159
+| Pearson, Timothy
+| {{nospam|kb9vqf|pearsoncomputing.net}}
+| kb9vqf
+| Trinity Desktop Project
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031767.html]
+|-
+| wope
+| Pechlaner, Wolfgang
+| {{nospam|libo|pechlaner.at}}
+| wope
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/017854.html]
+|-
+| 
+| Pelloux-Prayer, Pierre-Eric
+| {{nospam|pierre-eric|lanedo.com}}
+| 
+| Lanedo
+| [http://lists.freedesktop.org/archives/libreoffice/2012-October/039695.html]
+|-
+| 
+| Peng, Kevin
+| {{nospam|kpengboy|fastmail.fm}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035519.html]
+|-
+| 
+| Perdreau, Regis
+| {{nospam|regis.perdreau|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-June/074548.html]
+|-
+| 
+| Perez-Schofield, Baltasar García
+| {{nospam|baltasarq|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073413.html]
+|-
+| lpetrolekas
+| Petrolekas, Luke
+| {{nospam|luke.petrolekas|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028571.html]
+|-
+| 
+| Pflüger, Wilhelm
+| {{nospam|Wilhelm.Pflueger|web.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031995.html]
+|-
+| Philipz
+| Philips, Yousuf
+| {{nospam|philipz85|hotmail.com}}
+| jphilipz
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063452.html]
+|-
+| jumapico
+| Picca, Juan
+| {{nospam|jumapico|gmail.com}}
+| jumapico
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-October/063945.html]
+|-
+| 
+| Picchiarelli, Giacomo
+| {{nospam|gpicchiarelli|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/049047.html]
+|-
+| 
+| Pierdola, Thies
+| {{nospam|thiespierdola|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-January/006723.html]
+|-
+| 
+| Pinter, Krisztian
+| {{nospam|pin.terminator|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046075.html]
+|-
+| Marcoagpinto
+| Pinto, Marco A.G.
+| {{nospam|marcoagpinto|mail.telepac.pt}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-February/072446.html]
+|-
+| 
+| Pirani, Fernando
+| {{nospam|feremp.i+lodev|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-August/069571.html]
+|-
+| Hatapitk
+| Pitkänen, Harri
+| {{nospam|hatapitk|iki.fi}}
+| hatapitk
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019137.html]
+|-
+| .
+| Pkoroau
+| {{nospam|pkoroau|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-November/041801.html]
+|-
+| .
+| Ploton, Olivier
+| {{nospam|olivier.ploton|univ-tours.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-December/042156.html]
+|-
+| 
+| Ponamarev, Ilya
+| {{nospam|ponamarev|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075421.html]
+|-
+| Gippy73
+| Ponzo, Gabriele
+| {{nospam|gponzo|gmail.com}}
+| GPS
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-February/072466.html]
+|-
+| Mariuz
+| Popa, Adrian Marius
+| {{nospam|mapopa|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067229.html]
+|-
+| 
+| Portella, Victor Sanches
+| {{nospam|visportella|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-November/064355.html]
+|-
+| 
+| Possoz, Louis
+| {{nospam|louis.possoz|quelfutur.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-November/040605.html]
+|-
+| 
+| Pottage, Matthew
+| {{nospam|matthewpottage|invincitech.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-July/062504.html]
+|-
+| 
+| Poussel, Guillaume
+| {{nospam|gpoussel|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031186.html]
+|-
+| 
+| Povoleri, Nicola
+| {{nospam|nicola.povoleri|libreitalia.it}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-November/071250.html]
+|-
+| NoelPower
+| Power, Noel
+| {{nospam|noel.power|novell.com}}
+| noelp
+| SUSE
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html]
+|-
+| 
+| Powers, Joseph
+| {{nospam|jpowers27|cox.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/031004.html]
+|-
+| 
+| Pradet, Quentin
+| {{nospam|quentin.pradet|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-January/043760.html]
+|-
+|
+| Prakasht, Tapan
+| {{nospam|tapanprakasht|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067377.html]
+|-
+|
+| Prasad, Ravi Kumar
+| {{nospam|7ravikp|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-September/075213.html]
+|-
+| Apps
+| Priyadarshi, Apurva
+| {{nospam|apriyadarshi.1995|gmail.com}}
+| apurva
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-May/074355.html]
+|-
+| 
+| Proschofsky, Andreas
+| {{nospam|suka|gentoo.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/027527.html]
+|-
+| 
+| Proulx, Antoine
+| {{nospam|proulx.antoine|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031644.html]
+|-
+| Korrawit
+| Pruegsanusak, Korrawit
+| {{nospam|detective.conan.1412|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-May/013022.html]
+|-
+| pharic
+| Pulagam, Harichandan
+| {{nospam|pharic.15|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-May/061106.html]
+|-
+| 
+| Põldaru, Matias
+| {{nospam|mahfiaz|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065131.html]
+|-
+|}
+
+== Q ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Quetschke, Volker
+| {{nospam|vm|quetschke.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028219.html]
+|-
+| 
+| Quigley, Bryan
+| {{nospam|gquigs|gmail.com}}
+| 
+| Canonical
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057383.html]
+|-
+|}
+
+== R ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Rabi, Péter
+| {{nospam|prabi|caesar.elte.hu}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-August/016242.html]
+|-
+| .
+| Ioan, Radu
+| {{nospam|ioan.radu.g|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/037309.html]
+|-
+| nifgraup
+| Ragnarsson, Björgvin
+| {{nospam|nifgraup|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/025824.html]
+|-
+|
+| Rahemipour, Jacqueline
+| {{nospam|jr|natural-computing.de}}
+|
+|Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048799.html]
+|-
+| 
+| Raicevic, Larisa
+| {{nospam|lara.raicevic|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/034569.html]
+|-
+| 
+| Ramírez Arceda, Mònica
+| {{nospam|monica|probeta.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031282.html]
+|-
+| 
+| Rao, Sudarshan
+| {{nospam|sidchelseafan|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063490.html]
+|-
+| Samphan
+| Raruenrom, Samphan
+| {{nospam|samphan|osdev.co.th}}
+| 
+| [http://www.osdev.co.th Osdev]
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/018520.html]
+|-
+|
+| Rashish, Maya
+| {{nospam|coypu|SDF.ORG}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-February/072580.html]
+|-
+| erAck
+| Rathke, Eike
+| {{nospam|erack|redhat.com}}, {{nospam|erack|erack.de}}
+| erAck
+| Red Hat, Inc.
+| [http://lists.freedesktop.org/archives/libreoffice/2011-July/015777.html]
+|-
+| DebarshiRay
+| Ray, Debarshi
+| {{nospam|debarshir|freedesktop.org}}
+| rishi
+| Red Hat, Inc.
+|
+|-
+| 
+| Raymond, Eric S.
+| {{nospam|esr|thyrsus.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-June/053072.html]
+|-
+| 
+| Renon, Michel
+| {{nospam|michel.renon|free.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-May/068270.html]
+|-
+| Reisi007
+| Reisinger, Florian
+| {{nospam|florian.reisinger|outlook.com}}
+| reisi007 or florei
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice-qa/2012-April/001503.html]
+|-
+| diocles
+| Retout, Tim
+| {{nospam|tim|retout.co.uk}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2010-October/001719.html]
+|-
+| 
+| Requena, Jose Mendez
+| {{nospam|sunmail|hotmail.ru}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/074026.html]
+|-
+| 
+| Richards, Dave
+| {{nospam|flbeachlf|gmail.com}}
+| dave_largo
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/037317.html]
+|-
+| 
+| Richardson, Tim
+| {{nospam|tim|tim-richardson.net}}
+| timrichardson
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-June/052912.html]
+|-
+| 
+| Riddell, Jonathan
+| {{nospam|jr|jriddell|org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-November/064749.html]
+|-
+| FlipR
+| Riemer, Philipp
+| {{nospam|ruderphilipp|gmail.com}}
+| flip28
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032375.html]
+|-
+| KristianRietveld
+| Rietveld, Kristian
+| {{nospam|kris|lanedo.com}}
+| kris___
+| Lanedo GmbH
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019319.html]
+|-
+| Modestas
+| Rimkus, Modestas
+| {{nospam|modestas.rimkus|gmail.com}}
+| 
+| Individual
+| [http://listarchives.libreoffice.org/global/l10n/msg04524.html]
+|-
+| .
+| Ring, Stefan
+| {{nospam|stefanrin|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-January/058676.html]
+|-
+| Ritztro
+| Ritzema, Brent
+| {{nospam|brentritztro96|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067559.html]
+|-
+| 
+| Roberto, Anderson
+| {{nospam|andersonn.roberto|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-January/058706.html]
+|-
+| drobertson
+| Robertson, Daniel
+| {{nospam|danlrobertson|gmail.com}}
+| drobertson
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-June/068918.html]
+|-
+| Dennisroczek
+| Roczek, Dennis
+| {{nospam|dennisroczek|gmail.com}}, {{nospam|dennisroczek|libreoffice.org}}
+| DennisRoczek
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-November/064742.html]
+|-
+| drodriguez
+| Rodriguez, Daniel Armando
+| {{nospam|daniel.armando.rodriguez|gmail.com}}
+| drodriguez
+| Individual
+| .
+|-
+| 
+| Rollo, Troy
+| {{nospam|troy|troy.rollo.name}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031574.html]
+|-
+| 
+| Rondini, Mirco
+| {{nospam|mirco.rondini|yahoo.it}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075474.html]
+|-
+| 
+| Rosenberger, Tobias
+| {{nospam|son|ich-habe-fertig.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031634.html]
+|-
+| 
+| Rosenkränzer, Bernhard
+| {{nospam|bernhard.rosenkranzer|linaro.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/027245.html]
+|-
+| cr
+| Roßmanith, Christina
+| {{nospam|ChrRossmanith|gmx.de}}
+| crossmanith
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/027419.html]
+|-
+| 
+| Roth, Robert
+| {{nospam|evfool|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031477.html]
+|-
+| 
+| Rouvignac, Jean-Noël
+| {{nospam|jn.rouvignac|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-January/043621.html]
+|-
+| eroux
+| Roux, Elie
+| {{nospam|elie.roux|telecom-bretagne.eu}}
+| eroux
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-June/061711.html]
+|-
+| 
+| Royer, Jean-Yves
+| {{nospam|royerjy|wanadoo.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031818.html]
+|-
+| 
+| Rubinson, Ivan
+| {{nospam|soryy708|gmail.com}}
+| 
+| Individual
+| mail on legal list.
+|-
+| 
+| Ruggero, Cyrille
+| {{nospam|ruggero|clipper|ens|fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-October/064087.html]
+|-
+| Maciej
+| Rumianowski, Maciej
+| {{nospam|maciej.rumianowski|gmail.com}}
+| rumianom
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-July/015266.html]
+|-
+| Heiher
+| Rui Wang
+| {{nospam|r|hev.cc}}
+| heiher
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-July/069143.html]
+|-
+| mrugiero
+| Rugiero, Mario
+| {{nospam|mrugiero|gmail.com}}
+| mrugiero
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070736.html]
+|-
+| arranna
+| Rönkkö, Niko
+| {{nospam|ronkko|iki.fi}}
+| arranna
+| Individual
+| 
+|-
+|}
+
+== S ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+|
+| Sacristán Valdezate, Domingo
+| {{nospam|domingo.sacristan|gvcc.net}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057329.html]
+|-
+| Sahas
+| Sahasranaman M S
+| {{nospam|sahasr|naman.ms}}
+| sahas
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070750.html] 
+|-
+|
+| Saito, Francisco Kem Iti
+| {{nospam|saito|4linux.com.br}}
+| 
+| http://www.4linux.com.br/
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031859.html]
+|-
+|
+| Samir, Ahmad
+| {{nospam|ahmadsamir1194|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067244.html]
+|-
+| elbarto
+| Sánchez, Bartolomé
+| {{nospam|aliaselbarto|gmail.com}}
+| elbarto
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/026758.html]
+|-
+|
+| Sánchez, Francisco Adrián
+| {{nospam|franciscoadriansanchez|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075446.html]
+|-
+| 
+| Santos Tiago
+| {{nospam|tiagofsantos81|sapo.pt}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/075079.html]
+|-
+| 
+| Sarmiento, José Santiago Jiménez
+| {{nospam|jimenezsarmiento|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030824.html]
+|-
+| 
+| Sauter, Pierre
+| {{nospam|pierre.sauter|stwm.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-December/071307.html]
+|-
+| 
+| Scerbak, Marian
+| {{nospam|Devel.marian.scerbak|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073890.html]
+|-
+| lohsol
+| Scheidt, Heiko
+| {{nospam|lohsol|versanet.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/062637.html]
+
+|-
+|
+| Schick, Stefan
+| {{nospam|stinder21|googlemail.com}}
+| 
+| Individual
+| [http://article.gmane.org/gmane.comp.documentfoundation.libreoffice.devel/43799]
+|-
+| 
+| Schmid, Franz
+| {{nospam|Franz.Schmid|altmuehlnet.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/049318.html]
+|-
+| 
+| Schnabel, Andre
+| {{nospam|andre.schnabel|gmx.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/027397.html]
+|-
+| 
+| Schneider, Hansgerd
+| {{nospam|hansgerd.schneider|yahoo.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/049234.html]
+|-
+| 
+| Schneider, Reto
+| {{nospam|code|reto-schneider.ch}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-November/071149.html]
+|-
+| salix
+| Schulthess, Franziska
+| 
+| 
+| Individual
+| 
+|-
+| 
+| Schultz, Jonathan
+| {{nospam|jonathan|imatix.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048854.html]
+|-
+| Chs
+| Schulz, Charles-H.
+| {{nospam|charles.schulz|documentfoundation.org}}
+| southerncross__
+| Individual
+| 
+|-
+| Icyitscold
+| Scott, Patrick
+| 
+| 
+| Individual
+| 
+|-
+|
+| Sebastian, Rosemary 
+| {{nospam|rosemary.seb8|gmail.com}}
+| roses
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-June/068871.html]
+|-
+| Kruno
+| Šebetić, Krunoslav
+| {{nospam|kruno.se|gmx.com}}
+| 
+| Individual
+| [http://listarchives.libreoffice.org/global/l10n/msg06398.html]
+|-
+| 
+| Sedak, Robert
+| {{nospam|robert.sedak|sk.t-com.hr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032523.html]
+|-
+| 
+| Sedlak, Diana
+| {{nospam|dianasedlak|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-June/074579.html]
+|-
+| 
+| Sempere, Richard
+| {{nospam|thereisanemail|yahoo.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073798.html]
+|-
+| Iremsendur
+| Şendur, İrem
+| {{nospam|iremsendur1|gmail.com}}
+| iremsendur
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070494.html]
+|-
+| peter.senna
+| Senna Tschudin, Peter
+| {{nospam|peter.senna|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-May/061389.html]
+|-
+| 
+| Šesták, Jindřich
+| {{nospam|khagaroth|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031794.html]
+|-
+| 
+| Sethi, Abeer
+| {{nospam|abeersethi.91|gmail.com}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030619.html]
+|-
+| 
+| Seward, Julian
+| {{nospam|jseward|acm.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028236.html] - past only
+|-
+|
+| Seynaeve, Eric
+| {{nospam|eric|seynaeve.be}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/045508.html]
+|-
+| 
+| Shah, Prashant
+| {{nospam|pshah.mumbai|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031665.html]
+|-
+| umairshahid
+| Shahid, Umair
+| {{nospam|umair.shahid|2ndquadrant.com}}
+| umairshahid
+| 2ndQuadrant
+| [http://lists.freedesktop.org/archives/libreoffice/2015-May/068269.html]
+|-
+| 
+| Shanks, Nicholas
+| {{nospam|nickshanks|nickshanks.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/037786.html]
+|-
+| 
+| Sharifi, Naser
+| {{nospam|sharifinaser|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-November/041776.html]
+|-
+| 
+| Sharma, Pratishta
+| {{nospam|pratishta.sharma|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073691.html]
+|-
+| tbsdy
+| Sherlock, Chris
+| {{nospam|chris.sherlock79|gmail.com}}
+| tbsdy or chris_wot
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/046987.html]
+|-
+| 
+| Shetye, Akash
+| {{nospam|shetyeakash|gmail.com}}
+| she1991
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048604.html]
+|-
+| 
+| Shinde, Sushil
+| {{nospam|sushil.shinde|synerzip.com}}
+| 
+| Synerzip
+| [http://lists.freedesktop.org/archives/libreoffice/2013-November/057318.html]
+|-
+| 
+| Shinde, Sushil
+| {{nospam|sushil.shinde|synerzip.com}}
+| 
+| synerzip
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/027253.html]
+|-
+| 
+| Shipovskij, Roman
+| {{nospam|roman.shipovskij|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075675.html]
+|-
+| ShimonShore
+| Shore, Shimon
+| {{nospam|shimons|most.gov.il}}
+| 
+| Israel Ministry of Science
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076435.html]
+|-
+|
+| Shukla, Rushi
+| {{nospam|rushboy52|gmail.com}}
+| 
+| Individual
+| [http://article.gmane.org/gmane.comp.documentfoundation.libreoffice.devel/41364]
+|-	 
+| elshize
+| Siedlaczek, Michał
+| {{nospam|michal.siedlaczek|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-May/061006.html]
+|-
+| 
+| Sikeler, Daniel
+| {{nospam|d.sikeler94|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/063050.html]
+|-
+| 
+| Silbermayr, Wolfgang
+| {{nospam|wolfgang.silbermayr|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031253.html]
+|-
+| 
+| Silva, Javier
+| {{nospam|silva.and.co|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030848.html]
+|-
+| 
+| Silva, Rosen
+| {{nospam|rosen|live.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/074916.html]
+|-
+| 
+| Singh, Abhilash
+| {{nospam|abhilash300singh|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-July/074834.html]
+|-
+| 
+| Singh, Jaskaran
+| {{nospam|jvsg1303|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073347.html]
+|-
+| 
+| Singh, Manmeet
+| {{nospam|gdm.manmeet|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/060024.html]
+|-
+| gsmaha
+| Smaha, Guillaume
+| {{nospam|guillaume.smaha|gmail.com}}
+| gsmaha
+| Linagora
+| [http://lists.freedesktop.org/archives/libreoffice/2015-November/071202.html]
+|-
+| 
+| Smajda, Ludovic
+| {{nospam|ludovic|castor-et-herlie.fr}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/049214.html]
+|-
+| 
+| Smith, John
+| {{nospam|lbalbalba|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-April/060647.html]
+|-
+| ertai
+| Snelders, Rob
+| {{nospam|programming|ertai.nl}} / {{nospam|rob|ertai.nl}}
+| ertai_NL
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028334.html]
+|-
+| augsod
+| Sodora, August
+| {{nospam|augsod|gmail.com}}
+| augsod
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019593.html]
+|-
+| mox
+| Soini, Mox
+| {{nospam|mox|iki.fi}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-June/068415.html]
+|-
+| 
+| Soragna, Andrea
+| {{nospam|andrea.soragna|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/034382.html]
+|-
+| 
+| Souza, Marcos
+| {{nospam|marcos.souza.org|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038902.html]
+|-
+| 
+| Sovetnikov, Artyom
+| {{nospam|elringus|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-July/074812.html]
+|-
+| brad
+| Sowden, Brad
+| {{nospam|code|sowden.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031423.html]
+|-
+| spaetz
+| Spaeth, Sebastian
+| {{nospam|Sebastian|SSpaeth.de}}
+| spaetz
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/027443.html]
+|-
+| 
+| Specht, Oliver
+| {{nospam|Oliver.Specht|CIB.de}}
+| 
+| CIB
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html]
+|-
+| 
+| Šrámek, Miloš
+| {{nospam|sramek.milos|gmail.com}}
+| 
+| Individual
+| [http://listarchives.libreoffice.org/global/l10n/msg04521.html]
+|-
+| 
+| Srebotnjak, Martin
+| {{nospam|miles|filmsi.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031855.html]
+|-
+| Mst
+| Stahl, Michael
+| {{nospam|mstahl|redhat.com}}, {{nospam|mst|openoffice.org}}
+| mst[_]*
+| Red Hat, Inc.
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/018134.html]
+|-
+| aleksandar
+| Stefanović, Aleksandar
+| {{nospam|theonewithideas|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/073973.html]
+|-
+| Ochosi
+| Steinbeiß, Simon
+| {{nospam|simon.steinbeiss|elfenbeinturm.at}}
+| ochosi
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070773.html]
+|-
+| 
+| Strba, Fridrich
+| {{nospam|fridrich.strba|graduateinstitute.ch}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-October/057100.html]
+|-
+|
+| Srivastava, Sagar
+| {{nospam|ssrivastava|kacst.edu.sa}}
+| 
+| Motah Program, KACST
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038477.html]
+|-
+| 
+| Steele, Dave
+| {{nospam|dsteele|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/031023.html]
+|-
+| 
+| Stefanik, Gabor
+| {{nospam|netroller.3d|gmail.com}}
+| netroller3
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/029673.html]
+|-
+| ChristopheS
+| Strobbe, Christophe
+| 
+| 
+| Individual
+| 
+|-
+| 
+| Strnad, Michal
+| {{nospam|me|debugger.cz}}
+| 
+| Individual
+|
+|-
+| 
+| Strubulis, Christos
+| {{nospam|strubulis|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-December/042376.html]
+|-
+| sumuthu
+| Subramanian, Muthu
+| {{nospam|muthu.subramanian.karunanidhi|ericsson.com}}
+| muthusuba
+| Ericsson
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/027172.html]
+|-
+| 
+| Sujay M
+| {{nospam|sujaym.sujaym|gmail.com}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/059878.html]
+|-
+| gatlibs
+| Sullivan, Gatlin
+| {{nospam|gatlibs.libreoffice|gmail.com}}
+| gatlibs
+| Independent
+| [http://lists.freedesktop.org/archives/libreoffice/2014-July/062164.html]
+|-
+| 
+| Su, Sophie
+| {{nospam|sea0721moon|gmail.com}}
+| 
+| individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/075027.html]
+|-
+| 
+| Supp, Mathias
+| {{nospam|MMathias.Supp|vector.com}}
+| 
+| individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/060348.html]
+|-
+| 
+| Svobodová, Helena
+| {{nospam|hel.svo|gmail.com}}
+| 
+| individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-May/074268.html]
+|-
+| 
+| Swales, Stuart
+| {{nospam|stuart.swales.croftnuisk|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-July/054067.html]
+|-
+| 
+| Symes, Luke
+| {{nospam|allsymes|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031469.html]
+|-
+| 
+| Szalai, Kálmán „KAMI”
+| {{nospam|kami911|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/027251.html]
+|-
+| Phillip
+| Szelat, Phillip
+| {{nospam|phillip.szelat|gmail.com}}
+| phillip
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067287.html]
+|-
+| 
+| Świętek, Michał
+| {{nospam|michalswietek88|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067272.html]
+|-
+|}
+
+== T ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| Wastack
+| Tamás, Bunth
+| {{nospam|btomi96|gmail.com}}
+| Wastack
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073518.html]
+|-
+| 
+| Tamsil, Amani
+| {{nospam|tamsajama|gmail.com}}
+|
+|
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075503.html]
+|-
+| 
+| Taneroğlu, Yeliz
+| {{nospam|yeliztaneroglu|gmail.com}}
+| yeliztaneroglu
+|
+| [http://lists.freedesktop.org/archives/libreoffice/2015-September/070406.html]
+|-
+| audreyt
+| Tang, Audrey
+| {{nospam|audreyt|audreyt.org}}
+| au
+| g0v.asia
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/062691.html CC0]
+|-
+|
+| Tanaka, Hidemune
+| {{nospam|info|tanaka-cs.co.jp }}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-November/064644.html]
+|-
+|
+| Tarasievich, Yury
+| {{nospam|yury.tarasievich|gmail.com}}
+| 
+| Individual
+| [http://listarchives.libreoffice.org/global/l10n/msg04562.html]
+|-
+| dtardon
+| Tardon, David
+| {{nospam|dtardon|redhat.com}}
+| dtardon
+| Red Hat, Inc.
+| [https://lists.freedesktop.org/archives/libreoffice/2016-April/073971.html]
+|-
+| 
+| Tarlan, Kader
+| {{nospam|kadertarlan1|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070436.html]
+|-
+| 
+| Taylor, Carl
+| {{nospam|cavemancarl11|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/022815.html]
+|-
+| arnotixe
+| Teigseth, Arno
+| {{nospam|arnotixe|gmail}}
+| arnotixe
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035631.html]
+|-
+| 
+| Thabet, Mohamed
+| {{nospam|thabetx|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073722.html]
+|-
+| 
+| Raunak, Thakur
+| {{nospam|raunak_thakur|berea.edu}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073889.html]
+|-
+| Tantai
+| Thanakanok, Tantai
+| {{nospam|tantai|osdev.co.th}}
+| 
+| [http://www.osdev.co.th Osdev]
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/018519.html]
+|-
+| Shmget
+| Thiebaud, Norbert
+| {{nospam|nthiebaud|gmail.com}}
+| shm_get
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-August/017246.html]
+|-
+| 
+| Thomas, Daniel
+| {{nospam|daniel|fearnley.net}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/072763.html]
+|-
+| tomthorogood
+| Thorogood, Tom
+| {{nospam|tom|tomthorogood.com}}
+| tomthorogood
+| Individual
+| private mail to legal@
+|-
+| 
+| Thuc, Dao Minh
+| {{nospam|minhthucdao1|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-May/074142.html]
+
+|-
+| 
+| Thurgood, Alexander
+| {{nospam|alex.thurgood|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031898.html]
+|-
+| thuswa
+| Thuswaldner, Albert
+| {{nospam|albert.thuswaldner|gmail.com}}
+| thuswa
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/024837.html]
+|-
+| 
+| Tibra, Shubham
+| {{nospam|shubh.tibra|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/071834.html]
+|-
+| htietze
+| Tietze, Heiko
+| {{nospam|tietze.heiko|gmail.com}}
+| htietze
+| TDF
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075663.html]
+|-
+| 
+| Tigeot, Francois
+| {{nospam|ftigeot|wolfpond.org}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031177.html]
+|-
+| 
+| Tillemans, Peter
+| {{nospam|pti|snamellit.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/033525.html]
+|-
+| Andras Timar
+| Timar, Andras
+| {{nospam|atimar|suse.com}}
+| timar
+| SUSE
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html], [http://lists.freedesktop.org/archives/libreoffice/2012-May/031049.html] (pre-SUSE)
+|-
+| Ivan
+| Timofeev, Ivan
+| {{nospam|timofeev.i.s|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-September/018420.html]
+|-
+| 
+| Tomcsik, Bence Tibor
+| {{nospam|tomcsikbence|gmail.com}}
+| tomcsik
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/023859.html]
+|-
+| 
+| Tõnnov, Mihkel
+| {{nospam|mihhkel|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035337.html]
+|-
+| 
+| Toye, Peter
+| {{nospam|git|ptoye.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/075769.html]
+|-
+| 
+| Trémouroux, Joachim
+| {{nospam|joachim.tremouroux|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031347.html]
+|-
+| qubit
+| Tryon, Robinson
+| {{nospam|qubit|runcibility.com}}, {{nospam|bishop.robinson|gmail.com}}
+| colonelqubit
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/033971.html]
+|-
+| 
+| Trzebiatowski, Jakub
+| {{nospam|ubap.dev|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073583.html]
+
+|-
+| zerng07
+| Tseng, Cheng-Chia
+| {{nospam|pswo10680|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/023987.html]
+|-
+| 
+| Turek, Tomáš
+| {{nospam|osmman|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048441.html]
+|-
+| 
+| Tümer, Mert
+| {{nospam|merttumer|outlook.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/071785.html]
+|-
+| 
+| Túri, István
+| {{nospam|turipista|freemail.hu}}
+| pista
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035152.html]
+|-
+| 
+| Tyagi, Charu
+| {{nospam|charu.tyagi|ericsson.com}}
+|
+| Ericsson
+| [http://lists.freedesktop.org/archives/libreoffice/2014-June/061994.html]
+|-
+| Samtygier
+| Tygier, Sam
+| {{nospam|samtygier|yahoo.co.uk}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-May/074386.html]
+|-
+| 
+| Tzeneva, Tzvetelina
+| {{nospam|tzvetelina|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/023751.html]
+|}
+
+== U ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Udugama, Chamal
+| {{nospam|chudugama|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-September/075210.html]
+|-
+| 
+| Ullrich, Pascal
+| {{nospam|TentleXS|web.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032253.html]
+|-
+| 
+| Uray, Janos M.
+| {{nospam|uray.janos|gmail.com}}
+| UMJ
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035147.html]
+|-
+| 
+| Ursache, Vladimir
+| {{nospam|ursache|collabora.co.uk}}
+| 
+| Collabora
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030629.html]
+|-
+| 
+| Uvarov, Nikita
+| {{nospam|uv.nikita|gmail.com}}
+| uvnikita
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067205.html]
+|-
+| 
+| Uzak, Matus
+| {{nospam|matus.uzak|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-February/073402.html]
+|-
+| 
+| Uzulmez, Dilek
+| {{nospam|dilekuzulmez|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075477.html]
+|-
+| 
+| Uzun, Faruk
+| {{nospam|farakuzun|mail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-November/071259.html]
+|-
+|}
+
+== V ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| Vort
+| V., Artem
+| {{nospam|vvort|yandex.ru}}
+| Vort
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059522.html]
+|-
+| vmiklos
+| Vajna, Miklos
+| {{nospam|vmiklos|collabora.co.uk}}
+| vmiklos
+| SUSE
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020585.html] (pre-SUSE)
+|-
+| 
+| Vajngerl, Tomaž
+| {{nospam|quikee|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/032815.html]
+|-
+|
+| van den Akker, Stephan
+| {{nospam|stephanv778|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-June/033012.html]
+|-
+| 
+| van der Meulen, Thomas
+| {{nospam|thomas|jorca.nl}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/049166.html]
+|-
+| 
+| van der Waa, Jelle
+| {{nospam|jelle|vdwaa.nl}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-June/053469.html]
+|-
+| 
+| van Klaveren, Theo
+| {{nospam|theo.van.klaveren|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031486.html]
+|-
+| pietvo
+| van Oostrum, Piet
+| {{nospam|piet|vanoostrum.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/066840.html]
+|-
+| gertvv
+| van Valkenhoef, Gert
+| {{nospam|g.h.m.van.valkenhoef|rug.nl}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/026599.html]
+|-
+| 
+| Vanz, José Guilherme
+| {{nospam|guilherme.sft|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038903.html]
+|-
+| 
+| Varga, Mihai
+| {{nospam|mihai.mv13|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-February/059726.html]
+|-
+| 
+| Varga, Viktor
+| {{nospam|vvarga90|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-August/055469.html]
+|-
+| 
+| Vastag, Dávid
+| {{nospam|dave.wwpublic|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-October/040369.html]
+|-
+| 
+| Véghelyi, András
+| {{nospam|veaqaai2008|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/039091.html]
+|-
+| 
+| Vendramini, Vinicius
+| {{nospam|vinivendra|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-October/064142.html]
+|-
+| 
+| Vendrell, Vicente
+| {{nospam|viventa1|yahoo.es}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031996.html]
+|-
+| 
+| Vendramini, Vinicius
+| {{nospam|vinivendra|gmail|com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-October/064142.html]
+|-
+| 
+| Verrier, David
+| {{nospam|dverrier|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-February/046630.html]
+|-
+| arnaud_versini
+| Versini, Arnaud
+| {{nospam|arnaud.versini|gmail.com}}
+| arnaud_versini
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019988.html]
+|-
+|
+| Vicenzi, Alexandre
+| {{nospam|vicenzi.alexandre|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-January/058709.html]
+|-
+|
+| Vida, Péter
+| {{nospam|petike997|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076101.html]
+|-
+| tomv
+| Viehmann, Thomas
+| {{nospam|tv.libreoffice|beamnet.de}}
+| tomv
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/062845.html]
+|-
+| italovignoli
+| Vignoli, Italo
+| {{nospam|italo|italovignoli.com}}
+| italovignoli
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/021866.html]
+|- 
+| rajatvijay
+| Vijay, Rajat
+| {{nospam|rajatvijay5|gmail.com}}
+|
+| Individual 
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063465.html] 
+|-
+| Bavincen
+| Vincent, Babu
+| {{nospam|bavincen.in|gmail.com}} {{nospam|babu.vincent|ericsson.com}}
+| 
+| Ericsson
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063465.html]
+|- 
+|
+| Vincent
+| {{nospam|vincentgsoc2013|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048663.html]
+|-
+| Uman
+| Vincent, Brennan
+| {{nospam|brennanv|email.arizona.edu}}
+| uman
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/029320.html]
+|-
+| 
+| Vogt, David
+| {{nospam|david.vogt|adfinis-sygroup.ch}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/026375.html]
+|-
+| 
+| Vonlanthen, Mathieu
+| {{nospam|mat_von|fastmail.fm}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035582.html]
+|-
+| pevik
+| Vorel, Petr
+| {{nospam|petr.vorel|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-February/026387.html]
+|-
+|
+| Vuuren, Daniël van
+| {{nospam|daniel|schreeuwomleven.nl}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-June/074551.html]
+|-
+| Pv2k
+| Vidhey Pv
+| {{nospam|vidhey96|gmail.com}}
+| Pv2k
+|Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/076003.html]
+|-
+|}
+
+== W ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+|
+| Wadood, Abdul
+| {{nospam|abdulwd97|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075476.html]
+|-
+|
+| Walvekar, Nikhil
+| {{nospam|nikhil.walvekar|synerzip.com}}
+|
+| Synerzip
+| [http://lists.freedesktop.org/archives/libreoffice/2013-December/058133.html]
+|-
+|
+| Wagner, Thorsten
+| {{nospam|thorsten.wagner.4|gmail.com}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-April/067759.html]
+|-
+| 
+| Wang, Frédéric
+| {{nospam|fred.wang|free.fr}}
+| 
+| Individual
+| [http://nabble.documentfoundation.org/License-statement-Frederic-Wang-td4063829.html]
+|-
+| 
+| Wareham, Rich
+| {{nospam|rjw57|cantab.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-January/024027.html]
+|-
+| 
+| Wasserthal, Lennard
+| {{nospam|wasserthal|nefkom.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-September/038921.html]
+|-
+| 
+| Waterkemper, Donizete
+| {{nospam|dwater2|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-May/052413.html]
+|-
+| michaelweghorn
+| Weghorn, Michael
+| {{nospam|m.weghorn|posteo.de}}
+| michaelweghorn
+| Landeshauptstadt München
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063251.html]
+|-
+| 
+| Wehner, Sven
+| {{nospam|mail|svenwehner.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-January/058712.html]
+|-
+| stefan.weiberg
+| Weiberg, Stefan
+| {{nospam|stefan.weiberg|germandev.org}}
+| smux
+| Landeshauptstadt München
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/063048.html]
+|-
+| 
+| Weigel, Stefan
+| {{nospam|stefan.weigel|bildungskreis.org}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031782.html]
+|-
+|
+| Weigelt, Enrico
+| {{nospam|enrico.weigelt|vnc.biz}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-November/041198.html]
+|-
+| philippw
+| Weissenbacher, Philipp
+| {{nospam|p.weissenbacher|gmail.com}}
+| philippw
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019841.html]
+|-
+| 
+| Wells, Raymond
+| {{nospam|rfw2nd|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-September/055616.html]
+|-
+|  
+| Wernig, Markus
+| {{nospam|markus|wernig.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067115.html]
+|-
+| 
+| West, Andrew
+| {{nospam|babelstone|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031829.html]
+|-
+| 
+| Weyand, Nico
+| {{nospam|nico.weyand|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-July/035767.html]
+|-
+| 
+| White, Jeremy
+| 
+| 
+| CodeWeavers
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/022739.html]
+|-
+| 
+| Whitley, Mike
+| {{nospam|mike|whiteley.org}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/021345.html]
+|-
+| dag
+| Wieërs, Dag
+| {{nospam|dag|wieers.com}}
+| dag
+| Dagit
+| [https://lists.freedesktop.org/archives/libreoffice/2016-March/073727.html]
+|-
+| unknown_32
+| Williams, Andrew
+| {{nospam|anwilli5|ncsu.edu}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-July/074893.html]
+|-
+| 
+| Williams, Mark
+| {{nospam|mark|dimm.de}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-December/065320.html]
+|-
+| 
+| Wilms, Alexander
+| {{nospam|f.alexander.wilms|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031585.html]
+|-
+| SimonAW
+| Wilper, Simon
+| 
+| SimonAW
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/066024.html]
+|-
+| 
+| Wolf, Mark
+| {{nospam|mark.wolf.music|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/029962.html]
+|-
+| 
+| Woosley, Brad
+| {{nospam|bwoosley2|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-March/060326.html]
+|-
+| 
+| Wolszczak, Jacek
+| {{nospam|shutdownrunner|gmail.com}}
+| 
+| 
+| [http://lists.freedesktop.org/archives/libreoffice/2011-May/011777.html]
+|-
+| Jonny.Wu
+| Wu, Haidong
+| {{nospam|personal_wu|hotmail.com}}
+| haidong
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2016-January/072054.html]
+|}
+
+== Y ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| 
+| Yagi, Tomofumi
+| {{nospam|yagit|mknada.sakura.ne.jp}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/051321.html]
+|-
+| 
+| YALAMAN, Efe Gürkan
+| {{nospam|efeyalaman|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-August/036186.html]
+|-
+| Yanpas
+| Yan Pashkovsky
+| {{nospam|yanp.bugz|gmail.com}}
+| yanpas
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-October/075654.html]
+|-
+| 
+| Yao, Lai Chen
+| {{nospam|b900613|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-August/074992.html]
+|-
+| 
+| Yavuz, Feyza
+| {{nospam|feyzaayavuz|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070455.html]
+|-
+| 
+| Yee, Nathan
+| {{nospam|ny.nathan.yee|gmail.com}}
+| delta-nry
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/067212.html]
+|-
+| 
+| Yen, YiiChang
+| {{nospam|sadwind.yan|gmail.com}}
+| 
+| OSSII
+| [http://lists.freedesktop.org/archives/libreoffice/2014-October/064008.html]
+|-
+| Kohei
+| Yoshida, Kohei
+| {{nospam|kohei.yoshida|gmail.com}} (or {{nospam|kohei.yoshida|suse.de}})
+| kohei
+| SUSE
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html]
+|-
+| 
+| Youn, Jiwoong
+| {{nospam|yjw9012|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-December/058464.html]
+|-
+| 
+| Young, Sean
+| {{nospam|sean|mess.org}}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2013-May/052589.html]
+|-
+| 
+| Yurtoglu, Melike Ayse 
+|{{nospam|aysemelikeyurtoglu|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070454.html]
+|-
+| Wol
+| Youngman, Anthony W.
+| {{nospam|wolslists|youngman.org.uk}}
+| Wol
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/031999.html]
+|-
+| 
+| Yukawa, Yohei
+| {{nospam|yukawa|google.com}}
+| 
+| Google, Inc.
+| [http://lists.freedesktop.org/archives/libreoffice/2013-May/051795.html]
+|-
+|}
+
+== Z ==
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Wiki user name
+! scope="col" | Real name
+! class="unsortable" scope="col" | Git email
+! scope="col" | IRC nick
+! scope="col" | Affiliation
+! scope="col" | License
+|-
+| .
+| Zamaraev, Alexandr N.
+| {{nospam|tonal.promsoft|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032438.html]
+|-
+| 
+| Zasuwik, Mateusz
+| {{nospam|mzasuwik|gmail.com}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2012-May/032180.html]
+|-
+| Ztamas
+| Zolnai, Tamás
+| {{nospam|zolnaitamas|caesar.elte.hu}}, {{nospam|zolnaitamas2000|gmail.com}}
+| ztamas
+| Individual
+| [http://article.gmane.org/gmane.comp.documentfoundation.libreoffice.devel/33678]
+|-
+|}
+
+= Companies =
+
+Companies giving blanket licensing statements for their contribution.
+
+{| class="wikitable sortable" width="100%"
+|-
+! scope="col" | Name of Organisation
+! scope="col" | License statement
+|-
+| Canonical
+| [http://lists.freedesktop.org/archives/libreoffice/2011-November/020761.html]
+|-
+| CIB
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html]
+|-
+| CloudOn
+| [http://lists.freedesktop.org/archives/libreoffice/2013-May/052708.html]
+|-
+| CodeWeavers
+| [http://lists.freedesktop.org/archives/libreoffice/2011-December/022739.html]
+|-
+| Collabora
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/030629.html]
+|-
+| Credativ
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028661.html]
+|-
+| Igalia
+| [http://lists.freedesktop.org/archives/libreoffice/2013-April/050153.html]
+|-
+| ITOMIG  GmbH
+| [http://lists.freedesktop.org/archives/libreoffice/2014-May/061143.html]
+|-
+| Lanedo
+| [http://lists.freedesktop.org/archives/libreoffice/2011-June/013179.html]
+|-
+| Linagora
+| [http://lists.freedesktop.org/archives/libreoffice/2012-March/028147.html]
+|-
+| Mandriva
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/029478.html]
+|-
+| MultiCoreWare
+| [http://lists.freedesktop.org/archives/libreoffice/2013-May/052680.html]
+|-
+| Openismus
+| [http://lists.freedesktop.org/archives/libreoffice/2013-March/048202.html]
+|-
+| Planamesa
+| [http://lists.freedesktop.org/archives/libreoffice/2015-October/070432.html]
+|-
+| Red Hat, Inc.
+| [http://lists.freedesktop.org/archives/libreoffice/2012-April/031021.html]
+|-
+| Sonicle
+| [http://lists.freedesktop.org/archives/libreoffice/2013-July/054055.html]
+|-
+| SUSE / Novell
+| [http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html]
+|-
+| Synerzip
+| [http://lists.freedesktop.org/archives/libreoffice/2014-April/060491.html] [http://lists.freedesktop.org/archives/libreoffice/2014-April/060490.html] [http://lists.freedesktop.org/archives/libreoffice/2014-April/060489.html]
+|-
+| Xamarin
+| [http://lists.freedesktop.org/archives/libreoffice/2014-August/062706.html]
+|}
+
+[[Category:Development]]
