@@ -1,32 +1,32 @@
 email;name;license
 
-linagora.com;Linagora;AUDIT WIKI
-collabora.com;Collabora;AUDIT WIKI
-cloudon.com;CloudOn;AUDIT WIKI
-suse.de;SUSE;AUDIT WIKI
-redhat.com;RedHat;AUDIT WIKI
-conectiva.com;Mandriva;AUDIT WIKI
-credativ.com;Credativ;AUDIT WIKI
 apache.org;Apache;AUDIT WIKI
-xamarin.com;Xamarin;AUDIT WIKI
-suse.com;SUSE;AUDIT WIKI
-sun.com;SUN;MANUAL
-suse.cz;SUSE;AUDIT WIKI
-igalia.com;Igalia;AUDIT WIKI
-synerzip.com;Synerzip;AUDIT WIKI
-openismus.com;Openismus;AUDIT WIKI
-libreoffice.org;LibreOffice;MANUAL
-lanedo.com;Lanedo;AUDIT WIKI
-mandriva.com;Mandriva;AUDIT WIKI
-openoffice.org;Openoffice;MANUAL
-mandrake.com;Mandriva;AUDIT WIKI
-oracle.com;Oracle;MANUAL
-documentfoundation.org;DocumentFoundation;MANUAL
 bogus-non-domain;Assigned;AUDIT WIKI
-itomig.de;ITOMIG;AUDIT WIKI
-conectiva.com.br;Mandriva;AUDIT WIKI
-novell.com;SUSE;AUDIT WIKI
-multicorewareinc.com;MultiCoreWare;AUDIT WIKI
 canonical.com;Canonical;AUDIT WIKI
+cloudon.com;CloudOn;AUDIT WIKI
 codeweavers.com;CodeWeavers;AUDIT WIKI
 collabora.co.uk;Collabora;AUDIT WIKI
+collabora.com;Collabora;AUDIT WIKI
+conectiva.com.br;Mandriva;AUDIT WIKI
+conectiva.com;Mandriva;AUDIT WIKI
+credativ.com;Credativ;AUDIT WIKI
+documentfoundation.org;DocumentFoundation;MANUAL
+igalia.com;Igalia;AUDIT WIKI
+itomig.de;ITOMIG;AUDIT WIKI
+lanedo.com;Lanedo;AUDIT WIKI
+libreoffice.org;LibreOffice;MANUAL
+linagora.com;Linagora;AUDIT WIKI
+mandrake.com;Mandriva;AUDIT WIKI
+mandriva.com;Mandriva;AUDIT WIKI
+multicorewareinc.com;MultiCoreWare;AUDIT WIKI
+novell.com;SUSE;AUDIT WIKI
+openismus.com;Openismus;AUDIT WIKI
+openoffice.org;Openoffice;MANUAL
+oracle.com;Oracle;MANUAL
+redhat.com;RedHat;AUDIT WIKI
+sun.com;SUN;MANUAL
+suse.com;SUSE;AUDIT WIKI
+suse.cz;SUSE;AUDIT WIKI
+suse.de;SUSE;AUDIT WIKI
+synerzip.com;Synerzip;AUDIT WIKI
+xamarin.com;Xamarin;AUDIT WIKI
