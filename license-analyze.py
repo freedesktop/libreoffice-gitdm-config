@@ -35,7 +35,6 @@ import collections
 def load_alias(homeDir):
     rawData = collections.OrderedDict()
     tmpData = collections.OrderedDict()
-    tmpReverse  = {}
     fileName = homeDir + 'aliases'
 
     try:
@@ -51,16 +50,19 @@ def load_alias(homeDir):
                     result = line.split(' ')
                 if result[0] in tmpData:
                     print('>>> aliases ' + result[0] + ' DUPLICATED')
-                if result[0] in tmpReverse:
-                    print('>>> aliases ' + result[0] + ' Alias also target')
                 if result[1] in tmpData:
                     print('>>> aliases ' + result[0] + ' Target also alias')
                 if result[0].lower() != result[0]:
                     print('>>> aliases ' + result[0] + ' Alias contains capital letters')
                 if result[1].lower() != result[1]:
                     print('>>> aliases ' + result[1] + ' Target contains capital letters')
+                if result[0] == result[1]:
+                    print('>>> aliases ' + result[0] + ' Target == Alias')
+                for i in tmpData:
+                    if result[0] == tmpData[i]:
+                        print('>>> aliases ' + result[0] + ' Alias also target')
+                        break
                 tmpData[result[0]] = result[1]
-                tmpReverse[result[1]] = result[0]
         oldTarget = ''
         doSort = False
         for entry in tmpData:
@@ -69,8 +71,9 @@ def load_alias(homeDir):
                 break
             oldTarget = tmpData[entry]
         if doSort:
-            for i in sorted(tmpReverse):
-                rawData[tmpReverse[i]] = i
+            s = [(k, tmpData[k]) for k in sorted(tmpData, key=tmpData.get)]
+            for i in s:
+                rawData[i[0]] = i[1]
             with open(fileName, 'w') as fp:
                 for entry in rawData:
                     if ' ' in entry:
@@ -122,6 +125,8 @@ def load_licensePersonal(homeDir):
                 mail = line[:line.index(';')]
                 if mail.lower() != mail:
                     print('>>> personalLicense.csv ' + mail + ' mail contains capital letters')
+                if mail in rawData:
+                    print('>>> personalLicense.csv ' + mail + ' duplicate')
                 rawData.append(mail)
     except Exception as e:
       print('Error load file ' + fileName + ' due to ' + str(e))
@@ -134,60 +139,31 @@ def load_wiki(homeDir):
     rawData = []
     fileName = homeDir + 'wiki.txt'
     try:
-      fp = open(fileName, encoding='utf-8')
-      inx = 0
-      for line in fp:
-        line = line[:-1]
-        inx += 1
-        if inx == 1:
-          eName = line
-        elif inx == 2:
-          eMail = line
-        elif inx == 3:
-          eLicense = line
-        elif inx == 4:
-          if not line.startswith('>-'):
-            raise Exception('convert problem')
-          if eMail in rawData['licensedWiki']:
-            raise Exception('already there')
-          if '@' not in eMail or not eLicense.startswith('http'):
-            print('illegal license email(' + eMail + ') license(' + eLicense + ')')
-          else:
-            rawData['licensedWiki'][eMail] = {'name': eName, 'license': eLicense}
-          inx = 0
-      fp.close()
+        with open(fileName, 'r') as fp:
+            doCollect = 0
+            for line in fp:
+                line = line[:-1]
+                if line.startswith('{|'):
+                    doCollect = 1
     except Exception as e:
       print('Error load file ' + fileName + ' due to ' + str(e))
       rawData = None
 
-    fileName = homeDir + 'gitdm-config/known-licensee.csv'
-    try:
-      fp = open(fileName, encoding='utf-8')
-      for line in fp:
-        if len(line) == 1 or line.startswith('#'):
-          continue
-        line = line[:-1]
-        arr = line.split(',')
-        eName = arr[0]
-        eMail = arr[1]
-        eLic = arr[3]
-        if eMail.startswith('{{nospam'):
-          arr = eMail[:-2].split('|')
-          eMail = arr[1] + '@' + arr[2]
-          for i in range(3,len(arr)):
-            eMail += '.' + arr[i]
-        if eMail.startswith('@'):
-          rawData['corporate'][eMail] = {'name': eName, 'license': eLic}
-        elif eMail not in rawData['licensedFile']:
-          rawData['licensedFile'][eMail] = {'name': eName, 'license': eLic}
-      fp.close()
-    except Exception as e:
-      print('Error load file ' + fileName + ' due to ' + str(e))
-      rawData = None
     return rawData
 
 
 
+def checkConsistency(aliases, domain, license):
+    for dMail in domain:
+        if not dMail in license:
+            print('>>> domain-map ' + dMail + ' not in licensePersonal !')
+        if dMail in aliases:
+            print('>>> domain-map ' + dMail + ' used as aliaes in aliases !')
+    for entry in aliases:
+        if entry in license:
+            print('>>> aliases ' + entry + ' alias is licensed !')
+        if not aliases[entry] in license:
+            print('>>> aliases ' + aliases[entry] + ' target is not licensed !')
 
 
 
@@ -195,7 +171,9 @@ def runCompare(homedir):
     dataAliases = load_alias(homedir)
     dataDomainMail = load_domainmap(homedir)
     dataLicenseMail = load_licensePersonal(homedir)
-    dataWiki = load_wiki(homedir)
+#    dataWiki = load_wiki(homedir)
+
+    checkConsistency(dataAliases, dataDomainMail, dataLicenseMail)
 
 
 if __name__ == '__main__':

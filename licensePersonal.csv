@@ -4,29 +4,6 @@
 2448848492@mail.ecc.u-tokyo.ac.jp;Kawamura, Keigo;http://lists.freedesktop.org/archives/libreoffice/2015-November/071055.html
 6b8b4567@gmail.com;Dixon, Luke;http://lists.freedesktop.org/archives/libreoffice/2012-May/031552.html
 7ravikp@gmail.com;Prasad, Ravi Kumar;https://lists.freedesktop.org/archives/libreoffice/2016-September/075213.html
-Arfrever@Apache.Org;Arahesis, Arfrever Frehtes Taifersar;COMPANY LICENSE: APACHE
-Bezawit_Moges@berea.edu;Moges, Beza;https://lists.freedesktop.org/archives/libreoffice/2016-March/073909.html
-ChrRossmanith@gmx.de;Roßmanith, Christina;http://lists.freedesktop.org/archives/libreoffice/2012-March/027419.html
-Damien.Chambe@gmail.com;Chambe, Damien;http://lists.freedesktop.org/archives/libreoffice/2014-June/061926.html
-Devel.marian.scerbak@gmail.com;Scerbak, Marian;https://lists.freedesktop.org/archives/libreoffice/2016-March/073890.html
-Franz.Schmid@altmuehlnet.de;Schmid, Franz;http://lists.freedesktop.org/archives/libreoffice/2013-April/049318.html
-Jagan.Lokanatha@amd.com;Lokanatha, Jagan;GIT AUTHOR 2011-11
-Johannes@sipsolutions.net;Berg, Johannes;https://lists.freedesktop.org/archives/libreoffice/2016-August/074912.html
-LibreOffice@bielefeldundbuss.de;Bielefeld, Rainer;http://lists.freedesktop.org/archives/libreoffice/2013-April/050600.html
-MMathias.Supp@vector.com;Supp, Mathias;http://lists.freedesktop.org/archives/libreoffice/2014-March/060348.html
-Marc.Neumann@oracle.com;*UNKNOWN*;COMPANY LICENSE: Oracle
-Ocke.Janssen@oracle.com;Ocke Janssen [oj];COMPANY LICENSE: Oracle
-Oliver.Specht@CIB.de;Specht, Oliver;http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html
-Philipp.Lohmann@Oracle.COM;Lohmann, Philipp;COMPANY LICENSE: Oracle
-Sebastian@SSpaeth.de;Spaeth, Sebastian;http://lists.freedesktop.org/archives/libreoffice/2012-March/027443.html
-ShimonS@most.gov.il;Shore, Shimon;https://lists.freedesktop.org/archives/libreoffice/2016-December/076435.html
-Steffen.Grund@sun.com;*UNKNOWN*;COMPANY LICENSE: SUN
-Sven-Jacobi@gmx.de;Jacobi, Sven;http://lists.freedesktop.org/archives/libreoffice/2013-March/047031.html
-TentleXS@web.de;Ullrich, Pascal;http://lists.freedesktop.org/archives/libreoffice/2012-May/032253.html
-VStuart.Foote@utsa.edu;Foote, V Stuart;http://lists.freedesktop.org/archives/libreoffice/2014-December/065027.html
-Varun.Dhall@studentpartner.com;Dhall, Varun;http://lists.freedesktop.org/archives/libreoffice/2015-March/067409.html
-Wilhelm.Pflueger@web.de;Pflüger, Wilhelm;http://lists.freedesktop.org/archives/libreoffice/2012-May/031995.html
-Wolfram.Garten@oracle.com;*UNKNOWN*;COMPANY LICENSE: Oracle
 aalabdulrazzaq@kacst.edu.sa;Al-Abdulrazzaq, Abdulmajeed;http://lists.freedesktop.org/archives/libreoffice/2012-July/035301.html
 aalayed@kacst.edu.sa;Alayed, Abdulaziz Ayed Khalid;http://lists.freedesktop.org/archives/libreoffice/2013-February/045590.html
 aalharthi@kacst.edu.sa;Al-Harthi, Ahmad Hussein;http://lists.freedesktop.org/archives/libreoffice/2012-July/035529.html
@@ -71,7 +48,7 @@ almusaireae@kacst.edu.sa;Almusaireae, Alia;GIT AUTHOR 2013-05
 alvarezp@ods.org;Alvarez, Octavio;http://lists.freedesktop.org/archives/libreoffice/2012-May/031512.html
 amank572@gmail.com;Kumar Aman;https://lists.freedesktop.org/archives/libreoffice/2016-December/076263.html
 amidabucu@gmail.com;Mihályi, Dániel;http://lists.freedesktop.org/archives/libreoffice/2012-February/025309.html
-an@Fluffy.(none);Leenders, An;AUDIT: mailed legal list - work from Kenneth Venken
+an@fluffy.(none);Leenders, An;AUDIT: mailed legal list - work from Kenneth Venken
 anacm.maciel@gmail.com;Maciel, Ana Claudia;http://lists.freedesktop.org/archives/libreoffice/2013-October/056186.html
 andarilho.botto@gmail.com;Botto, Ricardo;http://lists.freedesktop.org/archives/libreoffice/2013-June/052830.html
 anders.jonsson@norsjonet.se;Jonsson, Anders;http://lists.freedesktop.org/archives/libreoffice/2012-May/031511.html
@@ -97,6 +74,7 @@ aparajita@haldar.org;Haldar, Aparajita;https://lists.freedesktop.org/archives/li
 apitude@btconnect.com;Page, Mark;https://lists.freedesktop.org/archives/libreoffice/2016-April/074098.html
 apriyadarshi.1995@gmail.com;Priyadarshi, Apurva;https://lists.freedesktop.org/archives/libreoffice/2016-May/074355.html
 arekm@maven.pl;Miśkiewicz, Arkadiusz;http://lists.freedesktop.org/archives/libreoffice/2012-March/028319.html
+arfrever@apache.org;Arahesis, Arfrever Frehtes Taifersar;COMPANY LICENSE: APACHE
 arielch@apache.org;Constenla-Haile, Constenla-Haile;COMPANY LICENSE: APACHE
 armin.le.grand@cib.de;Le Grand, Armin;http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html
 armin@openoffice.org;Theissen, Armin; AUDIT GIT AUTHOR 2003-01
@@ -112,7 +90,7 @@ ashodnakashian@yahoo.com;Nakashian, Ashod;http://lists.freedesktop.org/archives/
 ashp.pandey916@gmail.com;Pandey, Abhishek ;https://lists.freedesktop.org/archives/libreoffice/2016-November/075995.html (MANUAL)
 asyropoulos@yahoo.com;Syropoulos, Apostolos;GIT AUTHOR 2014-05
 at.higginson@gmail.com;Higginson, Andrew;http://lists.freedesktop.org/archives/libreoffice/2012-April/029495.html
-atimar@suse.com;Timar, Andras;http://lists.freedesktop.org/archives/libreoffice/2012-May/031049.html
+timar@fsf.hu;Timar, Andras;http://lists.freedesktop.org/archives/libreoffice/2012-May/031049.html
 atishayjain708@gmail.com;Jain, Atishay;https://lists.freedesktop.org/archives/libreoffice/2016-November/076005.html
 audreyt@audreyt.org;Tang, Audrey;http://lists.freedesktop.org/archives/libreoffice/2014-August/062691.html CC0
 auerswal@unix-ag.uni-kl.de;Auerswald, Erik;GIT AUTHOR 2013-07
@@ -131,7 +109,7 @@ babelstone@gmail.com;West, Andrew;http://lists.freedesktop.org/archives/libreoff
 babiakr3@mymail.macewan.ca;Babiak, robert;GIT AUTHOR 2015-03
 bagyi_barnabas@yahoo.com;Bágyi, Barnabás;https://lists.freedesktop.org/archives/libreoffice/2016-December/076105.html
 baltasarq@gmail.com;Perez-Schofield, Baltasar García;https://lists.freedesktop.org/archives/libreoffice/2016-February/073413.html
-bapt@FreeBSD.org;Baptiste Daroussin;AUDIT: mailed legal list
+bapt@freebsd.org;Baptiste Daroussin;AUDIT: mailed legal list
 baron@caesar.elte.hu;Budea, Áron;http://lists.freedesktop.org/archives/libreoffice/2014-December/065412.html
 barteka13@gmail.com;Bartek, András;http://lists.freedesktop.org/archives/libreoffice/2012-July/034699.html
 barun.parruck@gmail.com;Parruck, Barun;https://lists.freedesktop.org/archives/libreoffice/2016-March/073741.html
@@ -150,9 +128,10 @@ bernhard.rosenkranzer@linaro.org;Rosenkränzer, Bernhard;http://lists.freedeskto
 bero@arklinux.ch;Rosenkraenzer, Bernhard;AUDIT: WIKI no mail ref.
 bersam.k@gmail.com;Karbasion, Bersam;https://lists.freedesktop.org/archives/libreoffice/2016-April/073965.html
 bertrand.lorentz@gmail.com;Lorentz, Bertrand;http://lists.freedesktop.org/archives/libreoffice/2012-August/036264.html
+bezawit_moges@berea.edu;Moges, Beza;https://lists.freedesktop.org/archives/libreoffice/2016-March/073909.html
 bionic@centrum.cz;Smrž, Ondřej;GIT AUTHOR 2014-01
 bisal.nayal@synerzip.com;Bisal Nayal;COMPANY LICENSE: Synerzip
-bjoern.michaelsen@canonical.com;Michaelsen, Björn;http://lists.freedesktop.org/archives/libreoffice/2011-November/020761.html
+b_michaelsen@openoffice.org;Michaelsen, Björn;http://lists.freedesktop.org/archives/libreoffice/2011-November/020761.html
 blecha.jiri@gmail.com;Blecha, Jiří;http://lists.freedesktop.org/archives/libreoffice/2013-March/047002.html
 bluedwarf@bpost.plala.org.jp;Nakamoto, Takashi;http://lists.freedesktop.org/archives/libreoffice/2011-August/017426.html
 bmahbod@openoffice.org;*UNKNOWN*;COMPANY LICENSE: Openoffice
@@ -168,13 +147,13 @@ brutus@free.fr;Fournier, Alexandre;http://lists.freedesktop.org/archives/libreof
 btomi96@gmail.com;Tamás, Bunth;https://lists.freedesktop.org/archives/libreoffice/2016-March/073518.html
 bubstakker@gmail.com;"Merda, Marcin ""exine""";http://lists.freedesktop.org/archives/libreoffice/2012-May/031262.html
 bugs@traviswcarter.com;Carter, Travis;http://lists.freedesktop.org/archives/libreoffice/2012-June/034127.html
-burant.J@seznam.cz;Burant, Jiri;https://lists.freedesktop.org/archives/libreoffice/2016-April/073970.html
+burant.j@seznam.cz;Burant, Jiri;https://lists.freedesktop.org/archives/libreoffice/2016-April/073970.html
 bwoosley2@gmail.com;Woosley, Brad;http://lists.freedesktop.org/archives/libreoffice/2014-March/060326.html
 cabral@mandriva.com.br;Cabral, Rafael;http://lists.freedesktop.org/archives/libreoffice/2012-April/029478.html
 call.protected@gmail.com;D., Mathieu;http://lists.freedesktop.org/archives/libreoffice/2012-November/041142.html
 camille.moulin@free.fr;Moulin, Camille;http://lists.freedesktop.org/archives/libreoffice/2012-May/031771.html
 cao.cuong.ngo@gmail.com;Ngo, Cao Cuong;http://lists.freedesktop.org/archives/libreoffice/2013-March/046989.html
-caolanm@redhat.com;McNamara, Caolán;COMPANY LICENSE: RedHat
+cmc@openoffice.org;McNamara, Caolán;COMPANY LICENSE: RedHat
 castarco@gmail.com;Correa Casablanca, Andreu;http://lists.freedesktop.org/archives/libreoffice/2011-September/018150.html
 cavemancarl11@gmail.com;Taylor, Carl;http://lists.freedesktop.org/archives/libreoffice/2011-December/022815.html
 ccheney@ubuntu.com;Cheney, Chris;GIT AUTHOR 2012-10
@@ -199,6 +178,7 @@ christoph.lutz_ml@cib.de;Lutz, Christoph;http://lists.freedesktop.org/archives/l
 christoph@dogmatux.com;Noack, Christoph;http://lists.freedesktop.org/archives/libreoffice/2012-May/031316.html
 christophe.jaillet@wanadoo.fr;Jaillet, Christophe;http://lists.freedesktop.org/archives/libreoffice/2012-June/033488.html
 christopher.hotchkiss@gmail.com;Hotchkiss, Christopher;http://lists.freedesktop.org/archives/libreoffice/2013-February/046048.html
+chrrossmanith@gmx.de;Roßmanith, Christina;http://lists.freedesktop.org/archives/libreoffice/2012-March/027419.html
 chudugama@gmail.com;Udugama, Chamal;https://lists.freedesktop.org/archives/libreoffice/2016-September/075210.html
 cl@openoffice.org;Christian Lippka;COMPANY LICENSE: Openoffice
 clarence_guo@apache.org;Guo, Clarence;COMPANY LICENSE: APACHE
@@ -214,7 +194,7 @@ coeur@gmx.fr;Cœur, Antoine;http://lists.freedesktop.org/archives/libreoffice/20
 comtact@hamza-abdelkebir.eu;Abdelkebir, Hamza;http://lists.freedesktop.org/archives/libreoffice/2013-February/046267.html
 contactbrijmohan@gmail.com;Mohan Lal Srivastava, Brij;http://lists.freedesktop.org/archives/libreoffice/2014-November/064486.html
 cosimoc@gnome.org;Cecchi, Cosimo;http://lists.freedesktop.org/archives/libreoffice/2011-November/020115.html
-coypu@SDF.ORG;Rashish, Maya;http://lists.freedesktop.org/archives/libreoffice/2016-February/072580.html
+coypu@sdf.org;Rashish, Maya;http://lists.freedesktop.org/archives/libreoffice/2016-February/072580.html
 cpaul37@gmail.com;Paul, Cameron;http://lists.freedesktop.org/archives/libreoffice/2012-February/027146.html
 cpgeevan@gmail.com;Geevan, Chandanathil P;https://lists.freedesktop.org/archives/libreoffice/2016-October/075620.html
 csaba@openoffice.org;*UNKNOWN*;COMPANY LICENSE: Openoffice
@@ -224,6 +204,7 @@ d.dimarco@gmx.de;Di Marco, Daniel;http://lists.freedesktop.org/archives/libreoff
 d.ostrovsky@gmx.de;Ostrovsky, David;http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html
 d.sikeler94@gmail.com;Sikeler, Daniel;http://lists.freedesktop.org/archives/libreoffice/2014-August/063050.html
 dag@wieers.com;Wieërs, Dag;https://lists.freedesktop.org/archives/libreoffice/2016-March/073727.html
+damien.chambe@gmail.com;Chambe, Damien;http://lists.freedesktop.org/archives/libreoffice/2014-June/061926.html
 damjan@apache.org;Damjan, Jovanovic;COMPANY LICENSE: APACHE
 daniel.e.bankston@gmail.com;Bankston, Daniel;http://lists.freedesktop.org/archives/libreoffice/2012-April/029412.html
 daniel@dher.de;Herde, Daniel;http://lists.freedesktop.org/archives/libreoffice/2012-August/036580.html
@@ -259,6 +240,7 @@ dennisroczek@libreoffice.org;Dennis Roczek;COMPANY LICENSE: LibreOffice
 dent.ace@gmail.com;Dent, Andrew;http://lists.freedesktop.org/archives/libreoffice/2014-February/059722.html
 detective.conan.1412@gmail.com;Pruegsanusak, Korrawit;http://lists.freedesktop.org/archives/libreoffice/2011-May/013022.html
 dev.siroibaf@gmail.com;Buso, Fabio;GIT AUTHOR 2016-08
+devel.marian.scerbak@gmail.com;Scerbak, Marian;https://lists.freedesktop.org/archives/libreoffice/2016-March/073890.html
 developer.jesso@gmail.com;Murugan, Jesso Clarence;http://lists.freedesktop.org/archives/libreoffice/2012-June/034038.html
 devghasan@hotmail.com;Al-Sakka, Ghasan;http://lists.freedesktop.org/archives/libreoffice/2015-November/070973.html
 dex@phoenix-ind.net;Alt, Xavier;http://lists.freedesktop.org/archives/libreoffice/2012-May/032001.html
@@ -348,9 +330,10 @@ fractalsandflowers@gmail.com;Kovarik, Michael;GIT AUTHOR 2015-01
 fraczek.jacek@gmail.com;Frączek, Jacek ;https://lists.freedesktop.org/archives/libreoffice/2016-October/075426.html
 franciscoadriansanchez@gmail.com;Sánchez, Francisco Adrián;https://lists.freedesktop.org/archives/libreoffice/2016-October/075446.html
 francois@getpebble.com;Baldassari, Francois;GIT AUTHOR 2015-07
+franz.schmid@altmuehlnet.de;Schmid, Franz;http://lists.freedesktop.org/archives/libreoffice/2013-April/049318.html
 fred.wang@free.fr;Wang, Frédéric;http://nabble.documentfoundation.org/License-statement-Frederic-Wang-td4063829.html
 freuter@novell.com;*UNKNOWN*;COMPANY LICENSE: SUSE
-fridrich.strba@graduateinstitute.ch;Strba, Fridrich;http://lists.freedesktop.org/archives/libreoffice/2013-October/057100.html
+fridrich.strba@bluewin.ch;Strba, Fridrich;http://lists.freedesktop.org/archives/libreoffice/2013-October/057100.html
 frob@gnome.org;Filippov, Valek;http://lists.freedesktop.org/archives/libreoffice/2013-February/046402.html
 fs@openoffice.org;????;COMPANY LICENSE: Openoffice
 ftigeot@wolfpond.org;Tigeot, Francois;http://lists.freedesktop.org/archives/libreoffice/2012-May/031177.html
@@ -477,6 +460,7 @@ j.steinhilber@rta.de;Steinhilber, Juergen;GIT AUTHOR 2012-03
 j_catala@yahoo.com;Catala, Javier;GIT AUTHOR 2012-04
 jack.leigh@collabora.com;Jack Leigh;COMPANY LICENSE: Collabora
 jadams@gmail.com;Adams, Jonathan;http://lists.freedesktop.org/archives/libreoffice/2012-March/028373.html
+jagan.lokanatha@amd.com;Lokanatha, Jagan;GIT AUTHOR 2011-11
 jaime.navarro@alu.umh.es;Jaime Navarro Santapau;AUDIT: mailed legal list
 james.from.wellington@gmail.com;C., James;http://lists.freedesktop.org/archives/libreoffice/2011-December/022853.html
 jamesmikedupont@googlemail.com;DuPont, James Michael;http://lists.freedesktop.org/archives/libreoffice/2013-November/057485.html
@@ -507,7 +491,7 @@ jimenezsarmiento@gmail.com;Sarmiento, José Santiago Jiménez;http://lists.freed
 jingxian@multicorewareinc.com;Jing Xian;COMPANY LICENSE: MultiCoreWare
 jjcogliati-r1@yahoo.com;Cogliati, Josh;http://lists.freedesktop.org/archives/libreoffice/2012-May/031772.html
 jkfairoze@gmail.com;Fairoze, Jaiden;https://lists.freedesktop.org/archives/libreoffice/2017-January/076460.html
-jkim@FreeBSD.org;Kim, Jung-uk;http://lists.freedesktop.org/archives/libreoffice/2012-August/037302.html
+jkim@freebsd.org;Kim, Jung-uk;http://lists.freedesktop.org/archives/libreoffice/2012-August/037302.html
 jl@openoffice.org;Joachim Lingner;COMPANY LICENSE: Openoffice
 jliebel94@gmail.com;Liebel, Jennifer;http://lists.freedesktop.org/archives/libreoffice/2014-August/063059.html
 jmadero.dev@gmail.com;Madero, Joel;http://lists.freedesktop.org/archives/libreoffice/2012-June/033747.html
@@ -518,8 +502,9 @@ jnieuwenhuizen@novell.com;????;COMPANY LICENSE: SUSE
 joachim.tremouroux@gmail.com;Trémouroux, Joachim;http://lists.freedesktop.org/archives/libreoffice/2012-May/031347.html
 joan@montane.cat;Montane, Joan;GIT AUTHOR 2014-04
 jody@novell.com;????;COMPANY LICENSE: SUSE
-joerg@NetBSD.org;Sonnenberger, Jörg;GIT AUTHOR 2014-08
+joerg@netbsd.org;Sonnenberger, Jörg;GIT AUTHOR 2014-08
 johann.messner@jku.at;Messner, Johann;http://lists.freedesktop.org/archives/libreoffice/2012-August/037530.html
+johannes@sipsolutions.net;Berg, Johannes;https://lists.freedesktop.org/archives/libreoffice/2016-August/074912.html
 john.marmion@openoffice.org;*UNKNOWN*;COMPANY LICENSE: Openoffice
 jonathan@imatix.com;Schultz, Jonathan;http://lists.freedesktop.org/archives/libreoffice/2013-March/048854.html
 joost.eekhoorn@gmail.com;Eekhoorn, Joost;http://lists.freedesktop.org/archives/libreoffice/2012-May/031809.html
@@ -620,6 +605,7 @@ lfrb@collabora.com;Louis-Francis Ratté-Boulianne;COMPANY LICENSE: Collabora
 lgodard.libre@laposte.net;Godard, Laurent;http://lists.freedesktop.org/archives/libreoffice/2011-November/020261.html
 libo@bobiciel.com;Dargaud, Robert;http://lists.freedesktop.org/archives/libreoffice/2012-May/031816.html
 libo@pechlaner.at;Pechlaner, Wolfgang;http://lists.freedesktop.org/archives/libreoffice/2011-September/017854.html
+libreoffice@bielefeldundbuss.de;Bielefeld, Rainer;http://lists.freedesktop.org/archives/libreoffice/2013-April/050600.html
 libreoffice@kohei.us;Yoshida, Kohei;http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html
 libreoffice@stevehart.net;Hart, Steven;http://lists.freedesktop.org/archives/libreoffice/2015-August/069681.html
 lijiany@apache.org;Li, Jianyuan;COMPANY LICENSE: APACHE
@@ -668,6 +654,7 @@ manikmalhotra92@gmail.com;Manik, Malhotra;http://lists.freedesktop.org/archives/
 manuel.defranceschi@studiostorti.com;Franceschi, Manuel De ;https://lists.freedesktop.org/archives/libreoffice/2016-June/074637.html
 mapopa@gmail.com;Popa, Adrian Marius;http://lists.freedesktop.org/archives/libreoffice/2015-March/067229.html
 marc.bessieres@mykolab.com;Bessières, Marc;http://lists.freedesktop.org/archives/libreoffice/2016-February/072435.html
+marc.neumann@oracle.com;*UNKNOWN*;COMPANY LICENSE: Oracle
 marcandre.laverdiere@gmail.com;Laverdière, Marc-André;http://lists.freedesktop.org/archives/libreoffice/2012-April/030912.html
 marco.filippozzi@studiostorti.org;Filippozzi, Marco;https://lists.freedesktop.org/archives/libreoffice/2016-June/074691.html
 marco@fossgis.de;Lechner, Marco;http://lists.freedesktop.org/archives/libreoffice/2014-September/063262.html
@@ -757,6 +744,7 @@ mkbosmans@gmail.com;Bosmans, Maarten;https://lists.freedesktop.org/archives/libr
 mkubecek@suse.cz;Michal Kubecek;COMPANY LICENSE: SUSE
 mliska@suse.cz;Martin Liška;COMPANY LICENSE: SUSE
 mloiseleur@linagora.com;*UNKNOWN*;COMPANY LICENSE: Linagora
+mmathias.supp@vector.com;Supp, Mathias;http://lists.freedesktop.org/archives/libreoffice/2014-March/060348.html
 mmetz@adrian-broher.net;Metz, Marcel;http://lists.freedesktop.org/archives/libreoffice/2011-December/021654.html
 modestas.rimkus@gmail.com;Rimkus, Modestas;http://listarchives.libreoffice.org/global/l10n/msg04524.html
 momonasmon@gmail.com;Monastirsky, Maxim;http://lists.freedesktop.org/archives/libreoffice/2013-October/057032.html
@@ -812,8 +800,10 @@ nurhakaltin@gmail.com;Altin, Nurhak;http://lists.freedesktop.org/archives/libreo
 nuts@mawoh.de;Nuessle, Matthias;GIT COMMITTER 2013-07
 ny.nathan.yee@gmail.com;Yee, Nathan;http://lists.freedesktop.org/archives/libreoffice/2015-March/067212.html
 oc@openoffice.org;*UNKNOWN*;COMPANY LICENSE: Openoffice
+ocke.janssen@oracle.com;Ocke Janssen [oj];COMPANY LICENSE: Oracle
 oj@openoffice.org;*UNKNOWN*;COMPANY LICENSE: Openoffice
 oliver.brinzing@gmx.de;Brinzing, Oliver;http://lists.freedesktop.org/archives/libreoffice/2015-August/069896.html
+os@openoffice.org;Specht, Oliver;http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html
 olivier.hallot@edxsrv.br;Hallot, Olivier;http://lists.freedesktop.org/archives/libreoffice/2011-November/020544.html
 olivier.noreply@gmail.com;Olivier, R;GIT AUTHOR 2015-09
 olivier.ploton@univ-tours.fr;Ploton, Olivier;http://lists.freedesktop.org/archives/libreoffice/2012-December/042156.html
@@ -860,6 +850,7 @@ pharic.15@gmail.com;Pulagam, Harichandan;http://lists.freedesktop.org/archives/l
 phil.jung@free.fr;Jung, Philippe;http://lists.freedesktop.org/archives/libreoffice/2015-April/067781.html
 phil@thenexusproject.org;Bordelon, Phil;http://lists.freedesktop.org/archives/libreoffice/2012-May/031573.html
 philipp.kloke@web.de;Kloke, Philipp;http://lists.freedesktop.org/archives/libreoffice/2012-May/031997.html
+philipp.lohmann@oracle.com;Lohmann, Philipp;COMPANY LICENSE: Oracle
 philipz85@hotmail.com;Philips, Yousuf;http://lists.freedesktop.org/archives/libreoffice/2014-September/063452.html
 phillip.szelat@gmail.com;Szelat, Phillip;http://lists.freedesktop.org/archives/libreoffice/2015-March/067287.html
 phora.public@outlook.com;Paraiso, Joan;http://lists.freedesktop.org/archives/libreoffice/2015-September/070345.html
@@ -973,10 +964,11 @@ santiago.bosio@gmail.com;Bosio, Santiago;https://lists.freedesktop.org/archives/
 saturday6c@gmail.com;Mogi, Isamu;http://lists.freedesktop.org/archives/libreoffice/2013-May/051437.html
 saurabhkukade@gmail.com;Kukade, Saurabh;http://lists.freedesktop.org/archives/libreoffice/2016-January/072017.html
 sav.nardi@gmail.com;Nardi, Saverio;http://lists.freedesktop.org/archives/libreoffice/2014-September/063485.html
-sbergman@redhat.com;Bergmann, Stephan;http://lists.freedesktop.org/archives/libreoffice/2011-September/017756.html
+sb@openoffice.org;Bergmann, Stephan;http://lists.freedesktop.org/archives/libreoffice/2011-September/017756.html
 scratch@libre-no-relation.(none);SCRATCH FOR COMMITS NON RELATABLE;NOT A REAL BASE
 sea0721moon@gmail.com;Su, Sophie;https://lists.freedesktop.org/archives/libreoffice/2016-August/075027.html
 sean@mess.org;Young, Sean;http://lists.freedesktop.org/archives/libreoffice/2013-May/052589.html
+sebastian@sspaeth.de;Spaeth, Sebastian;http://lists.freedesktop.org/archives/libreoffice/2012-March/027443.html
 sebastien@orniz.org;Sébastien Le Ray;AUDIT: mailed legal list
 sebutler@gmail.com;Butler, Steven;http://lists.freedesktop.org/archives/libreoffice/2012-May/031558.html
 secmail@centrum.cz;Eldan;http://lists.freedesktop.org/archives/libreoffice/2013-January/043685.html
@@ -989,6 +981,7 @@ sharifinaser@gmail.com;Sharifi, Naser;http://lists.freedesktop.org/archives/libr
 sheikha443@gmail.com;Al-Hinai, Sheikha;http://lists.freedesktop.org/archives/libreoffice/2016-January/071726.html
 shetyeakash@gmail.com;Shetye, Akash;http://lists.freedesktop.org/archives/libreoffice/2013-March/048604.html
 shiming@multicorewareinc.com;shiming zhang;COMPANY LICENSE: MultiCoreWare
+shimons@most.gov.il;Shore, Shimon;https://lists.freedesktop.org/archives/libreoffice/2016-December/076435.html
 shnatsel@gmail.com;Davidoff, Sergey;GIT COMMITTER 2011-04
 showeet@ymail.com;Zirk;GIT AUTHOR 2015-01
 shristi.500@gmail.com;Khatri, Srishti;http://lists.freedesktop.org/archives/libreoffice/2016-January/071764.html
@@ -1024,6 +1017,7 @@ stefan.weiberg@germandev.org;Weiberg, Stefan;http://lists.freedesktop.org/archiv
 stefan.weigel@bildungskreis.org;Weigel, Stefan;http://lists.freedesktop.org/archives/libreoffice/2012-May/031782.html
 stefano.facchini@gmail.com;Facchini, Stefano;GIT AUTHOR 2013-08
 stefanrin@gmail.com;Ring, Stefan;http://lists.freedesktop.org/archives/libreoffice/2014-January/058676.html
+steffen.grund@sun.com;*UNKNOWN*;COMPANY LICENSE: SUN
 stephanv778@gmail.com;van den Akker, Stephan;http://lists.freedesktop.org/archives/libreoffice/2012-June/033012.html
 steve_y@apache.org;Steve Yin;COMPANY LICENSE: APACHE
 steven.meyer29@gmail.com;Meyer, Steven;http://lists.freedesktop.org/archives/libreoffice/2013-March/047597.html
@@ -1046,6 +1040,7 @@ supremearyal@gmail.com;Aryal, Supreme;http://lists.freedesktop.org/archives/libr
 surenspost@gmail.com;Mahendran, Surendran;http://lists.freedesktop.org/archives/libreoffice/2012-May/031593.html
 sushil.shinde@synerzip.com;Shinde, Sushil;http://lists.freedesktop.org/archives/libreoffice/2013-November/057318.html
 susobhang70@gmail.com;Ghosh, Susobhan;http://lists.freedesktop.org/archives/libreoffice/2016-January/071621.html
+sven-jacobi@gmx.de;Jacobi, Sven;http://lists.freedesktop.org/archives/libreoffice/2013-March/047031.html
 sweetdream201@163.com;Nan, Piao Jing;GIT AUTHOR 2013-08
 sxw@chronowerks.de ;SimonAW;http://lists.freedesktop.org/archives/libreoffice/2015-January/066024.html
 sxw@chronowerks.de;Wilper, Simon;GIT AUTHOR 2015-01
@@ -1057,11 +1052,12 @@ tapanprakasht@gmail.com;Prakasht, Tapan;http://lists.freedesktop.org/archives/li
 tarun.k.kumar@ericsson.com;Kumar, Tarun;http://lists.freedesktop.org/archives/libreoffice/2014-February/059686.html
 tatung2112@gmail.com;Duc, Tung Ta;http://lists.freedesktop.org/archives/libreoffice/2012-May/032434.html
 tbe@openoffice.org;*UNKNOWN*;COMPANY LICENSE: Openoffice
-tbo@OpenOffice.org;Bosbach, Thorsten;COMPANY LICENSE: Openoffice
+tbo@openoffice.org;Bosbach, Thorsten;COMPANY LICENSE: Openoffice
 tchvatal@novell.com;Chvátal, Tomáš;http://lists.freedesktop.org/archives/libreoffice/2011-October/019659.html
 techfreakworm@gmail.com;Gupta, Mayank;https://lists.freedesktop.org/archives/libreoffice/2016-March/073686.html
 ted.korostiled@gmail.com;Korostil, Daniel;http://lists.freedesktop.org/archives/libreoffice/2012-May/031547.html
 tenger@iseries-guru.com;Enger, Terrence;http://lists.freedesktop.org/archives/libreoffice/2011-September/018928.html
+tentlexs@web.de;Ullrich, Pascal;http://lists.freedesktop.org/archives/libreoffice/2012-May/032253.html
 tgulacsi78@gmail.com;Gulácsi, Tamás;https://lists.freedesktop.org/archives/libreoffice/2016-November/075816.html
 thabetx@gmail.com;Thabet, Mohamed;https://lists.freedesktop.org/archives/libreoffice/2016-March/073722.html
 thardeck@suse.com;Tim Hardeck;COMPANY LICENSE: SUSE
@@ -1074,7 +1070,7 @@ thiespierdola@gmail.com;Pierdola, Thies;http://lists.freedesktop.org/archives/li
 thomas@arnhold.org;Arnhold, Thomas;http://lists.freedesktop.org/archives/libreoffice/2012-May/031050.html
 thomas@jorca.nl;van der Meulen, Thomas;http://lists.freedesktop.org/archives/libreoffice/2013-April/049166.html
 thomas@sarlandie.net;Sarlandie, Thomas;GIT AUTHOR 2015-01
-thorsten.behrens@cib.de;Behrens, Thorsten;http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html
+thb@openoffice.org;Behrens, Thorsten;http://lists.freedesktop.org/archives/libreoffice/2014-September/063472.html
 thorsten.wagner.4@gmail.com;Wagner, Thorsten;http://lists.freedesktop.org/archives/libreoffice/2015-April/067759.html
 tiagofsantos81@sapo.pt;Santos Tiago;https://lists.freedesktop.org/archives/libreoffice/2016-August/075079.html
 tianyao@multicorewareinc.com;tianyao;COMPANY LICENSE: MultiCoreWare
@@ -1127,6 +1123,7 @@ vakevk+libreoffice@gmail.com;Kettner, Valentin;http://lists.freedesktop.org/arch
 valtermura@libreoffice.org;Valter Mura;COMPANY LICENSE: LibreOffice
 vanderson@smartru.com;Anderson, Vitaliy;https://lists.freedesktop.org/archives/libreoffice/2016-December/076340.html
 vanz@libreoffice.org;José Guilherme Vanz;COMPANY LICENSE: LibreOffice
+varun.dhall@studentpartner.com;Dhall, Varun;http://lists.freedesktop.org/archives/libreoffice/2015-March/067409.html
 vasily.melenchuk@cib.de;Melenchuk, Vasily;http://lists.freedesktop.org/archives/libreoffice/2015-January/066121.html
 veaqaai2008@gmail.com;Véghelyi, András;http://lists.freedesktop.org/archives/libreoffice/2012-September/039091.html
 venccsralph@gmail.com;Dominguez, Rafael;http://lists.freedesktop.org/archives/libreoffice/2011-June/014500.html
@@ -1147,6 +1144,7 @@ vmiklos@collabora.co.uk;Vajna, Miklos;http://lists.freedesktop.org/archives/libr
 voilavoila28@yahoo.in;Kale, Aditya;http://lists.freedesktop.org/archives/libreoffice/2014-February/059724.html
 volker.ahrendt@oracle.com;*UNKNOWN*;COMPANY LICENSE: Oracle
 vossman77@yahoo.com;Voss, Neil (fourier);GIT AUTHOR 2013-06
+vstuart.foote@utsa.edu;Foote, V Stuart;http://lists.freedesktop.org/archives/libreoffice/2014-December/065027.html
 vukasindfelbab@gmail.com;Felbab, Vukasin;https://lists.freedesktop.org/archives/libreoffice/2016-December/076058.html
 vvarga90@gmail.com;Varga, Viktor;http://lists.freedesktop.org/archives/libreoffice/2013-August/055469.html
 vvort@yandex.ru;V., Artem;http://lists.freedesktop.org/archives/libreoffice/2014-February/059522.html
@@ -1158,15 +1156,17 @@ webmaster@gazler.com;Rennie, Gary;GIT AUTHOR 2015-01
 weigao@multicorewareinc.com;weigao;COMPANY LICENSE: MultiCoreWare
 weimzz@gmail.com;Khoo, Wei Ming;http://lists.freedesktop.org/archives/libreoffice/2012-May/031072.html
 weiwei@multicorewareinc.com;Wei, Wei;COMPANY LICENSE: MultiCoreWare
+wilhelm.pflueger@web.de;Pflüger, Wilhelm;http://lists.freedesktop.org/archives/libreoffice/2012-May/031995.html
 will.thompson@collabora.co.uk;Thompson, Will;COMPANY LICENSE: Collabora
 william@gathoye.be;Gathoye, William;http://nabble.documentfoundation.org/License-statement-td3801956.html
 william@wbonnet.net;Bonnet, William;http://lists.freedesktop.org/archives/libreoffice/2014-September/063389.html
 willianbriotto@gmail.com;Briotto, Willian;PENDING GIT AUTHOR 2015-12
 winddss@gmail.com;Flex, Liu;http://lists.freedesktop.org/archives/libreoffice/2012-September/038060.html
 winfrieddonkers@libreoffice.org;Donkers, Winfried;http://lists.freedesktop.org/archives/libreoffice/2011-November/020449.html
-wiz@NetBSD.org;Klausner, Thomas;http://lists.freedesktop.org/archives/libreoffice/2012-March/028331.html
+wiz@netbsd.org;Klausner, Thomas;http://lists.freedesktop.org/archives/libreoffice/2012-March/028331.html
 wk661lo@gmail.com;Körner, Werner;http://lists.freedesktop.org/archives/libreoffice/2012-December/042823.html
 wolfgang.silbermayr@gmail.com;Silbermayr, Wolfgang;http://lists.freedesktop.org/archives/libreoffice/2012-May/031253.html
+wolfram.garten@oracle.com;*UNKNOWN*;COMPANY LICENSE: Oracle
 wolslists@youngman.org.uk;Youngman, Anthony W.;http://lists.freedesktop.org/archives/libreoffice/2012-May/031999.html
 xapantu@gmail.com;Baudin, Lucas;http://lists.freedesktop.org/archives/libreoffice/2011-September/018776.html
 xescriche@hotmail.com;Xavi Escriche Galindo;AUDIT: mailed legal list
@@ -1202,3 +1202,5 @@ zika.letrange@gmail.com;L'Etrange, Zika;http://lists.freedesktop.org/archives/li
 zjchen@apache.org;Chen ZuoJun;COMPANY LICENSE: APACHE
 zolicsaba@yahoo.com;Csaba, Geczi Zoltan;https://lists.freedesktop.org/archives/libreoffice/2016-December/076433.html
 zolniatamas@caesar.elte.hu;Zolnai, Tamás;http://article.gmane.org/gmane.comp.documentfoundation.libreoffice.devel/33678
+cedricbosdo@openoffice.org;Bosdo, Cedric;AUDIT GIT AUTHOR 2009-10
+federico@ximian.com;Federico;AUDIT GIT NONE
