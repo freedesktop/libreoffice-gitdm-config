@@ -4,6 +4,7 @@ git-reports.txt
 *.ods
 week-*
 /checkouts
+mr_configs/checkouts
 /stats-*
 *~
 
