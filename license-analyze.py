@@ -116,10 +116,12 @@ def load_domainmap(homeDir):
 def load_licensePersonal(homeDir):
     rawData = []
     fileName = homeDir + 'licensePersonal.csv'
+    orgText = []
     try:
         with open(fileName, 'r') as fp:
             for line in fp:
                 line = line[:-1]
+                orgText.append(line)
                 if line.startswith('#') or line.startswith(' ') or len(line) == 0:
                     continue
                 mail = line[:line.index(';')]
@@ -128,6 +130,11 @@ def load_licensePersonal(homeDir):
                 if mail in rawData:
                     print('>>> personalLicense.csv ' + mail + ' duplicate')
                 rawData.append(mail)
+        newText = sorted(orgText)
+        if newText != orgText:
+            with open(fileName, 'w') as fp:
+                for line in newText:
+                   print(line, file=fp)
     except Exception as e:
       print('Error load file ' + fileName + ' due to ' + str(e))
       rawData = None
