@@ -100,6 +100,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2011-January/006748.html]
 |-
+|
+| Acchione, Christina
+| {{nospam|tinaacchione|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/075915.html (MANUAL)]
+|-
 | jad
 | Adams, Jonathan
 | {{nospam|jadams|gmail.com}}
@@ -130,7 +137,7 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 |-
 | Abdulmajeed
 | Al-Abdulrazzaq, Abdulmajeed
-| {{nospam| aalabdulrazzaq|kacst.edu.sa}}
+| {{nospam|aalabdulrazzaq|kacst.edu.sa}}
 | 
 | Motah Program, KACST
 | [http://lists.freedesktop.org/archives/libreoffice/2012-July/035301.html]
@@ -248,12 +255,26 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2012-May/031512.html]
 |-
+|
+| Amin, Fakabbir
+| {{nospam|fakabbir|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2017-January/076579.html]
+|-
 | Owenanderson
 | Anderson, Owen
 | {{nospam|owenthomasanderson|gmail.com}}
 | shimmy568
 | Individual
 | [https://lists.freedesktop.org/archives/libreoffice/2016-November/075961.html]
+|-
+|
+| Anderson, Vitaliy
+| {{nospam|vanderson|smartru.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076340.html]
 |-
 | 
 | Andreev, Aleksandr
@@ -372,26 +393,12 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2012-May/032059.html]
 |-
-| Acbaird
-| Baird, Alan C.
-| 
-| 
-| Screenwright(R)
-| 
-|-
 | 
 | Bar-Nissan, Gal
 | {{nospam|gal.bar.nissan|cloudon.com}}
 | 
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2014-December/065006.html]
-|-
-| Bjoern
-| Balazs, Bjoern
-| {{nospam|bjoern.balazs|user-prompt.com}}
-| bbalazs
-| [http://www.user-prompt.com User Prompt GmbH]
-| 
 |-
 | jumbo444
 | Balland-Poirier, Laurent
@@ -673,26 +680,19 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2013-March/047002.html]
 |-
-| Meo
-| Bogliolo, Meo
-| {{nospam|meo|bogliolo.name}}
-| 
-| XeniaLAB srl
-| 
-|-
-| Shortblack
-| Boldiston, Kyle
-| {{nospam|k.boldiston|gmail.com}}
-| 
-| Individual
-| 
-|-
 | db3l
 | Bolen, David
 | {{nospam|db3l.net|gmail.com}}
 | 
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2012-March/028061.html]
+|-
+| 
+| Bonnet, William
+| {{nospam|william|wbonnet.net}}
+| 
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063389.html]
 |-
 | 
 | Bordelon, Phil
@@ -729,12 +729,12 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2013-June/052830.html]
 |-
-| 
-| Bonnet, William
-| {{nospam|william|wbonnet.net}}
-| 
+|
+| Bouron Dimitri
+| {{nospam|bouron.d|gmail.com}}
+|
 | Individual
-| [http://lists.freedesktop.org/archives/libreoffice/2014-September/063389.html]
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076357.html]
 |-
 | yzsolt
 | Bölöny, Zsolt
@@ -903,13 +903,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2014-May/061451.html]
 |-
-| Eskroni
-| Carrera, Sigrid
-| {{nospam|sigrid.carrera|googlemail.com}}
-| eskroni
-| Individual
-| 
-|-
 | PrinceManfred
 | Carter, Travis
 | {{nospam|bugs|traviswcarter.com}}
@@ -1049,13 +1042,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2015-February/066564.html]
-|-
-| Epix
-| Christian, Erich
-| 
-| epix
-| Individual
-| 
 |-
 | Mfldelton
 | Chung, Elton
@@ -1280,13 +1266,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Linagora
 | [http://lists.freedesktop.org/archives/libreoffice/2012-March/028147.html]
 |-
-| Paulo
-| de Souza Lima, Paulo
-| {{nospam|paulo.s.lima|gmail.com}}
-| stellarium
-| Individual
-| 
-|-
 | 
 | Dean, Ed
 | {{nospam|topround|gmail.com}}
@@ -1400,13 +1379,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2013-November/057307.html]
 |-
-| Bedipp
-| Dippold, Bernhard
-| 
-| bedipp
-| Individual
-| 
-|-
 | 
 | Dixon, Luke
 | {{nospam|6b8b4567|gmail.com}}
@@ -1505,6 +1477,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2013-March/048367.html]
 |-
+|
+| Dubey, Sandeep
+| {{nospam|dubeysandeep.in|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076192.html]
+|-
 | 
 | Duc, Tung Ta
 | {{nospam|tatung2112|gmail.com}}
@@ -1601,13 +1580,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2013-January/043685.html]
 |-
-| Spacebat
-| Ellis, Damien
-| 
-| Spcebt
-| Individual
-| 
-|-
 | 
 | Engelhard, Rene
 | {{nospam|rene|debian.org}}
@@ -1662,6 +1634,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2012-July/034498.html]
+|-
+|
+| Fairoze, Jaiden
+| {{nospam|jkfairoze|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2017-January/076460.html]
 |-
 | 
 | Farago, Janos
@@ -1900,6 +1879,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 ! scope="col" | Affiliation
 ! scope="col" | License
 |-
+|
+| Gairola, Siddhartha
+| {{nospam|siddhartha.gairola18|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2017-January/076546.html]
+|-
 | Fgallaire
 | Gallaire, Florent
 | {{nospam|fgallaire|gmail|com}}
@@ -2117,13 +2103,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2015-September/070286.html]
 |-
-| Back69
-| Gonzalez, Daniel
-| {{nospam|gonzalezdr|gmail.com}}
-| DaniGO83
-| Individual
-| 
-|-
 | 
 | Goss, Kate
 | {{nospam|katherine.goss|gmail.com}}
@@ -2215,6 +2194,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | [http://lists.freedesktop.org/archives/libreoffice/2015-September/070408.html]
 |-
+|
+| Gwangyeon, Kim
+| {{nospam|hemool123|naver.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2017-January/076590.html]
+|-
 |}
 
 == H ==
@@ -2227,13 +2213,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 ! scope="col" | IRC nick
 ! scope="col" | Affiliation
 ! scope="col" | License
-|-
-| Thackert
-| Hackert, Thomas
-| 
-| thackert
-| Individual
-| 
 |-
 | MHaggag
 | Haggag, Muhammad
@@ -2639,6 +2618,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2012-February/025948.html]
 |-
+| qarkai
+| Illarionov, Arkadiy
+| {{nospam|qarkai|gmail.com}}
+| 
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2017-January/076643.html]
+|-
 | 
 | Irannejad, Golnaz
 | {{nospam|golnazirannejad|gmail.com}}
@@ -2687,6 +2673,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 ! scope="col" | Affiliation
 ! scope="col" | License
 |-
+| 
+| J, Chandramowli
+| {{nospam|chamow97|hotmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076053.html]
+|-
 |
 | Jacobi, Sven
 | {{nospam|Sven-Jacobi|gmx.de}}
@@ -2728,7 +2721,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | Individual
 | [https://lists.freedesktop.org/archives/libreoffice/2016-March/073620.html]
-
 |-
 | Anuragjain
 | Jain, Anurag
@@ -2736,6 +2728,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | 
 | [http://lists.freedesktop.org/archives/libreoffice/2011-August/017060.html], [http://lists.freedesktop.org/archives/libreoffice/2012-September/039008.html]
+|-
+| aj
+| Jain, Atishay
+| {{nospam|atishayjain708|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/076005.html]
 |-
 | 
 | Jañez, Rubén
@@ -2807,6 +2806,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2014-September/063292.html]
 |-
+| HiTom
+| Jingtao, Yan
+| {{nospam|yanjingtao|gmail.com}}
+| ACTom
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-March/066989.html]
+|-
 | 
 | Jinoch, Vlastimil
 | {{nospam|elianoss|gmail.com}}
@@ -2820,6 +2826,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | nikjoh
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2011-November/020913.html]
+|-
+|
+| Johnny_M
+| {{nospam|klasse|partyheld.de}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-May/074231.html]
 |-
 | 
 | Johnsson, Mattias
@@ -2848,20 +2861,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | christianju
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2014-February/059485.html LGPL3+/GPL3+/MPL1.1+]
-|-
-| HiTom
-| Jingtao, Yan
-| {{nospam|yanjingtao|gmail.com}}
-| ACTom
-| Individual
-| [http://lists.freedesktop.org/archives/libreoffice/2015-March/066989.html]
-|-
-| aj
-| Jain, Atishay
-| {{nospam|atishayjain708|gmail.com}}
-|
-| Individual
-| [https://lists.freedesktop.org/archives/libreoffice/2016-November/076005.html]
 |-
 |}
 
@@ -3038,6 +3037,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2013-June/053610.html]
 |-
+|
+| Kempshall, Alex
+| {{nospam|mcmurchy1917-libreoffice|yahoo.co.uk}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076117.html]
+|-
 | 
 | Kéménczy, Kálmán
 | {{nospam|kkemenczy|gmail.com}}
@@ -3179,7 +3185,7 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | [http://lists.freedesktop.org/archives/libreoffice/2012-May/031997.html]
 |-
 | eszka
-|  Kłos, Szymon
+| Kłos, Szymon
 | {{nospam|eszkadev|gmail.com}}
 | eszka
 | Individual
@@ -3199,13 +3205,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2011-November/021386.html]
 |-
-| PLNET
-| Konefal, Pawel
-| polishnet...
-| 
-| Individual
-| 
-|-
 | 
 | Koppelt, Christine
 | {{nospam|ch.ko123|gmail.com}}
@@ -3219,6 +3218,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2012-December/042823.html]
+|-
+|
+| Korepanov, George
+| {{nospam|gkorepanov.gk|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2017-January/076571.html]
 |-
 | 
 | Korostil, Daniel
@@ -3311,19 +3317,19 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2016-January/072017.html]
 |-
-| Kue
-| Kühl, Christian
-| {{nospam|kuehl.christian|googlemail.com}}
-| 
-| Individual
-| 
-|-
 | Matus
 | Kukan, Matúš
 | {{nospam|matus.kukan|gmail.com}}
 | matus
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2012-February/025908.html]
+|-
+|
+| Kumar Aman
+| {{nospam|amank572|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076263.html]
 |-
 | 
 | Kumar, Rishabh
@@ -3484,6 +3490,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2012-April/030912.html]
+|-
+|
+| Lavoie, Justin
+| {{nospam|just1602|riseup.net}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076444.html]
 |-
 | jtlebigot
 | Le Bigot, Jean-Tiare
@@ -3973,13 +3986,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2012-May/031262.html]
 |-
-| Volkerme
-| Merschmann, Volker
-| 
-| volkerme
-| Individual
-| 
-|-
 | 
 | Messner, Johann
 | {{nospam|johann.messner|jku.at}}
@@ -4155,13 +4161,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2013-March/048971.html]
-|-
-| emoreno
-| Moreno, Eduardo
-| {{nospam|emoreno|tokonhu.com}}
-| emoreno
-| TOKONHU de México
-| 
 |-
 | ploxiz
 | Moscu, Alexandru
@@ -4523,6 +4522,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 ! scope="col" | Affiliation
 ! scope="col" | License
 |-
+|
+| Pache, Vinodkumar
+| {{nospam|vinodp|cdac.in}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076218.html]
+|-
 | 
 | Páder, Rezső
 | {{nospam|rezso|rezso.net}}
@@ -4571,6 +4577,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | Individual
 | [https://lists.freedesktop.org/archives/libreoffice/2016-October/075688.html]
+|-
+|
+| Pandey, Abhishek
+| {{nospam|ashp.pandey916|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/075995.html (MANUAL)]
 |-
 | 
 | Pandey, Prashant
@@ -5137,13 +5150,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2014-November/064742.html]
 |-
-| drodriguez
-| Rodriguez, Daniel Armando
-| {{nospam|daniel.armando.rodriguez|gmail.com}}
-| drodriguez
-| Individual
-| .
-|-
 | 
 | Rollo, Troy
 | {{nospam|troy|troy.rollo.name}}
@@ -5242,13 +5248,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2015-October/070736.html]
 |-
-| arranna
-| Rönkkö, Niko
-| {{nospam|ronkko|iki.fi}}
-| arranna
-| Individual
-| 
-|-
 |}
 
 == S ==
@@ -5332,6 +5331,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [https://lists.freedesktop.org/archives/libreoffice/2016-March/073890.html]
 |-
+|
+| Schäfer, Christoph
+| {{nospam|christoph-schaefer|gmx.de}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076339.html]
+|-
 | lohsol
 | Scheidt, Heiko
 | {{nospam|lohsol|versanet.de}}
@@ -5375,13 +5381,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2015-November/071149.html]
 |-
-| salix
-| Schulthess, Franziska
-| 
-| 
-| Individual
-| 
-|-
 | 
 | Schultz, Jonathan
 | {{nospam|jonathan|imatix.com}}
@@ -5393,13 +5392,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Schulz, Charles-H.
 | {{nospam|charles.schulz|documentfoundation.org}}
 | southerncross__
-| Individual
-| 
-|-
-| Icyitscold
-| Scott, Patrick
-| 
-| 
 | Individual
 | 
 |-
@@ -5515,6 +5507,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | Individual
 | [https://lists.freedesktop.org/archives/libreoffice/2016-March/073691.html]
 |-
+|
+| Sharma, Sharma
+| {{nospam|mevs2000|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2017-January/076572.html]
+|-
 | tbsdy
 | Sherlock, Chris
 | {{nospam|chris.sherlock79|gmail.com}}
@@ -5598,6 +5597,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | Individual
 | [https://lists.freedesktop.org/archives/libreoffice/2016-August/074916.html]
+|-
+|
+| SimonAW
+| {{nospam|sxw|chronowerks.de }}
+|
+| Individual
+| [http://lists.freedesktop.org/archives/libreoffice/2015-January/066024.html]
 |-
 | 
 | Singh, Abhilash
@@ -5766,20 +5772,6 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | netroller3
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2012-April/029673.html]
-|-
-| ChristopheS
-| Strobbe, Christophe
-| 
-| 
-| Individual
-| 
-|-
-| 
-| Strnad, Michal
-| {{nospam|me|debugger.cz}}
-| 
-| Individual
-|
 |-
 | 
 | Strubulis, Christos
@@ -6249,6 +6241,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | [http://lists.freedesktop.org/archives/libreoffice/2012-June/032815.html]
 |-
 |
+| VALLOIS, Thibault
+| {{nospam|thibault.vallois2661|gmail.com}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2017-January/076580.html]
+|-
+|
 | van den Akker, Stephan
 | {{nospam|stephanv778|gmail.com}}
 |
@@ -6653,6 +6652,13 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 | 
 | [http://lists.freedesktop.org/archives/libreoffice/2011-May/011777.html]
 |-
+|
+| Wong, Ed
+| {{nospam|ew|crazy-cat.org}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-December/076393.html]
+|-
 | Jonny.Wu
 | Wu, Haidong
 | {{nospam|personal_wu|hotmail.com}}
@@ -6776,7 +6782,14 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 ! scope="col" | Affiliation
 ! scope="col" | License
 |-
-| .
+|
+| Zahn, Yossi
+| {{nospam|yossizahn|okmail.co.il}}
+|
+| Individual
+| [https://lists.freedesktop.org/archives/libreoffice/2016-November/075937.html (MANUAL)]
+|-
+| 
 | Zamaraev, Alexandr N.
 | {{nospam|tonal.promsoft|gmail.com}}
 | 

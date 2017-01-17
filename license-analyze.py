@@ -114,7 +114,7 @@ def load_domainmap(homeDir):
 
 
 def load_licensePersonal(homeDir):
-    rawData = []
+    rawData = collections.OrderedDict()
     fileName = homeDir + 'licensePersonal.csv'
     orgText = []
     try:
@@ -124,12 +124,12 @@ def load_licensePersonal(homeDir):
                 orgText.append(line)
                 if line.startswith('#') or line.startswith(' ') or len(line) == 0:
                     continue
-                mail = line[:line.index(';')]
-                if mail.lower() != mail:
-                    print('>>> personalLicense.csv ' + mail + ' mail contains capital letters')
-                if mail in rawData:
-                    print('>>> personalLicense.csv ' + mail + ' duplicate')
-                rawData.append(mail)
+                data = line.split(';')
+                if data[0].lower() != data[0]:
+                    print('>>> personalLicense.csv ' + data[0] + ' mail contains capital letters')
+                if data[0] in rawData:
+                    print('>>> personalLicense.csv ' + data[0] + ' duplicate')
+                rawData[data[0]] = {'name': data[1], 'license': data[2]}
         newText = sorted(orgText)
         if newText != orgText:
             with open(fileName, 'w') as fp:
@@ -149,13 +149,45 @@ def load_wiki(homeDir):
         with open(fileName, 'r') as fp:
             doCollect = 0
             for line in fp:
-                line = line[:-1]
-                if line.startswith('{|'):
+                if not line.startswith('|') or line.startswith('|}'):
+                    continue
+                if line.startswith('|-'):
                     doCollect = 1
+                    data = {'name': '', 'email': '', 'license': ''}
+                    # Structure:
+                    # 1:    Wiki user name
+                    # 2:    Real name
+                    # 3:    Git email
+                    # 4:    IRC nick
+                    # 5:    Affiliation
+                    # 6:    License
+                elif doCollect in [1,4,5]:
+                    doCollect += 1
+                elif doCollect == 2:
+                    data['name'] = line[2:-1]
+                    doCollect = 3
+                elif doCollect == 3:
+                    x = line[2:-1]
+                    if x.endswith('}}'):
+                        x = x[:-2]
+                    z = x.find('|')
+                    if z > 0:
+                        x = x[z+1:]
+                    x = x.replace('|', '@')
+                    data['email'] = x
+                    doCollect = 4
+                elif doCollect == 6:
+                    x = line[2:-1]
+                    if x.startswith('['):
+                        x = x[1:]
+                    if x.endswith(']'):
+                        x = x[:-1]
+                    data['license'] = x
+                    rawData.append(data)
+                    doCollect = 0
     except Exception as e:
       print('Error load file ' + fileName + ' due to ' + str(e))
       rawData = None
-
     return rawData
 
 
@@ -174,13 +206,44 @@ def checkConsistency(aliases, domain, license):
 
 
 
+def checkWiki(license, aliases, wiki):
+    names = {}
+    for i in license:
+        names[license[i]['name']] = i
+    for data in wiki:
+        email = data['email'].lower()
+        if email in aliases:
+            email = aliases[email]
+        if email in license:
+            license[email]['inWiki'] = True
+            continue;
+        if data['name'] in names:
+            license[names[data['name']]]['inWiki'] = True
+            continue;
+        print("wiki entry missing license: " + str(data))
+    todo = {}
+    for i in license:
+        if 'inWiki' not in license[i] and license[i]['license'].startswith('http'):
+            todo[license[i]['name']] = i
+    for i in sorted(todo):
+        entry = license[todo[i]]
+        print('| ')
+        print('| ' + entry['name'])
+        print('| {{nospam|' + todo[i].replace('@', '|') + '}}')
+        print('| ')
+        print('| Individual')
+        print('| [' + entry['license'] + ']')
+        print('|-')
+
 def runCompare(homedir):
     dataAliases = load_alias(homedir)
     dataDomainMail = load_domainmap(homedir)
     dataLicenseMail = load_licensePersonal(homedir)
-#    dataWiki = load_wiki(homedir)
+    dataWiki = load_wiki(homedir)
 
     checkConsistency(dataAliases, dataDomainMail, dataLicenseMail)
+    checkWiki(dataLicenseMail, dataAliases, dataWiki)
+    print('all done')
 
 
 if __name__ == '__main__':
