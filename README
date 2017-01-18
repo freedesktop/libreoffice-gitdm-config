@@ -50,3 +50,11 @@ licensePersonal.csv, contain person licenses
 licenseCompany.csv, contain company blanket licenses
 
 
+Chart generation (AB etc)
+Here's the generating howto:
+- run ./mkstats.sh in gitdm-config
+- take the old spreadsheets (in charts)
+- insert sheet from category dir, file: git-hackers-data.csv
+- data->pivot table->refresh on both Commits.. sheets
+  (make sure the new months are added at the bottom)
+- adapt the data ranges of the charts to the new rows & columns

@@ -1,7 +1,6 @@
 *.log
 git-reports.txt
 *.dump
-*.ods
 week-*
 /checkouts
 mr_configs/checkouts
