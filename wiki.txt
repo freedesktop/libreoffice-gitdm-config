@@ -5635,7 +5635,7 @@ This list is not centrally maintained. The authorative list is kept in the gitdm
 |-
 |
 | SimonAW
-| {{nospam|sxw|chronowerks.de }}
+| {{nospam|sxw|chronowerks.de}}
 |
 | Individual
 | [http://lists.freedesktop.org/archives/libreoffice/2015-January/066024.html]
