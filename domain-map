@@ -26,9 +26,9 @@ thb@openoffice.org  CIB
 cmc@openoffice.org  Oracle  <2004-03-01
 cmc@openoffice.org  RedHat
 
-cedricbosdo@openoffice.org (Unknown) <2008-12-01
-cedricbosdo@openoffice.org SUSE      <2013-09-15
-cedricbosdo@openoffice.org Assigned
+cedric.bosdonnat.ooo@free.fr (Unknown) <2008-12-01
+cedric.bosdonnat.ooo@free.fr SUSE      <2013-09-15
+cedric.bosdonnat.ooo@free.fr Assigned
 
 fridrich.strba@bluewin.ch  (Unknown) <2007-03-01
 fridrich.strba@bluewin.ch  SUSE      <2013-09-15
@@ -38,10 +38,16 @@ timar@fsf.hu Assigned <2011-04-04
 timar@fsf.hu SUSE <2013-09-01
 timar@fsf.hu Collabora
 
+pranav913@gmail.com Assigned <2016-01-20
+pranav913@gmail.com Collabora
+
 b_michaelsen@openoffice.org Oracle <2011-02-01
 b_michaelsen@openoffice.org Canonical
 
 ccheney@ubuntu.com Canonical
+
+	+ farakuzun@mail.com
+	+ ozcanesen@gmail.com
 
 gquigs@gmail.com Canonical
 
@@ -159,6 +165,14 @@ olivier.hallot@edx.srv.br TDF
 noelgrandin@gmail.com Peralex <2016-09-12
 noelgrandin@gmail.com Collabora
 
+farakuzun@mail.com Assigned <2015-12-09
+farakuzun@mail.com Collabora <2017-01-31
+farakuzun@mail.com Assigned
+
+ozcanesen@gmail.com Assigned <2015-12-09
+ozcanesen@gmail.com Collabora <2017-01-31
+ozcanesen@gmail.com Assigned
+
 cloph@openoffice.org TDF
 
 jani@documentfoundation.org TDF
@@ -259,6 +273,7 @@ xamarin.com     Xamarin
 cib.de          CIB
 itomig.de       ITOMIG
 peralex.com     Peralex
+kolabsys.com	Kolab
 
 # Added to provide consistencty with Wiki
 conectiva.com    Conectiva
@@ -266,7 +281,8 @@ conectiva.com.br Conectiva
 bogus-non-domain Bogus
 mandriva.com     Mandriva
 credativ.com     Credativ
-codeweavers.com  Codeweavers 
+codeweavers.com  Codeweavers
 connectiva       Connectiva
 suse.de          Suse
 mandrake.com     Mandrake
+
