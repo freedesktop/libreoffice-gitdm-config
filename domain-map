@@ -26,9 +26,10 @@ thb@openoffice.org  CIB
 cmc@openoffice.org  Oracle  <2004-03-01
 cmc@openoffice.org  RedHat
 
-cedricbosdo@openoffice.org (Unknown) <2008-12-01
-cedricbosdo@openoffice.org SUSE      <2013-09-15
-cedricbosdo@openoffice.org Assigned
+# changed from cedricbosdo@openoffice.org to cedric.bosdonnat@free.fr
+cedric.bosdonnat@free.fr (Unknown) <2008-12-01
+cedric.bosdonnat@free.fr SUSE      <2013-09-15
+cedric.bosdonnat@free.fr Assigned
 
 fridrich.strba@bluewin.ch  (Unknown) <2007-03-01
 fridrich.strba@bluewin.ch  SUSE      <2013-09-15
@@ -163,6 +164,8 @@ cloph@openoffice.org TDF
 
 jani@documentfoundation.org TDF
 
+tietze.heiko@gmail.com TDF
+
 ashodnakashian@yahoo.com Assigned <2015-12-12
 ashodnakashian@yahoo.com Collabora
 
@@ -257,3 +260,15 @@ xamarin.com     Xamarin
 cib.de          CIB
 itomig.de       ITOMIG
 peralex.com     Peralex
+
+# Added to provide consistencty with Wiki
+conectiva.com    Conectiva
+conectiva.com.br Conectiva
+bogus-non-domain Bogus
+mandriva.com     Mandriva
+credativ.com     Credativ
+codeweavers.com  Codeweavers
+connectiva       Connectiva
+suse.de          Suse
+mandrake.com     Mandrake
+
