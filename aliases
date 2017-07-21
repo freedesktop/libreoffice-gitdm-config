@@ -2,6 +2,7 @@
 
 tchvatal@suse.cz tchvatal@novell.com
 tomas.chvatal@gmail.com tchvatal@novell.com
+tchvatal@suse.com tchvatal@novell.com
 scarabeus@gentoo.org tchvatal@novell.com
 gilforcada@guifi.net gforcada@gnome.org
 julio.hoffiman@gmail.com julio.hoffimann@gmail.com
@@ -9,6 +10,7 @@ beppec56@openoffice.org giuseppe.castagno@acca-esse.eu
 beppe@dsklnx.host.local giuseppe.castagno@acca-esse.eu
 lohmaier+libreoffice@googlemail.com cloph@openoffice.org
 fischer<andre.f.fischer@oracle.com af@a-w-f.de
+"andre.f.fischer Andre Fischerandre.f.fischer@oracle.com" af@a-w-f.de
 andre.f.fischer@oracle.com af@a-w-f.de
 af@openoffice.org af@a-w-f.de
 af@apache.org af@a-w-f.de
@@ -33,6 +35,7 @@ malte.timmermann@oracle.com mt@openoffice.org
 michael.meeks@novell.com mmeeks@openoffice.org
 michael.meeks@suse.com mmeeks@openoffice.org
 mmeeks@suse.com mmeeks@openoffice.org
+michael.meeks@collabora.com mmeeks@openoffice.org
 ocke.janssen@sun.com oj@openoffice.org
 ocke.janssen@oracle.com oj@openoffice.org
 kohei@lenovo-quad.(none) kohei@openoffice.org
@@ -104,6 +107,7 @@ wg@openoffice.org wolfram.garten@oracle.com
 volker.ahrendt@sun.com volker.ahrendt@oracle.com
 va@openoffice.org volker.ahrendt@oracle.com
 w.donkers@linux-testpc.dci-electronics w.donkers@dci-electronics.nl
+winfrieddonkers@libreoffice.org w.donkers@dci-electronics.nl
 matthias.huetsch@oracle.com mhu@openoffice.org
 matthias.huetsch@sun.com mhu@openoffice.org
 haggai@openoffice.org halls@debian.org
@@ -114,6 +118,8 @@ mb93783@v60x-so16.germany.sun.com mb93783@macpro-dev
 mb93783@v60x-so17.germany.sun.com mb93783@macpro-dev
 mb93783@x42-so17.germany.sun.com mb93783@macpro-dev
 mb93783@so-dumbo mb93783@macpro-dev
+mb93783@macpro-dev1 mb93783@macpro-dev
+mb93783@x2270-so1 mb93783@macpro-dev
 hdu@apache.org duerr@de.ibm.com
 duerr@sun.com duerr@de.ibm.com
 hdu@openoffice.org duerr@de.ibm.com
@@ -159,6 +165,7 @@ drouizig@grouizig.org drouizig@drouizig.org
 rk.katana.steel@gmail rk.katana.steel@gmail.com
 norbert@sqdata.com nthiebaud@gmail.com
 n_th@linux-uefb.site nthiebaud@gmail.com
+nthieabaud@gmail.com nthiebaud@gmail.com
 robert.roth@in.com evfool@gmail.com
 robert.roth.off@gmail.com evfool@gmail.com
 nigel.hawkins@inmail24.com n.hawkins@gmx.com
@@ -270,6 +277,7 @@ laurent.balland-poirier@laposte.net jumbo4444@yahoo.fr
 andrzej@hunt.org andrzej@ahunt.org
 lodevlist@ogersoft.at lodev@ogersoft.at
 leighmanthegreat@hotmail.com leighman@gmx.se
+jack.leigh@collabora.com leighman@gmx.se
 gerhard.oettl@ogersoft.at lodev@ogersoft.at
 kevin@alliknow.net kevin.hausmann@gmail.com
 metuxitservice@googlemail.com enrico.weigelt@vnc.biz
@@ -297,12 +305,17 @@ nicolas.christener@adfinis-sygroup.ch nc@adfinis.com
 noel@peralex.com noelgrandin@gmail.com
 gautier.shopie@gmail.com gautier.sophie@gmail.com
 "alexander@notebook-alexander.(none)" alexander.wilms@zoho.com
+f.alexander.wilms@gmail.com alexander.wilms@zoho.com
 root@linux-dre0.site zolniatamas@caesar.elte.hu
 tarun.k.kumar@ericsson.com tk7ua1678@gmail.com
+matti_lx@yahoo.de matti_lx@secure.mailbox.org
+b@bryanquigley.com gquigs@gmail.com
 # malformed author
 "gregor hartmann<gh@openoffice.org" gh@openoffice.org
 # one time "via gerrit-commit"
 gerrit@gerrit.libreoffice.org me@siqi.fr
+yy_sq_000@Siqi-PC.(none) me@siqi.fr
+siqi.liu43@gmail.com me@siqi.fr
 matus.kukan@collabora.com matus.kukan@gmail.com
 andrzej.hunt@collabora.com andrzej@ahunt.org
 chris.sherlock@collabora.com chris.sherlock79@gmail.com
@@ -310,6 +323,29 @@ mihai.varga@collabora.com mihai.mv13@gmail.com
 hcastro@collabora.com hcvcastro@gmail.com
 markus.mohrhard@collabora.co.uk markus.mohrhard@googlemail.com
 ashod.nakashian@collabora.co.uk ashodnakashian@yahoo.com
+christoph.lutz_ml@cib.de christoph.lutz@cib.de
+chrlutz@googlemail.com christoph.lutz@cib.de
+haochen@multicorewarein.com haochen@multicorewareinc.com
+mike.kaganski@collabora.com mikekaganski@hotmail.com
+rush2hina@gmail.com heena.h.gupta@ericsson.com
+yangzhang@multicorewareinc.9com yangzhang@multicorewareinc.com
+mathieu.parent@nantesmetropole.fr math.parent@gmail.com
+fitoschido@gmail.com fitojb@ubuntu.com
+ejrsfnm4@yahoo.com drocha616@gmail.com
+hubicka@ucw.cz jh@suse.cz
+joren.libreoffice@telenet.be jorendc@libreoffice.org
+guilherme.sft@gmail.com vanz@libreoffice.org
+mrcekets@gmail.com marco.cecchetti@collabora.com
+mdunphy@uwaterloo.ca michael.w.dunphy@gmail.com
+nicu@0x17.ch nc@adfinis.com
+pefoley2@pefoley.com pefoley2@verizon.net
+pelloux@gmail.com pierre-eric@lanedo.com
+pranavk@gnome.org pranavk@libreoffice.org
+pranav913@gmail.com pranavk@libreoffice.org
+libo@rodolfo.eng.br rodolforg@gmail.com
+sushilshinde@libreoffice.org sushil.shinde@synerzip.com
+wehner@informatik.uni-freiburg.de mail@svenwehner.de
+tomas.hlavaty@knowledgetools.de tom@logand.com
 
 # aliases to get affiliations right from apache
 chengjh@apache.org chengjh@unknown.ibm.com
