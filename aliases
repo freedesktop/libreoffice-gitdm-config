@@ -44,6 +44,7 @@ kyoshida@novell.com kohei@openoffice.org
 kohei.yoshida@suse.com kohei@openoffice.org
 kohei.yoshida@gmail.com kohei@openoffice.org
 kohei.yoshida@collabora.com kohei@openoffice.org
+libreoffice@kohei.us kohei@openoffice.org
 noel.power@novell.com npower@openoffice.org
 npower@linux-h0uc.site npower@openoffice.org
 nopower@novell.com npower@openoffice.org
@@ -133,6 +134,7 @@ kai.ahrens@sun.com ka@openoffice.org
 bjoern.michaelsen@canonical.com b_michaelsen@openoffice.org
 bjoern.michaelsen@sun.com b_michaelsen@openoffice.org
 "bjoern michaelsen" b_michaelsen@openoffice.org
+bjoern.michaelsen@libreoffice.org b_michaelsen@openoffice.org
 freuter@linux-cfjm.site freuter@novell.com
 ping.liao@openoffice.org pliao@openoffice.org
 ericb@ordinateur-de-eric-b-2.local ericb@openoffice.org
@@ -245,6 +247,7 @@ davidh@sharpblue.org david.hobley@sharpblue.org
 artur.dorda+libo@gmail.com artur.dorda@gmail.com
 t12nslookup@gmail.com jadams@gmail.com
 jbf.faure@orange.fr jbf.faure@sud-ouest.org
+jbfaure@libreoffice.org jbf.faure@sud-ouest.org
 libreoffice@troy.rollo.name troy@troy.rollo.name
 alonso@loria.fr laurent.alonso@inria.fr
 julien@julienpc serval2412@yahoo.fr
@@ -303,6 +306,7 @@ doko@canonical.com matthias.klose@canonical.com
 msvec@suse.com msvec@novell.com
 nicolas.christener@adfinis-sygroup.ch nc@adfinis.com
 noel@peralex.com noelgrandin@gmail.com
+noel.grandin@collabora.co.uk noelgrandin@gmail.com
 gautier.shopie@gmail.com gautier.sophie@gmail.com
 "alexander@notebook-alexander.(none)" alexander.wilms@zoho.com
 f.alexander.wilms@gmail.com alexander.wilms@zoho.com
@@ -310,8 +314,33 @@ root@linux-dre0.site zolniatamas@caesar.elte.hu
 tarun.k.kumar@ericsson.com tk7ua1678@gmail.com
 matti_lx@yahoo.de matti_lx@secure.mailbox.org
 b@bryanquigley.com gquigs@gmail.com
+ewong@crazy-cat.org ew@crazy-cat.org
+guillaume.smaha@gmail.com gsmaha@linagora.com
+mox@openoffice.org mox@iki.fi
+autohughski@gmail.com richard@hughsie.com
+sebetic.krunoslav@gmail.com kruno.se@gmx.com
+kruno0407@gmail.com kruno.se@gmx.com
+lukas.roellin@bluewin.ch lsroellin@gmail.com
+milos.sramek@soit.sk sramek.milos@gmail.com
+manik10044@iiitd.ac.in manikmalhotra92@gmail.com
+olivier.dev@grammalecte.net olivier.noreply@gmail.com
+eszkadev@gmail.com szymon.klos@collabora.com
+varun.vd1994@gmail.com varun.dhall@studentpartner.com
+rosemary.seb8@gmail.com rosemaryseb8@gmail.com
+kris.kr296@yahoo.in kris.kr296@gmail.com
+Arnaud.Versini@libreoffice.org arnaud.versini@gmail.com
+jani@documentfoundation.org jani@libreoffice.org
+kelemeng@gnome.hu kelemeng@ubuntu.com
+tietze.heiko@googlemail.com tietze.heiko@gmail.com
+baron@caesar.elte.hu aron.budea@collabora.com
+dennisfrancis.in@gmail.com dennis.francis@collabora.co.uk
+l.lunak@centrum.cz l.lunak@collabora.com
+martin.hollmichel@gmail.com mh@openoffice.org
+muhammetk@gmail.com muhammet.kara@pardus.org.tr
 # malformed author
 "gregor hartmann<gh@openoffice.org" gh@openoffice.org
+'Chris Sherlock chris.sherlock79@gmail.com' chris.sherlock79@gmail.com
+'marc-andre@atc.tcs.com / marcandre.laverdiere@tcs.com' marc-andre@atc.tcs.com
 # one time "via gerrit-commit"
 gerrit@gerrit.libreoffice.org me@siqi.fr
 yy_sq_000@Siqi-PC.(none) me@siqi.fr
@@ -342,6 +371,8 @@ pefoley2@pefoley.com pefoley2@verizon.net
 pelloux@gmail.com pierre-eric@lanedo.com
 pranavk@gnome.org pranavk@libreoffice.org
 pranav913@gmail.com pranavk@libreoffice.org
+pranavk@collabora.co.uk pranavk@libreoffice.org
+pranavk@collabora.com pranavk@libreoffice.org
 libo@rodolfo.eng.br rodolforg@gmail.com
 sushilshinde@libreoffice.org sushil.shinde@synerzip.com
 wehner@informatik.uni-freiburg.de mail@svenwehner.de
@@ -375,6 +406,7 @@ michael.natterer@lanedo.com mitch@gimp.org
 olivier.hallot@documentfoundation.org olivier.hallot@edx.srv.br
 olivier.hallot@alta.org.br olivier.hallot@edx.srv.br
 ohallot@collabora.co.uk olivier.hallot@edx.srv.br
+olivier.hallot@libreoffice.org olivier.hallot@edx.srv.br
 dirfin@broffice.org olivier.hallot@edx.srv.br
 
 # email addr as alias is licensed
