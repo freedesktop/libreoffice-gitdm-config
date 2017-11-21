@@ -29,9 +29,10 @@ chrlutz@googlemail.com CIB
 cmc@openoffice.org  Oracle  <2004-03-01
 cmc@openoffice.org  RedHat
 
-cedricbosdo@openoffice.org (Unknown) <2008-12-01
-cedricbosdo@openoffice.org SUSE      <2013-09-15
-cedricbosdo@openoffice.org Assigned
+# changed from cedricbosdo@openoffice.org to cedric.bosdonnat@free.fr
+cedric.bosdonnat@free.fr (Unknown) <2008-12-01
+cedric.bosdonnat@free.fr SUSE      <2013-09-15
+cedric.bosdonnat@free.fr Assigned
 
 fridrich.strba@bluewin.ch  (Unknown) <2007-03-01
 fridrich.strba@bluewin.ch  SUSE      <2013-09-15
@@ -42,7 +43,8 @@ timar@fsf.hu SUSE <2013-09-01
 timar@fsf.hu Collabora
 
 b_michaelsen@openoffice.org Oracle <2011-02-01
-b_michaelsen@openoffice.org Canonical
+b_michaelsen@openoffice.org Canonical <2017-05-01
+b_michaelsen@openoffice.org Assigned
 
 ccheney@ubuntu.com Canonical
 
@@ -166,6 +168,17 @@ cloph@openoffice.org TDF
 
 jani@documentfoundation.org TDF
 
+tietze.heiko@gmail.com TDF
+
+dennisfrancis.in@gmail.com Assigned <2017-07-01
+dennisfrancis.in@gmail.com Collabora
+
+eszkadev@gmail.com Assigned <2017-04-01
+eszkadev@gmail.com Collabora
+
+btomi96@gmail.com Assigned <2017-04-01
+btomi96@gmail.com Collabora
+
 ashodnakashian@yahoo.com Assigned <2015-12-12
 ashodnakashian@yahoo.com Collabora
 
@@ -210,6 +223,9 @@ jogischmidt@googlemail.com Oracle <2011-09-27
 jogischmidt@googlemail.com IBM
 orwittmann@googlemail.com Oracle <2011-09-27
 orwittmann@googlemail.com IBM
+
+# Linagora
+naeilzoueidi@ubuntu.com Linagora
 
 # KACST
 
@@ -260,3 +276,15 @@ xamarin.com     Xamarin
 cib.de          CIB
 itomig.de       ITOMIG
 peralex.com     Peralex
+
+# Added to provide consistencty with Wiki
+conectiva.com    Conectiva
+conectiva.com.br Conectiva
+bogus-non-domain Bogus
+mandriva.com     Mandriva
+credativ.com     Credativ
+codeweavers.com  Codeweavers
+connectiva       Connectiva
+suse.de          Suse
+mandrake.com     Mandrake
+
