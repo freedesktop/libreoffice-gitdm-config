@@ -29,10 +29,9 @@ chrlutz@googlemail.com CIB
 cmc@openoffice.org  Oracle  <2004-03-01
 cmc@openoffice.org  RedHat
 
-# changed from cedricbosdo@openoffice.org to cedric.bosdonnat@free.fr
-cedric.bosdonnat@free.fr (Unknown) <2008-12-01
-cedric.bosdonnat@free.fr SUSE      <2013-09-15
-cedric.bosdonnat@free.fr Assigned
+cedricbosdo@openoffice.org (Unknown) <2008-12-01
+cedricbosdo@openoffice.org SUSE      <2013-09-15
+cedricbosdo@openoffice.org Assigned
 
 fridrich.strba@bluewin.ch  (Unknown) <2007-03-01
 fridrich.strba@bluewin.ch  SUSE      <2013-09-15
@@ -85,9 +84,9 @@ lennart@poettering.net RedHat
 
 winddss@gmail.com SUSE
 
+# Lanedo-ites ...
 mitch@gimp.org Lanedo
 
-# check tibby's date.
 tibbylickle@gmail.com Assigned <2012-03-01
 tibbylickle@gmail.com Lanedo <2014-04-01
 tibbylickle@gmail.com ITOMIG
@@ -157,12 +156,18 @@ mihai.mv13@gmail.com Assigned
 hcvcastro@gmail.com Assigned <2015-03-09
 hcvcastro@gmail.com Collabora
 
+mikekaganski@hotmail.com Assigned <2015-08-01
+mikekaganski@hotmail.com Collabora
+
 olivier.hallot@edx.srv.br Assigned <2015-11-20
 olivier.hallot@edx.srv.br Collabora <2016-04-01
 olivier.hallot@edx.srv.br TDF
 
 noelgrandin@gmail.com Peralex <2016-09-12
 noelgrandin@gmail.com Collabora
+
+pranav913@gmail.com Assigned <2016-01-01
+pranav913@gmail.com Collabora
 
 cloph@openoffice.org TDF
 
@@ -204,6 +209,8 @@ tk7ua1678@gmail.com Ericsson
 
 charu.tyagi@ericsson.com Ericsson
 
+muhammetk@gmail.com Pardus
+
 # Martin Gallwey is one of the Irish guys working for Sun at some stage; I've
 # chosen the LO creation as the date - his last OOo commits were in
 # 2002, so we should be safe...  Later he contributed to LO.
@@ -225,7 +232,10 @@ orwittmann@googlemail.com Oracle <2011-09-27
 orwittmann@googlemail.com IBM
 
 # Linagora
+realitix@gmail.com Linagora
 naeilzoueidi@ubuntu.com Linagora
+michel.loiseleur@free.fr Linagora
+guillaume.smaha@gmail.com Linagora
 
 # KACST
 
