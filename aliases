@@ -3,7 +3,7 @@
 tchvatal@suse.cz tchvatal@novell.com
 tomas.chvatal@gmail.com tchvatal@novell.com
 scarabeus@gentoo.org tchvatal@novell.com
-#?tchvatal@suse.com tchvatal@novell.com
+tchvatal@suse.com tchvatal@novell.com
 jgraeme+git@gmail.com jgraeme+lists@gmail.com
 gilforcada@guifi.net gforcada@gnome.org
 julio.hoffiman@gmail.com julio.hoffimann@gmail.com
@@ -12,7 +12,7 @@ beppe@dsklnx.host.local giuseppe.castagno@acca-esse.eu
 lohmaier+libreoffice@googlemail.com cloph@openoffice.org
 fischer<andre.f.fischer@oracle.com af@a-w-f.de
 andre.f.fischer@oracle.com af@a-w-f.de
-#?"andre.f.fischer andre fischerandre.f.fischer@oracle.com" af@a-w-f.de
+"andre.f.fischer andre fischerandre.f.fischer@oracle.com" af@a-w-f.de
 af@openoffice.org af@a-w-f.de
 af@apache.org af@a-w-f.de
 frank.schoenheit@oracle.com fs@openoffice.org
@@ -26,7 +26,6 @@ thb@thorstens-computer.local thb@openoffice.org
 thb@documentfoundation.org thb@openoffice.org
 niko.ronkko@wippies.fi ronkko@iki.fi
 kaplanlior@gmail.com kaplan@debian.org
-#?kaplan@debian.org kaplanlior@gmail.com
 pereriksson@openoffice.org per@erinet.se
 jpower27@cox.net jpowers27@cox.net
 andi@linux-87ht.site maand@gmx.de
@@ -37,7 +36,6 @@ dirfin@broffice.org olivier.hallot@documentfoundation.org
 olivier.hallot@alta.org.br olivier.hallot@documentfoundation.org
 olivier.hallot@edx.srv.br olivier.hallot@documentfoundation.org
 ohallot@collabora.co.uk olivier.hallot@documentfoundation.org
-olivier.dev@grammalecte.net olivier.hallot@documentfoundation.org
 olivier.hallot@libreoffice.org olivier.hallot@documentfoundation.org
 malte.timmermann@sun.com mt@openoffice.org
 malte.timmermann@oracle.com mt@openoffice.org
@@ -53,7 +51,7 @@ kyoshida@novell.com kohei@openoffice.org
 kohei.yoshida@suse.com kohei@openoffice.org
 kohei.yoshida@gmail.com kohei@openoffice.org
 kohei.yoshida@collabora.com kohei@openoffice.org
-#?libreoffice@kohei.us kohei@openoffice.org
+libreoffice@kohei.us kohei@openoffice.org
 noel.power@novell.com npower@openoffice.org
 npower@linux-h0uc.site npower@openoffice.org
 nopower@novell.com npower@openoffice.org
@@ -69,8 +67,6 @@ thomas.lange@sun.com tl@openoffice.org
 thomas.lange@oracle.com tl@openoffice.org
 rodo@rychlik.lounovice rodo@novell.com
 rodo@obluda.lounovice rodo@novell.com
-pavel@build.kancl.blue-point.cz pavel@janik.cz
-pavel.lastovicka@blue-point.cz pavel@janik.cz
 pmladek@novell.com pmladek@suse.cz
 pmladek@openoffice.org pmladek@suse.cz
 pmladek@plop.suse.cz pmladek@suse.cz
@@ -146,8 +142,6 @@ bjoern.michaelsen@canonical.com b_michaelsen@openoffice.org
 bjoern.michaelsen@sun.com b_michaelsen@openoffice.org
 "bjoern michaelsen" b_michaelsen@openoffice.org
 bjoern.michaelsen@libreoffice.org b_michaelsen@openoffice.org
-kmachalkova@ben.suse.cz kmachalkova@suse.cz
-#?kmachalkova@ben.suse.cz bubli@bubli.org
 freuter@linux-cfjm.site freuter@novell.com
 patrick.luby@openoffice.org pluby@openoffice.org
 pluby@neooffice.org pluby@openoffice.org
@@ -157,12 +151,11 @@ ebachard@gnome.org ericb@openoffice.org
 eric.bachard@free.fr ericb@openoffice.org
 ericb@ooo4kids.org ericb@openoffice.org
 devel@thanlwinsoft.org kstribley@openoffice.org
-cedric.bosdonnat@free.fr cbosdonnat@novell.com
-cedricbosdo@openoffice.org cbosdonnat@novell.com
-cedric.bosdonnat.ooo@free.fr cbosdonnat@novell.com
-#?cbosdonnat@novell.com cedric.bosdonnat@free.fr
-#?cedric.bosdonnat.ooo@free.fr cedric.bosdonnat@free.fr
-#?cedricbosdo@openoffice.org cedric.bosdonnat@free.fr
+cedric.bosdonnat@free.fr cedricbosdo@openoffice.org
+cedricbosdo@openoffice.org cedricbosdo@openoffice.org
+cedric.bosdonnat.ooo@free.fr cedricbosdo@openoffice.org
+cbosdonnat@novell.com cedricbosdo@openoffice.org
+cedric.bosdonnat.ooo@free.fr cedricbosdo@openoffice.org
 janneke@gnu.org jnieuwenhuizen@novell.com
 bero@arklinux.org bero@arklinux.ch
 jmarmion@openoffice.org john.marmion@openoffice.org
@@ -179,8 +172,6 @@ atimar@suse.com timar@fsf.hu
 atimar@novell.com timar@fsf.hu
 andras.timar@collabora.com timar@fsf.hu
 foskey@optushome.com.au waratah@openoffice.org
-#?foskey@optushome.com.au cmc@openoffice.org
-#?waratah@openoffice.org cmc@openoffice.org
 shtylman@namlyths.(none) shtylman@gmail.com
 ms93807@x4240-so5 ms93807@x4240-so3
 babak.mahbod@openoffice.org bmahbod@openoffice.org
@@ -204,7 +195,6 @@ kendy@noe.suse.cz kendy@notthere.aliasdomain.foo
 kendy@collabora.com kendy@notthere.aliasdomain.foo
 thorsten.bosbach@oracle.com tbo@openoffice.org
 "christina rossmanith" chrrossmanith@web.de
-#?"christina rossmanith" chrrossmanith@gmx.de
 chr.rossmanith@gmx.de chrrossmanith@web.de
 chrrossmanith@gmx.de chrrossmanith@web.de
 ingrid.halama@oracle.com iha@openoffice.org
@@ -231,6 +221,7 @@ andor.ertsey@muenchen.de eymux2009@googlemail.com
 katarina.behrens@cib.de bubli@bubli.org
 kmachalkova@suse.cz bubli@bubli.org
 kmachalkova@novell.com bubli@bubli.org
+kmachalkova@ben.suse.cz bubli@bubli.org
 yifan@bang.bang yfjiang@suse.com
 yfjiang@novell.com yfjiang@suse.com
 thuswa@gmail.com albert.thuswaldner@gmail.com
@@ -250,11 +241,9 @@ nemeth@openoffice.org nemeth@numbertext.org
 nemeth@collabora.com nemeth@numbertext.org
 laszlo.nemeth@collabora.com nemeth@numbertext.org
 andy.m.holder@googlemail.com andy.m.holder@gmail.com
-christoph@dogmatux.com christoph.noack@documentfoundation.org
-#?christoph.noack@documentfoundation.org christoph@dogmatux.com
-chrlutz@googlemail.com christoph@dogmatux.com
-christoph.lutz_ml@cib.de christoph@dogmatux.com
-christoph.lutz@cib.de christoph@dogmatux.com
+christoph.noack@documentfoundation.org christoph@dogmatux.com
+christoph.lutz_ml@cib.de chrlutz@googlemail.com
+christoph.lutz@cib.de chrlutz@googlemail.com
 aurimas@gmail.com aurimas@members.fsf.org
 rjw57@cam.ac.uk rjw57@cantab.net
 gang65@openoffice.org gang65@poczta.onet.pl
@@ -367,7 +356,7 @@ andrzej.hunt@collabora.com andrzej@ahunt.org
 reisi007@gmail.com florei@libreoffice.org
 reisi.007@t-online.de florei@libreoffice.org
 chris.sherlock@collabora.com chris.sherlock79@gmail.com
-'chris sherlock chris.sherlock79@gmail.com' chris.sherlock79@gmail.com
+"chris sherlock chris.sherlock79@gmail.com" chris.sherlock79@gmail.com
 mihai.varga@collabora.com mihai.mv13@gmail.com
 hcastro@collabora.com hcvcastro@gmail.com
 markus.mohrhard@collabora.co.uk markus.mohrhard@googlemail.com
@@ -419,8 +408,7 @@ tomas.hlavaty@knowledgetools.de tom@logand.com
 varun.dhall@studentpartner.com varun.vd1994@gmail.com
 wehner@informatik.uni-freiburg.de mail@svenwehner.de
 yangzhang@multicorewareinc.9com yangzhang@multicorewareinc.com
-
-#?'marc-andre@atc.tcs.com / marcandre.laverdiere@tcs.com' marc-andre@atc.tcs.com
+"marc-andre@atc.tcs.com / marcandre.laverdiere@tcs.com" marc-andre@atc.tcs.com
 
 # aliases to get affiliations right from apache
 chengjh@apache.org chengjh@unknown.ibm.com
