@@ -98,6 +98,7 @@ fstrba@strbadell.localdomain fridrich.strba@bluewin.ch
 fridrich_strba@openoffice.org fridrich.strba@bluewin.ch
 fridrich.strba@bluwin.ch fridrich.strba@bluewin.ch
 fridrich.strba@graduateinstitute.ch fridrich.strba@bluewin.ch
+fridrich@documentfoundation.org fridrich.strba@bluewin.ch
 tlillqvist@novell.com tml@iki.fi
 tml@hemulen.(none) tml@iki.fi
 tml@novell.com tml@iki.fi
@@ -114,8 +115,6 @@ robert.sedak@roby.hr robert.sedak@sk.t-com.hr
 wg@openoffice.org wolfram.garten@oracle.com
 volker.ahrendt@sun.com volker.ahrendt@oracle.com
 va@openoffice.org volker.ahrendt@oracle.com
-w.donkers@linux-testpc.dci-electronics w.donkers@dci-electronics.nl
-winfrieddonkers@libreoffice.org w.donkers@dci-electronics.nl
 matthias.huetsch@oracle.com mhu@openoffice.org
 matthias.huetsch@sun.com mhu@openoffice.org
 haggai@openoffice.org halls@debian.org
@@ -259,9 +258,12 @@ mcmurchy1917-libreoffice@yahoo.co.uk alexkempshall@btinternet.com
 allmann-rahn@ubuntu.ubuntu-domain f.allmann-rahn@gmx.de
 gerloff@fsfeurope.org gerloff@fsfe.org
 osc@dci-electronics.nl w.donkers@dci-electronics.nl
+w.donkers@linux-testpc.dci-electronics w.donkers@dci-electronics.nl
+winfrieddonkers@libreoffice.org w.donkers@dci-electronics.nl
 "fou@leila.(none)" brutus@free.fr
 tinderbox@fae.suse.cz l.lunak@collabora.com
 l.lunak@suse.cz l.lunak@collabora.com
+l.lunak@centrum.cz l.lunak@collabora.com
 "niklas@niklas-virtualbox.(none)" sleeping.pillow@gmail.com
 "santi@tartessos.(none)" smvarela@gmail.com
 emanuele.fia@laptop emanuele.fia@gmail.com
@@ -408,7 +410,12 @@ tomas.hlavaty@knowledgetools.de tom@logand.com
 varun.dhall@studentpartner.com varun.vd1994@gmail.com
 wehner@informatik.uni-freiburg.de mail@svenwehner.de
 yangzhang@multicorewareinc.9com yangzhang@multicorewareinc.com
+haochen@multicorewarein.com haochen@multicorewareinc.com
 "marc-andre@atc.tcs.com / marcandre.laverdiere@tcs.com" marc-andre@atc.tcs.com
+fbbcchtt9@gmail.com fabio.biocchetti@gmail.com
+github@nmehne.de julian.mehne@gmail.com
+github@nosperse.com eric@seynaeve.be
+hamidi.massinissa@yahoo.fr hamidimassinissa@gmail.com
 
 # aliases to get affiliations right from apache
 chengjh@apache.org chengjh@unknown.ibm.com
